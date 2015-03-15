@@ -1,0 +1,18 @@
+
+<core:FragmentDefinition
+    xmlns="sap.m"
+    xmlns:core="sap.ui.core">
+    <SelectDialog
+        noDataText="No BU Found"
+        title="Filter LTC by BU"
+        confirm="handleBUSelection"
+        search="handleBUSearch"
+        liveChange="handleBUSearch"
+        items="{
+        path: '/d/results'
+        }" >
+        <StandardListItem
+        title="{BUSINESS_UNIT}"
+        type="Active" />
+    </SelectDialog>
+</core:FragmentDefinition>

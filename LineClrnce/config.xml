@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.jbl.lc" version="1.1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>LineClearance</name>
+    <description>
+        Jabil Nypro Line Clearance Mobile Application.
+    </description>
+    <author email="MobileDevTeam@jabil.com" href="http://www.jabil.com">
+        Jabil Mobile Development Team
+    </author>
+    <content src="index.html" />
+    <preference name="SplashScreen" value="screen" />
+    <preference name="SplashScreenDelay" value="10000" />
+    <preference name="AutoHideSplashScreen" value="false" />
+    <preference name="ShowSplashScreenSpinner" value="false" />
+    <access origin="*.jabil.org" />
+</widget>

@@ -1,0 +1,19 @@
+/Users/mohammei/git/JavaMobile/LineClrnce/platforms/android/ant-build/classes.dex : \
+/Users/mohammei/git/JavaMobile/LineClrnce/platforms/android/ant-build/classes/com/jbl/lc/BuildConfig.class \
+/Users/mohammei/git/JavaMobile/LineClrnce/platforms/android/ant-build/classes/com/jbl/lc/LineClearance.class \
+/Users/mohammei/git/JavaMobile/LineClrnce/platforms/android/ant-build/classes/com/jbl/lc/R$array.class \
+/Users/mohammei/git/JavaMobile/LineClrnce/platforms/android/ant-build/classes/com/jbl/lc/R$attr.class \
+/Users/mohammei/git/JavaMobile/LineClrnce/platforms/android/ant-build/classes/com/jbl/lc/R$color.class \
+/Users/mohammei/git/JavaMobile/LineClrnce/platforms/android/ant-build/classes/com/jbl/lc/R$dimen.class \
+/Users/mohammei/git/JavaMobile/LineClrnce/platforms/android/ant-build/classes/com/jbl/lc/R$drawable.class \
+/Users/mohammei/git/JavaMobile/LineClrnce/platforms/android/ant-build/classes/com/jbl/lc/R$id.class \
+/Users/mohammei/git/JavaMobile/LineClrnce/platforms/android/ant-build/classes/com/jbl/lc/R$layout.class \
+/Users/mohammei/git/JavaMobile/LineClrnce/platforms/android/ant-build/classes/com/jbl/lc/R$menu.class \
+/Users/mohammei/git/JavaMobile/LineClrnce/platforms/android/ant-build/classes/com/jbl/lc/R$raw.class \
+/Users/mohammei/git/JavaMobile/LineClrnce/platforms/android/ant-build/classes/com/jbl/lc/R$string.class \
+/Users/mohammei/git/JavaMobile/LineClrnce/platforms/android/ant-build/classes/com/jbl/lc/R$xml.class \
+/Users/mohammei/git/JavaMobile/LineClrnce/platforms/android/ant-build/classes/com/jbl/lc/R.class \
+/Users/mohammei/git/JavaMobile/LineClrnce/platforms/android/ant-build/classes/com/phonegap/plugins/barcodescanner/BarcodeScanner.class \
+/Users/mohammei/git/JavaMobile/LineClrnce/platforms/android/ant-build/classes/org/apache/cordova/splashscreen/SplashScreen.class \
+/Users/mohammei/git/JavaMobile/LineClrnce/platforms/android/ant-build/dexedLibs/classes-f94918a569cda04eea07873c04ab8128.jar \
+/Users/mohammei/git/JavaMobile/LineClrnce/platforms/android/ant-build/dexedLibs/com.google.zxing.client.android.captureactivity-494e331e02cf75bcbb62d66c51d48064.jar \

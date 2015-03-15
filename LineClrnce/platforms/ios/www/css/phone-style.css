@@ -1,0 +1,442 @@
+/* log in page */
+
+.sap-phone .loginPageBkg {
+    background: url(../img/image.jpg) 0 0 no-repeat;/*non-retina display*/
+}
+
+.sap-phone .sapUiVlt {
+    margin: 9rem auto;
+}
+
+.sap-phone .loginUser > input, .sap-phone .loginPwd > input {
+    height: 49px !important;
+    font-size: 28px;
+}
+
+.sap-phone .sapMInputBase {
+    padding: 0.15rem 0;
+    height: 1rem;
+}
+
+.sap-phone .loginPwd {
+    margin-top: 3rem;
+}
+
+.sap-phone .errorLine {
+    margin-left: 0;
+}
+
+.sap-phone .errorText {
+    font-size: 14px !important;
+}
+
+.sap-phone .loginBtn > div {
+    height: 50px !important;
+}
+
+.sap-phone .loginBtn > div > span {
+    line-height: 50px !important;
+    font-size: 1.8em !important;
+}
+
+.sap-phone .loginBtn {
+    width:146px;
+    margin-top: 4.5rem !important;
+}
+
+.sap-phone .nyLogo {
+    width: 65% !important;
+}
+
+/* Page 1 */
+
+.sap-phone .welHdr {
+    font-size: .8em !important;
+}
+
+.sap-phone .sapMIBar .sapMBarChild {
+    margin-left:0
+}
+
+.sap-phone #mainPanel, #poDetailPanel{
+    margin-left:8px;
+    margin-top:10px;
+}
+
+.sap-phone .sapMPanelContent {
+    padding: .5rem;
+}
+
+.sap-phone .eDataLabel {
+    font-size: 2em !important;
+}
+
+.sap-phone .seqNo{
+    width:80px;
+    margin-top: 0px;
+    margin-left:5px;
+    height: 80px;
+    font-family: Arial !important;
+    top: 50px;
+    left:20px;
+    font-size: 2.5em !important;
+}
+
+.sap-phone .scanContainer {
+    height:80px !important;
+    margin-top:48px !important;
+    padding-left:20px !important;
+    font-size: 48px !important;
+}
+
+.sap-phone .scanContainer {
+    font-size: 1.35em !important;
+}
+
+.sap-phone .scanArrow {
+    padding-top:18px !important;
+    margin-right:15px !important;
+    width: 10%
+}
+
+.sap-phone .scanText {
+    padding-top:26px !important;
+}
+
+.sap-phone .orTxt {
+    font-size: 1.5em !important;
+    letter-spacing: -0.005em !important;
+    margin-top: .5rem !important;
+}
+
+.sap-phone #inputPO {
+    margin-top: .5rem;
+    padding-left: 0;
+}
+
+.sap-phone #inputPO > input {
+    height: 3rem !important;
+    padding-left: 1rem;
+}
+
+.sap-phone #inputPO > .sapMInputBaseInner {
+    font-size: 1.25rem !important;
+    line-height: 1.25rem;
+}
+
+.sap-phone .scanSubmit {
+    margin-top: 65px !important;
+}
+
+.sap-phone .canbtn > .sapMBtnInner {
+    font-size: 1.8em !important;
+}
+
+/* modal 1 */
+
+.sap-phone #lcTWindow-title {
+    font-size: 1.1rem !important;
+}
+
+.sap-phone .sapUiPopupWithPadding .sapMDialogScrollCont {
+    padding: .25rem .25rem .25rem 0;
+}
+
+.sap-phone .sapMRbB {
+    font-size: .75rem;
+    height: 2.25rem;
+    width: 2.25rem;
+}
+
+.sap-phone .sapMRbBLabel {
+    line-height: 2.75rem;
+    height: 2.5rem;
+    font-size: 1rem !important;
+}
+
+.sap-phone .sapMDialog>footer.sapMDialogActions {
+    border-top: none;
+    padding: 0;
+}
+
+.sap-phone .dialogBtn {
+    height: 52px !important;
+    margin-right: 10px !important;
+}
+
+.sap-phone .dialogBtn > .sapMBtnInner {
+    font-size: 1rem !important;
+}
+
+.sap-phone div#lcTWindow.lcTypeWinStyle.sapMDialog.sapMDialog-CTX.sapMDialogPhone.sapMPopup-CTX.sapUiPopupWithPadding.sapUiShd {
+    width: 272px;
+    left: 32px;
+}
+
+/* modal 2 */
+
+.sap-phone .sapMMessageDialog .sapMDialogScrollCont {
+    padding: .75rem;
+}
+
+.sap-phone .sapMMsgBoxText {
+    font-size: 1.2rem !important;
+}
+
+/* page 2 */
+
+.sap-phone .seqNo2 {
+    top:60px !important;
+}
+
+.sap-phone #documentList, #lcDocProcPanel {
+    margin-top:60px;
+}
+
+.sap-phone .sapMListTbl .sapMText {
+    font-size: 1.25em !important;
+}
+
+.sap-phone .sapMListTblSubCntValBlock{
+    display:inline-block;
+}
+
+.sap-phone .sapMListTblSubCnt {
+    padding: 0 1rem .5rem;
+}
+
+.sap-phone .quesContainer {
+    height:55px !important;
+    margin-top: 48px;
+    padding-left:1.125rem !important;
+    font-size: 1.1rem !important;
+}
+
+.sap-phone .quesArrow {
+    padding-top:10px !important;
+    padding-right: 10px;
+    width: 7%;
+}
+
+.sap-phone .seqNo3 {
+    top:332px !important;
+}
+
+.sap-phone .sapMListTblSubCntValBlock {
+    margin-top: .1rem;
+}
+
+.sap-phone .sapMListTblSubCntSpr {
+    font-size:1.05rem;
+    padding-left:.15rem;
+    
+}
+
+.sap-phone .sapMLabel.sapMLabelTBHeader {
+    font-size: .6rem;
+}
+
+.sap-phone .sapMText {
+    font-size: .6rem;
+}
+
+.sap-phone .quesText {
+    padding-top:15px !important;
+}
+
+.sap-phone .canbtn {
+    margin-top:30px !important;
+    height: 50px !important;
+}
+
+/* page 3 */
+
+.sap-phone #poQslPanel {
+    margin-top: 10px !important;
+    margin-left:8px !important;
+}
+
+.sap-phone .sap-phone .eDataLabel {
+    line-height: 1.75rem;
+}
+
+.sap-phone .seqNo4 {
+    top: 95px !important;
+}
+
+.sap-phone .firstSection {
+    margin-top: 53px;
+}
+
+.sap-phone .sapMTB-Transparent-CTX .sapMText {
+    font-size: 1rem !important;
+}
+
+.sap-phone .sapMILI {
+    padding: .7em !important;
+}
+
+.sap-phone .sapMILILabel {
+    font-size: .95rem;
+}
+
+.sap-phone #eSignPanelTxt {
+    margin-left:20px !important;
+    margin-top: 50px !important;
+}
+
+.sap-phone .seqNo5 {
+    top: 133px !important;
+    left: 5px !important;
+}
+
+.sap-phone #eSignPanel {
+    margin-left:15px !important;
+    margin-top: 60px !important;
+}
+
+.sap-phone .eSignTxt1 {
+    font-size: 1rem !important;
+}
+
+.sap-phone #__button11 {
+    margin-top: 0px !important;
+}
+
+.sap-phone #__button12 {
+    margin-top: 30px !important;
+}
+
+.sap-phone #__button4 {
+    margin-top: 60px !important;
+}
+
+.sap-phone #__layout0 .sapMInputBaseInner{
+    line-height: 1.9rem;
+}
+
+.sap-phone .sapMInputBasePlaceholder {
+    font-size: 1.25rem !important;
+}
+.sap-phone .sapMInputBaseInner::-webkit-input-placeholder {
+    
+    font-size: 1.25rem !important;
+}
+
+.sap-phone .sapMInputBaseInner::-moz-placeholder {
+    
+    font-size: 1.25rem !important;
+}
+
+.sap-phone .sapMInputBaseInner:-ms-input-placeholder {
+    
+    font-size: 1.25rem !important;
+}
+
+.sap-phone #inputPO > .sapMInputBaseInner::-webkit-input-placeholder {
+    font-size: 1.25rem !important;
+    color:#DDE5EB !important;
+}
+.sap-phone #inputPO >.sapMInputBaseInner::-moz-placeholder {
+    font-size: 1.25rem !important;
+    color:#DDE5EB !important;
+}
+.sap-phone #inputPO >.sapMInputBaseInner:-ms-input-placeholder {
+    font-size: 1.25rem !important;
+    color:#DDE5EB !important;
+}
+.sap-phone .sapMListTblSubCntRow>.sapMListTblSubCntHdr .sapMText {
+    color: #ffffff !important;
+}
+
+.sap-phone #eSignPanel .sapUiVlt {
+    margin: 9rem auto;
+}
+
+.sap-phone #eSignPanel > .sapMPanelContent > .sapMTB{
+    height: 7rem !important;
+}
+
+.sap-phone .enableSignType {
+    font-size: 1rem !important;
+}
+
+.sap-phone .lcActivityTxt{
+    font-size: .9rem !important;
+}
+
+.sap-phone .eSignHdr {
+    font-size: 1.2em !important;
+}
+
+.sap-phone .eSignHdrTxt {
+    font-size: .9rem !important;
+}
+
+.sap-phone .eSignRemark{
+    font-size: .9rem !important;
+}
+
+.sap-phone .remarkTextArea > .sapMInputBaseInner{
+    height: 7rem !important;
+}
+
+.sap-phone .sapMTextArea>.sapMTextAreaInner{
+    line-height: 1.1rem;
+    padding: 0.5rem;
+}
+
+.sap-phone div#__dialog1.eSignDialog.sapUiPopupWithPadding.sapMDialog.sapMDialog-CTX.sapMDialogPhone.sapMPopup-CTX.sapUiShd, .sap-phone div#__dialog4.eSignDialog.sapUiPopupWithPadding.sapMDialog.sapMDialog-CTX.sapMDialogPhone.sapMPopup-CTX.sapUiShd {
+    max-height: 380px !important;
+    top: 7.5% !important;
+}
+
+.sap-phone input#sPwd-inner.sapMInputBaseInner::-webkit-input-placeholder {
+    font-size: 1.25rem !important;
+    color:#DDE5EB !important;
+}
+.sap-phone input#sPwd-inner.sapMInputBaseInner::-moz-placeholder {
+    font-size: 1.25rem !important;
+    color:#DDE5EB !important;
+}
+.sap-phone input#sPwd-inner.sapMInputBaseInner:-ms-input-placeholder {
+    font-size: 1.25rem !important;
+    color:#DDE5EB !important;
+}
+
+.sap-phone div#__area0.remarkTextArea.sapMInputBase.sapMTextArea, .sap-phone div#__area3.remarkTextArea.sapMInputBase.sapMTextArea{
+    height: 7rem !important;
+}
+
+.sap-phone #sPwd{
+    height: 3.5rem !important;
+}
+
+.sap-phone .disableSignType{
+    font-size: 1rem !important;
+}
+
+.sap-phone .disableLCActivityText{
+    font-size: .9rem !important;
+}
+
+.sap-phone .disableSignBtn > .sapMBtnInner{
+    font-size: 1rem !important;
+}
+
+.sap-phone .sapMBtnDisabled{
+    height: 52px !important;
+}
+
+.sap-phone .sapMListTblCell{
+    padding: .5rem;
+}
+
+.sap-phone div#pageHdr1-BarLeft.sapMBarContainer.sapMBarLeft{
+    margin-left: .7rem;
+}
+
+.sap-phone .jblLogo{
+    margin-left:.7rem !important;
+    margin-top: .2rem !important;
+}

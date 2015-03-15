@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2C0F25A7-40F7-446E-B40A-21174663382B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MaestroMobile</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>57DB53CF68452D35BC9FE78EAC57B113262DB798</key>
+		<string>https://github.com/jabil/JavaMobile.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Maestro/platforms/ios/MaestroMobile.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>57DB53CF68452D35BC9FE78EAC57B113262DB798</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/jabil/JavaMobile.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>57DB53CF68452D35BC9FE78EAC57B113262DB798</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>57DB53CF68452D35BC9FE78EAC57B113262DB798</string>
+			<key>IDESourceControlWCCName</key>
+			<string>JavaMobile</string>
+		</dict>
+	</array>
+</dict>
+</plist>

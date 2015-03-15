@@ -1,0 +1,903 @@
+2014-11-13 08:09:15.201 Jabil Maestro[51635:522034] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/kumara1/Library/Developer/CoreSimulator/Devices/10224584-6BB9-456A-96F3-A4A33CDE100D/data/Containers/Data/Application/18EEBC7B-EC09-4BB8-9E8F-783C530EC870/Library/Cookies/Cookies.binarycookies
+2014-11-13 08:09:16.261 Jabil Maestro[51635:522034] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-13 08:09:16.263 Jabil Maestro[51635:522034] Multi-tasking -> Device: YES, App: YES
+2014-11-13 08:09:16.521 Jabil Maestro[51635:522034] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-11-13 08:09:17.913 Jabil Maestro[51635:522034] [CDVTimer][splashscreen] 278.093994ms
+2014-11-13 08:09:17.926 Jabil Maestro[51635:522034] [CDVTimer][statusbar] 11.748016ms
+2014-11-13 08:09:17.926 Jabil Maestro[51635:522034] [CDVTimer][TotalPluginStartup] 290.970027ms
+2014-11-13 08:09:21.505 Jabil Maestro[51635:522034] Resetting plugins due to page load.
+2014-11-13 08:09:23.364 Jabil Maestro[51635:522034] -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7bcad930
+2014-11-13 08:09:23.366 Jabil Maestro[51635:522034] *** WebKit discarded an uncaught exception in the webView:willRemoveScrollingLayer:withContentsLayer:forNode: delegate: <NSInvalidArgumentException> -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7bcad930
+2014-11-13 08:09:23.419 Jabil Maestro[51635:522189] ERROR whitelist rejection: url='http://fonts.gstatic.com/s/robotocondensed/v12/b9QBgL0iMZfDSpmcXcE8nPZRQUbYfRc-1FWT9T9EE8M.woff'
+2014-11-13 08:09:23.453 Jabil Maestro[51635:522034] Finished load of: file:///Users/kumara1/Library/Developer/CoreSimulator/Devices/10224584-6BB9-456A-96F3-A4A33CDE100D/data/Containers/Bundle/Application/DEE5F72D-BF78-483A-8F10-DA62A79BC77A/Jabil%20Maestro.app/www/index.html
+2014-11-13 08:09:23.718 Jabil Maestro[51635:522034] THREAD WARNING: ['SplashScreen'] took '10.416992' ms. Plugin should use a background thread.
+2014-11-13 08:09:39.422 Jabil Maestro[51635:522034] -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7bcad930
+2014-11-13 08:09:39.423 Jabil Maestro[51635:522034] *** WebKit discarded an uncaught exception in the webView:willRemoveScrollingLayer:withContentsLayer:forNode: delegate: <NSInvalidArgumentException> -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7bcad930
+2014-11-13 08:34:21.902 Jabil Maestro[53284:533876] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/kumara1/Library/Developer/CoreSimulator/Devices/10224584-6BB9-456A-96F3-A4A33CDE100D/data/Containers/Data/Application/84D4B029-893E-48F6-9B47-CD87741AACC7/Library/Cookies/Cookies.binarycookies
+2014-11-13 08:34:22.296 Jabil Maestro[53284:533876] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-13 08:34:22.297 Jabil Maestro[53284:533876] Multi-tasking -> Device: YES, App: YES
+2014-11-13 08:34:22.331 Jabil Maestro[53284:533876] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-11-13 08:34:23.607 Jabil Maestro[53284:533876] [CDVTimer][splashscreen] 219.121039ms
+2014-11-13 08:34:23.630 Jabil Maestro[53284:533876] [CDVTimer][statusbar] 23.022950ms
+2014-11-13 08:34:23.631 Jabil Maestro[53284:533876] [CDVTimer][TotalPluginStartup] 243.260026ms
+2014-11-13 08:34:24.492 Jabil Maestro[53284:533876] Resetting plugins due to page load.
+2014-11-13 08:34:26.467 Jabil Maestro[53284:533924] ERROR whitelist rejection: url='http://fonts.gstatic.com/s/robotocondensed/v12/b9QBgL0iMZfDSpmcXcE8nPZRQUbYfRc-1FWT9T9EE8M.woff'
+2014-11-13 08:34:26.477 Jabil Maestro[53284:533876] -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7a6c8c10
+2014-11-13 08:34:26.479 Jabil Maestro[53284:533876] *** WebKit discarded an uncaught exception in the webView:willRemoveScrollingLayer:withContentsLayer:forNode: delegate: <NSInvalidArgumentException> -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7a6c8c10
+2014-11-13 08:34:26.548 Jabil Maestro[53284:533876] Finished load of: file:///Users/kumara1/Library/Developer/CoreSimulator/Devices/10224584-6BB9-456A-96F3-A4A33CDE100D/data/Containers/Bundle/Application/239A5FEC-3FBA-4B24-8E52-016482C1EF68/Jabil%20Maestro.app/www/index.html
+2014-11-13 08:34:26.819 Jabil Maestro[53284:533876] THREAD WARNING: ['SplashScreen'] took '10.903076' ms. Plugin should use a background thread.
+2014-11-13 08:51:43.968 Jabil Maestro[53284:533876] -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7a6c8c10
+2014-11-13 08:51:43.976 Jabil Maestro[53284:533876] *** WebKit discarded an uncaught exception in the webView:willRemoveScrollingLayer:withContentsLayer:forNode: delegate: <NSInvalidArgumentException> -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7a6c8c10
+2014-11-13 09:16:03.444 Jabil Maestro[53284:533876] THREAD WARNING: ['SplashScreen'] took '129.956055' ms. Plugin should use a background thread.
+2014-11-13 09:16:46.171 Jabil Maestro[55580:554476] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/kumara1/Library/Developer/CoreSimulator/Devices/10224584-6BB9-456A-96F3-A4A33CDE100D/data/Containers/Data/Application/529980CD-FA19-4D61-A319-2703410659D1/Library/Cookies/Cookies.binarycookies
+2014-11-13 09:16:46.600 Jabil Maestro[55580:554476] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-13 09:16:46.602 Jabil Maestro[55580:554476] Multi-tasking -> Device: YES, App: YES
+2014-11-13 09:16:46.646 Jabil Maestro[55580:554476] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-11-13 09:16:47.940 Jabil Maestro[55580:554476] [CDVTimer][splashscreen] 245.148957ms
+2014-11-13 09:16:47.976 Jabil Maestro[55580:554476] [CDVTimer][statusbar] 36.168993ms
+2014-11-13 09:16:47.977 Jabil Maestro[55580:554476] [CDVTimer][TotalPluginStartup] 282.449007ms
+2014-11-13 09:16:48.597 Jabil Maestro[55580:554476] Resetting plugins due to page load.
+2014-11-13 09:16:50.460 Jabil Maestro[55580:554476] -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x799906f0
+2014-11-13 09:16:50.462 Jabil Maestro[55580:554476] *** WebKit discarded an uncaught exception in the webView:willRemoveScrollingLayer:withContentsLayer:forNode: delegate: <NSInvalidArgumentException> -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x799906f0
+2014-11-13 09:16:50.518 Jabil Maestro[55580:554538] ERROR whitelist rejection: url='http://fonts.gstatic.com/s/robotocondensed/v12/b9QBgL0iMZfDSpmcXcE8nPZRQUbYfRc-1FWT9T9EE8M.woff'
+2014-11-13 09:16:50.560 Jabil Maestro[55580:554476] Finished load of: file:///Users/kumara1/Library/Developer/CoreSimulator/Devices/10224584-6BB9-456A-96F3-A4A33CDE100D/data/Containers/Bundle/Application/5B39B52C-D6A3-42B2-84B0-A42C0D66CDBC/Jabil%20Maestro.app/www/index.html
+2014-11-13 09:16:50.827 Jabil Maestro[55580:554476] THREAD WARNING: ['SplashScreen'] took '10.846924' ms. Plugin should use a background thread.
+2014-11-13 09:21:51.177 Jabil Maestro[55580:554476] THREAD WARNING: ['SplashScreen'] took '31.803223' ms. Plugin should use a background thread.
+2014-11-13 09:56:07.393 Jabil Maestro[55580:554476] -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x799906f0
+2014-11-13 09:56:07.412 Jabil Maestro[55580:554476] *** WebKit discarded an uncaught exception in the webView:willRemoveScrollingLayer:withContentsLayer:forNode: delegate: <NSInvalidArgumentException> -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x799906f0
+2014-11-13 10:03:51.850 Jabil Maestro[55580:554476] THREAD WARNING: ['SplashScreen'] took '210.635986' ms. Plugin should use a background thread.
+2014-11-13 10:12:18.024 Jabil Maestro[63125:582953] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/kumara1/Library/Developer/CoreSimulator/Devices/10224584-6BB9-456A-96F3-A4A33CDE100D/data/Containers/Data/Application/21271989-0C99-4A1D-98D1-0A44CEC20097/Library/Cookies/Cookies.binarycookies
+2014-11-13 10:12:19.253 Jabil Maestro[63125:582953] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-13 10:12:19.255 Jabil Maestro[63125:582953] Multi-tasking -> Device: YES, App: YES
+2014-11-13 10:12:19.304 Jabil Maestro[63125:582953] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-11-13 10:12:20.793 Jabil Maestro[63125:582953] [CDVTimer][splashscreen] 377.450943ms
+2014-11-13 10:12:20.805 Jabil Maestro[63125:582953] [CDVTimer][statusbar] 11.722982ms
+2014-11-13 10:12:20.805 Jabil Maestro[63125:582953] [CDVTimer][TotalPluginStartup] 390.278995ms
+2014-11-13 10:12:24.666 Jabil Maestro[63125:582953] Resetting plugins due to page load.
+2014-11-13 10:12:26.446 Jabil Maestro[63125:582953] -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7a43acf0
+2014-11-13 10:12:26.448 Jabil Maestro[63125:582953] *** WebKit discarded an uncaught exception in the webView:willRemoveScrollingLayer:withContentsLayer:forNode: delegate: <NSInvalidArgumentException> -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7a43acf0
+2014-11-13 10:12:26.505 Jabil Maestro[63125:583034] ERROR whitelist rejection: url='http://fonts.gstatic.com/s/robotocondensed/v12/b9QBgL0iMZfDSpmcXcE8nPZRQUbYfRc-1FWT9T9EE8M.woff'
+2014-11-13 10:12:26.521 Jabil Maestro[63125:582953] Finished load of: file:///Users/kumara1/Library/Developer/CoreSimulator/Devices/10224584-6BB9-456A-96F3-A4A33CDE100D/data/Containers/Bundle/Application/C44CB6A5-2340-4FF0-B0CB-FE40DF604132/Jabil%20Maestro.app/www/index.html
+2014-11-13 10:12:26.793 Jabil Maestro[63125:582953] THREAD WARNING: ['SplashScreen'] took '10.349121' ms. Plugin should use a background thread.
+2014-11-13 10:12:46.268 Jabil Maestro[63125:582953] -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7a43acf0
+2014-11-13 10:12:46.269 Jabil Maestro[63125:582953] *** WebKit discarded an uncaught exception in the webView:willRemoveScrollingLayer:withContentsLayer:forNode: delegate: <NSInvalidArgumentException> -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7a43acf0
+2014-11-13 10:14:37.236 Jabil Maestro[64145:585154] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/kumara1/Library/Developer/CoreSimulator/Devices/10224584-6BB9-456A-96F3-A4A33CDE100D/data/Containers/Data/Application/DAB0FECB-7ED0-47B5-A17E-24A04B2A57A6/Library/Cookies/Cookies.binarycookies
+2014-11-13 10:14:37.672 Jabil Maestro[64145:585154] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-13 10:14:37.673 Jabil Maestro[64145:585154] Multi-tasking -> Device: YES, App: YES
+2014-11-13 10:14:37.712 Jabil Maestro[64145:585154] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-11-13 10:14:39.001 Jabil Maestro[64145:585154] [CDVTimer][splashscreen] 211.793005ms
+2014-11-13 10:14:39.029 Jabil Maestro[64145:585154] [CDVTimer][statusbar] 27.811050ms
+2014-11-13 10:14:39.029 Jabil Maestro[64145:585154] [CDVTimer][TotalPluginStartup] 240.750968ms
+2014-11-13 10:14:39.528 Jabil Maestro[64145:585154] Resetting plugins due to page load.
+2014-11-13 10:14:41.252 Jabil Maestro[64145:585154] -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x79ea8180
+2014-11-13 10:14:41.253 Jabil Maestro[64145:585154] *** WebKit discarded an uncaught exception in the webView:willRemoveScrollingLayer:withContentsLayer:forNode: delegate: <NSInvalidArgumentException> -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x79ea8180
+2014-11-13 10:14:41.289 Jabil Maestro[64145:585212] ERROR whitelist rejection: url='http://fonts.gstatic.com/s/robotocondensed/v12/b9QBgL0iMZfDSpmcXcE8nPZRQUbYfRc-1FWT9T9EE8M.woff'
+2014-11-13 10:14:41.339 Jabil Maestro[64145:585154] Finished load of: file:///Users/kumara1/Library/Developer/CoreSimulator/Devices/10224584-6BB9-456A-96F3-A4A33CDE100D/data/Containers/Bundle/Application/853FBDD5-528A-45C6-B4CC-4B0EA510FF21/Jabil%20Maestro.app/www/index.html
+2014-11-13 10:14:41.610 Jabil Maestro[64145:585154] THREAD WARNING: ['SplashScreen'] took '10.795166' ms. Plugin should use a background thread.
+2014-11-13 10:17:45.864 Jabil Maestro[64145:585154] -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x79ea8180
+2014-11-13 10:17:45.864 Jabil Maestro[64145:585154] *** WebKit discarded an uncaught exception in the webView:willRemoveScrollingLayer:withContentsLayer:forNode: delegate: <NSInvalidArgumentException> -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x79ea8180
+2014-11-13 14:14:47.023 Jabil Maestro[72116:664754] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/kumara1/Library/Developer/CoreSimulator/Devices/10224584-6BB9-456A-96F3-A4A33CDE100D/data/Containers/Data/Application/81E10CB9-0CC2-4EA1-9BCC-579D810437D8/Library/Cookies/Cookies.binarycookies
+2014-11-13 14:14:47.462 Jabil Maestro[72116:664754] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-13 14:14:47.464 Jabil Maestro[72116:664754] Multi-tasking -> Device: YES, App: YES
+2014-11-13 14:14:47.498 Jabil Maestro[72116:664754] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-11-13 14:14:48.931 Jabil Maestro[72116:664754] [CDVTimer][splashscreen] 351.622045ms
+2014-11-13 14:14:48.957 Jabil Maestro[72116:664754] [CDVTimer][statusbar] 26.013970ms
+2014-11-13 14:14:48.958 Jabil Maestro[72116:664754] [CDVTimer][TotalPluginStartup] 378.786981ms
+2014-11-13 14:14:49.793 Jabil Maestro[72116:664754] Resetting plugins due to page load.
+2014-11-13 14:14:51.650 Jabil Maestro[72116:664754] -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7ae9ff40
+2014-11-13 14:14:51.652 Jabil Maestro[72116:664754] *** WebKit discarded an uncaught exception in the webView:willRemoveScrollingLayer:withContentsLayer:forNode: delegate: <NSInvalidArgumentException> -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7ae9ff40
+2014-11-13 14:14:51.688 Jabil Maestro[72116:664869] ERROR whitelist rejection: url='http://fonts.gstatic.com/s/robotocondensed/v12/b9QBgL0iMZfDSpmcXcE8nPZRQUbYfRc-1FWT9T9EE8M.woff'
+2014-11-13 14:14:51.723 Jabil Maestro[72116:664754] Finished load of: file:///Users/kumara1/Library/Developer/CoreSimulator/Devices/10224584-6BB9-456A-96F3-A4A33CDE100D/data/Containers/Bundle/Application/C2DEE2C5-65F2-435C-9DF3-B75B9E87B406/Jabil%20Maestro.app/www/index.html
+2014-11-13 14:14:52.005 Jabil Maestro[72116:664754] THREAD WARNING: ['SplashScreen'] took '10.790039' ms. Plugin should use a background thread.
+2014-11-13 14:18:54.828 Jabil Maestro[72116:666945] Terminating since there is no system app.
+2014-11-13 14:20:00.524 Jabil Maestro[73257:669303] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/kumara1/Library/Developer/CoreSimulator/Devices/10224584-6BB9-456A-96F3-A4A33CDE100D/data/Containers/Data/Application/441C9456-4DF6-4A60-A6A6-2C04959BA2B4/Library/Cookies/Cookies.binarycookies
+2014-11-13 14:20:01.116 Jabil Maestro[73257:669303] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-13 14:20:01.118 Jabil Maestro[73257:669303] Multi-tasking -> Device: YES, App: YES
+2014-11-13 14:20:01.215 Jabil Maestro[73257:669303] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-11-13 14:20:02.856 Jabil Maestro[73257:669303] [CDVTimer][splashscreen] 429.749012ms
+2014-11-13 14:20:02.905 Jabil Maestro[73257:669303] [CDVTimer][statusbar] 48.439026ms
+2014-11-13 14:20:02.906 Jabil Maestro[73257:669303] [CDVTimer][TotalPluginStartup] 479.355991ms
+2014-11-13 14:20:03.524 Jabil Maestro[73257:669303] Resetting plugins due to page load.
+2014-11-13 14:20:05.759 Jabil Maestro[73257:669352] ERROR whitelist rejection: url='http://fonts.gstatic.com/s/robotocondensed/v12/b9QBgL0iMZfDSpmcXcE8nPZRQUbYfRc-1FWT9T9EE8M.woff'
+2014-11-13 14:20:05.767 Jabil Maestro[73257:669303] -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7b68d3a0
+2014-11-13 14:20:05.768 Jabil Maestro[73257:669303] *** WebKit discarded an uncaught exception in the webView:willRemoveScrollingLayer:withContentsLayer:forNode: delegate: <NSInvalidArgumentException> -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7b68d3a0
+2014-11-13 14:20:05.838 Jabil Maestro[73257:669303] Finished load of: file:///Users/kumara1/Library/Developer/CoreSimulator/Devices/10224584-6BB9-456A-96F3-A4A33CDE100D/data/Containers/Bundle/Application/69E0B624-CD85-4FD6-A742-531DE6ED4F2B/Jabil%20Maestro.app/www/index.html
+2014-11-13 14:20:06.112 Jabil Maestro[73257:669303] THREAD WARNING: ['SplashScreen'] took '10.325195' ms. Plugin should use a background thread.
+2014-11-13 14:32:48.386 Jabil Maestro[73257:669303] THREAD WARNING: ['SplashScreen'] took '123.107178' ms. Plugin should use a background thread.
+2014-11-13 14:33:14.023 Jabil Maestro[76462:677715] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/kumara1/Library/Developer/CoreSimulator/Devices/10224584-6BB9-456A-96F3-A4A33CDE100D/data/Containers/Data/Application/3A2936F0-ACDA-4A35-82FE-4ABF23E8703F/Library/Cookies/Cookies.binarycookies
+2014-11-13 14:33:15.041 Jabil Maestro[76462:677715] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-13 14:33:15.043 Jabil Maestro[76462:677715] Multi-tasking -> Device: YES, App: YES
+2014-11-13 14:33:15.084 Jabil Maestro[76462:677715] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-11-13 14:33:16.428 Jabil Maestro[76462:677715] [CDVTimer][splashscreen] 204.266965ms
+2014-11-13 14:33:16.440 Jabil Maestro[76462:677715] [CDVTimer][statusbar] 12.027979ms
+2014-11-13 14:33:16.441 Jabil Maestro[76462:677715] [CDVTimer][TotalPluginStartup] 217.466950ms
+2014-11-13 14:33:20.588 Jabil Maestro[76462:677715] Resetting plugins due to page load.
+2014-11-13 14:33:22.491 Jabil Maestro[76462:677777] ERROR whitelist rejection: url='http://fonts.gstatic.com/s/robotocondensed/v12/b9QBgL0iMZfDSpmcXcE8nPZRQUbYfRc-1FWT9T9EE8M.woff'
+2014-11-13 14:33:22.499 Jabil Maestro[76462:677715] -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7b497320
+2014-11-13 14:33:22.503 Jabil Maestro[76462:677715] *** WebKit discarded an uncaught exception in the webView:willRemoveScrollingLayer:withContentsLayer:forNode: delegate: <NSInvalidArgumentException> -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7b497320
+2014-11-13 14:33:22.580 Jabil Maestro[76462:677715] Finished load of: file:///Users/kumara1/Library/Developer/CoreSimulator/Devices/10224584-6BB9-456A-96F3-A4A33CDE100D/data/Containers/Bundle/Application/924D3DD3-983F-4833-AB72-C59BB1690FE0/Jabil%20Maestro.app/www/index.html
+2014-11-13 14:33:22.900 Jabil Maestro[76462:677715] THREAD WARNING: ['SplashScreen'] took '10.666016' ms. Plugin should use a background thread.
+2014-11-13 14:42:11.857 Jabil Maestro[78560:684199] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/kumara1/Library/Developer/CoreSimulator/Devices/10224584-6BB9-456A-96F3-A4A33CDE100D/data/Containers/Data/Application/09D38299-99CF-4EA3-8802-484D74564B0A/Library/Cookies/Cookies.binarycookies
+2014-11-13 14:42:12.296 Jabil Maestro[78560:684199] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-13 14:42:12.298 Jabil Maestro[78560:684199] Multi-tasking -> Device: YES, App: YES
+2014-11-13 14:42:12.336 Jabil Maestro[78560:684199] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-11-13 14:42:13.868 Jabil Maestro[78560:684199] [CDVTimer][splashscreen] 451.001048ms
+2014-11-13 14:42:14.024 Jabil Maestro[78560:684199] [CDVTimer][statusbar] 155.161977ms
+2014-11-13 14:42:14.024 Jabil Maestro[78560:684199] [CDVTimer][TotalPluginStartup] 607.330024ms
+2014-11-13 14:42:14.947 Jabil Maestro[78560:684199] Resetting plugins due to page load.
+2014-11-13 14:42:16.879 Jabil Maestro[78560:684199] -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7ac80180
+2014-11-13 14:42:16.939 Jabil Maestro[78560:684199] *** WebKit discarded an uncaught exception in the webView:willRemoveScrollingLayer:withContentsLayer:forNode: delegate: <NSInvalidArgumentException> -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7ac80180
+2014-11-13 14:42:16.945 Jabil Maestro[78560:684235] ERROR whitelist rejection: url='http://fonts.gstatic.com/s/robotocondensed/v12/b9QBgL0iMZfDSpmcXcE8nPZRQUbYfRc-1FWT9T9EE8M.woff'
+2014-11-13 14:42:17.036 Jabil Maestro[78560:684199] Finished load of: file:///Users/kumara1/Library/Developer/CoreSimulator/Devices/10224584-6BB9-456A-96F3-A4A33CDE100D/data/Containers/Bundle/Application/70EAF277-E13D-4547-A891-CC981E66D511/Jabil%20Maestro.app/www/index.html
+2014-11-13 14:42:17.445 Jabil Maestro[78560:684199] THREAD WARNING: ['SplashScreen'] took '10.698975' ms. Plugin should use a background thread.
+2014-11-13 14:45:34.966 Jabil Maestro[80522:688031] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/kumara1/Library/Developer/CoreSimulator/Devices/10224584-6BB9-456A-96F3-A4A33CDE100D/data/Containers/Data/Application/40E3949B-4933-44AB-B3D8-72DADE876E3F/Library/Cookies/Cookies.binarycookies
+2014-11-13 14:45:35.349 Jabil Maestro[80522:688031] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-13 14:45:35.351 Jabil Maestro[80522:688031] Multi-tasking -> Device: YES, App: YES
+2014-11-13 14:45:35.400 Jabil Maestro[80522:688031] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-11-13 14:45:36.537 Jabil Maestro[80522:688031] [CDVTimer][splashscreen] 108.972013ms
+2014-11-13 14:45:36.567 Jabil Maestro[80522:688031] [CDVTimer][statusbar] 30.027032ms
+2014-11-13 14:45:36.568 Jabil Maestro[80522:688031] [CDVTimer][TotalPluginStartup] 140.192032ms
+2014-11-13 14:45:37.490 Jabil Maestro[78560:684199] THREAD WARNING: ['SplashScreen'] took '19.375732' ms. Plugin should use a background thread.
+2014-11-13 14:45:40.089 Jabil Maestro[80522:688031] Resetting plugins due to page load.
+2014-11-13 14:45:42.766 Jabil Maestro[80522:688066] ERROR whitelist rejection: url='http://fonts.gstatic.com/s/robotocondensed/v12/b9QBgL0iMZfDSpmcXcE8nPZRQUbYfRc-1FWT9T9EE8M.woff'
+2014-11-13 14:45:42.778 Jabil Maestro[80522:688031] -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7c5ab9f0
+2014-11-13 14:45:42.780 Jabil Maestro[80522:688031] *** WebKit discarded an uncaught exception in the webView:willRemoveScrollingLayer:withContentsLayer:forNode: delegate: <NSInvalidArgumentException> -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7c5ab9f0
+2014-11-13 14:45:42.874 Jabil Maestro[80522:688031] Finished load of: file:///Users/kumara1/Library/Developer/CoreSimulator/Devices/10224584-6BB9-456A-96F3-A4A33CDE100D/data/Containers/Bundle/Application/D7749D5D-C2C0-4408-9066-47094A0998FC/Jabil%20Maestro.app/www/index.html
+2014-11-13 14:45:43.338 Jabil Maestro[80522:688031] THREAD WARNING: ['SplashScreen'] took '22.416992' ms. Plugin should use a background thread.
+2014-11-17 12:13:27.293 Jabil Maestro[13441:851725] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/kumara1/Library/Developer/CoreSimulator/Devices/10224584-6BB9-456A-96F3-A4A33CDE100D/data/Containers/Data/Application/AA99E7EF-E566-4963-9F2A-51203ACDB652/Library/Cookies/Cookies.binarycookies
+2014-11-17 12:13:27.673 Jabil Maestro[13441:851725] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-17 12:13:27.697 Jabil Maestro[13441:851725] Multi-tasking -> Device: YES, App: YES
+2014-11-17 12:13:28.128 Jabil Maestro[13441:851725] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-11-17 12:13:30.331 Jabil Maestro[13441:851725] [CDVTimer][splashscreen] 119.091034ms
+2014-11-17 12:13:30.355 Jabil Maestro[13441:851725] [CDVTimer][statusbar] 22.850990ms
+2014-11-17 12:13:30.355 Jabil Maestro[13441:851725] [CDVTimer][TotalPluginStartup] 142.638981ms
+2014-11-17 12:13:30.451 Jabil Maestro[13441:851725] Resetting plugins due to page load.
+2014-11-17 12:13:30.913 Jabil Maestro[13441:851725] -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7aff5060
+2014-11-17 12:13:30.913 Jabil Maestro[13441:851725] *** WebKit discarded an uncaught exception in the webView:willRemoveScrollingLayer:withContentsLayer:forNode: delegate: <NSInvalidArgumentException> -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7aff5060
+2014-11-17 12:13:30.924 Jabil Maestro[13441:851804] ERROR whitelist rejection: url='http://fonts.gstatic.com/s/robotocondensed/v12/b9QBgL0iMZfDSpmcXcE8nPZRQUbYfRc-1FWT9T9EE8M.woff'
+2014-11-17 12:13:30.929 Jabil Maestro[13441:851725] Finished load of: file:///Users/kumara1/Library/Developer/CoreSimulator/Devices/10224584-6BB9-456A-96F3-A4A33CDE100D/data/Containers/Bundle/Application/1C0E9010-D5E2-4F6B-A49B-0CF30A5FF777/Jabil%20Maestro.app/www/index.html
+2014-11-17 12:13:42.841 Jabil Maestro[13441:851725] -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7aff5060
+2014-11-17 12:13:42.841 Jabil Maestro[13441:851725] *** WebKit discarded an uncaught exception in the webView:willRemoveScrollingLayer:withContentsLayer:forNode: delegate: <NSInvalidArgumentException> -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7aff5060
+2014-11-17 12:18:16.351 Jabil Maestro[14521:854767] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/kumara1/Library/Developer/CoreSimulator/Devices/10224584-6BB9-456A-96F3-A4A33CDE100D/data/Containers/Data/Application/FBB045AB-9244-4368-B09F-EFBAC18D5B1C/Library/Cookies/Cookies.binarycookies
+2014-11-17 12:18:16.526 Jabil Maestro[14521:854767] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-17 12:18:16.527 Jabil Maestro[14521:854767] Multi-tasking -> Device: YES, App: YES
+2014-11-17 12:18:16.537 Jabil Maestro[14521:854767] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-11-17 12:18:16.924 Jabil Maestro[14521:854767] [CDVTimer][splashscreen] 116.907001ms
+2014-11-17 12:18:16.928 Jabil Maestro[14521:854767] [CDVTimer][statusbar] 3.910005ms
+2014-11-17 12:18:16.928 Jabil Maestro[14521:854767] [CDVTimer][TotalPluginStartup] 121.101022ms
+2014-11-17 12:18:17.181 Jabil Maestro[14521:854767] Resetting plugins due to page load.
+2014-11-17 12:18:17.921 Jabil Maestro[14521:854767] -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7c552050
+2014-11-17 12:18:17.921 Jabil Maestro[14521:854767] *** WebKit discarded an uncaught exception in the webView:willRemoveScrollingLayer:withContentsLayer:forNode: delegate: <NSInvalidArgumentException> -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7c552050
+2014-11-17 12:18:17.931 Jabil Maestro[14521:854825] ERROR whitelist rejection: url='http://fonts.gstatic.com/s/robotocondensed/v12/b9QBgL0iMZfDSpmcXcE8nPZRQUbYfRc-1FWT9T9EE8M.woff'
+2014-11-17 12:18:17.936 Jabil Maestro[14521:854767] Finished load of: file:///Users/kumara1/Library/Developer/CoreSimulator/Devices/10224584-6BB9-456A-96F3-A4A33CDE100D/data/Containers/Bundle/Application/65AB431C-2927-4BFD-936E-108D3801EAAE/Jabil%20Maestro.app/www/index.html
+2014-11-17 12:18:27.293 Jabil Maestro[14521:854767] -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7c552050
+2014-11-17 12:18:27.294 Jabil Maestro[14521:854767] *** WebKit discarded an uncaught exception in the webView:willRemoveScrollingLayer:withContentsLayer:forNode: delegate: <NSInvalidArgumentException> -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7c552050
+2014-11-17 13:13:11.672 Jabil Maestro[15694:860312] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/kumara1/Library/Developer/CoreSimulator/Devices/10224584-6BB9-456A-96F3-A4A33CDE100D/data/Containers/Data/Application/B29629FE-309F-42E9-B4C4-98E0D8F83688/Library/Cookies/Cookies.binarycookies
+2014-11-17 13:13:11.859 Jabil Maestro[15694:860312] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-17 13:13:11.859 Jabil Maestro[15694:860312] Multi-tasking -> Device: YES, App: YES
+2014-11-17 13:13:11.869 Jabil Maestro[15694:860312] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-11-17 13:13:12.229 Jabil Maestro[15694:860312] [CDVTimer][splashscreen] 99.188030ms
+2014-11-17 13:13:12.236 Jabil Maestro[15694:860312] [CDVTimer][statusbar] 6.159008ms
+2014-11-17 13:13:12.236 Jabil Maestro[15694:860312] [CDVTimer][TotalPluginStartup] 105.800986ms
+2014-11-17 13:13:12.471 Jabil Maestro[15694:860312] Resetting plugins due to page load.
+2014-11-17 13:13:12.996 Jabil Maestro[15694:860345] ERROR whitelist rejection: url='http://fonts.gstatic.com/s/robotocondensed/v12/b9QBgL0iMZfDSpmcXcE8nPZRQUbYfRc-1FWT9T9EE8M.woff'
+2014-11-17 13:13:12.998 Jabil Maestro[15694:860312] -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x799a8bb0
+2014-11-17 13:13:12.999 Jabil Maestro[15694:860312] *** WebKit discarded an uncaught exception in the webView:willRemoveScrollingLayer:withContentsLayer:forNode: delegate: <NSInvalidArgumentException> -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x799a8bb0
+2014-11-17 13:13:13.010 Jabil Maestro[15694:860312] Finished load of: file:///Users/kumara1/Library/Developer/CoreSimulator/Devices/10224584-6BB9-456A-96F3-A4A33CDE100D/data/Containers/Bundle/Application/9DC35B55-BF76-4D95-BDD6-E8DC6E66D0D1/Jabil%20Maestro.app/www/index.html
+2014-11-17 13:32:14.834 Jabil Maestro[17199:870403] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/kumara1/Library/Developer/CoreSimulator/Devices/10224584-6BB9-456A-96F3-A4A33CDE100D/data/Containers/Data/Application/FB2AC355-A8F0-46CC-AA58-A0745271287B/Library/Cookies/Cookies.binarycookies
+2014-11-17 13:32:15.511 Jabil Maestro[17199:870403] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-17 13:32:15.512 Jabil Maestro[17199:870403] Multi-tasking -> Device: YES, App: YES
+2014-11-17 13:32:15.537 Jabil Maestro[17199:870403] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-11-17 13:32:15.940 Jabil Maestro[17199:870403] [CDVTimer][splashscreen] 148.378015ms
+2014-11-17 13:32:15.944 Jabil Maestro[17199:870403] [CDVTimer][statusbar] 4.006028ms
+2014-11-17 13:32:15.944 Jabil Maestro[17199:870403] [CDVTimer][TotalPluginStartup] 152.689993ms
+2014-11-17 13:32:16.277 Jabil Maestro[17199:870403] Resetting plugins due to page load.
+2014-11-17 13:32:16.894 Jabil Maestro[17199:870457] ERROR whitelist rejection: url='http://fonts.gstatic.com/s/robotocondensed/v12/b9QBgL0iMZfDSpmcXcE8nPZRQUbYfRc-1FWT9T9EE8M.woff'
+2014-11-17 13:32:16.896 Jabil Maestro[17199:870403] -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7c98ed40
+2014-11-17 13:32:16.896 Jabil Maestro[17199:870403] *** WebKit discarded an uncaught exception in the webView:willRemoveScrollingLayer:withContentsLayer:forNode: delegate: <NSInvalidArgumentException> -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7c98ed40
+2014-11-17 13:32:16.929 Jabil Maestro[17199:870403] Finished load of: file:///Users/kumara1/Library/Developer/CoreSimulator/Devices/10224584-6BB9-456A-96F3-A4A33CDE100D/data/Containers/Bundle/Application/03CE6D8B-C3A2-4745-833C-BFA4C6B1228B/Jabil%20Maestro.app/www/index.html
+2014-11-17 13:33:13.338 Jabil Maestro[18273:872619] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/kumara1/Library/Developer/CoreSimulator/Devices/10224584-6BB9-456A-96F3-A4A33CDE100D/data/Containers/Data/Application/FB0B4817-17B9-42F9-8117-B8D3F8AFF3DC/Library/Cookies/Cookies.binarycookies
+2014-11-17 13:33:13.437 Jabil Maestro[18273:872619] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-17 13:33:13.438 Jabil Maestro[18273:872619] Multi-tasking -> Device: YES, App: YES
+2014-11-17 13:33:13.445 Jabil Maestro[18273:872619] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-11-17 13:33:13.788 Jabil Maestro[18273:872619] [CDVTimer][splashscreen] 21.306992ms
+2014-11-17 13:33:13.814 Jabil Maestro[18273:872619] [CDVTimer][statusbar] 25.062025ms
+2014-11-17 13:33:13.814 Jabil Maestro[18273:872619] [CDVTimer][TotalPluginStartup] 46.935976ms
+2014-11-17 13:33:13.968 Jabil Maestro[18273:872619] Resetting plugins due to page load.
+2014-11-17 13:33:14.426 Jabil Maestro[18273:872619] -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7b0d8860
+2014-11-17 13:33:14.427 Jabil Maestro[18273:872619] *** WebKit discarded an uncaught exception in the webView:willRemoveScrollingLayer:withContentsLayer:forNode: delegate: <NSInvalidArgumentException> -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7b0d8860
+2014-11-17 13:33:14.436 Jabil Maestro[18273:872644] ERROR whitelist rejection: url='http://fonts.gstatic.com/s/robotocondensed/v12/b9QBgL0iMZfDSpmcXcE8nPZRQUbYfRc-1FWT9T9EE8M.woff'
+2014-11-17 13:33:14.441 Jabil Maestro[18273:872619] Finished load of: file:///Users/kumara1/Library/Developer/CoreSimulator/Devices/10224584-6BB9-456A-96F3-A4A33CDE100D/data/Containers/Bundle/Application/5AE7E7E3-933E-4AAB-A503-2603D1ADB8C0/Jabil%20Maestro.app/www/index.html
+2014-11-17 13:33:25.257 Jabil Maestro[18273:872619] -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7b0d8860
+2014-11-17 13:33:25.257 Jabil Maestro[18273:872619] *** WebKit discarded an uncaught exception in the webView:willRemoveScrollingLayer:withContentsLayer:forNode: delegate: <NSInvalidArgumentException> -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7b0d8860
+2014-11-17 13:55:28.584 Jabil Maestro[19561:879765] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/kumara1/Library/Developer/CoreSimulator/Devices/10224584-6BB9-456A-96F3-A4A33CDE100D/data/Containers/Data/Application/02CF5AE1-3D6D-4FE2-A79C-A9E6678AB5DB/Library/Cookies/Cookies.binarycookies
+2014-11-17 13:55:28.752 Jabil Maestro[19561:879765] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-17 13:55:28.752 Jabil Maestro[19561:879765] Multi-tasking -> Device: YES, App: YES
+2014-11-17 13:55:28.760 Jabil Maestro[19561:879765] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-11-17 13:55:29.147 Jabil Maestro[19561:879765] [CDVTimer][splashscreen] 18.899024ms
+2014-11-17 13:55:29.150 Jabil Maestro[19561:879765] [CDVTimer][statusbar] 3.131032ms
+2014-11-17 13:55:29.150 Jabil Maestro[19561:879765] [CDVTimer][TotalPluginStartup] 22.305012ms
+2014-11-17 13:55:29.227 Jabil Maestro[19561:879765] Resetting plugins due to page load.
+2014-11-17 13:55:29.704 Jabil Maestro[19561:879798] ERROR whitelist rejection: url='http://fonts.gstatic.com/s/robotocondensed/v12/b9QBgL0iMZfDSpmcXcE8nPZRQUbYfRc-1FWT9T9EE8M.woff'
+2014-11-17 13:55:29.707 Jabil Maestro[19561:879765] -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7907d9b0
+2014-11-17 13:55:29.707 Jabil Maestro[19561:879765] *** WebKit discarded an uncaught exception in the webView:willRemoveScrollingLayer:withContentsLayer:forNode: delegate: <NSInvalidArgumentException> -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7907d9b0
+2014-11-17 13:55:29.719 Jabil Maestro[19561:879765] Finished load of: file:///Users/kumara1/Library/Developer/CoreSimulator/Devices/10224584-6BB9-456A-96F3-A4A33CDE100D/data/Containers/Bundle/Application/7930A997-1A63-4CAD-9995-CA09FD2CE2AE/Jabil%20Maestro.app/www/index.html
+2014-11-17 13:55:41.147 Jabil Maestro[19561:879765] -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7907d9b0
+2014-11-17 13:55:41.148 Jabil Maestro[19561:879765] *** WebKit discarded an uncaught exception in the webView:willRemoveScrollingLayer:withContentsLayer:forNode: delegate: <NSInvalidArgumentException> -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7907d9b0
+2014-11-17 14:27:42.008 Jabil Maestro[21441:894007] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/kumara1/Library/Developer/CoreSimulator/Devices/10224584-6BB9-456A-96F3-A4A33CDE100D/data/Containers/Data/Application/74079586-B340-4217-A00C-3567171C0D22/Library/Cookies/Cookies.binarycookies
+2014-11-17 14:27:42.393 Jabil Maestro[21441:894007] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-17 14:27:42.394 Jabil Maestro[21441:894007] Multi-tasking -> Device: YES, App: YES
+2014-11-17 14:27:42.454 Jabil Maestro[21441:894007] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-11-17 14:27:44.524 Jabil Maestro[21441:894007] [CDVTimer][splashscreen] 1590.107977ms
+2014-11-17 14:27:44.531 Jabil Maestro[21441:894007] [CDVTimer][statusbar] 7.093012ms
+2014-11-17 14:27:44.531 Jabil Maestro[21441:894007] [CDVTimer][TotalPluginStartup] 1597.835004ms
+2014-11-17 14:27:45.508 Jabil Maestro[21441:894007] Resetting plugins due to page load.
+2014-11-17 14:27:46.404 Jabil Maestro[21441:894044] ERROR whitelist rejection: url='http://fonts.gstatic.com/s/robotocondensed/v12/b9QBgL0iMZfDSpmcXcE8nPZRQUbYfRc-1FWT9T9EE8M.woff'
+2014-11-17 14:27:46.407 Jabil Maestro[21441:894007] -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7b66b660
+2014-11-17 14:27:46.407 Jabil Maestro[21441:894007] *** WebKit discarded an uncaught exception in the webView:willRemoveScrollingLayer:withContentsLayer:forNode: delegate: <NSInvalidArgumentException> -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7b66b660
+2014-11-17 14:27:46.430 Jabil Maestro[21441:894007] Finished load of: file:///Users/kumara1/Library/Developer/CoreSimulator/Devices/10224584-6BB9-456A-96F3-A4A33CDE100D/data/Containers/Bundle/Application/E9EED4E3-997E-4D9C-A81B-F960FBE7C83C/Jabil%20Maestro.app/www/index.html
+2014-11-17 14:35:24.932 Jabil Maestro[21441:894007] -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7b66b660
+2014-11-17 14:35:24.933 Jabil Maestro[21441:894007] *** WebKit discarded an uncaught exception in the webView:willRemoveScrollingLayer:withContentsLayer:forNode: delegate: <NSInvalidArgumentException> -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7b66b660
+2014-11-18 13:45:46.077 Jabil Maestro[3187:21194] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/kumara1/Library/Developer/CoreSimulator/Devices/10224584-6BB9-456A-96F3-A4A33CDE100D/data/Containers/Data/Application/19E954FD-6F50-424D-B274-0453B10ED573/Library/Cookies/Cookies.binarycookies
+2014-11-18 13:45:46.326 Jabil Maestro[3187:21194] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-18 13:45:46.327 Jabil Maestro[3187:21194] Multi-tasking -> Device: YES, App: YES
+2014-11-18 13:45:46.519 Jabil Maestro[3187:21194] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-11-18 13:45:48.444 Jabil Maestro[3187:21194] [CDVTimer][splashscreen] 261.370957ms
+2014-11-18 13:45:48.458 Jabil Maestro[3187:21194] [CDVTimer][statusbar] 13.619006ms
+2014-11-18 13:45:48.458 Jabil Maestro[3187:21194] [CDVTimer][TotalPluginStartup] 275.665998ms
+2014-11-18 13:45:48.546 Jabil Maestro[3187:21194] Resetting plugins due to page load.
+2014-11-18 13:45:49.336 Jabil Maestro[3187:21194] -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7a792250
+2014-11-18 13:45:49.339 Jabil Maestro[3187:21194] *** WebKit discarded an uncaught exception in the webView:willRemoveScrollingLayer:withContentsLayer:forNode: delegate: <NSInvalidArgumentException> -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7a792250
+2014-11-18 13:45:49.361 Jabil Maestro[3187:21266] ERROR whitelist rejection: url='http://fonts.gstatic.com/s/robotocondensed/v12/b9QBgL0iMZfDSpmcXcE8nPZRQUbYfRc-1FWT9T9EE8M.woff'
+2014-11-18 13:45:49.375 Jabil Maestro[3187:21194] Finished load of: file:///Users/kumara1/Library/Developer/CoreSimulator/Devices/10224584-6BB9-456A-96F3-A4A33CDE100D/data/Containers/Bundle/Application/50871698-2257-43D6-A14D-03C5CC971149/Jabil%20Maestro.app/www/index.html
+2014-11-18 13:45:49.382 Jabil Maestro[3187:21194] -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7a792250
+2014-11-18 13:45:49.382 Jabil Maestro[3187:21194] *** WebKit discarded an uncaught exception in the webView:willRemoveScrollingLayer:withContentsLayer:forNode: delegate: <NSInvalidArgumentException> -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7a792250
+2014-11-18 13:47:29.109 Jabil Maestro[3187:21194] -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7a792250
+2014-11-18 13:47:29.109 Jabil Maestro[3187:21194] *** WebKit discarded an uncaught exception in the webView:willRemoveScrollingLayer:withContentsLayer:forNode: delegate: <NSInvalidArgumentException> -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7a792250
+2014-11-18 15:21:47.137 Jabil Maestro[9847:57544] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/kumara1/Library/Developer/CoreSimulator/Devices/10224584-6BB9-456A-96F3-A4A33CDE100D/data/Containers/Data/Application/BE97B5E9-A4DF-4CE7-A95A-EA79B8F2EE3B/Library/Cookies/Cookies.binarycookies
+2014-11-18 15:21:47.242 Jabil Maestro[9847:57544] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-18 15:21:47.242 Jabil Maestro[9847:57544] Multi-tasking -> Device: YES, App: YES
+2014-11-18 15:21:47.249 Jabil Maestro[9847:57544] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-11-18 15:21:47.652 Jabil Maestro[9847:57544] [CDVTimer][splashscreen] 141.487002ms
+2014-11-18 15:21:47.711 Jabil Maestro[9847:57544] [CDVTimer][statusbar] 58.658957ms
+2014-11-18 15:21:47.711 Jabil Maestro[9847:57544] [CDVTimer][TotalPluginStartup] 200.806975ms
+2014-11-18 15:21:47.912 Jabil Maestro[9847:57544] Resetting plugins due to page load.
+2014-11-18 15:21:48.452 Jabil Maestro[9847:57544] -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7b67aba0
+2014-11-18 15:21:48.452 Jabil Maestro[9847:57544] *** WebKit discarded an uncaught exception in the webView:willRemoveScrollingLayer:withContentsLayer:forNode: delegate: <NSInvalidArgumentException> -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7b67aba0
+2014-11-18 15:21:48.462 Jabil Maestro[9847:57567] ERROR whitelist rejection: url='http://fonts.gstatic.com/s/robotocondensed/v12/b9QBgL0iMZfDSpmcXcE8nPZRQUbYfRc-1FWT9T9EE8M.woff'
+2014-11-18 15:21:48.466 Jabil Maestro[9847:57544] Finished load of: file:///Users/kumara1/Library/Developer/CoreSimulator/Devices/10224584-6BB9-456A-96F3-A4A33CDE100D/data/Containers/Bundle/Application/0D06FC6D-C776-4FF8-98EA-B2457D7A4F58/Jabil%20Maestro.app/www/index.html
+2014-11-18 15:21:48.474 Jabil Maestro[9847:57544] -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7b67aba0
+2014-11-18 15:21:48.474 Jabil Maestro[9847:57544] *** WebKit discarded an uncaught exception in the webView:willRemoveScrollingLayer:withContentsLayer:forNode: delegate: <NSInvalidArgumentException> -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7b67aba0
+2014-11-18 15:24:38.797 Jabil Maestro[10891:59912] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/kumara1/Library/Developer/CoreSimulator/Devices/10224584-6BB9-456A-96F3-A4A33CDE100D/data/Containers/Data/Application/59911C0A-4035-44C1-9411-54D3EBC988DF/Library/Cookies/Cookies.binarycookies
+2014-11-18 15:24:38.899 Jabil Maestro[10891:59912] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-18 15:24:38.900 Jabil Maestro[10891:59912] Multi-tasking -> Device: YES, App: YES
+2014-11-18 15:24:38.907 Jabil Maestro[10891:59912] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-11-18 15:24:39.185 Jabil Maestro[10891:59912] [CDVTimer][splashscreen] 19.774973ms
+2014-11-18 15:24:39.223 Jabil Maestro[10891:59912] [CDVTimer][statusbar] 37.620008ms
+2014-11-18 15:24:39.223 Jabil Maestro[10891:59912] [CDVTimer][TotalPluginStartup] 57.896018ms
+2014-11-18 15:24:39.307 Jabil Maestro[10891:59912] Resetting plugins due to page load.
+2014-11-18 15:24:39.698 Jabil Maestro[10891:59912] -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x79f83ef0
+2014-11-18 15:24:39.699 Jabil Maestro[10891:59912] *** WebKit discarded an uncaught exception in the webView:willRemoveScrollingLayer:withContentsLayer:forNode: delegate: <NSInvalidArgumentException> -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x79f83ef0
+2014-11-18 15:24:39.708 Jabil Maestro[10891:59931] ERROR whitelist rejection: url='http://fonts.gstatic.com/s/robotocondensed/v12/b9QBgL0iMZfDSpmcXcE8nPZRQUbYfRc-1FWT9T9EE8M.woff'
+2014-11-18 15:24:39.713 Jabil Maestro[10891:59912] Finished load of: file:///Users/kumara1/Library/Developer/CoreSimulator/Devices/10224584-6BB9-456A-96F3-A4A33CDE100D/data/Containers/Bundle/Application/54FFA9F6-F562-42FD-A3DC-530B5AB3E248/Jabil%20Maestro.app/www/index.html
+2014-11-18 15:29:55.726 Jabil Maestro[12115:63781] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/kumara1/Library/Developer/CoreSimulator/Devices/10224584-6BB9-456A-96F3-A4A33CDE100D/data/Containers/Data/Application/20BD21B1-C5DD-45FF-BC6C-9431AE331845/Library/Cookies/Cookies.binarycookies
+2014-11-18 15:29:55.878 Jabil Maestro[12115:63781] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-18 15:29:55.879 Jabil Maestro[12115:63781] Multi-tasking -> Device: YES, App: YES
+2014-11-18 15:29:55.888 Jabil Maestro[12115:63781] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-11-18 15:29:56.168 Jabil Maestro[12115:63781] [CDVTimer][splashscreen] 19.039989ms
+2014-11-18 15:29:56.267 Jabil Maestro[12115:63781] [CDVTimer][statusbar] 98.403037ms
+2014-11-18 15:29:56.267 Jabil Maestro[12115:63781] [CDVTimer][TotalPluginStartup] 117.897034ms
+2014-11-18 15:29:56.347 Jabil Maestro[12115:63781] Resetting plugins due to page load.
+2014-11-18 15:29:56.755 Jabil Maestro[12115:63781] -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7b88c4e0
+2014-11-18 15:29:56.756 Jabil Maestro[12115:63781] *** WebKit discarded an uncaught exception in the webView:willRemoveScrollingLayer:withContentsLayer:forNode: delegate: <NSInvalidArgumentException> -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7b88c4e0
+2014-11-18 15:29:56.769 Jabil Maestro[12115:63820] ERROR whitelist rejection: url='http://fonts.gstatic.com/s/robotocondensed/v12/b9QBgL0iMZfDSpmcXcE8nPZRQUbYfRc-1FWT9T9EE8M.woff'
+2014-11-18 15:29:56.773 Jabil Maestro[12115:63781] Finished load of: file:///Users/kumara1/Library/Developer/CoreSimulator/Devices/10224584-6BB9-456A-96F3-A4A33CDE100D/data/Containers/Bundle/Application/68169226-0B46-4302-A9DB-CC3BD0C9A3E7/Jabil%20Maestro.app/www/index.html
+2014-11-18 15:43:13.157 Jabil Maestro[12115:63781] -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7b88c4e0
+2014-11-18 15:43:13.158 Jabil Maestro[12115:63781] *** WebKit discarded an uncaught exception in the webView:willRemoveScrollingLayer:withContentsLayer:forNode: delegate: <NSInvalidArgumentException> -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7b88c4e0
+2014-11-19 08:31:21.084 Jabil Maestro[26756:120354] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/kumara1/Library/Developer/CoreSimulator/Devices/10224584-6BB9-456A-96F3-A4A33CDE100D/data/Containers/Data/Application/E7E2585D-3A91-4B4D-B109-D3E9B8BC6CBD/Library/Cookies/Cookies.binarycookies
+2014-11-19 08:31:21.239 Jabil Maestro[26756:120354] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-19 08:31:21.239 Jabil Maestro[26756:120354] Multi-tasking -> Device: YES, App: YES
+2014-11-19 08:31:21.247 Jabil Maestro[26756:120354] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-11-19 08:31:21.563 Jabil Maestro[26756:120354] [CDVTimer][splashscreen] 20.188987ms
+2014-11-19 08:31:21.582 Jabil Maestro[26756:120354] [CDVTimer][statusbar] 19.589961ms
+2014-11-19 08:31:21.583 Jabil Maestro[26756:120354] [CDVTimer][TotalPluginStartup] 40.126026ms
+2014-11-19 08:31:21.663 Jabil Maestro[26756:120354] Resetting plugins due to page load.
+2014-11-19 08:31:22.081 Jabil Maestro[26756:120354] -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7ad44a10
+2014-11-19 08:31:22.082 Jabil Maestro[26756:120354] *** WebKit discarded an uncaught exception in the webView:willRemoveScrollingLayer:withContentsLayer:forNode: delegate: <NSInvalidArgumentException> -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7ad44a10
+2014-11-19 08:31:22.092 Jabil Maestro[26756:120384] ERROR whitelist rejection: url='http://fonts.gstatic.com/s/robotocondensed/v12/b9QBgL0iMZfDSpmcXcE8nPZRQUbYfRc-1FWT9T9EE8M.woff'
+2014-11-19 08:31:22.135 Jabil Maestro[26756:120354] Finished load of: file:///Users/kumara1/Library/Developer/CoreSimulator/Devices/10224584-6BB9-456A-96F3-A4A33CDE100D/data/Containers/Bundle/Application/6DDDB2F1-F363-4F9E-9B43-D7C312A1A108/Jabil%20Maestro.app/www/index.html
+2014-11-19 08:31:53.970 Jabil Maestro[26756:120354] -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7ad44a10
+2014-11-19 08:31:53.970 Jabil Maestro[26756:120354] *** WebKit discarded an uncaught exception in the webView:willRemoveScrollingLayer:withContentsLayer:forNode: delegate: <NSInvalidArgumentException> -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7ad44a10
+2014-11-19 08:32:46.340 Jabil Maestro[27764:122669] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/kumara1/Library/Developer/CoreSimulator/Devices/10224584-6BB9-456A-96F3-A4A33CDE100D/data/Containers/Data/Application/F66648DC-42F0-4EF8-91D7-2943480B69DE/Library/Cookies/Cookies.binarycookies
+2014-11-19 08:32:46.499 Jabil Maestro[27764:122669] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-19 08:32:46.500 Jabil Maestro[27764:122669] Multi-tasking -> Device: YES, App: YES
+2014-11-19 08:32:46.508 Jabil Maestro[27764:122669] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-11-19 08:32:46.798 Jabil Maestro[27764:122669] [CDVTimer][splashscreen] 28.832018ms
+2014-11-19 08:32:46.805 Jabil Maestro[27764:122669] [CDVTimer][statusbar] 6.244004ms
+2014-11-19 08:32:46.805 Jabil Maestro[27764:122669] [CDVTimer][TotalPluginStartup] 35.479963ms
+2014-11-19 08:32:46.884 Jabil Maestro[27764:122669] Resetting plugins due to page load.
+2014-11-19 08:32:47.269 Jabil Maestro[27764:122702] ERROR whitelist rejection: url='http://fonts.gstatic.com/s/robotocondensed/v12/b9QBgL0iMZfDSpmcXcE8nPZRQUbYfRc-1FWT9T9EE8M.woff'
+2014-11-19 08:32:47.271 Jabil Maestro[27764:122669] -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7afc2230
+2014-11-19 08:32:47.272 Jabil Maestro[27764:122669] *** WebKit discarded an uncaught exception in the webView:willRemoveScrollingLayer:withContentsLayer:forNode: delegate: <NSInvalidArgumentException> -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7afc2230
+2014-11-19 08:32:47.282 Jabil Maestro[27764:122669] Finished load of: file:///Users/kumara1/Library/Developer/CoreSimulator/Devices/10224584-6BB9-456A-96F3-A4A33CDE100D/data/Containers/Bundle/Application/D74AF046-8B36-4E27-9CF0-A306A8DAB5C8/Jabil%20Maestro.app/www/index.html
+2014-11-19 08:33:01.663 Jabil Maestro[27764:122669] -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7afc2230
+2014-11-19 08:33:01.663 Jabil Maestro[27764:122669] *** WebKit discarded an uncaught exception in the webView:willRemoveScrollingLayer:withContentsLayer:forNode: delegate: <NSInvalidArgumentException> -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7afc2230
+2014-11-19 08:59:31.160 Jabil Maestro[29481:135016] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/kumara1/Library/Developer/CoreSimulator/Devices/10224584-6BB9-456A-96F3-A4A33CDE100D/data/Containers/Data/Application/DE3BBC43-0293-4DC8-9285-77A34A3A0F4B/Library/Cookies/Cookies.binarycookies
+2014-11-19 08:59:31.253 Jabil Maestro[29481:135016] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-19 08:59:31.253 Jabil Maestro[29481:135016] Multi-tasking -> Device: YES, App: YES
+2014-11-19 08:59:31.261 Jabil Maestro[29481:135016] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-11-19 08:59:31.546 Jabil Maestro[29481:135016] [CDVTimer][splashscreen] 24.100006ms
+2014-11-19 08:59:31.575 Jabil Maestro[29481:135016] [CDVTimer][statusbar] 29.065013ms
+2014-11-19 08:59:31.575 Jabil Maestro[29481:135016] [CDVTimer][TotalPluginStartup] 53.641021ms
+2014-11-19 08:59:31.710 Jabil Maestro[29481:135016] Resetting plugins due to page load.
+2014-11-19 08:59:32.119 Jabil Maestro[29481:135016] -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7bee7990
+2014-11-19 08:59:32.119 Jabil Maestro[29481:135016] *** WebKit discarded an uncaught exception in the webView:willRemoveScrollingLayer:withContentsLayer:forNode: delegate: <NSInvalidArgumentException> -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7bee7990
+2014-11-19 08:59:32.130 Jabil Maestro[29481:135036] ERROR whitelist rejection: url='http://fonts.gstatic.com/s/robotocondensed/v12/b9QBgL0iMZfDSpmcXcE8nPZRQUbYfRc-1FWT9T9EE8M.woff'
+2014-11-19 08:59:32.135 Jabil Maestro[29481:135016] Finished load of: file:///Users/kumara1/Library/Developer/CoreSimulator/Devices/10224584-6BB9-456A-96F3-A4A33CDE100D/data/Containers/Bundle/Application/9C088125-7995-4C43-BE28-A90FFA00BE6E/Jabil%20Maestro.app/www/index.html
+2014-11-19 08:59:42.173 Jabil Maestro[29481:135016] -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7bee7990
+2014-11-19 08:59:42.174 Jabil Maestro[29481:135016] *** WebKit discarded an uncaught exception in the webView:willRemoveScrollingLayer:withContentsLayer:forNode: delegate: <NSInvalidArgumentException> -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7bee7990
+2014-11-19 09:11:15.289 Jabil Maestro[30799:140854] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/kumara1/Library/Developer/CoreSimulator/Devices/10224584-6BB9-456A-96F3-A4A33CDE100D/data/Containers/Data/Application/3A733012-126D-48FD-B3CD-636C7D416EE7/Library/Cookies/Cookies.binarycookies
+2014-11-19 09:11:15.409 Jabil Maestro[30799:140854] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-19 09:11:15.409 Jabil Maestro[30799:140854] Multi-tasking -> Device: YES, App: YES
+2014-11-19 09:11:15.417 Jabil Maestro[30799:140854] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-11-19 09:11:16.048 Jabil Maestro[30799:140854] [CDVTimer][splashscreen] 24.275005ms
+2014-11-19 09:11:16.079 Jabil Maestro[30799:140854] [CDVTimer][statusbar] 30.970991ms
+2014-11-19 09:11:16.079 Jabil Maestro[30799:140854] [CDVTimer][TotalPluginStartup] 55.733979ms
+2014-11-19 09:11:16.158 Jabil Maestro[30799:140854] Resetting plugins due to page load.
+2014-11-19 09:11:16.535 Jabil Maestro[30799:140854] -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7d4f80d0
+2014-11-19 09:11:16.535 Jabil Maestro[30799:140854] *** WebKit discarded an uncaught exception in the webView:willRemoveScrollingLayer:withContentsLayer:forNode: delegate: <NSInvalidArgumentException> -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7d4f80d0
+2014-11-19 09:11:16.545 Jabil Maestro[30799:140882] ERROR whitelist rejection: url='http://fonts.gstatic.com/s/robotocondensed/v12/b9QBgL0iMZfDSpmcXcE8nPZRQUbYfRc-1FWT9T9EE8M.woff'
+2014-11-19 09:11:16.550 Jabil Maestro[30799:140854] Finished load of: file:///Users/kumara1/Library/Developer/CoreSimulator/Devices/10224584-6BB9-456A-96F3-A4A33CDE100D/data/Containers/Bundle/Application/B6FC6399-CC6E-40E9-8CA3-7A6E4473F2D8/Jabil%20Maestro.app/www/index.html
+2014-11-19 09:11:25.117 Jabil Maestro[30799:140854] -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7d4f80d0
+2014-11-19 09:11:25.117 Jabil Maestro[30799:140854] *** WebKit discarded an uncaught exception in the webView:willRemoveScrollingLayer:withContentsLayer:forNode: delegate: <NSInvalidArgumentException> -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7d4f80d0
+2014-11-19 09:12:22.387 Jabil Maestro[31789:142715] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/kumara1/Library/Developer/CoreSimulator/Devices/10224584-6BB9-456A-96F3-A4A33CDE100D/data/Containers/Data/Application/8D2D2513-71F1-4A04-82BD-FC193F249475/Library/Cookies/Cookies.binarycookies
+2014-11-19 09:12:22.503 Jabil Maestro[31789:142715] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-19 09:12:22.504 Jabil Maestro[31789:142715] Multi-tasking -> Device: YES, App: YES
+2014-11-19 09:12:22.511 Jabil Maestro[31789:142715] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-11-19 09:12:22.799 Jabil Maestro[31789:142715] [CDVTimer][splashscreen] 19.093990ms
+2014-11-19 09:12:22.838 Jabil Maestro[31789:142715] [CDVTimer][statusbar] 38.313985ms
+2014-11-19 09:12:22.838 Jabil Maestro[31789:142715] [CDVTimer][TotalPluginStartup] 58.004022ms
+2014-11-19 09:12:22.921 Jabil Maestro[31789:142715] Resetting plugins due to page load.
+2014-11-19 09:12:23.310 Jabil Maestro[31789:142736] ERROR whitelist rejection: url='http://fonts.gstatic.com/s/robotocondensed/v12/b9QBgL0iMZfDSpmcXcE8nPZRQUbYfRc-1FWT9T9EE8M.woff'
+2014-11-19 09:12:23.312 Jabil Maestro[31789:142715] -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7c9e3dd0
+2014-11-19 09:12:23.313 Jabil Maestro[31789:142715] *** WebKit discarded an uncaught exception in the webView:willRemoveScrollingLayer:withContentsLayer:forNode: delegate: <NSInvalidArgumentException> -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7c9e3dd0
+2014-11-19 09:12:23.323 Jabil Maestro[31789:142715] Finished load of: file:///Users/kumara1/Library/Developer/CoreSimulator/Devices/10224584-6BB9-456A-96F3-A4A33CDE100D/data/Containers/Bundle/Application/FB3DD1B8-11BB-4457-98F5-9993BF303D5F/Jabil%20Maestro.app/www/index.html
+2014-11-19 09:12:30.843 Jabil Maestro[31789:142715] -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7c9e3dd0
+2014-11-19 09:12:30.843 Jabil Maestro[31789:142715] *** WebKit discarded an uncaught exception in the webView:willRemoveScrollingLayer:withContentsLayer:forNode: delegate: <NSInvalidArgumentException> -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7c9e3dd0
+2014-11-19 09:19:55.842 Jabil Maestro[32948:146950] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/kumara1/Library/Developer/CoreSimulator/Devices/10224584-6BB9-456A-96F3-A4A33CDE100D/data/Containers/Data/Application/5D8A1429-C535-4665-B7FB-5FD31218B995/Library/Cookies/Cookies.binarycookies
+2014-11-19 09:19:55.984 Jabil Maestro[32948:146950] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-19 09:19:55.984 Jabil Maestro[32948:146950] Multi-tasking -> Device: YES, App: YES
+2014-11-19 09:19:55.991 Jabil Maestro[32948:146950] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-11-19 09:19:56.284 Jabil Maestro[32948:146950] [CDVTimer][splashscreen] 41.153014ms
+2014-11-19 09:19:56.288 Jabil Maestro[32948:146950] [CDVTimer][statusbar] 4.266024ms
+2014-11-19 09:19:56.288 Jabil Maestro[32948:146950] [CDVTimer][TotalPluginStartup] 45.758009ms
+2014-11-19 09:19:56.377 Jabil Maestro[32948:146950] Resetting plugins due to page load.
+2014-11-19 09:19:56.762 Jabil Maestro[32948:146950] -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7b7a4020
+2014-11-19 09:19:56.762 Jabil Maestro[32948:146950] *** WebKit discarded an uncaught exception in the webView:willRemoveScrollingLayer:withContentsLayer:forNode: delegate: <NSInvalidArgumentException> -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7b7a4020
+2014-11-19 09:19:56.772 Jabil Maestro[32948:146971] ERROR whitelist rejection: url='http://fonts.gstatic.com/s/robotocondensed/v12/b9QBgL0iMZfDSpmcXcE8nPZRQUbYfRc-1FWT9T9EE8M.woff'
+2014-11-19 09:19:56.776 Jabil Maestro[32948:146950] Finished load of: file:///Users/kumara1/Library/Developer/CoreSimulator/Devices/10224584-6BB9-456A-96F3-A4A33CDE100D/data/Containers/Bundle/Application/5B5579C7-AF80-4E14-AF12-E076F0A7A100/Jabil%20Maestro.app/www/index.html
+2014-11-19 09:21:58.646 Jabil Maestro[32948:146950] -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7b7a4020
+2014-11-19 09:21:58.646 Jabil Maestro[32948:146950] *** WebKit discarded an uncaught exception in the webView:willRemoveScrollingLayer:withContentsLayer:forNode: delegate: <NSInvalidArgumentException> -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7b7a4020
+2014-11-19 10:48:01.639 Jabil Maestro[36175:184907] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/kumara1/Library/Developer/CoreSimulator/Devices/10224584-6BB9-456A-96F3-A4A33CDE100D/data/Containers/Data/Application/B6A6172A-5F1F-4FB5-BF9F-1640FB3FD675/Library/Cookies/Cookies.binarycookies
+2014-11-19 10:48:01.801 Jabil Maestro[36175:184907] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-19 10:48:01.801 Jabil Maestro[36175:184907] Multi-tasking -> Device: YES, App: YES
+2014-11-19 10:48:01.818 Jabil Maestro[36175:184907] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-11-19 10:48:02.204 Jabil Maestro[36175:184907] [CDVTimer][splashscreen] 94.003975ms
+2014-11-19 10:48:02.215 Jabil Maestro[36175:184907] [CDVTimer][statusbar] 10.115981ms
+2014-11-19 10:48:02.215 Jabil Maestro[36175:184907] [CDVTimer][TotalPluginStartup] 104.758024ms
+2014-11-19 10:48:02.382 Jabil Maestro[36175:184907] Resetting plugins due to page load.
+2014-11-19 10:48:02.867 Jabil Maestro[36175:184907] -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7966e4f0
+2014-11-19 10:48:02.867 Jabil Maestro[36175:184907] *** WebKit discarded an uncaught exception in the webView:willRemoveScrollingLayer:withContentsLayer:forNode: delegate: <NSInvalidArgumentException> -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7966e4f0
+2014-11-19 10:48:02.878 Jabil Maestro[36175:184969] ERROR whitelist rejection: url='http://fonts.gstatic.com/s/robotocondensed/v12/b9QBgL0iMZfDSpmcXcE8nPZRQUbYfRc-1FWT9T9EE8M.woff'
+2014-11-19 10:48:02.883 Jabil Maestro[36175:184907] Finished load of: file:///Users/kumara1/Library/Developer/CoreSimulator/Devices/10224584-6BB9-456A-96F3-A4A33CDE100D/data/Containers/Bundle/Application/BC72AFC8-6E9A-4818-ACF0-3310859E3154/Jabil%20Maestro.app/www/index.html
+2014-11-19 10:48:12.684 Jabil Maestro[36175:184907] -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7966e4f0
+2014-11-19 10:48:12.684 Jabil Maestro[36175:184907] *** WebKit discarded an uncaught exception in the webView:willRemoveScrollingLayer:withContentsLayer:forNode: delegate: <NSInvalidArgumentException> -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7966e4f0
+2014-11-19 10:51:06.041 Jabil Maestro[37277:187737] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/kumara1/Library/Developer/CoreSimulator/Devices/10224584-6BB9-456A-96F3-A4A33CDE100D/data/Containers/Data/Application/9B6111BE-3ED4-41F2-BFA7-ED5278736744/Library/Cookies/Cookies.binarycookies
+2014-11-19 10:51:06.155 Jabil Maestro[37277:187737] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-19 10:51:06.155 Jabil Maestro[37277:187737] Multi-tasking -> Device: YES, App: YES
+2014-11-19 10:51:06.163 Jabil Maestro[37277:187737] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-11-19 10:51:06.447 Jabil Maestro[37277:187737] [CDVTimer][splashscreen] 24.280012ms
+2014-11-19 10:51:06.452 Jabil Maestro[37277:187737] [CDVTimer][statusbar] 4.778028ms
+2014-11-19 10:51:06.452 Jabil Maestro[37277:187737] [CDVTimer][TotalPluginStartup] 29.353976ms
+2014-11-19 10:51:06.527 Jabil Maestro[37277:187737] Resetting plugins due to page load.
+2014-11-19 10:51:06.913 Jabil Maestro[37277:187758] ERROR whitelist rejection: url='http://fonts.gstatic.com/s/robotocondensed/v12/b9QBgL0iMZfDSpmcXcE8nPZRQUbYfRc-1FWT9T9EE8M.woff'
+2014-11-19 10:51:06.916 Jabil Maestro[37277:187737] -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x79854670
+2014-11-19 10:51:06.916 Jabil Maestro[37277:187737] *** WebKit discarded an uncaught exception in the webView:willRemoveScrollingLayer:withContentsLayer:forNode: delegate: <NSInvalidArgumentException> -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x79854670
+2014-11-19 10:51:06.928 Jabil Maestro[37277:187737] Finished load of: file:///Users/kumara1/Library/Developer/CoreSimulator/Devices/10224584-6BB9-456A-96F3-A4A33CDE100D/data/Containers/Bundle/Application/26457435-588E-4248-9853-5B355C072DD4/Jabil%20Maestro.app/www/index.html
+2014-11-19 10:54:30.320 Jabil Maestro[38321:190298] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/kumara1/Library/Developer/CoreSimulator/Devices/10224584-6BB9-456A-96F3-A4A33CDE100D/data/Containers/Data/Application/951AAA5C-D116-450E-BE26-BCA4A7A53B3D/Library/Cookies/Cookies.binarycookies
+2014-11-19 10:54:30.415 Jabil Maestro[38321:190298] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-19 10:54:30.415 Jabil Maestro[38321:190298] Multi-tasking -> Device: YES, App: YES
+2014-11-19 10:54:30.423 Jabil Maestro[38321:190298] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-11-19 10:54:30.700 Jabil Maestro[38321:190298] [CDVTimer][splashscreen] 21.306992ms
+2014-11-19 10:54:30.705 Jabil Maestro[38321:190298] [CDVTimer][statusbar] 5.025983ms
+2014-11-19 10:54:30.705 Jabil Maestro[38321:190298] [CDVTimer][TotalPluginStartup] 26.695967ms
+2014-11-19 10:54:30.783 Jabil Maestro[38321:190298] Resetting plugins due to page load.
+2014-11-19 10:54:31.172 Jabil Maestro[38321:190298] -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7ab532a0
+2014-11-19 10:54:31.172 Jabil Maestro[38321:190298] *** WebKit discarded an uncaught exception in the webView:willRemoveScrollingLayer:withContentsLayer:forNode: delegate: <NSInvalidArgumentException> -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7ab532a0
+2014-11-19 10:54:31.182 Jabil Maestro[38321:190319] ERROR whitelist rejection: url='http://fonts.gstatic.com/s/robotocondensed/v12/b9QBgL0iMZfDSpmcXcE8nPZRQUbYfRc-1FWT9T9EE8M.woff'
+2014-11-19 10:54:31.187 Jabil Maestro[38321:190298] Finished load of: file:///Users/kumara1/Library/Developer/CoreSimulator/Devices/10224584-6BB9-456A-96F3-A4A33CDE100D/data/Containers/Bundle/Application/B781D334-8563-4AD0-ADE3-9AD1D2541A57/Jabil%20Maestro.app/www/index.html
+2014-11-19 10:54:39.281 Jabil Maestro[38321:190298] -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7ab532a0
+2014-11-19 10:54:39.281 Jabil Maestro[38321:190298] *** WebKit discarded an uncaught exception in the webView:willRemoveScrollingLayer:withContentsLayer:forNode: delegate: <NSInvalidArgumentException> -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7ab532a0
+2014-12-01 12:01:51.445 Jabil Maestro[5142:58424] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/kumara1/Library/Developer/CoreSimulator/Devices/10224584-6BB9-456A-96F3-A4A33CDE100D/data/Containers/Data/Application/AAC43FA7-8835-4456-A284-7ABCE82B2B6A/Library/Cookies/Cookies.binarycookies
+2014-12-01 12:01:51.593 Jabil Maestro[5142:58424] Apache Cordova native platform version 3.6.3 is starting.
+2014-12-01 12:01:51.594 Jabil Maestro[5142:58424] Multi-tasking -> Device: YES, App: YES
+2014-12-01 12:01:51.696 Jabil Maestro[5142:58424] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-12-01 12:01:57.185 Jabil Maestro[5142:58424] [CDVTimer][splashscreen] 796.037018ms
+2014-12-01 12:01:57.205 Jabil Maestro[5142:58424] [CDVTimer][statusbar] 19.752979ms
+2014-12-01 12:01:57.206 Jabil Maestro[5142:58424] [CDVTimer][TotalPluginStartup] 816.232979ms
+2014-12-01 12:01:57.318 Jabil Maestro[5142:58424] Resetting plugins due to page load.
+2014-12-01 12:01:58.364 Jabil Maestro[5142:58475] ERROR whitelist rejection: url='http://fonts.gstatic.com/s/robotocondensed/v12/b9QBgL0iMZfDSpmcXcE8nPZRQUbYfRc-1FWT9T9EE8M.woff'
+2014-12-01 12:01:58.366 Jabil Maestro[5142:58424] -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x79fba140
+2014-12-01 12:01:58.369 Jabil Maestro[5142:58424] *** WebKit discarded an uncaught exception in the webView:willRemoveScrollingLayer:withContentsLayer:forNode: delegate: <NSInvalidArgumentException> -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x79fba140
+2014-12-01 12:01:58.401 Jabil Maestro[5142:58424] Finished load of: file:///Users/kumara1/Library/Developer/CoreSimulator/Devices/10224584-6BB9-456A-96F3-A4A33CDE100D/data/Containers/Bundle/Application/9505EBC3-F470-4BCF-9B85-B14C535A8CD0/Jabil%20Maestro.app/www/index.html
+2014-12-01 12:02:20.176 Jabil Maestro[5142:58424] -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x79fba140
+2014-12-01 12:02:20.176 Jabil Maestro[5142:58424] *** WebKit discarded an uncaught exception in the webView:willRemoveScrollingLayer:withContentsLayer:forNode: delegate: <NSInvalidArgumentException> -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x79fba140
+2014-12-01 13:40:49.051 Jabil Maestro[6954:78326] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/kumara1/Library/Developer/CoreSimulator/Devices/10224584-6BB9-456A-96F3-A4A33CDE100D/data/Containers/Data/Application/54F6894B-70E8-441D-BA7F-171131FB8FE4/Library/Cookies/Cookies.binarycookies
+2014-12-01 13:40:49.156 Jabil Maestro[6954:78326] Apache Cordova native platform version 3.6.3 is starting.
+2014-12-01 13:40:49.156 Jabil Maestro[6954:78326] Multi-tasking -> Device: YES, App: YES
+2014-12-01 13:40:49.163 Jabil Maestro[6954:78326] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-12-01 13:40:49.435 Jabil Maestro[6954:78326] [CDVTimer][splashscreen] 21.532953ms
+2014-12-01 13:40:49.440 Jabil Maestro[6954:78326] [CDVTimer][statusbar] 4.520953ms
+2014-12-01 13:40:49.440 Jabil Maestro[6954:78326] [CDVTimer][TotalPluginStartup] 26.543975ms
+2014-12-01 13:40:49.521 Jabil Maestro[6954:78326] Resetting plugins due to page load.
+2014-12-01 13:40:49.905 Jabil Maestro[6954:78326] -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x786478e0
+2014-12-01 13:40:49.905 Jabil Maestro[6954:78326] *** WebKit discarded an uncaught exception in the webView:willRemoveScrollingLayer:withContentsLayer:forNode: delegate: <NSInvalidArgumentException> -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x786478e0
+2014-12-01 13:40:49.914 Jabil Maestro[6954:78345] ERROR whitelist rejection: url='http://fonts.gstatic.com/s/robotocondensed/v12/b9QBgL0iMZfDSpmcXcE8nPZRQUbYfRc-1FWT9T9EE8M.woff'
+2014-12-01 13:40:49.919 Jabil Maestro[6954:78326] Finished load of: file:///Users/kumara1/Library/Developer/CoreSimulator/Devices/10224584-6BB9-456A-96F3-A4A33CDE100D/data/Containers/Bundle/Application/D544D9A7-6461-4F75-A7DC-F4F2C0028476/Jabil%20Maestro.app/www/index.html
+2014-12-01 13:41:04.500 Jabil Maestro[6954:78326] -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x786478e0
+2014-12-01 13:41:04.500 Jabil Maestro[6954:78326] *** WebKit discarded an uncaught exception in the webView:willRemoveScrollingLayer:withContentsLayer:forNode: delegate: <NSInvalidArgumentException> -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x786478e0
+2014-12-01 14:00:19.824 Jabil Maestro[8369:88590] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/kumara1/Library/Developer/CoreSimulator/Devices/10224584-6BB9-456A-96F3-A4A33CDE100D/data/Containers/Data/Application/68E29325-1CBC-4176-82AF-2DBDD39C998E/Library/Cookies/Cookies.binarycookies
+2014-12-01 14:00:19.982 Jabil Maestro[8369:88590] Apache Cordova native platform version 3.6.3 is starting.
+2014-12-01 14:00:19.982 Jabil Maestro[8369:88590] Multi-tasking -> Device: YES, App: YES
+2014-12-01 14:00:19.990 Jabil Maestro[8369:88590] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-12-01 14:00:20.393 Jabil Maestro[8369:88590] [CDVTimer][splashscreen] 18.011034ms
+2014-12-01 14:00:20.399 Jabil Maestro[8369:88590] [CDVTimer][statusbar] 4.960001ms
+2014-12-01 14:00:20.399 Jabil Maestro[8369:88590] [CDVTimer][TotalPluginStartup] 23.455977ms
+2014-12-01 14:00:20.477 Jabil Maestro[8369:88590] Resetting plugins due to page load.
+2014-12-01 14:00:20.866 Jabil Maestro[8369:88622] ERROR whitelist rejection: url='http://fonts.gstatic.com/s/robotocondensed/v12/b9QBgL0iMZfDSpmcXcE8nPZRQUbYfRc-1FWT9T9EE8M.woff'
+2014-12-01 14:00:20.868 Jabil Maestro[8369:88590] -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7afc45d0
+2014-12-01 14:00:20.869 Jabil Maestro[8369:88590] *** WebKit discarded an uncaught exception in the webView:willRemoveScrollingLayer:withContentsLayer:forNode: delegate: <NSInvalidArgumentException> -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7afc45d0
+2014-12-01 14:00:20.879 Jabil Maestro[8369:88590] Finished load of: file:///Users/kumara1/Library/Developer/CoreSimulator/Devices/10224584-6BB9-456A-96F3-A4A33CDE100D/data/Containers/Bundle/Application/59BE2789-E771-4AE3-B8E6-95C9495F02E7/Jabil%20Maestro.app/www/index.html
+2014-12-01 14:00:28.684 Jabil Maestro[8369:88590] -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7afc45d0
+2014-12-01 14:00:28.684 Jabil Maestro[8369:88590] *** WebKit discarded an uncaught exception in the webView:willRemoveScrollingLayer:withContentsLayer:forNode: delegate: <NSInvalidArgumentException> -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7afc45d0
+2014-12-01 14:02:11.841 Jabil Maestro[8369:88590] Snapshotting a view that has not been rendered results in an empty snapshot. Ensure your view has been rendered at least once before snapshotting or snapshot after screen updates.
+2014-12-01 14:03:00.451 Jabil Maestro[9381:91468] Apache Cordova native platform version 3.6.3 is starting.
+2014-12-01 14:03:00.452 Jabil Maestro[9381:91468] Multi-tasking -> Device: YES, App: YES
+2014-12-01 14:03:00.459 Jabil Maestro[9381:91468] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-12-01 14:03:00.736 Jabil Maestro[9381:91468] [CDVTimer][splashscreen] 22.274017ms
+2014-12-01 14:03:00.763 Jabil Maestro[9381:91468] [CDVTimer][statusbar] 26.898026ms
+2014-12-01 14:03:00.764 Jabil Maestro[9381:91468] [CDVTimer][TotalPluginStartup] 49.633980ms
+2014-12-01 14:03:00.846 Jabil Maestro[9381:91468] Resetting plugins due to page load.
+2014-12-01 14:03:01.219 Jabil Maestro[9381:91468] -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7b886c50
+2014-12-01 14:03:01.219 Jabil Maestro[9381:91468] *** WebKit discarded an uncaught exception in the webView:willRemoveScrollingLayer:withContentsLayer:forNode: delegate: <NSInvalidArgumentException> -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7b886c50
+2014-12-01 14:03:01.229 Jabil Maestro[9381:91490] ERROR whitelist rejection: url='http://fonts.gstatic.com/s/robotocondensed/v12/b9QBgL0iMZfDSpmcXcE8nPZRQUbYfRc-1FWT9T9EE8M.woff'
+2014-12-01 14:03:01.234 Jabil Maestro[9381:91468] Finished load of: file:///Users/kumara1/Library/Developer/CoreSimulator/Devices/10224584-6BB9-456A-96F3-A4A33CDE100D/data/Containers/Bundle/Application/180339FE-E6DB-496B-A715-773772158670/Jabil%20Maestro.app/www/index.html
+2014-12-01 14:03:10.636 Jabil Maestro[9381:91468] -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7b886c50
+2014-12-01 14:03:10.636 Jabil Maestro[9381:91468] *** WebKit discarded an uncaught exception in the webView:willRemoveScrollingLayer:withContentsLayer:forNode: delegate: <NSInvalidArgumentException> -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7b886c50
+2014-12-03 13:55:06.871 Jabil Maestro[20287:238326] Apache Cordova native platform version 3.6.3 is starting.
+2014-12-03 13:55:06.872 Jabil Maestro[20287:238326] Multi-tasking -> Device: YES, App: YES
+2014-12-03 13:55:06.879 Jabil Maestro[20287:238326] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-12-03 13:55:07.415 Jabil Maestro[20287:238326] [CDVTimer][splashscreen] 102.059007ms
+2014-12-03 13:55:07.419 Jabil Maestro[20287:238326] [CDVTimer][statusbar] 4.441977ms
+2014-12-03 13:55:07.419 Jabil Maestro[20287:238326] [CDVTimer][TotalPluginStartup] 106.818020ms
+2014-12-03 13:55:07.589 Jabil Maestro[20287:238326] Resetting plugins due to page load.
+2014-12-03 13:55:07.986 Jabil Maestro[20287:238326] -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x792a9aa0
+2014-12-03 13:55:07.987 Jabil Maestro[20287:238326] *** WebKit discarded an uncaught exception in the webView:willRemoveScrollingLayer:withContentsLayer:forNode: delegate: <NSInvalidArgumentException> -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x792a9aa0
+2014-12-03 13:55:07.997 Jabil Maestro[20287:238379] ERROR whitelist rejection: url='http://fonts.gstatic.com/s/robotocondensed/v12/b9QBgL0iMZfDSpmcXcE8nPZRQUbYfRc-1FWT9T9EE8M.woff'
+2014-12-03 13:55:08.001 Jabil Maestro[20287:238326] Finished load of: file:///Users/kumara1/Library/Developer/CoreSimulator/Devices/10224584-6BB9-456A-96F3-A4A33CDE100D/data/Containers/Bundle/Application/E4F7CEE7-806D-4D19-A8C1-10EF1F846B47/Jabil%20Maestro.app/www/index.html
+2014-12-03 13:55:40.349 Jabil Maestro[21266:239971] Apache Cordova native platform version 3.6.3 is starting.
+2014-12-03 13:55:40.350 Jabil Maestro[21266:239971] Multi-tasking -> Device: YES, App: YES
+2014-12-03 13:55:40.357 Jabil Maestro[21266:239971] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-12-03 13:55:40.634 Jabil Maestro[21266:239971] [CDVTimer][splashscreen] 20.916045ms
+2014-12-03 13:55:40.639 Jabil Maestro[21266:239971] [CDVTimer][statusbar] 4.839003ms
+2014-12-03 13:55:40.640 Jabil Maestro[21266:239971] [CDVTimer][TotalPluginStartup] 26.045024ms
+2014-12-03 13:55:40.716 Jabil Maestro[21266:239971] Resetting plugins due to page load.
+2014-12-03 13:55:41.095 Jabil Maestro[21266:239971] -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7a45b590
+2014-12-03 13:55:41.096 Jabil Maestro[21266:239971] *** WebKit discarded an uncaught exception in the webView:willRemoveScrollingLayer:withContentsLayer:forNode: delegate: <NSInvalidArgumentException> -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7a45b590
+2014-12-03 13:55:41.107 Jabil Maestro[21266:239991] ERROR whitelist rejection: url='http://fonts.gstatic.com/s/robotocondensed/v12/b9QBgL0iMZfDSpmcXcE8nPZRQUbYfRc-1FWT9T9EE8M.woff'
+2014-12-03 13:55:41.111 Jabil Maestro[21266:239971] Finished load of: file:///Users/kumara1/Library/Developer/CoreSimulator/Devices/10224584-6BB9-456A-96F3-A4A33CDE100D/data/Containers/Bundle/Application/8F160F7C-5B8C-4122-BD98-2CAD0E461036/Jabil%20Maestro.app/www/index.html
+2014-12-03 13:59:05.227 Jabil Maestro[22358:243300] Apache Cordova native platform version 3.6.3 is starting.
+2014-12-03 13:59:05.228 Jabil Maestro[22358:243300] Multi-tasking -> Device: YES, App: YES
+2014-12-03 13:59:05.235 Jabil Maestro[22358:243300] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-12-03 13:59:05.554 Jabil Maestro[22358:243300] [CDVTimer][splashscreen] 20.196974ms
+2014-12-03 13:59:05.627 Jabil Maestro[22358:243300] [CDVTimer][statusbar] 73.539972ms
+2014-12-03 13:59:05.627 Jabil Maestro[22358:243300] [CDVTimer][TotalPluginStartup] 94.132006ms
+2014-12-03 13:59:05.713 Jabil Maestro[22358:243300] Resetting plugins due to page load.
+2014-12-03 13:59:06.089 Jabil Maestro[22358:243300] -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x78f7ed50
+2014-12-03 13:59:06.089 Jabil Maestro[22358:243300] *** WebKit discarded an uncaught exception in the webView:willRemoveScrollingLayer:withContentsLayer:forNode: delegate: <NSInvalidArgumentException> -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x78f7ed50
+2014-12-03 13:59:06.099 Jabil Maestro[22358:243334] ERROR whitelist rejection: url='http://fonts.gstatic.com/s/robotocondensed/v12/b9QBgL0iMZfDSpmcXcE8nPZRQUbYfRc-1FWT9T9EE8M.woff'
+2014-12-03 13:59:06.104 Jabil Maestro[22358:243300] Finished load of: file:///Users/kumara1/Library/Developer/CoreSimulator/Devices/10224584-6BB9-456A-96F3-A4A33CDE100D/data/Containers/Bundle/Application/3E3A7A8B-0AF0-4D5E-BD9C-19AEC0CF8FF8/Jabil%20Maestro.app/www/index.html
+2014-12-03 14:05:21.163 Jabil Maestro[23542:247204] Apache Cordova native platform version 3.6.3 is starting.
+2014-12-03 14:05:21.164 Jabil Maestro[23542:247204] Multi-tasking -> Device: YES, App: YES
+2014-12-03 14:05:21.171 Jabil Maestro[23542:247204] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-12-03 14:05:21.463 Jabil Maestro[23542:247204] [CDVTimer][splashscreen] 24.336994ms
+2014-12-03 14:05:21.520 Jabil Maestro[23542:247204] [CDVTimer][statusbar] 56.258023ms
+2014-12-03 14:05:21.520 Jabil Maestro[23542:247204] [CDVTimer][TotalPluginStartup] 81.152022ms
+2014-12-03 14:05:21.601 Jabil Maestro[23542:247204] Resetting plugins due to page load.
+2014-12-03 14:05:21.990 Jabil Maestro[23542:247223] ERROR whitelist rejection: url='http://fonts.gstatic.com/s/robotocondensed/v12/b9QBgL0iMZfDSpmcXcE8nPZRQUbYfRc-1FWT9T9EE8M.woff'
+2014-12-03 14:05:21.992 Jabil Maestro[23542:247204] -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x786e5770
+2014-12-03 14:05:21.992 Jabil Maestro[23542:247204] *** WebKit discarded an uncaught exception in the webView:willRemoveScrollingLayer:withContentsLayer:forNode: delegate: <NSInvalidArgumentException> -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x786e5770
+2014-12-03 14:05:22.003 Jabil Maestro[23542:247204] Finished load of: file:///Users/kumara1/Library/Developer/CoreSimulator/Devices/10224584-6BB9-456A-96F3-A4A33CDE100D/data/Containers/Bundle/Application/2757931E-F65A-4EDF-B82B-281DEB93C84C/Jabil%20Maestro.app/www/index.html
+2014-12-03 14:05:30.606 Jabil Maestro[23542:247204] -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x786e5770
+2014-12-03 14:05:30.606 Jabil Maestro[23542:247204] *** WebKit discarded an uncaught exception in the webView:willRemoveScrollingLayer:withContentsLayer:forNode: delegate: <NSInvalidArgumentException> -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x786e5770
+2014-12-03 14:12:05.910 Jabil Maestro[24690:251806] Apache Cordova native platform version 3.6.3 is starting.
+2014-12-03 14:12:05.911 Jabil Maestro[24690:251806] Multi-tasking -> Device: YES, App: YES
+2014-12-03 14:12:05.919 Jabil Maestro[24690:251806] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-12-03 14:12:06.198 Jabil Maestro[24690:251806] [CDVTimer][splashscreen] 23.708999ms
+2014-12-03 14:12:06.203 Jabil Maestro[24690:251806] [CDVTimer][statusbar] 4.485011ms
+2014-12-03 14:12:06.203 Jabil Maestro[24690:251806] [CDVTimer][TotalPluginStartup] 28.490007ms
+2014-12-03 14:12:06.325 Jabil Maestro[24690:251806] Resetting plugins due to page load.
+2014-12-03 14:12:06.702 Jabil Maestro[24690:251806] -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7b77b970
+2014-12-03 14:12:06.702 Jabil Maestro[24690:251806] *** WebKit discarded an uncaught exception in the webView:willRemoveScrollingLayer:withContentsLayer:forNode: delegate: <NSInvalidArgumentException> -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7b77b970
+2014-12-03 14:12:06.713 Jabil Maestro[24690:251826] ERROR whitelist rejection: url='http://fonts.gstatic.com/s/robotocondensed/v12/b9QBgL0iMZfDSpmcXcE8nPZRQUbYfRc-1FWT9T9EE8M.woff'
+2014-12-03 14:12:06.718 Jabil Maestro[24690:251806] Finished load of: file:///Users/kumara1/Library/Developer/CoreSimulator/Devices/10224584-6BB9-456A-96F3-A4A33CDE100D/data/Containers/Bundle/Application/438974A0-C080-44CF-9CC3-DD742C310610/Jabil%20Maestro.app/www/index.html
+2014-12-03 14:12:14.523 Jabil Maestro[24690:251806] -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7b77b970
+2014-12-03 14:12:14.523 Jabil Maestro[24690:251806] *** WebKit discarded an uncaught exception in the webView:willRemoveScrollingLayer:withContentsLayer:forNode: delegate: <NSInvalidArgumentException> -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7b77b970
+2014-12-03 14:58:11.557 Jabil Maestro[26976:270922] Apache Cordova native platform version 3.6.3 is starting.
+2014-12-03 14:58:11.558 Jabil Maestro[26976:270922] Multi-tasking -> Device: YES, App: YES
+2014-12-03 14:58:11.566 Jabil Maestro[26976:270922] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-12-03 14:58:12.238 Jabil Maestro[26976:270922] [CDVTimer][splashscreen] 335.569024ms
+2014-12-03 14:58:12.342 Jabil Maestro[26976:270922] [CDVTimer][statusbar] 103.150964ms
+2014-12-03 14:58:12.342 Jabil Maestro[26976:270922] [CDVTimer][TotalPluginStartup] 439.191997ms
+2014-12-03 14:58:12.423 Jabil Maestro[26976:270922] Resetting plugins due to page load.
+2014-12-03 14:58:12.813 Jabil Maestro[26976:270922] -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7b15eaf0
+2014-12-03 14:58:12.813 Jabil Maestro[26976:270922] *** WebKit discarded an uncaught exception in the webView:willRemoveScrollingLayer:withContentsLayer:forNode: delegate: <NSInvalidArgumentException> -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7b15eaf0
+2014-12-03 14:58:12.823 Jabil Maestro[26976:270954] ERROR whitelist rejection: url='http://fonts.gstatic.com/s/robotocondensed/v12/b9QBgL0iMZfDSpmcXcE8nPZRQUbYfRc-1FWT9T9EE8M.woff'
+2014-12-03 14:58:12.828 Jabil Maestro[26976:270922] Finished load of: file:///Users/kumara1/Library/Developer/CoreSimulator/Devices/10224584-6BB9-456A-96F3-A4A33CDE100D/data/Containers/Bundle/Application/BC78FF8F-C2DF-4558-B79F-7FD4CCE1D420/Jabil%20Maestro.app/www/index.html
+2014-12-03 14:58:21.512 Jabil Maestro[26976:270922] -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7b15eaf0
+2014-12-03 14:58:21.513 Jabil Maestro[26976:270922] *** WebKit discarded an uncaught exception in the webView:willRemoveScrollingLayer:withContentsLayer:forNode: delegate: <NSInvalidArgumentException> -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7b15eaf0
+2014-12-03 15:34:09.280 Jabil Maestro[30020:288882] Apache Cordova native platform version 3.6.3 is starting.
+2014-12-03 15:34:09.281 Jabil Maestro[30020:288882] Multi-tasking -> Device: YES, App: YES
+2014-12-03 15:34:09.289 Jabil Maestro[30020:288882] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-12-03 15:34:09.577 Jabil Maestro[30020:288882] [CDVTimer][splashscreen] 19.062996ms
+2014-12-03 15:34:09.595 Jabil Maestro[30020:288882] [CDVTimer][statusbar] 18.132031ms
+2014-12-03 15:34:09.596 Jabil Maestro[30020:288882] [CDVTimer][TotalPluginStartup] 37.665963ms
+2014-12-03 15:34:09.676 Jabil Maestro[30020:288882] Resetting plugins due to page load.
+2014-12-03 15:34:10.077 Jabil Maestro[30020:288901] ERROR whitelist rejection: url='http://fonts.gstatic.com/s/robotocondensed/v12/b9QBgL0iMZfDSpmcXcE8nPZRQUbYfRc-1FWT9T9EE8M.woff'
+2014-12-03 15:34:10.080 Jabil Maestro[30020:288882] -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x79e70280
+2014-12-03 15:34:10.080 Jabil Maestro[30020:288882] *** WebKit discarded an uncaught exception in the webView:willRemoveScrollingLayer:withContentsLayer:forNode: delegate: <NSInvalidArgumentException> -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x79e70280
+2014-12-03 15:34:10.092 Jabil Maestro[30020:288882] Finished load of: file:///Users/kumara1/Library/Developer/CoreSimulator/Devices/10224584-6BB9-456A-96F3-A4A33CDE100D/data/Containers/Bundle/Application/2AB54A8A-4C8A-46BE-AE0E-9860E731CBA3/Jabil%20Maestro.app/www/index.html
+2014-12-03 15:34:20.762 Jabil Maestro[30020:288882] -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x79e70280
+2014-12-03 15:34:20.762 Jabil Maestro[30020:288882] *** WebKit discarded an uncaught exception in the webView:willRemoveScrollingLayer:withContentsLayer:forNode: delegate: <NSInvalidArgumentException> -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x79e70280
+2014-12-03 16:09:30.380 Jabil Maestro[32869:306447] Apache Cordova native platform version 3.6.3 is starting.
+2014-12-03 16:09:30.381 Jabil Maestro[32869:306447] Multi-tasking -> Device: YES, App: YES
+2014-12-03 16:09:30.389 Jabil Maestro[32869:306447] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-12-03 16:09:30.675 Jabil Maestro[32869:306447] [CDVTimer][splashscreen] 25.146008ms
+2014-12-03 16:09:30.711 Jabil Maestro[32869:306447] [CDVTimer][statusbar] 35.634995ms
+2014-12-03 16:09:30.711 Jabil Maestro[32869:306447] [CDVTimer][TotalPluginStartup] 61.106980ms
+2014-12-03 16:09:30.788 Jabil Maestro[32869:306447] Resetting plugins due to page load.
+2014-12-03 16:09:31.194 Jabil Maestro[32869:306447] -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7978b870
+2014-12-03 16:09:31.194 Jabil Maestro[32869:306447] *** WebKit discarded an uncaught exception in the webView:willRemoveScrollingLayer:withContentsLayer:forNode: delegate: <NSInvalidArgumentException> -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7978b870
+2014-12-03 16:09:31.206 Jabil Maestro[32869:306465] ERROR whitelist rejection: url='http://fonts.gstatic.com/s/robotocondensed/v12/b9QBgL0iMZfDSpmcXcE8nPZRQUbYfRc-1FWT9T9EE8M.woff'
+2014-12-03 16:09:31.211 Jabil Maestro[32869:306447] Finished load of: file:///Users/kumara1/Library/Developer/CoreSimulator/Devices/10224584-6BB9-456A-96F3-A4A33CDE100D/data/Containers/Bundle/Application/A7EEFD96-30AC-4027-8F24-332B8902A168/Jabil%20Maestro.app/www/index.html
+2014-12-03 16:09:40.335 Jabil Maestro[32869:306447] -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7978b870
+2014-12-03 16:09:40.335 Jabil Maestro[32869:306447] *** WebKit discarded an uncaught exception in the webView:willRemoveScrollingLayer:withContentsLayer:forNode: delegate: <NSInvalidArgumentException> -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7978b870
+2014-12-03 16:17:59.399 Jabil Maestro[40485:318817] Apache Cordova native platform version 3.6.3 is starting.
+2014-12-03 16:17:59.400 Jabil Maestro[40485:318817] Multi-tasking -> Device: YES, App: YES
+2014-12-03 16:17:59.407 Jabil Maestro[40485:318817] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-12-03 16:17:59.693 Jabil Maestro[40485:318817] [CDVTimer][splashscreen] 23.795009ms
+2014-12-03 16:17:59.707 Jabil Maestro[40485:318817] [CDVTimer][statusbar] 13.773978ms
+2014-12-03 16:17:59.707 Jabil Maestro[40485:318817] [CDVTimer][TotalPluginStartup] 38.034976ms
+2014-12-03 16:17:59.786 Jabil Maestro[40485:318817] Resetting plugins due to page load.
+2014-12-03 16:18:00.178 Jabil Maestro[40485:318837] ERROR whitelist rejection: url='http://fonts.gstatic.com/s/robotocondensed/v12/b9QBgL0iMZfDSpmcXcE8nPZRQUbYfRc-1FWT9T9EE8M.woff'
+2014-12-03 16:18:00.181 Jabil Maestro[40485:318817] -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7a651d90
+2014-12-03 16:18:00.181 Jabil Maestro[40485:318817] *** WebKit discarded an uncaught exception in the webView:willRemoveScrollingLayer:withContentsLayer:forNode: delegate: <NSInvalidArgumentException> -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7a651d90
+2014-12-03 16:18:00.192 Jabil Maestro[40485:318817] Finished load of: file:///Users/kumara1/Library/Developer/CoreSimulator/Devices/10224584-6BB9-456A-96F3-A4A33CDE100D/data/Containers/Bundle/Application/585EF495-4442-48BE-AAB9-08612D0D502E/Jabil%20Maestro.app/www/index.html
+2014-12-03 16:18:07.565 Jabil Maestro[40485:318817] -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7a651d90
+2014-12-03 16:18:07.565 Jabil Maestro[40485:318817] *** WebKit discarded an uncaught exception in the webView:willRemoveScrollingLayer:withContentsLayer:forNode: delegate: <NSInvalidArgumentException> -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7a651d90
+2014-12-03 16:20:56.235 Jabil Maestro[40485:323995] Terminating since there is no system app.
+2014-12-04 13:26:52.489 Jabil Maestro[48168:347330] Apache Cordova native platform version 3.6.3 is starting.
+2014-12-04 13:26:52.490 Jabil Maestro[48168:347330] Multi-tasking -> Device: YES, App: YES
+2014-12-04 13:26:52.497 Jabil Maestro[48168:347330] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-12-04 13:26:52.876 Jabil Maestro[48168:347330] [CDVTimer][splashscreen] 18.999994ms
+2014-12-04 13:26:52.887 Jabil Maestro[48168:347330] [CDVTimer][statusbar] 11.027992ms
+2014-12-04 13:26:52.887 Jabil Maestro[48168:347330] [CDVTimer][TotalPluginStartup] 30.362010ms
+2014-12-04 13:26:52.963 Jabil Maestro[48168:347330] Resetting plugins due to page load.
+2014-12-04 13:26:53.351 Jabil Maestro[48168:347330] -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x797c5f50
+2014-12-04 13:26:53.351 Jabil Maestro[48168:347330] *** WebKit discarded an uncaught exception in the webView:willRemoveScrollingLayer:withContentsLayer:forNode: delegate: <NSInvalidArgumentException> -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x797c5f50
+2014-12-04 13:26:53.361 Jabil Maestro[48168:347354] ERROR whitelist rejection: url='http://fonts.gstatic.com/s/robotocondensed/v12/b9QBgL0iMZfDSpmcXcE8nPZRQUbYfRc-1FWT9T9EE8M.woff'
+2014-12-04 13:26:53.365 Jabil Maestro[48168:347330] Finished load of: file:///Users/kumara1/Library/Developer/CoreSimulator/Devices/10224584-6BB9-456A-96F3-A4A33CDE100D/data/Containers/Bundle/Application/F31AE64F-215F-414D-B670-289BBEA044E7/Jabil%20Maestro.app/www/index.html
+2014-12-04 13:34:51.511 Jabil Maestro[48168:347330] -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x797c5f50
+2014-12-04 13:34:51.511 Jabil Maestro[48168:347330] *** WebKit discarded an uncaught exception in the webView:willRemoveScrollingLayer:withContentsLayer:forNode: delegate: <NSInvalidArgumentException> -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x797c5f50
+2014-12-04 13:36:54.463 Jabil Maestro[49843:357356] Apache Cordova native platform version 3.6.3 is starting.
+2014-12-04 13:36:54.464 Jabil Maestro[49843:357356] Multi-tasking -> Device: YES, App: YES
+2014-12-04 13:36:54.471 Jabil Maestro[49843:357356] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-12-04 13:36:54.750 Jabil Maestro[49843:357356] [CDVTimer][splashscreen] 19.986033ms
+2014-12-04 13:36:54.754 Jabil Maestro[49843:357356] [CDVTimer][statusbar] 4.432023ms
+2014-12-04 13:36:54.755 Jabil Maestro[49843:357356] [CDVTimer][TotalPluginStartup] 24.706960ms
+2014-12-04 13:36:54.831 Jabil Maestro[49843:357356] Resetting plugins due to page load.
+2014-12-04 13:36:55.208 Jabil Maestro[49843:357373] ERROR whitelist rejection: url='http://fonts.gstatic.com/s/robotocondensed/v12/b9QBgL0iMZfDSpmcXcE8nPZRQUbYfRc-1FWT9T9EE8M.woff'
+2014-12-04 13:36:55.211 Jabil Maestro[49843:357356] -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7caba610
+2014-12-04 13:36:55.211 Jabil Maestro[49843:357356] *** WebKit discarded an uncaught exception in the webView:willRemoveScrollingLayer:withContentsLayer:forNode: delegate: <NSInvalidArgumentException> -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7caba610
+2014-12-04 13:36:55.222 Jabil Maestro[49843:357356] Finished load of: file:///Users/kumara1/Library/Developer/CoreSimulator/Devices/10224584-6BB9-456A-96F3-A4A33CDE100D/data/Containers/Bundle/Application/150E15D3-6F1E-46B1-947C-A104DA1870A5/Jabil%20Maestro.app/www/index.html
+2014-12-04 13:37:04.473 Jabil Maestro[49843:357356] NSURLConnection/CFURLConnection HTTP load failed (kCFStreamErrorDomainSSL, -9813)
+2014-12-04 13:37:22.679 Jabil Maestro[50817:358954] Apache Cordova native platform version 3.6.3 is starting.
+2014-12-04 13:37:22.680 Jabil Maestro[50817:358954] Multi-tasking -> Device: YES, App: YES
+2014-12-04 13:37:22.688 Jabil Maestro[50817:358954] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-12-04 13:37:23.003 Jabil Maestro[50817:358954] [CDVTimer][splashscreen] 18.931031ms
+2014-12-04 13:37:23.007 Jabil Maestro[50817:358954] [CDVTimer][statusbar] 4.023015ms
+2014-12-04 13:37:23.008 Jabil Maestro[50817:358954] [CDVTimer][TotalPluginStartup] 23.253977ms
+2014-12-04 13:37:23.089 Jabil Maestro[50817:358954] Resetting plugins due to page load.
+2014-12-04 13:37:23.487 Jabil Maestro[50817:358954] -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7a897bc0
+2014-12-04 13:37:23.488 Jabil Maestro[50817:358954] *** WebKit discarded an uncaught exception in the webView:willRemoveScrollingLayer:withContentsLayer:forNode: delegate: <NSInvalidArgumentException> -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7a897bc0
+2014-12-04 13:37:23.497 Jabil Maestro[50817:358987] ERROR whitelist rejection: url='http://fonts.gstatic.com/s/robotocondensed/v12/b9QBgL0iMZfDSpmcXcE8nPZRQUbYfRc-1FWT9T9EE8M.woff'
+2014-12-04 13:37:23.502 Jabil Maestro[50817:358954] Finished load of: file:///Users/kumara1/Library/Developer/CoreSimulator/Devices/10224584-6BB9-456A-96F3-A4A33CDE100D/data/Containers/Bundle/Application/EEC67527-8D07-4EEF-AA6C-A5B7C57EB902/Jabil%20Maestro.app/www/index.html
+2014-12-04 13:37:32.328 Jabil Maestro[50817:358954] -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7a897bc0
+2014-12-04 13:37:32.328 Jabil Maestro[50817:358954] *** WebKit discarded an uncaught exception in the webView:willRemoveScrollingLayer:withContentsLayer:forNode: delegate: <NSInvalidArgumentException> -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7a897bc0
+2014-12-04 16:16:30.866 Jabil Maestro[50817:428952] Terminating since there is no system app.

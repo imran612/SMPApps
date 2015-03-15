@@ -1,0 +1,101 @@
+2014-06-24 15:10:55.977 EnterpriseShopping[8153:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-24 15:10:55.986 EnterpriseShopping[8153:70b] Unlimited access to network resources
+2014-06-24 15:10:55.989 EnterpriseShopping[8153:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-06-24 15:10:56.147 EnterpriseShopping[8153:70b] Resetting plugins due to page load.
+2014-06-24 15:10:56.357 EnterpriseShopping[8153:70b] Finished load of: file:///Users/kumara1/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/CC668653-BE60-4585-BBC5-2B5AD347943B/EnterpriseShopping.app/www/index.html
+2014-06-24 15:10:56.462 EnterpriseShopping[8153:70b] THREAD WARNING: ['InAppBrowser'] took '70.633057' ms. Plugin should use a background thread.
+2014-06-24 15:11:42.773 EnterpriseShopping[8234:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-24 15:11:42.779 EnterpriseShopping[8234:70b] Unlimited access to network resources
+2014-06-24 15:11:42.782 EnterpriseShopping[8234:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-06-24 15:11:42.845 EnterpriseShopping[8234:70b] Resetting plugins due to page load.
+2014-06-24 15:11:42.883 EnterpriseShopping[8234:70b] Finished load of: file:///Users/kumara1/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/CC668653-BE60-4585-BBC5-2B5AD347943B/EnterpriseShopping.app/www/index.html
+2014-06-24 15:11:42.914 EnterpriseShopping[8234:70b] Setting the WebView's frame to {{0, 0}, {320, 436}}
+2014-06-24 15:11:42.918 EnterpriseShopping[8234:70b] THREAD WARNING: ['InAppBrowser'] took '18.761719' ms. Plugin should use a background thread.
+2014-06-24 15:16:22.916 EnterpriseShopping[8315:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-24 15:16:22.923 EnterpriseShopping[8315:70b] Unlimited access to network resources
+2014-06-24 15:16:22.925 EnterpriseShopping[8315:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-06-24 15:16:22.973 EnterpriseShopping[8315:70b] Resetting plugins due to page load.
+2014-06-24 15:16:23.014 EnterpriseShopping[8315:70b] Finished load of: file:///Users/kumara1/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/CC668653-BE60-4585-BBC5-2B5AD347943B/EnterpriseShopping.app/www/index.html
+2014-06-24 15:16:23.038 EnterpriseShopping[8315:70b] Setting the WebView's frame to {{0, 0}, {320, 436}}
+2014-06-24 15:16:23.041 EnterpriseShopping[8315:70b] THREAD WARNING: ['InAppBrowser'] took '19.835938' ms. Plugin should use a background thread.
+2014-06-24 15:17:17.078 EnterpriseShopping[8390:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-24 15:17:17.085 EnterpriseShopping[8390:70b] Unlimited access to network resources
+2014-06-24 15:17:17.088 EnterpriseShopping[8390:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-06-24 15:17:17.137 EnterpriseShopping[8390:70b] Resetting plugins due to page load.
+2014-06-24 15:17:17.176 EnterpriseShopping[8390:70b] Finished load of: file:///Users/kumara1/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/CC668653-BE60-4585-BBC5-2B5AD347943B/EnterpriseShopping.app/www/index.html
+2014-06-24 15:17:17.198 EnterpriseShopping[8390:70b] Setting the WebView's frame to {{0, 0}, {320, 436}}
+2014-06-24 15:17:17.201 EnterpriseShopping[8390:70b] THREAD WARNING: ['InAppBrowser'] took '17.875244' ms. Plugin should use a background thread.
+2014-06-24 15:17:25.594 EnterpriseShopping[8390:70b] webView:didFailLoadWithError - -1003: A server with the specified hostname could not be found.
+2014-06-24 15:17:47.322 EnterpriseShopping[8463:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-24 15:17:47.329 EnterpriseShopping[8463:70b] Unlimited access to network resources
+2014-06-24 15:17:47.331 EnterpriseShopping[8463:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-06-24 15:17:47.375 EnterpriseShopping[8463:70b] Resetting plugins due to page load.
+2014-06-24 15:17:47.414 EnterpriseShopping[8463:70b] Finished load of: file:///Users/kumara1/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/CC668653-BE60-4585-BBC5-2B5AD347943B/EnterpriseShopping.app/www/index.html
+2014-06-24 15:17:47.438 EnterpriseShopping[8463:70b] THREAD WARNING: ['InAppBrowser'] took '17.236816' ms. Plugin should use a background thread.
+2014-06-24 15:17:56.104 EnterpriseShopping[8463:70b] webView:didFailLoadWithError - -1003: A server with the specified hostname could not be found.
+2014-06-24 15:18:17.360 EnterpriseShopping[8535:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-24 15:18:17.367 EnterpriseShopping[8535:70b] Unlimited access to network resources
+2014-06-24 15:18:17.370 EnterpriseShopping[8535:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-06-24 15:18:17.420 EnterpriseShopping[8535:70b] Resetting plugins due to page load.
+2014-06-24 15:18:17.462 EnterpriseShopping[8535:70b] Finished load of: file:///Users/kumara1/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/CC668653-BE60-4585-BBC5-2B5AD347943B/EnterpriseShopping.app/www/index.html
+2014-06-24 15:18:17.487 EnterpriseShopping[8535:70b] THREAD WARNING: ['InAppBrowser'] took '17.874023' ms. Plugin should use a background thread.
+2014-06-24 15:25:11.425 EnterpriseShopping[8700:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-24 15:25:11.431 EnterpriseShopping[8700:70b] Unlimited access to network resources
+2014-06-24 15:25:11.433 EnterpriseShopping[8700:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-06-24 15:25:11.478 EnterpriseShopping[8700:70b] Resetting plugins due to page load.
+2014-06-24 15:25:11.517 EnterpriseShopping[8700:70b] Finished load of: file:///Users/kumara1/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/CC668653-BE60-4585-BBC5-2B5AD347943B/EnterpriseShopping.app/www/index.html
+2014-06-24 15:25:11.542 EnterpriseShopping[8700:70b] THREAD WARNING: ['InAppBrowser'] took '17.198975' ms. Plugin should use a background thread.
+2014-06-24 15:31:59.100 EnterpriseShopping[8784:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-24 15:31:59.106 EnterpriseShopping[8784:70b] Unlimited access to network resources
+2014-06-24 15:31:59.108 EnterpriseShopping[8784:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-06-24 15:31:59.154 EnterpriseShopping[8784:70b] Resetting plugins due to page load.
+2014-06-24 15:31:59.193 EnterpriseShopping[8784:70b] Finished load of: file:///Users/kumara1/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/CC668653-BE60-4585-BBC5-2B5AD347943B/EnterpriseShopping.app/www/index.html
+2014-06-24 15:31:59.218 EnterpriseShopping[8784:70b] THREAD WARNING: ['InAppBrowser'] took '18.031250' ms. Plugin should use a background thread.

@@ -1,0 +1,65 @@
+.sap-android .loginPageBkg {
+    background: url(../img/nypro-lc-login-bk.jpg) -55px 0 no-repeat;
+}
+
+.sap-android .scanContainer {
+    font-size: 46px !important;
+}
+
+/* warning modals */
+
+.sap-android .sapMDialog>footer.sapMDialogActions>.sapMDialogAction {
+    text-align: center;
+}
+.sap-android .sapMDialog>header.sapMDialogTitle>.sapMBarMiddle>.sapMBarPH>.sapUiIcon {
+    font-size: 1.6rem;
+}
+.sap-android header > div > div > label {
+    font-size: 1.6rem !important;
+}
+.sap-android .sapMIBar .sapMBarChild {
+    margin-left: 0rem;
+}
+
+.sap-android .sapMDialog>footer.sapMDialogActions {
+    border-top: 0;
+}
+
+.sap-android .sapMDialog>footer.sapMDialogActions>.sapMDialogAction>button.sapMDialogBtn {
+    width: 130px;
+}
+
+.sap-android .sapMBtnInner {
+    font-size: 1.6rem;
+}
+
+.sap-android .sapMListTblCell {
+    font-size: 0.8rem;
+}
+
+/* Step Labels */
+.sap-android .eDataLabel {
+    font-size: 2.7em !important;
+}
+
+.sap-android .quesContainer {
+    margin-top: 80px;
+}
+
+/* Step No 3,4,5 disks */
+.sap-android .seqNo2 {
+    top: 31px !important;
+}
+.sap-android .seqNo3 {
+    top: 56.5% !important;
+}
+.sap-android .seqNo4 {
+    top: 40px !important;
+}
+.sap-android .seqNo5 {
+    top: 68px !important;
+}
+
+.sap-android #eSignPanel {
+    margin-top: 88px !important;
+}

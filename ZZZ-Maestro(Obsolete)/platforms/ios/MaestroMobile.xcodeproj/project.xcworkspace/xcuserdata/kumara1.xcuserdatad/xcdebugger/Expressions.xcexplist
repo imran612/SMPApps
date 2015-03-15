@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[CDVViewController onAppWillEnterForeground:]:CDVViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.webView.hidden=NO">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[CDVViewController onAppDidEnterBackground:]:CDVViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.webView.hidden=NO">
+            </PersistentString>
+            <PersistentString
+               value = "[[[UIApplication sharedApplication] delegate] window]">
+            </PersistentString>
+            <PersistentString
+               value = "self">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[CDVViewController onAppDidBecomeActive:]:CDVViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.webView.hidden=NO">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

@@ -1,0 +1,33 @@
+<!--
+ Copyright 2014 Jabil
+ -->
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta http-equiv='Content-Type' content='text/html;charset=UTF-8'/>
+		<title>Maestro</title>
+        <script
+			id="sap-ui-bootstrap"
+			src="./sapui5/resources/sap-ui-core.js"
+			data-sap-ui-theme="sap_bluecrystal"
+			data-sap-ui-libs="sap.m"
+			data-sap-ui-xx-bindingSyntax="complex"
+            data-sap-ui-preload="synch"
+			data-sap-ui-resourceroots='{
+            "com.jabil.maestro.mob": "./"
+			}' >
+            </script>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+            <link href='css/customStyle.css' rel='stylesheet' type='text/css'>
+
+	</head>
+	<body class="sapUiBody" id="content">
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript">
+            app.initialize();
+        </script>
+      
+	</body>
+</html>

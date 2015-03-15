@@ -1,0 +1,34 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns:f="sap.ui.layout.form"
+	xmlns:core="sap.ui.core"
+    xmlns:app="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1">
+	<Dialog
+		class="eSignDialog sapUiPopupWithPadding" >
+		<content>
+			<Text width="100%" class="eSignHdr" text="Digital Signature System" />
+            <Text width="100%" class="eSignHdrTxt" text="Authorize with SAP password." />
+            
+            <f:SimpleForm editable="false"
+              >
+                <f:content>
+                    <Label text="Op-Rep:" />
+                    <Text text="John Doe" />
+                    <Label text="Signed:" />
+                    <Text text="01/28/2015" />
+                </f:content>
+            </f:SimpleForm>
+            
+          <Input id="sPwd"
+            type="Password"
+            placeholder="Enter Password ..." />
+		</content>
+		<beginButton>
+			<Button text="Cancel" class="dialogBtn" app:dialogType="Std" press="onDialogCloseButton" />
+		</beginButton>
+		<endButton>
+			<Button text="Confirm"  class="dialogBtn" app:dialogType="Std" press="onDialogConfirmButton" />
+		</endButton>
+	</Dialog>
+</core:FragmentDefinition>

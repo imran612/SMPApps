@@ -1,0 +1,649 @@
+/* * {
+    font-family: Arial !important;
+}*/
+body{background-image:none!important;background:none repeat scroll 0 0 #344753 !important;text-transfor: none !important;background-color: #344753 !important;}
+.sap-desktop .sapMBar.sapMPageHeader{background-color:#0065A8}
+
+.sapMListHdr,.sapMTB-Transparent-CTX .sapMLabel,.sapMLabel.sapMLabelTBHeader {text-shadow: none !important; }
+.sapMBar.sapMPageHeader::before {
+    border-top: none !important;
+}
+
+.sapMBar.sapMPageHeader,.sapMShellGlobalInnerBackground {
+    background: none !important;
+}
+.sapMShellBrandingBar,.sapMShellGlobalOuterBackground {
+    background-color: transparent !important;
+    background-image: none !important;
+}
+.sapMTile {
+    box-shadow: none !important;
+    border: none !important;
+}
+.sapMTile:focus {
+    outline: none !important;
+}
+
+.sapMText {
+    text-transform: none !important;
+}
+.sapMListTbl .sapMText {
+    padding-top: 1px;
+    font-size: 15pt !important;
+    color: #333333;
+    font-weight: normal;
+    font-family: Arial !important;
+}
+.sapMBar {
+    /*color: #FFF !important;
+     background-color: transparent !important;*/
+    background-color: #8ca9bb !important;
+    text-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+.sapMIBar-CTX.sapMFooter-CTX {
+    background-color: #8ca9bb !important;
+}
+
+
+
+.jblLogo {
+    margin-bottom: 28px;
+    margin-left:10px;
+}
+#pageHdr1,#pageHdr2,#pageHdr3 {
+    margin-top:18px;
+    background-color: #546c7d !important;
+    height:50px !important;
+}
+.welHdr {
+    color: #fdcc65 !important;
+    font-family: :Arial !important;
+    font-size: 24px !important;
+}
+.subHdrBar {
+    height: 1.5rem !important;
+    background-color: #fff !important;
+}
+.eDataLabel {
+    color: #8ca9bb !important;
+    font-size: 48pt !important;
+    font-style: Arial !important;
+}
+#mainPanel,#poDetailPanel{
+    margin-left:20px;
+    margin-top:50px;
+}
+#poQslPanel {
+    margin-top: 20px !important;
+    margin-left:20px !important;
+}
+#eSignPanel {
+    margin-left:40px !important;
+    margin-right:40px !important;
+    background-color: #8ca9bb !important;
+    border-radius:10px !important;
+
+}
+#mainPanel > .sapMPanelBG,#poDetailPanel > .sapMPanelBG,#poQslPanel > .sapMPanelBG, #eSignPanelTxt > .sapMPanelBG {
+    background-color: #344753 !important;
+}
+.sapMPanelBG {
+    background-color: transparent !important;
+}
+#eSignPanelTxt {
+    margin-left:40px !important;
+    margin-top: 20px !important;
+}
+
+.lcTypeBar {
+    background-color: #fff !important;
+    height:5rem !important;
+    border-radius: 10px;
+}
+.seqNo4 {
+    margin-top: 80px;
+}
+.quesBar {
+    background-color:#8ca9bb !important;
+    border-radius: 10px;
+    border-color: #8ca9bb !important;
+    height:90px !important;
+}
+.lcTypeLabel {
+    /*color:#5089ab !important;
+     padding-left:30px !important;
+     font-weight: bold !important;
+     font-family: arial !important;
+     font-size: 1.5rem !important;
+     margin-top:20px !important;*/
+    
+    color:#5089ab !important;
+    padding-left:30px !important;
+    font-weight: bold !important;
+    font-family: arial !important;
+    font-size: 26pt !important;
+    margin-top:15px !important;
+}
+.selArrow {
+    margin-top:10px !important;
+    /*margin-right:20px !important;*/
+}
+.scanArrow {
+    margin-top:35px !important;
+    margin-right:20px !important;
+}
+.scanbar {
+    height:175px !important;
+    background-color:#8ca9bb !important;
+    border-radius: 10px;
+    border-color: #8ca9bb !important;
+}
+.scanbar > .sapMBarLeft, .quesBar > .sapMBarLeft {
+    width: 80% !important;
+}
+.scanLabel {
+    margin-top:50px !important;
+    color:#DDE5EB !important;
+    padding-left:30px !important;
+    font-weight: bold !important;
+    font-family: arial !important;
+    font-size: 48px !important;
+    width: 80% !important;
+    background-color:#8ca9bb !important;
+}
+.quesLabel {
+    color:#DDE5EB !important;
+    padding-left:30px !important;
+    font-weight: bold !important;
+    font-family: arial !important;
+    font-size: 32px !important;
+    width: 100% !important;
+    background-color:#8ca9bb !important;
+    margin-top: 25px !important;
+}
+.sapMPanelContent {
+    border: none !important;
+}
+.canbtn {
+    float: right;
+    margin-top:50px !important;
+    background-color: #546c7d !important;
+    height: 77px !important;
+    /*width: 150px !important;*/
+    border-radius: 10px;
+}
+
+.canbtn > .sapMBtnInner {
+    background-color: #546c7d !important;
+    color:#fff !important;
+    border-radius: 10px !important;
+    font-size: 30px !important;
+}
+.procQsPanel {
+    background-color: #a96018;
+    color:white;
+    text-transform: none;
+    font-weight: bold;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+.procQsPanelList {
+    background-color: #8ca9bb;
+    text-transform: none;
+    font-weight: bold;
+    
+}
+.procQsPanelListFinal {
+    background-color: #a96018;
+    color:white;
+    text-transform: none;
+    font-weight: bold;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.procQsPanel > .sapMPanelContent, .procQsPanelList > .sapMPanelContent, .procQsPanelListFinal > .sapMPanelContent, .eSignPanel > .sapMPanelContent,section#cancelPanel > .sapMPanelContent,#eSignPanelTxt > .sapMPanelContent {
+    padding: 0 !important;
+}
+section#eSignPanel > .sapMPanelContent {
+    padding: 0 !important;
+    border-radius: 10px;
+}
+
+.sapMILILabel {
+    max-width: 90% !important;
+    color: #666666 !important;
+    font-weight: normal !important;
+    white-space: normal !important;
+    font-family: Arial !important;
+}
+.sapMTB-Transparent-CTX .sapMText {
+    text-shadow: none !important;
+    font-size: 15pt !important;
+}
+.eSignFld {
+    margin-left:10px;
+    margin-bottom: 10px;
+}
+.lcmaintile {
+    width: 100% !important;
+    height:100% !important;
+}
+.seqNo {
+    
+    width:130px;
+    background-color:#546c7d;
+    color:#Fdcc65;
+    text-align: center !important;
+    font-weight: bold;
+    font-size: 54pt !important;
+    margin-top: 50px;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    margin-left:10px;
+    height: 80px;
+    font-family: Arial !important;
+    
+    /*width:100px;
+     background-color:#F1EFEB;
+     color:#e6d4c2;
+     text-align: center !important;
+     font-weight: bold;
+     font-size: 2rem !important;
+     margin-top: 50px;
+     border-top-left-radius: 60px;
+     border-top-right-radius: 60px;
+     margin-left:5px;
+     height: 55px;
+     padding-top: 10px;*/
+}
+.seqNo2 {
+    margin-top:100px !important;
+}
+.seqNo5,.seqNo6 {
+    margin-top: 20px !important;
+}
+/*
+ #RGLYT {
+ background-color: rgb(35, 35, 242);
+ width:95%;
+ margin-left:20px;
+ margin-top:20px;
+ }*/
+h4#selForm--title.sapUiFormTitle.sapUiFormTitleH4 {
+    color:white;
+    background-color: rgb(15, 85, 142);
+}
+.sapMLabel,#barscan {
+    color: black !important;
+    font-size: 12pt !important;
+    font-weight: normal;
+}
+
+#selFormPanel {
+    margin-left: 20px !important;
+    margin-top:20px !important;
+    background-color:rgb(13, 68, 177) !important;
+}
+#selFormPanel-header,#lcDocProcPanel-header {
+    background-color:rgb(33, 33, 212);
+    color:white;
+    font-family: Arial;
+    font-weight:bold;
+    font-size:20px;
+}
+.sapUiFormResGrid>div, #lcBtn {
+    background-color: transparent  !important;
+    text-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+#lcStatus {
+    background-color:transparent  !important;
+    border-top: solid 1px white;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+#lcBtn-BarRight {
+    background-color:green;
+}
+#subBtn {
+    color:white !important;
+    font-weight:bold;
+}
+/*#canBtn {
+ background-color:grey;
+ color:white;
+ }*/
+#documentList,#lcDocProcPanel {
+    /*margin-top:50px;*/
+}
+#documentList-header {
+    background-color: rgb(133, 133, 239);
+}
+#documentList-listUl {
+    border-radius: 10px;
+}
+#lcDocProcDetail {
+    background-color: green;
+}
+.sapMPanelHdr {
+    color: white !important;
+    text-shadow: none !important;
+    font-size: 15pt !important;
+}
+#infoTxt {
+    background-color: white;
+    padding: 10px;
+    text-transform: lowercase;
+    font-size: 0.95rem;
+}
+
+
+
+
+
+#remark, #esignlabel {
+    color:blue;
+    margin-top:10px;
+    
+}
+#remTxtArea {
+    width: 100%;
+}
+.eSignTxt1 {
+    color: #dde5eb;
+    font-weight: bold;
+    padding-bottom: 20px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:10px;
+    font-size: 15pt !important;
+    font-family: Arial !important;
+}
+
+.eSignTxt3 {
+    color:#743C04;
+    padding-left:10px;
+    padding-bottom: 10px;
+    font-size: 15pt !important;
+    font-family: Arial !important;
+}
+#hLyt {
+    padding-top: 20px;
+}
+div#hLyt label {
+    color: blue !important;
+    padding-right:3px;
+}
+.selBtnHdr > div {
+    background-color: rgb(117, 117, 185) !important;
+    font-weight: bold !important;
+}
+.lcTableTile,div#documentList > div > label {
+    color: #FFF !important;
+}
+.crtBtn > div {
+    background-color: rgb(54, 185, 54) !important;
+}
+div#documentList > div {
+    background-color: rgb(117, 117, 185) !important;
+}
+#lcDocProcPanel > .sapMPanelHdr {
+    background-color: rgb(117, 117, 185) !important;
+}
+/*
+ #__item6,#__item10,#__item14 {
+ background-color: #D2D9DC;
+ }*/
+
+/*#__panel0-CollapsedImg {
+ background-color: rgb(189, 200, 207);
+ }*/
+.loginPageBkg {
+    background: url(../img/nypro-lc-login-bk.jpg) 25px 0 no-repeat;
+}
+.loginUser {
+    border-radius:5px;
+}
+.loginPwd {
+    border-radius:5px;
+    margin-top: 4rem;
+}
+.loginUser > input,.loginPwd > input {
+    border-radius:5px;
+    height: 79px !important;
+    font-size: 32px;
+}
+
+.loginBtn {
+    float: right;
+    width:176px;
+    margin-top: 5rem !important;
+    height: 77px !important;
+}
+.loginBtn > div {
+    border-radius:5px !important;
+    background:none !important;
+    color: #fff !important;
+    height: 70px !important;
+    background-color: #8ca9bb !important;
+    border:none !important;
+}
+.loginBtn > div > span {
+    line-height: 70px !important;
+    font-size: 32pt !important;
+    font-family: Arial !important;
+}
+.errorLine {
+    margin-left: 10rem;
+    margin-bottom: 1rem;
+}
+.errorText {
+    padding-left: 10px;
+    padding-top: 10px;
+    font-family: Arial;
+    font-size: 24px !important;
+    color: #FDCC65 !important;
+    text-transform: none !important;
+}
+/*.loginBtn > div {
+ margin-right: 1.67rem;
+ margin-top: 2rem;
+ }
+ .loginBtn > div > span {
+ color: black !important;
+ }*/
+.eSignHdrTxt {
+    margin-bottom:20px;
+    color:#dde5eb !important;
+    font-family: Arial !important;
+    font-weight: bold;
+    font-size: 18px !important;
+}
+.sapUiVlt {
+    display: block !important;
+    margin: 20rem auto;
+}
+.sapMInputBaseInner {
+    height: 3rem !important;
+}
+.sapMInputBasePlaceholder {
+    font-size: 32px !important;
+}
+.lcTypeWinStyle {
+    background-color: #8ca9bb !important;
+    border-radius: 10px !important;
+    border-color: #8ca9bb;
+}
+.lcTypeWinStyle > .sapMDialogSection {
+    margin:10px;
+    border-radius: 5px !important;
+}
+.lcTypeWinStyle > footer {
+    height: 6rem !important;
+}
+.lcTypeWinStyle > .sapMIBar-CTX.sapMFooter-CTX {
+    background-color: #8ca9bb !important;
+}
+.lcTBtn {
+    background-color: #546c7d !important;
+    border-radius: 5px;
+}
+#lcTWindow-title {
+    font-size: 20px !important;
+    color: #dde5eb !important;
+    font-family: Arial !important;
+}
+#documentList > table > thead > tr > th, #documentList > table > tbody > tr > td {
+    background-color: #8ca9bb !important;
+}
+#documentList > table > thead > tr > th > span, #documentList > table > tbody > tr > td > span {
+    color: #DDE5EB !important;
+}
+.processDetBar {
+    border-bottom-color: transparent !important;
+}
+.processDetBar > label, .processDetBar > span, .processDetBar > div {
+    color: #8ca9bb !important;
+}
+#documentList > table > tbody > tr > .sapMListTblCell {
+    border-bottom-color: transparent !important;
+}
+.firstSection {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.procQsPanelList > .sapMPanelWrappingDivTb > span {
+    color:#546c7d !important;
+}
+.procQsPanelList > div > div > span {
+    color: #dde5eb !important;
+}
+/* stanadard styles */
+.sapMBtnIcon,.sapMPanelExpandableIcon {
+ color:#fff !important;
+ font-size: 15pt !important;
+ }
+.sapMBar-CTX .sapMBtnContent > .sapUiIcon{color:#FFF;text-shadow:0 1px 0 rgba(255,255,255,0.5)}
+ .sapMGlobalBackgroundColor,.sapMGlobalBackgroundImage{background-color:transparent!important;background-image:none!important}
+ .sapMBtnInner,.sapMIBar-CTX .sapMBtnInner { text-shadow: none !important; }
+
+.scanArrow >.sapMBtnDefault >.sapMBtnIcon {
+     color: #546c7d !important;
+     font-size: 85px !important;
+     margin: 22px;
+ }
+.selArrow >.sapMBtnDefault >.sapMBtnIcon {
+    color: #546c7d !important;
+    font-size: 60px !important;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+ .sapMBtnInner {
+ border: none !important;
+ background: none !important;
+ }
+#eSignPanelTxt > div > .eDataLabel {
+   margin-top: 40px !important;
+}
+.saveQsBtn {
+    
+}
+.lcActivityTxt {
+    color:#dde5eb;
+    padding-left: 12px;
+    font-family: Arial !important;
+    font-size: 15pt !important;
+}
+.disableLCActivityText {
+    color:#666666;
+    padding-left: 12px;
+    font-family: Arial !important;
+    font-size: 15pt !important;
+}
+#eSignPanel > .sapMPanelContent > .sapMTB {
+    border-bottom: none !important;
+    height: 6rem !important;
+}
+.dialogBtn {
+    background-color: #546c7d !important;
+    width: 130px;
+    height: 60px !important;
+    border-radius: 10px;
+    margin-right: 15px !important;
+}
+.disableSignBtn {
+    background-color: #666666 !important;
+    width: 130px;
+    height: 60px !important;
+    border-radius: 10px;
+    margin-right: 15px !important;
+}
+.dialogBtn > .sapMBtnInner {
+    color: #fff;
+    font-family: Arial;
+    font-size: 20pt !important;
+}
+.disableSignBtn > .sapMBtnInner {
+    color: #9a9a9a;
+    font-family: Arial;
+    font-size: 20pt !important;
+}
+.enableSignType {
+    color:#dde5eb;
+    padding-left:10px;
+    font-weight: bold;
+    font-size: 18pt !important;
+    font-family: Arial !important;
+}
+.disableSignType {
+    color:#666666;
+    padding-left:10px;
+    font-weight: bold;
+    font-size: 18pt !important;
+    font-family: Arial !important;
+}
+.eSignDialog {
+border-radius: 10px !important;
+border:none !important;
+height: 30rem !important;
+background-color: #8ca9bb;
+}
+.eSignDialog > header {
+    display: none !important;
+}
+.eSignHdr {
+color:#dde5eb !important;
+font-family: Arial;
+font-size: 25px !important;
+}
+.eSignDialog > .sapMDialogSection {
+    background-color: #8ca9bb !important;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.eSignRemark {
+    color:#dde5eb !important;
+    text-transform: none; 
+    font-family: Arial;
+    font-size: 20px !important;
+}
+.remarkTextArea {
+    margin-bottom: 20px;
+}
+.remarkTextArea > .sapMInputBaseInner {
+    height: 10rem !important;
+}
+.eSignDialog > footer {
+    height: 4rem !important;
+    margin-top: 2rem !important;
+}
+.sapMSpinCanvas {
+    width: 4rem !important;
+    height: 4rem !important;
+}
+ 
