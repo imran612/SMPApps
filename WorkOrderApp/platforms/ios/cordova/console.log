@@ -1,0 +1,59 @@
+2015-03-16 13:08:47.602 WorkOrder[1043:19555] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/imranmohammed/Library/Developer/CoreSimulator/Devices/9D0E70A7-FB73-4B1C-AFF8-003FEC43F3E9/data/Containers/Data/Application/DEAD77AB-5769-440A-9133-64FC151DD7FD/Library/Cookies/Cookies.binarycookies
+2015-03-16 13:08:47.880 WorkOrder[1043:19555] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-16 13:08:47.880 WorkOrder[1043:19555] Multi-tasking -> Device: YES, App: YES
+2015-03-16 13:08:47.895 WorkOrder[1043:19555] Unlimited access to network resources
+2015-03-16 13:08:47.904 WorkOrder[1043:19555] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-16 13:08:48.721 WorkOrder[1043:19555] Resetting plugins due to page load.
+2015-03-16 13:08:48.867 WorkOrder[1043:19555] Finished load of: file:///Users/imranmohammed/Library/Developer/CoreSimulator/Devices/9D0E70A7-FB73-4B1C-AFF8-003FEC43F3E9/data/Containers/Bundle/Application/FA1E3C61-BA3D-4C3B-9225-754BEC48ADAC/WorkOrder.app/www/index.html
+2015-03-16 13:08:52.557 WorkOrder[1043:19682] Terminating since there is no system app.
+2015-03-16 13:19:44.955 WorkOrder[21282:46869] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/imranmohammed/Library/Developer/CoreSimulator/Devices/9D0E70A7-FB73-4B1C-AFF8-003FEC43F3E9/data/Containers/Data/Application/452F9409-8384-4876-99E8-909F94A26568/Library/Cookies/Cookies.binarycookies
+2015-03-16 13:19:45.043 WorkOrder[21282:46869] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-16 13:19:45.043 WorkOrder[21282:46869] Multi-tasking -> Device: YES, App: YES
+2015-03-16 13:19:45.045 WorkOrder[21282:46869] Unlimited access to network resources
+2015-03-16 13:19:45.047 WorkOrder[21282:46869] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-16 13:19:45.195 WorkOrder[21282:46869] Resetting plugins due to page load.
+2015-03-16 13:19:45.375 WorkOrder[21282:46869] Finished load of: file:///Users/imranmohammed/Library/Developer/CoreSimulator/Devices/9D0E70A7-FB73-4B1C-AFF8-003FEC43F3E9/data/Containers/Bundle/Application/2880B85D-92D1-46F9-8A63-A13BC0280ECE/WorkOrder.app/www/index.html
+2015-03-16 13:19:53.420 WorkOrder[21282:46886] Terminating since there is no system app.
+2015-03-16 13:54:16.488 WorkOrder[25975:60867] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/imranmohammed/Library/Developer/CoreSimulator/Devices/9D0E70A7-FB73-4B1C-AFF8-003FEC43F3E9/data/Containers/Data/Application/D4923CE9-71DE-422E-955A-B69D50C79ABC/Library/Cookies/Cookies.binarycookies
+2015-03-16 13:54:16.750 WorkOrder[25975:60867] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-16 13:54:16.750 WorkOrder[25975:60867] Multi-tasking -> Device: YES, App: YES
+2015-03-16 13:54:16.765 WorkOrder[25975:60867] Unlimited access to network resources
+2015-03-16 13:54:16.774 WorkOrder[25975:60867] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-16 13:54:17.259 WorkOrder[25975:60867] Resetting plugins due to page load.
+2015-03-16 13:54:17.604 WorkOrder[25975:60867] Finished load of: file:///Users/imranmohammed/Library/Developer/CoreSimulator/Devices/9D0E70A7-FB73-4B1C-AFF8-003FEC43F3E9/data/Containers/Bundle/Application/01CD1C58-7AD8-4062-9B76-87A75FF9EF56/WorkOrder.app/www/index.html
+2015-03-16 13:56:13.418 WorkOrder[30428:66352] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/imranmohammed/Library/Developer/CoreSimulator/Devices/9D0E70A7-FB73-4B1C-AFF8-003FEC43F3E9/data/Containers/Data/Application/9E759F1C-59BC-414F-91E7-41AE9D8C1F9D/Library/Cookies/Cookies.binarycookies
+2015-03-16 13:56:13.483 WorkOrder[30428:66352] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-16 13:56:13.484 WorkOrder[30428:66352] Multi-tasking -> Device: YES, App: YES
+2015-03-16 13:56:13.485 WorkOrder[30428:66352] Unlimited access to network resources
+2015-03-16 13:56:13.487 WorkOrder[30428:66352] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-16 13:56:13.595 WorkOrder[30428:66352] Resetting plugins due to page load.
+2015-03-16 13:56:13.779 WorkOrder[30428:66352] Finished load of: file:///Users/imranmohammed/Library/Developer/CoreSimulator/Devices/9D0E70A7-FB73-4B1C-AFF8-003FEC43F3E9/data/Containers/Bundle/Application/5F57BD1D-C7AA-424C-BD2B-04FCC5DDA896/WorkOrder.app/www/index.html
+2015-03-16 14:33:53.696 WorkOrder[30428:80440] Terminating since there is no system app.

@@ -1,0 +1,14 @@
+{
+    "com.sap.mp.cordova.plugins.logon": {
+        "source": {
+            "type": "local",
+            "path": "/Users/imranmohammed/SLB/SMP3SDKMac/ebf23956/modules/KapselFramework/smp-plugins-dist/plugins/logon"
+        }
+    },
+    "com.sap.mp.cordova.plugins.corelibs": {
+        "source": {
+            "type": "local",
+            "path": "/Users/imranmohammed/SLB/SMP3SDKMac/ebf23956/modules/KapselFramework/smp-plugins-dist/plugins/corelibs"
+        }
+    }
+}

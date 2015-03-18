@@ -1,0 +1,27 @@
+# view AndroidManifest.xml #generated:23
+-keep class com.google.zxing.client.android.CaptureActivity { <init>(...); }
+
+# view res/layout/capture.xml #generated:23
+-keep class com.google.zxing.client.android.ViewfinderView { <init>(...); }
+
+# view AndroidManifest.xml #generated:29
+-keep class com.google.zxing.client.android.encode.EncodeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:6
+-keep class com.sap.ide.companion.WebIdeCompanion { <init>(...); }
+
+# view AndroidManifest.xml #generated:12
+-keep class com.sap.mp.cordova.plugins.apppreferences.PrefsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:15
+-keep class com.sap.mp.push.PushGCMBroadCastReciever { <init>(...); }
+
+# view AndroidManifest.xml #generated:14
+-keep class com.sap.mp.push.PushHandlerActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:22
+-keep class com.sap.mp.push.PushIntentService { <init>(...); }
+
+# view AndroidManifest.xml #generated:13
+-keep class com.sap.smp.client.httpc.authflows.SAML2AuthActivity { <init>(...); }
+

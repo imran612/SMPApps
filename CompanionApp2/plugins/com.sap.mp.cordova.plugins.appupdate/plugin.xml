@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="com.sap.mp.cordova.plugins.appupdate" version="3.5.5">
+	<name>AppUpdate</name>
+	<dependency id="com.sap.mp.cordova.plugins.corelibs"/>
+    <dependency id="org.apache.cordova.inappbrowser"/>	
+	<dependency id="com.sap.mp.cordova.plugins.authproxy"/>
+	<dependency id="com.sap.mp.cordova.plugins.logon"/>
+	<dependency id="com.sap.mp.cordova.plugins.i18n"/>
+	<dependency id="org.apache.cordova.dialogs"/>
+	
+	<info>
+		On Android, for AppUpdate to work correctly, you need to modify
+		the main class of your app.  The main class is found here: 
+		src/your_package/app_name.java.
+		
+		Find the line that ends with "extends CordovaActivity" and 
+		change it to "extends KapselActivity".
+	</info>
+	
+	<js-module name="AppUpdate" src="www/appupdate.js">
+		<clobbers target="sap.AppUpdate"/>
+	</js-module>
+	
+	<asset target="plugins/com.sap.mp.cordova.plugins.appupdate/www/messages_en.json" src="www/messages_en.json"/>
+	
+	<platform name="android">
+		<config-file target="res/xml/config.xml" parent="/widget">
+			<feature name="AppUpdate">
+				<param name="android-package" value="com.sap.mp.cordova.plugins.appUpdate.AppUpdate"/>
+				<param name="onload" value="true"/>
+			</feature>
+		</config-file>
+		<source-file src="android/src/KapselActivity.java" target-dir="src/org/apache/cordova"/>
+		<source-file src="android/libs/appupdate-android-3.5.5.jar" target-dir="libs"/>
+	</platform>
+	<platform name="ios">
+		<config-file target="config.xml" parent="/widget">
+			<feature name="AppUpdate">
+				<param name="ios-package" value="SMPAppUpdatePlugin"/>
+				<param name="onload" value="true"/>
+			</feature>
+		</config-file>
+		<source-file framework="true" src="ios/libs/libSMPAppUpdatePlugin.a"/>
+	</platform>
+</plugin>

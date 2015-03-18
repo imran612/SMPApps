@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    id="com.sap.mp.cordova.plugins.apppreferences"
+    version="3.5.5">
+
+    <name>AppPreference</name>
+    
+    <dependency id="com.sap.mp.cordova.plugins.corelibs" />
+
+	<platform name="android">
+        <js-module name="AppPreferences" src="www/apppreferences.js">
+            <clobbers target="sap.AppPreferences"/>
+        </js-module>
+
+		<config-file target="res/xml/config.xml" parent="/widget">
+			<feature name="AppPreferences">
+			  <param name="android-package" value="com.sap.mp.cordova.plugins.apppreferences.AppPreferences"/>
+			</feature>
+		</config-file>  
+
+        <config-file target="AndroidManifest.xml" parent="/manifest/application">
+            <activity
+               android:name="com.sap.mp.cordova.plugins.apppreferences.PrefsActivity"
+               android:theme="@android:style/Theme.Black.NoTitleBar" >
+           </activity>
+        </config-file> 
+
+
+    	<source-file src="android/libs/apppreferences-android-3.5.5.jar" target-dir="libs"/>
+		
+  	</platform>
+
+    <platform name="ios">
+        <js-module name="AppPreferences" src="www/apppreferences.js">
+            <clobbers target="sap.AppPreferences"/>
+        </js-module>
+
+		<config-file target="config.xml" parent="/widget">
+            <feature name="AppPreferences">
+                <param name="ios-package" value="SMPAppPreferencesPlugin"/>
+			</feature>
+		</config-file>  
+        
+        <source-file src="ios/libs/libSMPAppPreferencesPlugin.a" framework="true"/>
+
+        <resource-file src="ios/bundles/Settings.bundle" />
+ 		<resource-file src="ios/SMPSettings.storyboard" />
+ 		<resource-file src="ios/SMPSettings_iPad.storyboard" />
+    	<framework src="libz.dylib" />
+    </platform>
+</plugin>

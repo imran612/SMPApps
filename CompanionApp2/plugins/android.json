@@ -1,0 +1,425 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {
+            "res/xml/config.xml": {
+                "parents": {
+                    "/widget": [
+                        {
+                            "xml": "<feature name=\"AppPreferences\"><param name=\"android-package\" value=\"com.sap.mp.cordova.plugins.apppreferences.AppPreferences\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"InAppBrowser\"><param name=\"android-package\" value=\"org.apache.cordova.inappbrowser.InAppBrowser\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"MAFLogonCoreCDVPluginJS\" required=\"true\"><param name=\"android-package\" value=\"com.sap.maf.html5.android.MAFLogonCoreCDVPlugin\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"i18n\"><param name=\"android-package\" value=\"com.sap.mp.cordova.plugins.i18n.I18N\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"AppUpdate\"><param name=\"android-package\" value=\"com.sap.mp.cordova.plugins.appUpdate.AppUpdate\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"EncryptedStorage\"><param name=\"android-package\" value=\"com.sap.mp.cordova.plugins.storage.EncryptedStorage\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"SMPPushPlugin\" onload=\"true\" required=\"true\"><param name=\"android-package\" value=\"com.sap.mp.push.PushPlugin\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"OData\"><param name=\"android-package\" value=\"com.sap.mp.cordova.plugins.odata.OData\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"E2ETrace\"><param name=\"android-package\" value=\"com.sap.mp.cordova.plugins.e2etrace.E2ETrace\" /></feature>",
+                            "count": 1
+                        }
+                    ],
+                    "/*": [
+                        {
+                            "xml": "<preference name=\"showTitle\" value=\"true\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"toolbar\"><param name=\"android-package\" value=\"com.sap.mp.cordova.plugins.toolbar.Toolbar\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Device\"><param name=\"android-package\" value=\"org.apache.cordova.device.Device\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"AuthProxy\"><param name=\"android-package\" value=\"com.sap.mp.cordova.plugins.authProxy.AuthProxy\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<preference name=\"SAPKapselHandleHttpRequests\" value=\"false\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Notification\"><param name=\"android-package\" value=\"org.apache.cordova.dialogs.Notification\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Logging\"><param name=\"android-package\" value=\"com.sap.mp.cordova.plugins.logger.Logger\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"BarcodeScanner\"><param name=\"android-package\" value=\"com.sap.mp.cordova.plugins.barcodescanner.BarcodeScanner\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"File\"><param name=\"android-package\" value=\"org.apache.cordova.file.FileUtils\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"NetworkStatus\"><param name=\"android-package\" value=\"org.apache.cordova.networkinformation.NetworkManager\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Battery\"><param name=\"android-package\" value=\"org.apache.cordova.batterystatus.BatteryListener\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Accelerometer\"><param name=\"android-package\" value=\"org.apache.cordova.devicemotion.AccelListener\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Compass\"><param name=\"android-package\" value=\"org.apache.cordova.deviceorientation.CompassListener\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Camera\"><param name=\"android-package\" value=\"org.apache.cordova.camera.CameraLauncher\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Media\"><param name=\"android-package\" value=\"org.apache.cordova.media.AudioHandler\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Capture\"><param name=\"android-package\" value=\"org.apache.cordova.mediacapture.Capture\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"FileTransfer\"><param name=\"android-package\" value=\"org.apache.cordova.filetransfer.FileTransfer\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Vibration\"><param name=\"android-package\" value=\"org.apache.cordova.vibration.Vibration\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Contacts\"><param name=\"android-package\" value=\"org.apache.cordova.contacts.ContactManager\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Globalization\"><param name=\"android-package\" value=\"org.apache.cordova.globalization.Globalization\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"SplashScreen\"><param name=\"android-package\" value=\"org.apache.cordova.splashscreen.SplashScreen\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            "AndroidManifest.xml": {
+                "parents": {
+                    "/manifest/application": [
+                        {
+                            "xml": "<activity android:name=\"com.sap.mp.cordova.plugins.apppreferences.PrefsActivity\" android:theme=\"@android:style/Theme.Black.NoTitleBar\"></activity>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<activity android:configChanges=\"orientation|keyboardHidden|keyboard|screenSize|locale\" android:excludeFromRecents=\"true\" android:name=\"com.sap.smp.client.httpc.authflows.SAML2AuthActivity\"></activity>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<activity android:name=\"com.sap.mp.push.PushHandlerActivity\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<receiver android:name=\"com.sap.mp.push.PushGCMBroadCastReciever\" android:permission=\"com.google.android.c2dm.permission.SEND\"><intent-filter><action android:name=\"com.google.android.c2dm.intent.RECEIVE\" /><action android:name=\"com.google.android.c2dm.intent.REGISTRATION\" /><category android:name=\"com.sap.ide.companion\" /></intent-filter></receiver>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<service android:name=\"com.sap.mp.push.PushIntentService\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<activity android:clearTaskOnLaunch=\"true\" android:configChanges=\"orientation|keyboardHidden\" android:exported=\"false\" android:name=\"com.google.zxing.client.android.CaptureActivity\" android:screenOrientation=\"landscape\" android:theme=\"@android:style/Theme.NoTitleBar.Fullscreen\" android:windowSoftInputMode=\"stateAlwaysHidden\"><intent-filter><action android:name=\"com.sap.mp.cordova.plugins.barcodescanner.SCAN\" /><category android:name=\"android.intent.category.DEFAULT\" /></intent-filter></activity>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<activity android:name=\"com.google.zxing.client.android.encode.EncodeActivity\"></activity>",
+                            "count": 1
+                        }
+                    ],
+                    "/manifest": [
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.READ_EXTERNAL_STORAGE\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"com.sap.mobile.clientHub.CLIENTHUB_ACCESS_PERMISSION\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.VIBRATE\" />",
+                            "count": 2
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.GET_TASKS\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.GET_ACCOUNTS\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.WAKE_LOCK\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"com.google.android.c2dm.permission.RECEIVE\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<permission android:name=\"com.sap.ide.companion.permission.C2D_MESSAGE\" android:protectionLevel=\"signature\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"com.sap.ide.companion.permission.C2D_MESSAGE\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.CAMERA\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.FLASHLIGHT\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-feature android:name=\"android.hardware.camera\" android:required=\"false\" />",
+                            "count": 1
+                        }
+                    ],
+                    "/*": [
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />",
+                            "count": 5
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\" />",
+                            "count": 2
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\" />",
+                            "count": 2
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.RECORD_AUDIO\" />",
+                            "count": 2
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.MODIFY_AUDIO_SETTINGS\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.READ_PHONE_STATE\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.RECORD_VIDEO\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.READ_CONTACTS\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.WRITE_CONTACTS\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.GET_ACCOUNTS\" />",
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            "res/values/strings.xml": {
+                "parents": {
+                    "/resources": [
+                        {
+                            "xml": "<string name=\"msg_unmount_usb\">Sorry, the SD card is not accessible.</string>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<string name=\"msg_encode_contents_failed\">Could not encode a barcode from the data provided.</string>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<string name=\"button_ok\">OK</string>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<string name=\"contents_text\">Plain text</string>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<string name=\"contents_email\">Email address</string>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<string name=\"contents_phone\">Phone number</string>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<string name=\"contents_sms\">SMS address</string>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<string name=\"msg_bulk_mode_scanned\">Bulk mode: barcode scanned and saved</string>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<string name=\"msg_default_status\">Place a barcode inside the viewfinder rectangle to scan it.</string>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<string name=\"msg_camera_framework_bug\">Sorry, the Android camera encountered a problem. You may need to restart the device.</string>",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "installed_plugins": {
+        "com.sap.mp.cordova.plugins.corelibs": {
+            "PACKAGE_NAME": "com.sap.ide.companion"
+        },
+        "com.sap.mp.cordova.plugins.apppreferences": {
+            "PACKAGE_NAME": "com.sap.ide.companion"
+        },
+        "com.sap.mp.cordova.plugins.toolbar": {
+            "PACKAGE_NAME": "com.sap.ide.companion"
+        },
+        "com.sap.mp.cordova.plugins.logon": {
+            "PACKAGE_NAME": "com.sap.ide.companion"
+        },
+        "com.sap.mp.cordova.plugins.i18n": {
+            "PACKAGE_NAME": "com.sap.ide.companion"
+        },
+        "com.sap.mp.cordova.plugins.appupdate": {
+            "PACKAGE_NAME": "com.sap.ide.companion"
+        },
+        "com.sap.mp.cordova.plugins.logger": {
+            "PACKAGE_NAME": "com.sap.ide.companion"
+        },
+        "com.sap.mp.cordova.plugins.encryptedstorage": {
+            "PACKAGE_NAME": "com.sap.ide.companion"
+        },
+        "com.sap.mp.cordova.plugins.settings": {
+            "PACKAGE_NAME": "com.sap.ide.companion"
+        },
+        "com.sap.mp.cordova.plugins.push": {
+            "PACKAGE_NAME": "com.sap.ide.companion"
+        },
+        "com.sap.mp.cordova.plugins.barcodescanner": {
+            "PACKAGE_NAME": "com.sap.ide.companion"
+        },
+        "com.sap.mp.cordova.plugins.odata": {
+            "PACKAGE_NAME": "com.sap.ide.companion"
+        },
+        "com.sap.mp.cordova.plugins.e2etrace": {
+            "PACKAGE_NAME": "com.sap.ide.companion"
+        },
+        "org.apache.cordova.file": {
+            "PACKAGE_NAME": "com.sap.ide.companion"
+        },
+        "org.apache.cordova.network-information": {
+            "PACKAGE_NAME": "com.sap.ide.companion"
+        },
+        "org.apache.cordova.battery-status": {
+            "PACKAGE_NAME": "com.sap.ide.companion"
+        },
+        "org.apache.cordova.device-motion": {
+            "PACKAGE_NAME": "com.sap.ide.companion"
+        },
+        "org.apache.cordova.device-orientation": {
+            "PACKAGE_NAME": "com.sap.ide.companion"
+        },
+        "org.apache.cordova.geolocation": {
+            "PACKAGE_NAME": "com.sap.ide.companion"
+        },
+        "org.apache.cordova.camera": {
+            "PACKAGE_NAME": "com.sap.ide.companion"
+        },
+        "org.apache.cordova.media": {
+            "PACKAGE_NAME": "com.sap.ide.companion"
+        },
+        "org.apache.cordova.media-capture": {
+            "PACKAGE_NAME": "com.sap.ide.companion"
+        },
+        "org.apache.cordova.file-transfer": {
+            "PACKAGE_NAME": "com.sap.ide.companion"
+        },
+        "org.apache.cordova.vibration": {
+            "PACKAGE_NAME": "com.sap.ide.companion"
+        },
+        "org.apache.cordova.contacts": {
+            "PACKAGE_NAME": "com.sap.ide.companion"
+        },
+        "org.apache.cordova.globalization": {
+            "PACKAGE_NAME": "com.sap.ide.companion"
+        },
+        "org.apache.cordova.splashscreen": {
+            "PACKAGE_NAME": "com.sap.ide.companion"
+        },
+        "org.apache.cordova.console": {
+            "PACKAGE_NAME": "com.sap.ide.companion"
+        }
+    },
+    "dependent_plugins": {
+        "org.apache.cordova.device": {
+            "PACKAGE_NAME": "com.sap.ide.companion"
+        },
+        "org.apache.cordova.inappbrowser": {
+            "PACKAGE_NAME": "com.sap.ide.companion"
+        },
+        "com.sap.mp.cordova.plugins.authproxy": {
+            "PACKAGE_NAME": "com.sap.ide.companion"
+        },
+        "org.apache.cordova.dialogs": {
+            "PACKAGE_NAME": "com.sap.ide.companion"
+        },
+        "com.sap.mp.cordova.plugins.xhook": {
+            "PACKAGE_NAME": "com.sap.ide.companion"
+        }
+    }
+}

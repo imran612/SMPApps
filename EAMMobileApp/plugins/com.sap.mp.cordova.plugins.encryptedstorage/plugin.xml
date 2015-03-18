@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="com.sap.mp.cordova.plugins.encryptedstorage" version="3.6.6">
+	<name>EncryptedStorage</name>
+	
+    <dependency id="com.sap.mp.cordova.plugins.corelibs" />
+    <dependency id="org.apache.cordova.inappbrowser" />
+	<dependency id="com.sap.mp.cordova.plugins.logon"/>
+
+    <js-module name="Encrypted" src="www/encryptedstorage.js">
+		<clobbers target="sap.EncryptedStorage"/>
+	</js-module>
+    
+	<platform name="android">
+		<config-file target="res/xml/config.xml" parent="/widget">
+			<feature name="EncryptedStorage">
+				<param name="android-package" value="com.sap.mp.cordova.plugins.storage.EncryptedStorage"/>
+				<param name="onload" value="true" />
+			</feature>
+		</config-file>
+		<source-file src="android/libs/encryptedstorage-android-3.6.6.jar" target-dir="libs"/>
+	</platform>
+	<platform name="ios">
+		<config-file target="config.xml" parent="/widget">
+			<feature name="EncryptedStorage">
+				<param name="ios-package" value="SMPEncryptedStoragePlugin"/>
+                <param name="onload" value="true" />
+			</feature>
+		</config-file>
+		<source-file framework="true" src="ios/libs/libSMPEncryptedStoragePlugin.a"/>
+		<framework src="libz.dylib"/>
+		<framework src="libsqlite3.dylib"/>
+		<framework src="security.framework"/>
+	</platform>
+
+     <!-- windows8.1. No support for Windows Phone 8.1 -->
+    <platform name="windows">
+        <info>
+        **********************************************************
+        * Manual steps required to add this plugin on Windows 8.1 only. (Windows Phone 8.1 is not supported)
+        * 
+        * This plugin requires a Native windows reference that cannot be added automatically. 
+        * 
+        * To add a reference to the native Windows Runtime component (SAP.EncryptedStorage.winmd), please do the following
+        * 1) Open the Cordova generated solution in Visual Studio.
+        * 2) Select the project generated for Windows 8.1. Select the References node, Right Click and select "Add Reference".
+        * 3) Click "Browse", locate the EncryptedStorage plugin location on your disk
+        * 4) Select the SAP.EncryptedStorage.winmd file for the appropriate CPU architecture of your project (x86 or x64). This file is located in {EncrypedStorage plugin location}/windows81/bin/[x86 or x64] 
+        * 5) Click OK to add the reference. 
+        **********************************************************
+        </info>
+        <config-file target="package.appxmanifest" parent="/Package/Capabilities">
+        </config-file>
+        <js-module src="windows81/src/encryptedstorage_proxy_win8.js" name="encryptedstorage_proxy_win8">
+            <merges target="" />
+        </js-module>
+    </platform>
+</plugin>
+

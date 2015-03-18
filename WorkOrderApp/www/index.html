@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv='Content-Type' content='text/html;charset=UTF-8'/>
+
+		<script src="resources/sap-ui-core.js"
+				id="sap-ui-bootstrap"
+				data-sap-ui-libs="sap.m"
+				data-sap-ui-resourceroots='{"view": "./"}'
+				data-sap-ui-theme="sap_bluecrystal">
+		</script>
+		<!-- only load the mobile lib "sap.m" and the "sap_bluecrystal" theme -->
+		
+		<script type="text/javascript" src="cordova.js"></script>
+		<script type="text/javascript">
+		  /*=====================================================================
+		   The following onError function is used to trap any errors that occur
+		   while the application is running. Cordova fails silently whenever it
+		   encounters an error in HTML or JavaScript code. So, with that being
+		   the case, developers cannot tell when/why their applications are
+		   failing. Any code error will cause the function to fire and display
+		   the error in an alert dialog.
+		   ======================================================================*/
+		  window.onerror = function(msg, url, line) {
+			var idx = url.lastIndexOf("/");
+			if (idx > -1) {
+			  url = url.substring(idx + 1);
+			}
+			alert("ERROR in " + url + " (line #" + line + ")\n" + msg);
+			console.error(msg);
+			return false;
+		  };
+		</script>
+		
+		<script type="text/javascript" src="logon.js"></script>
+		<script type="text/javascript" src="index.js"></script>
+		
+		<script>
+				function getUrlParameterName(sParam)
+				{
+					var sPageURL = window.location.search.substring(1);
+					var sURLVariables = sPageURL.split('&');
+					for (var i = 0; i < sURLVariables.length; i++) 
+					{
+						var sParameterName = sURLVariables[i].split('=');
+						if (sParameterName[0] === sParam) 
+						{
+							return true;
+						}
+					}
+					return false;
+				} 
+			
+			
+				sap.ui.localResources("view");
+				var app = new sap.m.App({initialPage:"idmainview"});
+			
+				
+				function startApp(context) {
+				
+		
+					var page = sap.ui.view({id:"idmainview", viewName:"view.mainview", type:sap.ui.core.mvc.ViewType.JS  });
+					app.addPage(page);
+					app.placeAt("content");
+		
+				}
+				if (window.cordova || getUrlParameterName("companionbuster")) {
+					devapp.initialize();
+				}
+				else {
+					startApp();
+				}
+		</script>
+		
+	</head>
+	<body class="sapUiBody" role="application">
+		<div id="content"></div>
+	</body>
+</html>
+	
+
+
+

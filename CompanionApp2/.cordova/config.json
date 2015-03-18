@@ -1,0 +1,8 @@
+{
+    "plugin_search_path": "/Users/mohammei/Downloads/SMP3SDK/modules/KapselSDK/KapselSDK/plugins/",
+    "lib": {
+        "www": {
+            "url": "/Users/mohammei/Downloads/SAP_HAT_local-1.0.1/WebIdeCompanion/companionapp/assets/www"
+        }
+    }
+}
