@@ -17,6 +17,7 @@ sap.ui.jsview("com.slb.mobile.view.App", {
         main.getController().nav = this.getController();
         this.app.addPage(main, false);
               this.app.setMode(sap.m.SplitAppMode.HideMode);
+             // this.app.setMode(sap.m.SplitAppMode.StretchCompressMode);
               //this.app.hideMaster();
               
        return this.app;

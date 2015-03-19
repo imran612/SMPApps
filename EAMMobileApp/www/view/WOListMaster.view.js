@@ -13,7 +13,13 @@ sap.ui.jsview("com.slb.mobile.view.WOListMaster", {
 	* @memberOf view.WOListMaster
 	*/ 
 	createContent : function(oController) {
-		//var srchField = new sap.m.SearchField(sId, mSettings);
+		
+        var page = new sap.m.Page({showHeader: true,
+                                        showNavButton: true,
+                                        alignItems:"center",
+                                        });
+              page.setCustomHeader(new sap.m.Bar({contentLeft: new sap.m.Button({icon:"sap-icon://home",press:oController.goHome})}));
+        //var srchField = new sap.m.SearchField(sId, mSettings);
 		//var oWODesc = new sap.m.Text({text: "Hello"}); 
 		
 		//var woList = new sap.m.List("list");
@@ -40,15 +46,16 @@ sap.ui.jsview("com.slb.mobile.view.WOListMaster", {
 
         woList.bindItems("/WorkOrderCollection", objectTemplate);
               //this.app = new sap.m.SplitApp();
-		
- 		return new sap.m.Page({
+              page.addContent(woList);
+              return page;
+ 		/*return new sap.m.Page({
 			title: "Work Orders",
 			content: [
-			          //oWODesc,
+			         
 			          woList
-			         // WOTypes
+			         
 			]
-		});
+		}); */
 	}
 
 });

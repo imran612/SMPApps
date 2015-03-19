@@ -17,7 +17,12 @@ sap.ui.controller("com.slb.mobile.view.WOListMaster", {
 	onInit: function() {
                   var oModel = new sap.ui.model.json.JSONModel("model/WOMockup.json");
                   this.getView().setModel(oModel);
-	}
+	},
+                  goHome: function(evt) {
+                  var context = evt.getSource().getBindingContext();
+                  var nav = oCore.byId('mainview').getController().nav;
+                    nav.to("Home",context);
+                  }
 
 /**
 * Similar to onAfterRendering, but this hook is invoked before the controller's View is re-rendered

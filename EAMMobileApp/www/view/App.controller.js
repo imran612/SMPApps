@@ -9,7 +9,20 @@ sap.ui.controller("com.slb.mobile.view.App", {
 		
 		var app = this.getView().app;
                   app.setMode(sap.m.SplitAppMode.StretchCompressMode);
-                  if(pageId=="WODetail") {
+                  if(pageId=="Home") {
+                  //console.log(app);
+                  //alert(app.getInitialDetail());
+                  //getDetailPage("mainview");
+                     app.toDetail(app.getDetailPage("mainview"));
+                   app.setMode(sap.m.SplitAppMode.HideMode);
+                 // app.hideMaster();
+                  }
+                  else if(pageId=="WODetail") {
+                  if(app.getPage("WODetail",false)!=null) {
+                  
+                    app.toDetail("WODetail");
+                  }
+                  else {
                   console.log(app);
                   var detailpage = sap.ui.view({
                                          id : pageId,
@@ -20,12 +33,20 @@ sap.ui.controller("com.slb.mobile.view.App", {
                  // app.removeDetailPage(0);
                   app.addDetailPage(detailpage);
                   app.toDetail(pageId);
-                 // app.setInitialDetail(detailpage);  
+                 // app.setInitialDetail(detailpage);
+                  }
+                  }
+                  else {
+                 
+                  if(app.getPage("WOListMaster",true)!=null) {
+                  
+                      app.toMaster("WOListMaster");
+                     app.toDetail("Empty");
                   }
                   else {
 
 		// load page on demand
-              
+                  console.log(app);
                  // app.removeDetailPage(0);
 		var home = ("Home" === pageId);
 		if (app.getPage(pageId, home) === null) {
@@ -55,6 +76,7 @@ sap.ui.controller("com.slb.mobile.view.App", {
                   //app.toDetail("WODetail");
                   
 		}
+                  }
                   
                  // app.to(pageId,"flip");
                   
