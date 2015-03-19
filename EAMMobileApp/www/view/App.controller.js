@@ -20,7 +20,7 @@ sap.ui.controller("com.slb.mobile.view.App", {
                  // app.removeDetailPage(0);
                   app.addDetailPage(detailpage);
                   app.toDetail(pageId);
-                 // app.setInitialDetail(detailpage);
+                 // app.setInitialDetail(detailpage);  
                   }
                   else {
 
