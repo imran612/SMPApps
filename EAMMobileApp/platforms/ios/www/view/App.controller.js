@@ -8,8 +8,25 @@ sap.ui.controller("com.slb.mobile.view.App", {
 	to : function (pageId, context) {
 		
 		var app = this.getView().app;
-		
+                  app.setMode(sap.m.SplitAppMode.StretchCompressMode);
+                  if(pageId=="WODetail") {
+                  console.log(app);
+                  var detailpage = sap.ui.view({
+                                         id : pageId,
+                                         viewName : "com.slb.mobile.view." + pageId,
+                                         type : "JS"
+                                         });
+                  detailpage.getController().nav = this;
+                 // app.removeDetailPage(0);
+                  app.addDetailPage(detailpage);
+                  app.toDetail(pageId);
+                 // app.setInitialDetail(detailpage);  
+                  }
+                  else {
+
 		// load page on demand
+              
+                 // app.removeDetailPage(0);
 		var home = ("Home" === pageId);
 		if (app.getPage(pageId, home) === null) {
 			var page = sap.ui.view({
@@ -18,18 +35,41 @@ sap.ui.controller("com.slb.mobile.view.App", {
 				type : "JS"
 			});
 			page.getController().nav = this;
-			app.addPage(page, home);
+                  
+			//app.addPage(page, home);
+                  app.addMasterPage(page, home);
+                  // var epty = sap.ui.jsview("ept1", "com.slb.mobile.view.WODetail");
+                  var emptyPage = sap.ui.view({
+                                               id : "Empty",
+                                               viewName : "com.slb.mobile.view.Empty",
+                                               type : "JS"
+                                               });
+                  emptyPage.getController().nav = this;
+                  //app.addDetailPage(detailpage);
+                  app.insertDetailPage(emptyPage,0);
+                 // app.addDetailPage(epty);
 			//jQuery.sap.log.info("app controller > loaded page: " + pageId);
+                  app.toMaster(pageId);
+                  app.toDetail("Empty");
+                  //app.destroyDetailPages();
+                  //app.toDetail("WODetail");
+                  
 		}
+                  
+                 // app.to(pageId,"flip");
+                  
+                  }//else
 		
 		// show the page
-		app.to(pageId,"flip");
 		
+                  
+                  
 		// set data context on the page
 		if (context) {
-			var page = app.getPage(pageId);
-			page.setBindingContext(context);
+			//var page = app.getPage(pageId);
+			//page.setBindingContext(context);
 		}
+                  //return app;
 	},
 	
 	/**

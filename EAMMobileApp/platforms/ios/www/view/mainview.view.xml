@@ -5,8 +5,10 @@ controllerName="com.slb.mobile.view.mainview"
 xmlns:mvc="sap.ui.core.mvc"
 xmlns="sap.m">
 <Page
-showHeader="false"
-enableScrolling="false" >
+showHeader="true"
+enableScrolling="false"
+title="Technology LifeCycle Management"
+>
 <TileContainer
 id="container"
 tileDelete="handleTileDelete"
@@ -18,8 +20,15 @@ number="{number}"
 numberUnit="{numberUnit}"
 title="{title}"
 info="{info}"
-infoState="{infoState}" />
+infoState="{infoState}"
+press="handleTilePress"
+/>
 </TileContainer>
+<footer>
+    <Toolbar>
+        <ToolbarSpacer/>
+    </Toolbar>
+</footer>
 </Page>
 </mvc:View>
 

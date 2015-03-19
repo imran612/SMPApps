@@ -60,6 +60,11 @@ sap.ui.controller("com.slb.mobile.view.mainview", {
                   handleTileDelete : function (evt) {
                   var tile = evt.getParameter("tile");
                   evt.getSource().removeTile(tile);
+                  },
+                  handleTilePress: function (evt) {
+                  var nav = oCore.byId('mainview').getController().nav;
+                  busyDialog.close();
+                  nav.to("WOListMaster");
                   }
 
 });

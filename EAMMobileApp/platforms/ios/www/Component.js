@@ -4,8 +4,6 @@ jQuery.sap.require("com.slb.mobile.MyRouter");
 sap.ui.core.UIComponent.extend("com.slb.mobile.Component", {
                     
             createContent : function() {
-                               
-                               alert("in app view");
                                // create root view
                                var oView = sap.ui.view({
                                                        id : "app",
