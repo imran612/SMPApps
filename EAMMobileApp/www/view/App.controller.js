@@ -27,7 +27,7 @@ sap.ui.controller("com.slb.mobile.view.App", {
                   var detailpage = sap.ui.view({
                                          id : pageId,
                                          viewName : "com.slb.mobile.view." + pageId,
-                                         type : "JS"
+                                         type : "XML"
                                          });
                   detailpage.getController().nav = this;
                  // app.removeDetailPage(0);

@@ -17,14 +17,17 @@ sap.ui.jsview("com.slb.mobile.view.WOListMaster", {
         var page = new sap.m.Page({showHeader: true,
                                         showNavButton: true,
                                         alignItems:"center",
+                                        title: "Work List"
                                         });
-              page.setCustomHeader(new sap.m.Bar({contentLeft: new sap.m.Button({icon:"sap-icon://home",press:oController.goHome})}));
-        //var srchField = new sap.m.SearchField(sId, mSettings);
-		//var oWODesc = new sap.m.Text({text: "Hello"}); 
-		
-		//var woList = new sap.m.List("list");
-		var woList = new sap.m.List({
+              page.setCustomHeader(new sap.m.Bar({contentLeft: new sap.m.Button({icon:"sap-icon://home",press:oController.goHome}),contentMiddle: new sap.m.Text({text:"Work List"}) ,contentRight:new sap.m.Button({icon:"sap-icon://filter"})  }));
+              
+              page.setSubHeader(new sap.m.Bar({contentMiddle: new sap.m.SearchField({showRefreshButton: true})}));
+   
+             page.addContent(sap.ui.xmlfragment("com.slb.mobile.view.fragments.WOMasterListItems",oController));
+      
+	/*	var woList = new sap.m.List({
 			id:"list",
+                                    
 			select:"handleListSelect"
 		});
 		
@@ -36,26 +39,54 @@ sap.ui.jsview("com.slb.mobile.view.WOListMaster", {
                              press : [oController.handleListItemPress, oController],
                              attributes : [new sap.m.ObjectAttribute({
                                      text : "{FuncLoc}"
-                               })], //new sap.m.ObjectAttribute({
-                                   // text : "{SupplierName}"
-                            //})],
+                               })],
                             firstStatus : new sap.m.ObjectStatus({
                                         text : "{Wc}"
                            })
                         }); 
 
         woList.bindItems("/WorkOrderCollection", objectTemplate);
-              //this.app = new sap.m.SplitApp();
-              page.addContent(woList);
+            
+              page.addContent(woList); */
+              
               return page;
- 		/*return new sap.m.Page({
-			title: "Work Orders",
-			content: [
-			         
-			          woList
-			         
-			]
-		}); */
+       
 	}
+              
 
 });
+
+
+/*{
+ "WorkOrderCollection": [
+ {
+ "WoId": "50000101",
+ "Desc": "Stem Maintenance",
+ "OrdType": "PM03",
+ "SystemStatus": "REL",
+ "UserStatus": "INSP",
+ "EquipNum": "A7104131",
+ "EquipDesc": "Centrifuge 518 High Volume FVS",
+ "FuncLoc": "Loca123",
+ "StartDate": "10-20-2014",
+ "FinishDate": "12-10-2014",
+ "Notification":"90000213",
+ "EnteredBy": "User1",
+ "Priority": "p1",
+ "PriorityText": "priority text",
+ "NoOfOperation": "10",
+ "Wc": "wc-1000",
+ "wcDesc": "wc1000",
+ "BusinessPartner": {
+ "CompanyName": "SAP AG",
+ "SoId": "100000000",
+ "Street": "Dietmar-Hopp-Allee",
+ "Building": "15",
+ "PostalCode": "69190",
+ "City": "Walldorf",
+ "Country": "DE"
+ }
+ }
+ 
+ ]
+ }*/
