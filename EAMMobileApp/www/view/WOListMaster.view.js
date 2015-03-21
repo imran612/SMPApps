@@ -14,13 +14,14 @@ sap.ui.jsview("com.slb.mobile.view.WOListMaster", {
 	*/ 
 	createContent : function(oController) {
 		
-        var page = new sap.m.Page({showHeader: true,
+              var page = new sap.m.Page({showHeader: true,showFooter: true,
                                         showNavButton: true,
                                         alignItems:"center",
                                         title: "Work List"
                                         });
               page.setCustomHeader(new sap.m.Bar({contentLeft: new sap.m.Button({icon:"sap-icon://home",press:oController.goHome}),contentMiddle: new sap.m.Text({text:"Work List"}) ,contentRight:new sap.m.Button({icon:"sap-icon://filter"})  }));
               
+              page.setFooter(new sap.m.Bar({}));
               page.setSubHeader(new sap.m.Bar({contentMiddle: new sap.m.SearchField({showRefreshButton: true})}));
    
              page.addContent(sap.ui.xmlfragment("com.slb.mobile.view.fragments.WOMasterListItems",oController));
@@ -56,7 +57,6 @@ sap.ui.jsview("com.slb.mobile.view.WOListMaster", {
 
 });
 
-
 /*{
  "WorkOrderCollection": [
  {
@@ -89,4 +89,6 @@ sap.ui.jsview("com.slb.mobile.view.WOListMaster", {
  }
  
  ]
- }*/
+ } */
+
+

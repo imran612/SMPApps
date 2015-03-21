@@ -17,7 +17,7 @@ sap.ui.controller("com.slb.mobile.view.WOListMaster", {
 	onInit: function() {
                   var oModel = new sap.ui.model.json.JSONModel("model/WOMockup.json");
                   this.getView().setModel(oModel);
-                  sap.ui.getCore().setModel(oModel);
+                 // sap.ui.getCore().setModel(oModel);
 	},
                   getGroupHeader: function (oGroup){
                   return new sap.m.GroupHeaderListItem( {

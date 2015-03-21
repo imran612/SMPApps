@@ -1,6 +1,6 @@
 sap.ui.controller("com.slb.mobile.view.WOListMaster", {
 
-	handleListItemPress : function (evt) {
+	onListItemPress : function (evt) {
 		var context = evt.getSource().getBindingContext();
 		this.nav.to("WODetail", context);
 	},
@@ -17,7 +17,14 @@ sap.ui.controller("com.slb.mobile.view.WOListMaster", {
 	onInit: function() {
                   var oModel = new sap.ui.model.json.JSONModel("model/WOMockup.json");
                   this.getView().setModel(oModel);
+                 // sap.ui.getCore().setModel(oModel);
 	},
+                  getGroupHeader: function (oGroup){
+                  return new sap.m.GroupHeaderListItem( {
+                                                       title: oGroup.key,
+                                                       upperCase: false
+                                                       } );
+                  },
                   goHome: function(evt) {
                   var context = evt.getSource().getBindingContext();
                   var nav = oCore.byId('mainview').getController().nav;
