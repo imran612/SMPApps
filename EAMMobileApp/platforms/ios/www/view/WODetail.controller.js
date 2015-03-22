@@ -18,7 +18,12 @@ sap.ui.controller("com.slb.mobile.view.WODetail", {
                   sap.ui.getCore().setModel(oModel);
                  // sap.ui.getCore().byId("lineItemList").setModel(oModel);
                   //alert("d");
-	}
+	},
+                  
+                  handleLineItemPress: function(evt) {
+                 // var context = evt.getParameter("listItem").getBindingContext();
+                  this.nav.to("WODetailL2", null);
+                  }
 
 /**
 * Similar to onAfterRendering, but this hook is invoked before the controller's View is re-rendered

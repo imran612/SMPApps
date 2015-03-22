@@ -30,32 +30,54 @@
     
     "WODetailColection": [
                           {
-                          "text": "Projector",
-                          "data": 1
+                          "position": "0010",
+                          "desc1": "Weekly 414/518/518HV",
+                          "desc2": "Electric Field Maintenance Checklist",
+                          "status": "Open",
+                          "assignedUser": "Demo User"
+                          
                           },
                           {
-                          "text": "Graphics Card",
-                          "data": 2
+                          "position": "0020",
+                          "desc1": "Weekly 414/518/518HV",
+                          "desc2": "Electric Field Maintenance Checklist",
+                          "status": "Open",
+                          "assignedUser": "Demo User"
                           },
                           {
-                          "text": "Accessory",
-                          "data": 4
+                          "position": "0030",
+                          "desc1": "Weekly 414/518/518HV",
+                          "desc2": "Electric Field Maintenance Checklist",
+                          "status": "Open",
+                          "assignedUser": "Demo User"
                           },
                           {
-                          "text": "Printer",
-                          "data": 2
+                          "position": "0040",
+                          "desc1": "Weekly 414/518/518HV",
+                          "desc2": "Electric Field Maintenance Checklist",
+                          "status": "Open",
+                          "assignedUser": "Demo User"
                           },
                           {
-                          "text": "Monitor",
-                          "data": 3
+                          "position": "0050",
+                          "desc1": "Weekly 414/518/518HV",
+                          "desc2": "Electric Field Maintenance Checklist",
+                          "status": "Open",
+                          "assignedUser": "Demo User"
                           },
                           {
-                          "text": "Laptop",
-                          "data": 1
+                          "position": "0060",
+                          "desc1": "Weekly 414/518/518HV",
+                          "desc2": "Electric Field Maintenance Checklist",
+                          "status": "Open",
+                          "assignedUser": "Demo User"
                           },
                           {
-                          "text": "Keyboard",
-                          "data": 1
+                          "position": "0070",
+                          "desc1": "Weekly 414/518/518HV",
+                          "desc2": "Electric Field Maintenance Checklist",
+                          "status": "Open",
+                          "assignedUser": "Demo User"
                           }
                           ]
 }

@@ -1,3 +1,12 @@
 .spacerTop {
 	margin-top: 2rem;
 }
+.bNotification {
+float: right;
+margin-right: 1rem;
+}
+.woDetailHdr {
+    margin-bottom: -5.0rem;
+    background-color: white;
+    height: 10rem;
+}

@@ -1,7 +1,7 @@
-sap.ui.controller("com.slb.mobile.view.WODetail", {
+sap.ui.controller("com.slb.mobile.view.WODetailL2", {
 	
 	handleNavButtonPress : function (evt) {
-		this.nav.back("idEmpty");
+		this.nav.back("WODetail",null);
 		
 		//this.bus.publish("nav", "back");
 
@@ -13,17 +13,12 @@ sap.ui.controller("com.slb.mobile.view.WODetail", {
 * @memberOf view.WODetail
 */
 	onInit: function() {
-                  var oModel = new sap.ui.model.json.JSONModel("model/WODetails.json");
+                  var oModel = new sap.ui.model.json.JSONModel("model/WODetailsL2.json");
                   this.getView().setModel(oModel);
-                  sap.ui.getCore().setModel(oModel);
+                 // sap.ui.getCore().setModel(oModel);
                  // sap.ui.getCore().byId("lineItemList").setModel(oModel);
                   //alert("d");
-	},
-                  
-                  handleLineItemPress: function(evt) {
-                 // var context = evt.getParameter("listItem").getBindingContext();
-                  this.nav.to("WODetailL2", null);
-                  }
+	}
 
 /**
 * Similar to onAfterRendering, but this hook is invoked before the controller's View is re-rendered

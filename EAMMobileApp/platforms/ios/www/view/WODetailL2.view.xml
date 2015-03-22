@@ -1,0 +1,53 @@
+<mvc:View
+    controllerName="com.slb.mobile.view.WODetailL2"
+    xmlns="sap.m"
+    xmlns:form="sap.ui.layout.form"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns:core="sap.ui.core" >
+    <Page
+        id="page"
+        class="sapUiFioriObjectPage"
+        title="Work Orders"
+        showNavButton="true"
+        navButtonPress="handleNavButtonPress" >
+        <footer>
+            <Toolbar>
+                <ToolbarSpacer/>
+               
+            </Toolbar>
+        </footer>
+        <content>
+            <ObjectHeader
+                class="woDetailHdr"
+                binding="{/}"
+                title="{WOId}"
+                number="{Amount}"
+                numberUnit="{CurrencyCode}" >
+                <attributes>
+                    <ObjectAttribute
+                    title="Equipment"
+                    text="{Equipment}"
+                    active="true"
+                     />
+                    <ObjectAttribute
+                    title="Start"
+                    text="{SDate}" />
+                    <ObjectAttribute
+                    title="End"
+                    text="{EDate}" />
+                </attributes>
+                <statuses>
+                    <ObjectStatus
+                    text="{NotNumber}"
+                     />
+                     <ObjectStatus
+                     text="Items" />
+                     
+               </statuses>
+            </ObjectHeader>
+            <Button text="Notification" icon="sap-icon://letter" class="bNotification" />
+
+
+        </content>
+    </Page>
+</mvc:View>

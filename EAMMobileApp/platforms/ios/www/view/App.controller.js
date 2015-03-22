@@ -23,7 +23,7 @@ sap.ui.controller("com.slb.mobile.view.App", {
                     app.toDetail("WODetail");
                   }
                   else {
-                  console.log(app);
+                
                   var detailpage = sap.ui.view({
                                          id : pageId,
                                          viewName : "com.slb.mobile.view." + pageId,
@@ -34,6 +34,25 @@ sap.ui.controller("com.slb.mobile.view.App", {
                   app.addDetailPage(detailpage);
                   app.toDetail(pageId);
                  // app.setInitialDetail(detailpage);
+                  }
+                  }
+                  else if(pageId=="WODetailL2") {
+                  if(app.getPage("WODetailL2",false)!=null) {
+                  
+                  app.toDetail("WODetailL2");
+                  }
+                  else {
+               
+                  var detailpage = sap.ui.view({
+                                               id : pageId,
+                                               viewName : "com.slb.mobile.view." + pageId,
+                                               type : "XML"
+                                               });
+                  detailpage.getController().nav = this;
+                  // app.removeDetailPage(0);
+                  app.addDetailPage(detailpage);
+                  app.toDetail(pageId);
+                  // app.setInitialDetail(detailpage);
                   }
                   }
                   else {
@@ -62,8 +81,8 @@ sap.ui.controller("com.slb.mobile.view.App", {
                   // var epty = sap.ui.jsview("ept1", "com.slb.mobile.view.WODetail");
                   var emptyPage = sap.ui.view({
                                                id : "Empty",
-                                               viewName : "com.slb.mobile.view.Empty",
-                                               type : "JS"
+                                               viewName : "com.slb.mobile.view.WODetail",
+                                               type : "XML"
                                                });
                   emptyPage.getController().nav = this;
                   //app.addDetailPage(detailpage);
