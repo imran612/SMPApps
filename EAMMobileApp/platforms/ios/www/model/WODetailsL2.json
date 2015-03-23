@@ -1,5 +1,4 @@
 {
-    
     "WOId": "5000101 - Oil Leak on Gearbox",
     "Equipment": "A7104137",
     "SDate": "23-Nov-2014",
@@ -7,6 +6,7 @@
     "NotNumber": "6",
     "RigId": "R2322",
     "JobId": "J87799",
+    "NotType": "Corrective",
     "WOText": "Oil Leak on Gearbox",
     "StartDate": "23-Nov-2014",
     "Plant": "ZM01",
@@ -26,8 +26,6 @@
     "Depth": 42,
     "Height": 18,
     "DimUnit": "cm",
-    
-    
     "WODetailColection": [
                           {
                           "position": "0010",
@@ -35,7 +33,6 @@
                           "desc2": "Electric Field Maintenance Checklist",
                           "status": "Open",
                           "assignedUser": "Demo User"
-                          
                           },
                           {
                           "position": "0020",
@@ -79,5 +76,50 @@
                           "status": "Open",
                           "assignedUser": "Demo User"
                           }
-                          ]
+                          ],
+    "WODetailL2CheckList": [
+                            {
+                            "check1": "001- Verify all PPE is available, JSA is complete, and lock out/tag out procedure are followed prior to repairs (if necessary)",
+                            "check2": "Obtain PPE and documentation as necessary",
+                            "addText": "Reference Document"
+                            },
+                            {
+                            "check1": "001- Verify all PPE is available, JSA is complete, and lock out/tag out procedure are followed prior to repairs (if necessary)",
+                            "check2": "Obtain PPE and documentation as necessary",
+                            "addText": "Reference Document"
+                            },
+                            {
+                            "check1": "001- Verify all PPE is available, JSA is complete, and lock out/tag out procedure are followed prior to repairs (if necessary)",
+                            "check2": "Obtain PPE and documentation as necessary",
+                            "addText": "Reference Document"
+                            }
+                            ],
+    "WODetailL2Parts": [
+                        {
+                        "mno": "",
+                        "qty": ""
+                        },
+                        {
+                        "mno": "",
+                        "qty": ""
+                        },
+                        {
+                        "mno": "",
+                        "qty": ""
+                        }
+                        ],
+    "Attachments": [
+                    {
+                    "fname": "DPC2012.JPG",
+                    "desc": "Description"
+                    },
+                    {
+                    "fname": "DPC2012.JPG",
+                    "desc": "Description"
+                    },
+                    {
+                    "fname": "DPC2012.JPG",
+                    "desc": "Description"
+                    }
+                    ]
 }

@@ -5,7 +5,6 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		07CDD3AECC674E84A8B57A93 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72D48AB2CE3F4F6090512469 /* libcrypto.a */; };
 		0BD57F6C378C43D1BEC0A101 /* libDatavault.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 436C7DB67BE747EC9E95C760 /* libDatavault.a */; };

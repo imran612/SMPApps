@@ -45,7 +45,7 @@
                      
                </statuses>
             </ObjectHeader>
-            <Button text="Notification" icon="sap-icon://letter" class="bNotification" />
+            <Button text="Notification" icon="sap-icon://notification-2" class="bNotification" />
 
             <Table
                 id="lineItemList"
