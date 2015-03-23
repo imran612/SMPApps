@@ -10,3 +10,22 @@ margin-right: 1rem;
     background-color: white;
     height: 10rem;
 }
+.detailWOVrtcl {
+    width: 100%;
+    background-color:white;
+}
+.detailWOVrtcl > div {
+    margin-bottom: -2rem;
+}
+.sapUiHLayoutChildWrapper {
+    width:90%;
+}
+.Vlyt {
+    padding: 5px;
+}
+.attachment {
+    padding: 10px;
+}
+.checklist {
+    padding-top: 10px;
+}

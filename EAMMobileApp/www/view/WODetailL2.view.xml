@@ -1,7 +1,7 @@
 <mvc:View
     controllerName="com.slb.mobile.view.WODetailL2"
     xmlns="sap.m"
-    xmlns:form="sap.ui.layout.form"
+    xmlns:l="sap.ui.layout"
     xmlns:mvc="sap.ui.core.mvc"
     xmlns:core="sap.ui.core" >
     <Page
@@ -13,12 +13,15 @@
         <footer>
             <Toolbar>
                 <ToolbarSpacer/>
+               <Button type="Reject" text="Clear" />
+               <Button type="Emphasized" text="Save" />
+               <Button text="Done"/>
                
             </Toolbar>
         </footer>
         <content>
+      <l:VerticalLayout class="detailWOVrtcl" width="100%">
             <ObjectHeader
-                class="woDetailHdr"
                 binding="{/}"
                 title="{WOId}"
                 number="{Amount}"
@@ -38,15 +41,123 @@
                 </attributes>
                 <statuses>
                     <ObjectStatus
-                    text="{NotNumber}"
+                    text="{NotType}"
                      />
                      <ObjectStatus
-                     text="Items" />
+                     text="{Plant}" />
                      
                </statuses>
             </ObjectHeader>
-            <Button text="Notification" icon="sap-icon://letter" class="bNotification" />
+            <Button text="View Notification" icon="sap-icon://notification-2" class="bNotification" />
+            <Button text="Create Notification" icon="sap-icon://add" class="bNotification" />
+             </l:VerticalLayout>
+            <IconTabBar
+                id="idIconTabBar"
+                select="handleIconTabBarSelect">
+                <items>
+                 
+                    <IconTabFilter
+                    icon="sap-icon://check-availability"
+                    iconColor="Positive"
+                    text="Checklist"
+                    key="Checklist">
+                    <Toolbar>
+                         <Text text="Checklist" />
+                          <ToolbarSpacer/>
+                        <Button icon="sap-icon://add" text="Add Measurements"/>
+                    </Toolbar>
+                    <List
+                        id="ShortProductList"
+                        items="{
+                        path: '/WODetailL2CheckList'
+                        }">
+                        <items>
+                            <CustomListItem>
+                                <Text class="checklist" text="{check1}" />
+                                <Text text="{addText}" />
+                                <Text text="{check2}" />
+                                <Toolbar>
+                                    <core:Icon src="sap-icon://notes" />
+                                    <ToolbarSpacer/>
+                                    <RadioButtonGroup columns="3" >
+                                        <buttons>
+                                            <RadioButton id="RB1-1" text="Yes"/>
+                                            <RadioButton id="RB1-2" text="No" />
+                                        </buttons>
+                                    </RadioButtonGroup>
+                                </Toolbar>
 
+                            </CustomListItem>
+                        </items>
+                       </List>
+                        
+                    </IconTabFilter>
+                    
+                    <IconTabFilter
+                    icon="sap-icon://settings"
+                    iconColor="Default"
+                    text="Parts"
+                    key="Parts">
+                    <Toolbar>
+                        <Text text="Parts Consumed" />
+                        <ToolbarSpacer/>
+                    </Toolbar>
+                    <List
+                        id="Parts"
+                        items="{
+                        path: '/WODetailL2Parts'
+                        }">
+                        <items>
+                            <CustomListItem>
+                                <l:HorizontalLayout width="100%">
+                                
+                                <VBox class="Vlyt">
+                                  <Label text="Material Number" />
+                                  <Input />
+                                  </VBox>
+                                
+                                    <VBox class="Vlyt">
+                                        <Label text="Quantity" />
+                                        <Input />
+                                    </VBox>
+                                  
+                                  </l:HorizontalLayout>
+                                        
+                            </CustomListItem>
+                        </items>
+                    </List>
+                    </IconTabFilter>
+                    
+                    <IconTabFilter
+                    icon="sap-icon://attachment"
+                    iconColor="Default"
+                    text="Attachments"
+                    key="Attachments">
+                    <Toolbar>
+                        <Text text="Attachments" />
+                        <ToolbarSpacer/>
+                        <Button icon="sap-icon://add" text="Add Attachments"/>
+                    </Toolbar>
+                    <List
+                        id="attachments"
+                        items="{
+                        path: '/Attachments'
+                        }">
+                        <items>
+                            <CustomListItem>
+                                <l:HorizontalLayout>
+                                    <Text text="{fname}" class="attachment" />
+                                    <Text text="{desc}" class="attachment" />
+
+                                    
+                                </l:HorizontalLayout>
+                                
+                            </CustomListItem>
+                        </items>
+                    </List>
+                    </IconTabFilter>
+                </items>
+            </IconTabBar>
 
         </content>
     </Page>

@@ -5,6 +5,7 @@
 	};
 	objectVersion = 46;
 	objects = {
+
 /* Begin PBXBuildFile section */
 		07CDD3AECC674E84A8B57A93 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72D48AB2CE3F4F6090512469 /* libcrypto.a */; };
 		0BD57F6C378C43D1BEC0A101 /* libDatavault.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 436C7DB67BE747EC9E95C760 /* libDatavault.a */; };
@@ -469,6 +470,11 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 510;
+				TargetAttributes = {
+					1D6058900D05DD3D006BFB54 = {
+						DevelopmentTeam = LU2827827G;
+					};
+				};
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "EAMMobApp" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -628,6 +634,8 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -679,6 +687,7 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = EAMMobApp;
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -688,6 +697,8 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EAMMobApp/EAMMobApp-Prefix.pch";
@@ -737,6 +748,7 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = EAMMobApp;
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
