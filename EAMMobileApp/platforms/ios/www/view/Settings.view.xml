@@ -1,0 +1,120 @@
+<mvc:View
+    controllerName="com.slb.mobile.view.Settings"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns:l="sap.ui.layout"
+    xmlns:f="sap.ui.layout.form"
+    xmlns:c="sap.ui.core"
+    xmlns="sap.m">
+    <Page
+        class="sapUiFioriObjectPage"
+        title="Technology Lifcycle Management">
+        <l:Grid
+            defaultSpan="L12 M12 S12"
+            width="auto">
+            <l:content>
+                <f:SimpleForm
+                    id="idAddProductForm"
+                    minWidth="1024"
+                    maxContainerCols="2"
+                    editable="true"
+                    layout="ResponsiveGridLayout"
+                    labelSpanL="3"
+                    labelSpanM="3"
+                    emptySpanL="4"
+                    emptySpanM="4"
+                    columnsL="1"
+                    columnsM="1"
+                    class="editableForm">
+                    <f:content>
+                        <!-- Basic info -->
+                        <c:Title text="Data Sync Preferences" />
+                        <Label text="Maintenance Plant" />
+                        <Select width="100%">
+                            <items>
+                                <c:Item text="" />
+                                <c:Item text="Plant1" />
+                                <c:Item text="Plant2" />
+                                <c:Item text="Plant3" />
+                            </items>
+                        </Select>
+                        <Label text="Function Location" />
+                        <Select width="100%">
+                            <items>
+                                <c:Item text="" />
+                                <c:Item text="Location1" />
+                                <c:Item text="Location2" />
+                                <c:Item text="Location3" />
+                            </items>
+                        </Select>
+                        <Label text="" />
+                        <l:HorizontalLayout width="100%">
+                            <CheckBox text="Base" />
+                            <CheckBox text="Rig" />
+                            <CheckBox text="In Transit" />
+                           
+                        </l:HorizontalLayout>
+                       
+                        <Label text="Rig Id" />
+                        <Select width="100%">
+                            <items>
+                                <c:Item text="" />
+                                <c:Item text="Location1" />
+                                <c:Item text="Location2" />
+                                <c:Item text="Location3" />
+                            </items>
+                        </Select>
+                       
+                        <Label text="Number of History Record" />
+                        <Select width="100%">
+                            <items>
+                                <c:Item text="" />
+                                <c:Item text="Location1" />
+                                <c:Item text="Location2" />
+                                <c:Item text="Location3" />
+                            </items>
+                        </Select>
+                        
+                       
+                        <!-- Discontinued? -->
+                        <c:Title text="User Preferences" />
+                        <Label text="Unit of Measures" />
+                        
+                        <RadioButtonGroup columns="2">
+                            <buttons>
+                                <RadioButton id="Imperial" text="Imperial"/>
+                                <RadioButton id="Metric" text="Metric" />
+                                
+                            </buttons>
+                        </RadioButtonGroup>
+                        
+                       
+                        <Label
+                        text="Time Settings" />
+                        
+                        <Select width="100%">
+                            <items>
+                                <c:Item text="" />
+                                <c:Item text="Location1" />
+                                <c:Item text="Location2" />
+                                <c:Item text="Location3" />
+                            </items>
+                        </Select>
+                        
+                       
+                        <Label text="Date" />
+                        <DateTimeInput
+                        type="DateTime"
+                        placeholder="Enter Date &amp; Time ..." />
+                    </f:content>
+                </f:SimpleForm>
+            </l:content>
+        </l:Grid>
+        <footer>
+            <Toolbar>
+                <ToolbarSpacer/>
+                <Button text="Cancel" type="Emphasized" press="onCancel" />
+                <Button text="Sync" press="onCancel" />
+            </Toolbar>
+        </footer>
+    </Page>
+</mvc:View>

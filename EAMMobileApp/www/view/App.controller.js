@@ -55,6 +55,26 @@ sap.ui.controller("com.slb.mobile.view.App", {
                   // app.setInitialDetail(detailpage);
                   }
                   }
+                  else if(pageId=="Settings") {
+                  if(app.getPage("Settings",false)!=null) {
+                  app.setMode(sap.m.SplitAppMode.HideMode);
+                  app.toDetail("Settings");
+                  }
+                  else {
+                  
+                  var settings = sap.ui.view({
+                                               id : pageId,
+                                               viewName : "com.slb.mobile.view." + pageId,
+                                               type : "XML"
+                                               });
+                  settings.getController().nav = this;
+                  // app.removeDetailPage(0);
+                  app.addDetailPage(settings);
+                  app.setMode(sap.m.SplitAppMode.HideMode);
+                  app.toDetail(pageId);
+                  // app.setInitialDetail(detailpage);
+                  }
+                  }
                   else {
                  
                   if(app.getPage("WOListMaster",true)!=null) {

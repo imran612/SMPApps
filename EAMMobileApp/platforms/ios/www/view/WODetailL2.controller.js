@@ -18,7 +18,30 @@ sap.ui.controller("com.slb.mobile.view.WODetailL2", {
                  // sap.ui.getCore().setModel(oModel);
                  // sap.ui.getCore().byId("lineItemList").setModel(oModel);
                   //alert("d");
-	}
+	},
+                  handleCreateNotification : function(sType) {
+                  if (!this[sType]) {
+                  this[sType] = sap.ui.xmlfragment(
+                                                   "com.slb.mobile.view.fragments.CreateNotification",
+                                                   this // associate controller with the fragment
+                                                   );
+                  this.getView().addDependent(this[sType]);
+                  }
+                  
+                  this[sType].bindElement("/ProductCollection/0");
+                  // toggle compact style
+                 // jQuery.sap.syncStyleClass("sapUiSizeCompact", this.getView(), this[sType]);
+                  this[sType].open();
+                  var oModel = new sap.ui.model.json.JSONModel();
+                  oModel.crNotification= this[sType];
+                  oCore.setModel(oModel,"crNotificationModel");
+                  },
+                  onDialogCloseButton: function (oEvent) {
+                 // var sType = oEvent.getSource().data("dialogType");
+                  //this[sType].close();
+                  var oModel = oCore.getModel("crNotificationModel");
+                      oModel.crNotification.close();
+                  }
 
 /**
 * Similar to onAfterRendering, but this hook is invoked before the controller's View is re-rendered

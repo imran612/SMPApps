@@ -65,6 +65,29 @@ sap.ui.controller("com.slb.mobile.view.mainview", {
                   var nav = oCore.byId('mainview').getController().nav;
                   busyDialog.close();
                   nav.to("WOListMaster");
+                  },
+                  openSettings : function(sType) {
+                  if (!this[sType]) {
+                  this[sType] = sap.ui.xmlfragment(
+                                                   "com.slb.mobile.view.fragments.SettingLink",
+                                                   this // associate controller with the fragment
+                                                   );
+                  this.getView().addDependent(this[sType]);
+                  }
+                  this[sType].openBy(sType.getSource());
+                  
+                  //this[sType].bindElement("/ProductCollection/0");
+                  // toggle compact style
+                  // jQuery.sap.syncStyleClass("sapUiSizeCompact", this.getView(), this[sType]);
+                //  this[sType].open();
+                  var oModel = new sap.ui.model.json.JSONModel();
+                  oModel.crNotification= this[sType];
+                  oCore.setModel(oModel,"settingsModel");
+
+                  },
+                  launchSettings: function(evt) {
+                  var nav = oCore.byId('mainview').getController().nav;
+                  nav.to("Settings",null);
                   }
 
 });

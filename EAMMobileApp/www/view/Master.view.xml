@@ -1,6 +1,7 @@
 <mvc:View
 	controllerName="com.slb.mobile.view.Master"
 	displayBlock="true"
+    xmlns:core="sap.ui.core"
 	xmlns:mvc="sap.ui.core.mvc"
 	xmlns="sap.m">
 	<Page

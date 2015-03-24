@@ -3,12 +3,20 @@
 height="100%"
 controllerName="com.slb.mobile.view.mainview"
 xmlns:mvc="sap.ui.core.mvc"
+xmlns:core="sap.ui.core"
 xmlns="sap.m">
 <Page
 showHeader="true"
 enableScrolling="false"
 title="Technology LifeCycle Management"
 >
+<headerContent>
+    <Toolbar>
+        <ToolbarSpacer/>
+        <Button icon="sap-icon://account" text="Demo User" id="settingsBtn" press="openSettings"/>
+        <core:Icon src="sap-icon://arrow-bottom" />
+    </Toolbar>
+</headerContent>
 <TileContainer
 id="container"
 tileDelete="handleTileDelete"

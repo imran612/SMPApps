@@ -49,7 +49,7 @@
                </statuses>
             </ObjectHeader>
             <Button text="View Notification" icon="sap-icon://notification-2" class="bNotification" />
-            <Button text="Create Notification" icon="sap-icon://add" class="bNotification" />
+            <Button text="Create Notification" icon="sap-icon://add" class="bNotification" press="handleCreateNotification" />
              </l:VerticalLayout>
             <IconTabBar
                 id="idIconTabBar"
