@@ -15,7 +15,7 @@ sap.ui.controller("com.slb.mobile.view.WODetail", {
 	onInit: function() {
                   var oModel = new sap.ui.model.json.JSONModel("model/WODetails.json");
                   this.getView().setModel(oModel);
-                  sap.ui.getCore().setModel(oModel);
+                  //sap.ui.getCore().setModel(oModel);
                  // sap.ui.getCore().byId("lineItemList").setModel(oModel);
                   //alert("d");
 	},

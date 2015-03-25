@@ -29,3 +29,14 @@ margin-right: 1rem;
 .checklist {
     padding-top: 10px;
 }
+.sapUiRGLContainerCont {
+border: solid 1px rgb(206, 206, 206);
+background-color: white  !important;
+padding: 2rem;
+}
+.settingsTitle, #Settings--uPref{
+margin-top: 1rem;
+}
+#__app0-MasterBtn-inner {
+    display: none;
+}

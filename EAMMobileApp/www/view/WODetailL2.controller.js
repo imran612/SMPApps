@@ -1,6 +1,7 @@
 sap.ui.controller("com.slb.mobile.view.WODetailL2", {
 	
 	handleNavButtonPress : function (evt) {
+        var nav = oCore.byId("WODetail").getController().nav;
 		this.nav.back("WODetail",null);
 		
 		//this.bus.publish("nav", "back");

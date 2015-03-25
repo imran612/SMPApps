@@ -8,7 +8,7 @@
         id="page"
         class="sapUiFioriObjectPage"
         title="Work Orders"
-        showNavButton="{device>/isPhone}"
+        
         navButtonPress="handleNavBack" >
         <footer>
             <Toolbar>
@@ -57,12 +57,14 @@
                 >
                 
                 <columns>
-                    <Column>
+                    <Column  minScreenWidth="Phone"
+                        demandPopin="true"
+                        hAlign="Center">
                         <header><Label text="Operation" /></header>
                     </Column>
                     <Column
-                        width="20em"
-                        minScreenWidth="Tablet"
+                      width="10rem"
+                        minScreenWidth="Phone"
                         demandPopin="true"
                         hAlign="Center">
                         <header><Label text="Description" /></header>
@@ -71,13 +73,19 @@
                         
                         minScreenWidth="Tablet"
                         demandPopin="true"
+                        PopinDisplay="Inline"
                         hAlign="Center" >
                         <header><Label text="Status" /></header>
                     </Column>
-                    <Column>
+                    <Column  minScreenWidth="Tablet"
+                        demandPopin="true"
+                         PopinDisplay="Inline"
+                        hAlign="Center">
                         <header><Label text="Assigned To" /></header>
                     </Column>
-                    <Column
+                    <Column  minScreenWidth="Phone"
+                        demandPopin="true"
+                        
                         hAlign="Right" >
                         <header><Label text="" /></header>
                     </Column>

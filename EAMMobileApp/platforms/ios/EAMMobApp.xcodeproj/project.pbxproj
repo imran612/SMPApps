@@ -76,6 +76,7 @@
 		E3FB1ED40E3D46819ECAC786 /* libSMPEncryptedStoragePlugin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B541F3F10CD4B1087F6787A /* libSMPEncryptedStoragePlugin.a */; };
 		F331058FB7834BEDA722C687 /* libClientLog.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 48F0334C4B0B455F9C97F843 /* libClientLog.a */; };
 		FB46AB6647B847C88F9C3FB8 /* CDVInAppBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 143B9F9A4095431DBDCD5D4A /* CDVInAppBrowser.m */; };
+		B5EF6E018CD24D9493F8B58D /* CDVStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF872242747498C9904194B /* CDVStatusBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -181,6 +182,8 @@
 		F0C615ACAF944323BCC7AD42 /* libMAFLogger.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libMAFLogger.a; path = EAMMobApp/Plugins/com.sap.mp.cordova.plugins.logon/libMAFLogger.a; sourceTree = "<group>"; };
 		F41A6991E9824547891A1BE9 /* libRequest.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libRequest.a; path = EAMMobApp/Plugins/com.sap.mp.cordova.plugins.corelibs/libRequest.a; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = EAMMobApp/config.xml; sourceTree = "<group>"; };
+		CDF872242747498C9904194B /* CDVStatusBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVStatusBar.m"; path = "org.apache.cordova.statusbar/CDVStatusBar.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		02BA643E48E94239A8C3D79B /* CDVStatusBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVStatusBar.h"; path = "org.apache.cordova.statusbar/CDVStatusBar.h"; sourceTree = "<group>"; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -375,6 +378,8 @@
 				143B9F9A4095431DBDCD5D4A /* CDVInAppBrowser.m */,
 				6BABCF39EEA54C07B47B1A9C /* CDVInAppBrowser.h */,
 				B9FDCFEC839245029718D512 /* CertificateProvider.h */,
+				CDF872242747498C9904194B /* CDVStatusBar.m */,
+				02BA643E48E94239A8C3D79B /* CDVStatusBar.h */,
 			);
 			name = Plugins;
 			path = EAMMobApp/Plugins;
@@ -579,6 +584,7 @@
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
 				CB41EBC7805B4C6E83C134D2 /* CDVDevice.m in Sources */,
 				FB46AB6647B847C88F9C3FB8 /* CDVInAppBrowser.m in Sources */,
+				B5EF6E018CD24D9493F8B58D /* CDVStatusBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

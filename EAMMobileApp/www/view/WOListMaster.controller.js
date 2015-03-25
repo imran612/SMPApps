@@ -1,6 +1,8 @@
 sap.ui.controller("com.slb.mobile.view.WOListMaster", {
 
 	onListItemPress : function (evt) {
+                  
+                  busyDialog.open();
 		var context = evt.getSource().getBindingContext();
 		this.nav.to("WODetail", context);
 	},

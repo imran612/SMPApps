@@ -5,6 +5,7 @@
 	xmlns="sap.m">
 	
     <List
+        
         items="{
         path: '/ProductCollection',
         sorter: {
@@ -14,6 +15,8 @@
         },
         groupHeaderFactory: '.getGroupHeader'
         }"
+        mode="{device>/listMode}"
+        select="onListItemPress"
          >
 
         

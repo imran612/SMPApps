@@ -8,7 +8,8 @@ sap.ui.controller("com.slb.mobile.view.App", {
 	to : function (pageId, context) {
 		
 		var app = this.getView().app;
-                  app.setMode(sap.m.SplitAppMode.StretchCompressMode);
+                 // app.setMode(sap.m.SplitAppMode.StretchCompressMode);
+                  app.setMode(sap.m.SplitAppMode.ShowHideMode);
                   if(pageId=="Home") {
                   //console.log(app);
                   //alert(app.getInitialDetail());
@@ -18,6 +19,13 @@ sap.ui.controller("com.slb.mobile.view.App", {
                  // app.hideMaster();
                   }
                   else if(pageId=="WODetail") {
+                  var WODModel = sap.ui.getCore().byId(pageId).getModel();
+                   var aData=  WODModel.getData();
+                  WODModel.setData("{}");
+                  sap.ui.getCore().byId(pageId).setModel(WODModel);
+                  WODModel.setData(aData);
+                  sap.ui.getCore().byId(pageId).setModel(WODModel);
+                  
                   if(app.getPage("WODetail",false)!=null) {
                   
                     app.toDetail("WODetail");
@@ -80,7 +88,7 @@ sap.ui.controller("com.slb.mobile.view.App", {
                   if(app.getPage("WOListMaster",true)!=null) {
                   
                       app.toMaster("WOListMaster");
-                     app.toDetail("Empty");
+                     app.toDetail("WODetail");
                   }
                   else {
 
@@ -100,7 +108,7 @@ sap.ui.controller("com.slb.mobile.view.App", {
                   app.addMasterPage(page, home);
                   // var epty = sap.ui.jsview("ept1", "com.slb.mobile.view.WODetail");
                   var emptyPage = sap.ui.view({
-                                               id : "Empty",
+                                               id : "WODetail",
                                                viewName : "com.slb.mobile.view.WODetail",
                                                type : "XML"
                                                });
@@ -109,8 +117,10 @@ sap.ui.controller("com.slb.mobile.view.App", {
                   app.insertDetailPage(emptyPage,0);
                  // app.addDetailPage(epty);
 			//jQuery.sap.log.info("app controller > loaded page: " + pageId);
+                   //app.setMode(sap.m.SplitAppMode.PopoverMode);
+                  
                   app.toMaster(pageId);
-                  app.toDetail("Empty");
+                  app.toDetail("WODetail");
                   //app.destroyDetailPages();
                   //app.toDetail("WODetail");
                   
@@ -130,6 +140,10 @@ sap.ui.controller("com.slb.mobile.view.App", {
 			//var page = app.getPage(pageId);
 			//page.setBindingContext(context);
 		}
+                  jQuery.sap.delayedCall(1000, this, function () {
+                                          busyDialog.close();
+                                         });
+                 
                   //return app;
 	},
 	

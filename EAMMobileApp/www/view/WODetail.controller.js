@@ -15,7 +15,7 @@ sap.ui.controller("com.slb.mobile.view.WODetail", {
 	onInit: function() {
                   var oModel = new sap.ui.model.json.JSONModel("model/WODetails.json");
                   this.getView().setModel(oModel);
-                  sap.ui.getCore().setModel(oModel);
+                  //sap.ui.getCore().setModel(oModel);
                  // sap.ui.getCore().byId("lineItemList").setModel(oModel);
                   //alert("d");
 	},
@@ -23,6 +23,10 @@ sap.ui.controller("com.slb.mobile.view.WODetail", {
                   handleLineItemPress: function(evt) {
                  // var context = evt.getParameter("listItem").getBindingContext();
                   this.nav.to("WODetailL2", null);
+                  },
+                  showMaster: function(evt) {
+                  this.nav.to("showMaster", null);
+                 
                   }
 
 /**

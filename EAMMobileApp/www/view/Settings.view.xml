@@ -76,7 +76,7 @@
                         
                        
                         <!-- Discontinued? -->
-                        <c:Title text="User Preferences" />
+                        <c:Title class="settingsTitle" id="uPref" text="User Preferences" />
                         <Label text="Unit of Measures" />
                         
                         <RadioButtonGroup columns="2">

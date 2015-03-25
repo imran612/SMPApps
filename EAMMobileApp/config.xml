@@ -7,4 +7,7 @@
   <access origin="*"/>
   <preference name="sap-development-version" value="01.00.00"/>
   <preference name="hybridapprevision" value="1"/>
+  <preference name="StatusBarOverlaysWebView" value="false" />
+  <preference name="StatusBarBackgroundColor" value="#000000" />
+  <preference name="StatusBarStyle" value="lightcontent" />
 </widget>

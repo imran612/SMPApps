@@ -4,6 +4,7 @@ jQuery.sap.require("com.slb.mobile.MyRouter");
 sap.ui.core.UIComponent.extend("com.slb.mobile.Component", {
                     
             createContent : function() {
+                               
                                // create root view
                                var oView = sap.ui.view({
                                                        id : "app",
@@ -17,6 +18,19 @@ sap.ui.core.UIComponent.extend("com.slb.mobile.Component", {
                                                                                    bundleUrl : "i18n/messagebundle.properties"
                                                                                    });
                                oView.setModel(i18nModel, "i18n");
+                               
+                               // set device model
+                               var oDeviceModel = new sap.ui.model.json.JSONModel({
+                                            isTouch : sap.ui.Device.support.touch,
+                                            isNoTouch : !sap.ui.Device.support.touch,
+                                            isPhone : sap.ui.Device.system.phone,
+                                            isNoPhone : !sap.ui.Device.system.phone,
+                                            listMode : sap.ui.Device.system.phone ? "None" : "SingleSelectMaster",
+                                           listItemType : sap.ui.Device.system.phone ? "Active" : "Inactive"
+                                                                                  });
+                               oDeviceModel.setDefaultBindingMode("OneWay");
+                               this.setModel(oDeviceModel, "device");
+                               
                                return oView;
                                }
 
