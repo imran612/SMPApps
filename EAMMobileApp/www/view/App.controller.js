@@ -14,9 +14,10 @@ sap.ui.controller("com.slb.mobile.view.App", {
                   //console.log(app);
                   //alert(app.getInitialDetail());
                   //getDetailPage("mainview");
+                  app.hideMaster();
                      app.toDetail(app.getDetailPage("mainview"));
                    app.setMode(sap.m.SplitAppMode.HideMode);
-                 // app.hideMaster();
+                  
                   }
                   else if(pageId=="WODetail") {
                   var WODModel = sap.ui.getCore().byId(pageId).getModel();
@@ -123,13 +124,13 @@ sap.ui.controller("com.slb.mobile.view.App", {
                   //app.addDetailPage(emptyPage);
 			//jQuery.sap.log.info("app controller > loaded page: " + pageId);
                    //app.setMode(sap.m.SplitAppMode.PopoverMode);
-                /*  alert(sap.ui.Device.orientation.portrait);
+                  //alert(sap.ui.Device.orientation.portrait);
                   if (sap.ui.Device.orientation.portrait) {
-                  oCore.byId("showMasterIcon").setVisible(true);
+                  oCore.byId("WODetail--showMasterIcon").setVisible(true);
                   }
                   else {
-                  oCore.byId("showMasterIcon").setVisible(false);
-                  }*/
+                  oCore.byId("WODetail--showMasterIcon").setVisible(false);
+                  }
                   app.toMaster(pageId);
                   app.toDetail("WODetail");
                   //app.destroyDetailPages();

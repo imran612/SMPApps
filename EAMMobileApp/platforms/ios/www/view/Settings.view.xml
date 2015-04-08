@@ -7,6 +7,8 @@
     xmlns="sap.m">
     <Page
         class="sapUiFioriObjectPage"
+        showNavButton="true"
+        navButtonPress="goHome"
         title="Technology Lifcycle Management">
         <l:Grid
             defaultSpan="L12 M12 S12"

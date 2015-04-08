@@ -14,7 +14,7 @@ sap.ui.jsview("com.slb.mobile.view.WOListMaster", {
 	*/ 
 	createContent : function(oController) {
 		
-              var page = new sap.m.Page({showHeader: true,showFooter: true,
+              var page = new sap.m.Page("masterpage",{showHeader: true,showFooter: true,
                                         showNavButton: true,
                                         alignItems:"center",
                                         title: "Work List"
@@ -24,19 +24,49 @@ sap.ui.jsview("com.slb.mobile.view.WOListMaster", {
               page.setFooter(new sap.m.Bar({}));
               page.setSubHeader(new sap.m.Bar({contentMiddle: new sap.m.SearchField({showRefreshButton: true})}));
    
-             page.addContent(sap.ui.xmlfragment("com.slb.mobile.view.fragments.WOMasterListItems",oController));
-      
-	/*	var woList = new sap.m.List({
-			id:"list",
+           //  page.addContent(sap.ui.xmlfragment("com.slb.mobile.view.fragments.WOMasterListItems",oController));
+              var woList = new sap.m.List({
+                                          id:"masterlist",
+                                          
+                                          select:oController.onListItemPress
+                                          });
+               woList.attachEvent("drawmaster", function(oEvent) {
+                                      var masterModel = oCore.getModel("mastermodel");
+                                      var masterdata=masterModel.getData();
+                                       jQuery.each(masterdata, function(i,val) {
+                                                   var objectTemplate = new sap.m.ObjectListItem({press: oController.onListItemPress});
+                                                   objectTemplate.setTitle(val.WOId);
+                                                   objectTemplate.setNumber(val.Plant);
+                                                   objectTemplate.setType(sap.m.ListType.Active);
+                                                   
+                                                   var attr = new sap.m.ObjectAttribute();
+                                                   attr.setText(val.WOText);
+                                                   objectTemplate.addAttribute(attr);
+                                                   
+                                                   attr = new sap.m.ObjectAttribute();
+                                                   attr.setText("Rig ID: "+val.RigId);
+                                                   objectTemplate.addAttribute(attr);
+                                                   
+                                                   attr = new sap.m.ObjectAttribute();
+                                                   attr.setText("Job ID: "+val.JobId);
+                                                   objectTemplate.addAttribute(attr);
+                                                   
+                                                   attr = new sap.m.ObjectAttribute();
+                                                   attr.setText("Start Date: "+val.StartDate);
+                                                    objectTemplate.addAttribute(attr);
+                                                   
                                     
-			select:"handleListSelect"
-		});
+                                                   woList.addItem(objectTemplate);
+                                                   });
+                               });
+              
+              
 		
-        var objectTemplate = new sap.m.ObjectListItem({
+       /* var objectTemplate = new sap.m.ObjectListItem({
         	                 type :"Active",
-                             title : "{WoId}",
+                             title : "{WOId}",
                              number : "{EquipNum}",
-                             numberUnit :"{OrdType}",
+                             numberUnit :"{Plant}",
                              press : [oController.handleListItemPress, oController],
                              attributes : [new sap.m.ObjectAttribute({
                                      text : "{FuncLoc}"
@@ -46,9 +76,10 @@ sap.ui.jsview("com.slb.mobile.view.WOListMaster", {
                            })
                         }); 
 
-        woList.bindItems("/WorkOrderCollection", objectTemplate);
+       // woList.bindItems("/ProductCollection", objectTemplate);
+              woList.bindAggregation("items","/" , objectTemplate); */
             
-              page.addContent(woList); */
+              page.addContent(woList);
               
               return page;
        

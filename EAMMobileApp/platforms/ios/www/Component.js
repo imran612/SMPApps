@@ -31,6 +31,19 @@ sap.ui.core.UIComponent.extend("com.slb.mobile.Component", {
                                oDeviceModel.setDefaultBindingMode("OneWay");
                                this.setModel(oDeviceModel, "device");
                                
+                               sap.ui.Device.orientation.attachHandler(function(oEvt){
+                                                                       
+                                                    if(oEvt.landscape) {
+                                                                    if(oCore.byId("WODetail--showMasterIcon") != undefined) {
+                                                                       
+                                            oCore.byId("WODetail--showMasterIcon").setVisible(false);
+                                                                       }
+                                                                       }
+                                                                       else {
+                                                                       oCore.byId("WODetail--showMasterIcon").setVisible(true);
+                                                                       }
+                                                            });
+                               
                                return oView;
                                }
 

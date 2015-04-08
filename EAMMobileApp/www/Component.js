@@ -13,6 +13,34 @@ sap.ui.core.UIComponent.extend("com.slb.mobile.Component", {
                                                        viewData : { component : this }
                                                        });
                                
+                               var login = new sap.m.Dialog({title:"Login"});
+                               
+                               var loginform= new sap.ui.layout.form.SimpleForm( {
+                                                                                maxContainerCol: 2,
+                                                                content: [
+                                                                            new sap.m.Label({text: "User ID"}),
+                                                                          new sap.m.Input({placeholder: "Enter User ID..."}),
+                                                                          new sap.m.Label({text: "Password"}),
+                                                                          new sap.m.Input({type:"Password", placeholder: "Enter Password"})
+                                                                                ]
+                               });
+                               login.addContent(loginform);
+                               var lbtn=new sap.m.Button({text:"Login"});
+                               lbtn.attachPress(function(){
+                                               // alert("hh");
+                                                
+                                                login.close();
+                                                oView.setVisible(true);
+                                                
+                                                
+                                                });
+                               login.addButton(lbtn);
+                               login.open();
+                               //var logindailog= sap.ui.xmlfragment("com.slb.mobile.view.fragments.LoginDialog",oController);
+                               //logindailog.open();
+                               
+    
+                               
                                // set i18n model
                                i18nModel = new sap.ui.model.resource.ResourceModel({
                                                                                    bundleUrl : "i18n/messagebundle.properties"
@@ -21,18 +49,34 @@ sap.ui.core.UIComponent.extend("com.slb.mobile.Component", {
                                
                                // set device model
                                var oDeviceModel = new sap.ui.model.json.JSONModel({
-                                            isTouch : sap.ui.Device.support.touch,
-                                            isNoTouch : !sap.ui.Device.support.touch,
-                                            isPhone : sap.ui.Device.system.phone,
-                                            isNoPhone : !sap.ui.Device.system.phone,
-                                            listMode : sap.ui.Device.system.phone ? "None" : "SingleSelectMaster",
-                                           listItemType : sap.ui.Device.system.phone ? "Active" : "Inactive"
+                                                                                  isTouch : sap.ui.Device.support.touch,
+                                                                                  isNoTouch : !sap.ui.Device.support.touch,
+                                                                                  isPhone : sap.ui.Device.system.phone,
+                                                                                  isNoPhone : !sap.ui.Device.system.phone,
+                                                                                  listMode : sap.ui.Device.system.phone ? "None" : "SingleSelectMaster",
+                                                                                  listItemType : sap.ui.Device.system.phone ? "Active" : "Inactive"
                                                                                   });
                                oDeviceModel.setDefaultBindingMode("OneWay");
                                this.setModel(oDeviceModel, "device");
                                
+                               sap.ui.Device.orientation.attachHandler(function(oEvt){
+                                                                       
+                                                                       if(oEvt.landscape) {
+                                                                       if(oCore.byId("WODetail--showMasterIcon") != undefined) {
+                                                                       
+                                                                       oCore.byId("WODetail--showMasterIcon").setVisible(false);
+                                                                       }
+                                                                       }
+                                                                       else {
+                                                                       oCore.byId("WODetail--showMasterIcon").setVisible(true);
+                                                                       }
+                                                                       });
+                               oView.setVisible(false);
+                               
                                return oView;
-                               }
+                               
+
+                                }
 
 	/*metadata : {
 		name : "TDG Demo App",

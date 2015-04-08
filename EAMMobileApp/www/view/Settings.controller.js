@@ -23,6 +23,11 @@ sap.ui.controller("com.slb.mobile.view.Settings", {
                   var context = evt.getSource().getBindingContext();
                   var nav = oCore.byId('mainview').getController().nav;
                     nav.to("Home",context);
+                  },
+                  goHome: function(evt) {
+                  var context = evt.getSource().getBindingContext();
+                  var nav = oCore.byId('mainview').getController().nav;
+                  nav.to("Home",context);
                   }
 
 /**

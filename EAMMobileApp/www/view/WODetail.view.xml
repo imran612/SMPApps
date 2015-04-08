@@ -5,14 +5,14 @@
     xmlns:mvc="sap.ui.core.mvc"
     xmlns:core="sap.ui.core" >
     <Page
-        id="page"
+        id="woDetailPage"
         class="sapUiFioriObjectPage"
         title="Work Orders"
         navButtonPress="handleNavBack" >
         <customHeader>
             <Bar>
             <contentLeft>
-            <Button visible="true" icon="sap-icon://home" press="showMaster" />
+            <Button visible="false" id="showMasterIcon" icon="sap-icon://list" press="showMaster" />
             </contentLeft>
             </Bar>
         </customHeader>

@@ -1,42 +1,79 @@
 <core:FragmentDefinition
-	xmlns:model="sap.ui.model"
+    
+    xmlns:model="sap.ui.model"
+    
     xmlns:core="sap.ui.core"
-	xmlns:mvc="sap.ui.core.mvc"
-	xmlns="sap.m">
-	
+    
+    xmlns:mvc="sap.ui.core.mvc"
+    
+    xmlns="sap.m">
+    
+    
     <List
         
+        id="mmList"
+        
         items="{
-        path: '/ProductCollection',
+        
+        path: '/',
+        
         sorter: {
+        
         path: 'SupplierName',
+        
         descending: false,
+        
         group: true
+        
         },
+        
         groupHeaderFactory: '.getGroupHeader'
+        
         }"
+        
         mode="{device>/listMode}"
+        
         select="onListItemPress"
-         >
+        
+        >
 
         
         <ObjectListItem
+            
             title="{WOId}"
+            
             type="Active"
+            
             press="onListItemPress"
+            
             number="{Plant}">
+            
             <firstStatus>
+                
                 <ObjectStatus state="Error"
-                 icon="sap-icon://alert"
+                
+                icon="sap-icon://alert"
+                
                 />
+                
             </firstStatus>
+            
             <attributes>
+                
                 <ObjectAttribute text="{WOText}" />
+                
                 <ObjectAttribute title="Rig ID" text="{RigId}" />
+                
                 <ObjectAttribute title="Job ID" text="{JobId}" />
+                
                 <ObjectAttribute title="Start Date" text="{StartDate}" />
+                
             </attributes>
+            
         </ObjectListItem>
+        
     </List>
-
+    
+    
+    
 </core:FragmentDefinition>

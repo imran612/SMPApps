@@ -31,6 +31,10 @@ var onLogonInitSuccess = function(context) {
   if (context) {
     //Store the context away to be used later if necessary
     appContext = context;
+      
+      //alert(appContext);
+      //alert(appContext.applicationEndpointURL);
+      console.log(appContext);
     //Build the results message which will be written to the log and
     //displayed to the user
     //var msg = "Server Returned: " + JSON.stringify(context);

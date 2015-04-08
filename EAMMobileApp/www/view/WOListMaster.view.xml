@@ -38,7 +38,7 @@
             </Toolbar>
         </footer>
         <content>
-            <List
+            <List id="mList"
                 items="{
                 path: '/ProductCollection',
                 sorter: {

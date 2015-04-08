@@ -35,10 +35,10 @@ var devapp = {
 			if (devapp.smpInfo.server && devapp.smpInfo.server.length > 0) {
 				var context = {
 				  "serverHost" : devapp.smpInfo.server,
-				  "https" : "true",
+				  "https" : "false",
 				  "serverPort" : devapp.smpInfo.port,
-                  "user": "ihms612@gmail.com",// HCPms admin user/ SCN User
-                  "password": "Hisham@2014", // HCPms admin password / SCN Password
+                  "user": "IMohammed6",// ihms612@gmail.com HCPms admin user/ SCN User
+                  "password": "itt123", // Hisham@2014 HCPms admin password / SCN Password
                   "serverPort" : devapp.smpInfo.port,
                   //"communicatorId": "REST",
                   "passcode": "password",

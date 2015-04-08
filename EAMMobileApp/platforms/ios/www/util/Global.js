@@ -20,5 +20,5 @@ busyDialog.setBusyIndicatorDelay(0);
 var scanned=false;
 var signDialog;
 var signStep;
-
+var serverEndpoint =  "http://sapf1sdi10.dir.slb.com:8010/sap/opu/odata/sap/Z_THIN_SLB_MOB_SRV";
 

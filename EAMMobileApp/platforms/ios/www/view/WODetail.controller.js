@@ -23,6 +23,10 @@ sap.ui.controller("com.slb.mobile.view.WODetail", {
                   handleLineItemPress: function(evt) {
                  // var context = evt.getParameter("listItem").getBindingContext();
                   this.nav.to("WODetailL2", null);
+                  },
+                  showMaster: function(evt) {
+                  this.nav.to("showMaster", null);
+                 
                   }
 
 /**

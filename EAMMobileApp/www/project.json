@@ -25,8 +25,8 @@
     "appid": "com.slb.mobile",
     "appdesc": "Enterprise Assest Management Mobile Application",
     "appversion": "01.00.00",
-    "server": "hcpms-p1941267893trial.hanatrial.ondemand.com",
-    "port": "443",
+      "server": "us1455saps033.dir.slb.com",
+    "port": "8080",
     "platform": {
       "ios": {
         "selected": true,

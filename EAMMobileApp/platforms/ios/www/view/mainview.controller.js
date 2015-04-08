@@ -67,7 +67,7 @@ sap.ui.controller("com.slb.mobile.view.mainview", {
                   nav.to("WOListMaster");
                   },
                   openSettings : function(sType) {
-                  if (!this[sType]) {
+                 /* if (!this[sType]) {
                   this[sType] = sap.ui.xmlfragment(
                                                    "com.slb.mobile.view.fragments.SettingLink",
                                                    this // associate controller with the fragment
@@ -77,12 +77,12 @@ sap.ui.controller("com.slb.mobile.view.mainview", {
                   this[sType].openBy(sType.getSource());
                   
                   //this[sType].bindElement("/ProductCollection/0");
-                  // toggle compact style
-                  // jQuery.sap.syncStyleClass("sapUiSizeCompact", this.getView(), this[sType]);
-                //  this[sType].open();
+                 
                   var oModel = new sap.ui.model.json.JSONModel();
                   oModel.crNotification= this[sType];
-                  oCore.setModel(oModel,"settingsModel");
+                  oCore.setModel(oModel,"settingsModel");*/
+                  var nav = oCore.byId('mainview').getController().nav;
+                  nav.to("Settings",null);
 
                   },
                   launchSettings: function(evt) {
