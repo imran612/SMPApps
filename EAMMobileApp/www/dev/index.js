@@ -13,6 +13,8 @@ var devapp = {
      bindEvents : function() {
         //add an event listener for the Cordova deviceReady event.
         document.addEventListener("deviceready", this.onDeviceReady, false);
+        // document.addEventListener("online", deviceOnline, false);
+         //document.addEventListener("offline", deviceOffline, false);
     },
 
 	

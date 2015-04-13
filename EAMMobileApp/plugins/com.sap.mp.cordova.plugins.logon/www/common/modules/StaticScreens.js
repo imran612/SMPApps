@@ -151,7 +151,8 @@ var screens = {
             fields: {
             			serverHost : {
             				uiKey:'FLD_HOST',
-            				editable:true
+            				editable:true,
+                            visible:false
             			},
                         user : {
                             uiKey:'FLD_USER'
@@ -161,22 +162,24 @@ var screens = {
                             type: 'password'
                         },
                         resourcePath : {
-                            uiKey:'FLD_RESOURCE_PATH'
+                            uiKey:'FLD_RESOURCE_PATH',
+                            visible:false
                         },
                         https: {
                             uiKey:'FLD_IS_HTTPS',
                             type: 'switch',
                             'default':false,
-                            visible:true
+                            visible:false
                         },
                         serverPort : {
                             uiKey:'FLD_PORT',
                             type: 'number',
                             editable:true,
-                            visible:true
+                            visible:false
                         },
                         farmId : {
-                            uiKey:'FLD_FARMID'
+                            uiKey:'FLD_FARMID',
+                            visible:false
                         },
                         communicatorId : {
                             uiKey: 'FLD_COMMUNICATORID',
@@ -185,7 +188,7 @@ var screens = {
                         },
                         securityConfig: {
                             uiKey:'FLD_SECCONF',
-                            visible:true
+                            visible:false
                         },
 
             }

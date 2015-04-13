@@ -13,6 +13,40 @@ sap.ui.core.UIComponent.extend("com.slb.mobile.Component", {
                                                        viewData : { component : this }
                                                        });
                                
+                               var login = new sap.m.Dialog({title:"Login"});
+                               
+                               var errInfo = new sap.m.Text("errinfo",{visible:false,text:"Please enter the username & password"}).addStyleClass("err");
+                               var loginform= new sap.ui.layout.form.SimpleForm( {
+                                                                                maxContainerCol: 2,
+                                                                content: [
+                                                                            new sap.m.Label({text: "User ID"}),
+                                                                          new sap.m.Input("user",{placeholder: "Enter User ID..."}),
+                                                                          new sap.m.Label({text: "Password"}),
+                                                                          new sap.m.Input("password",{type:"Password", placeholder: "Enter Password"})
+                                                                                ]
+                               });
+                               login.addContent(errInfo);
+                               login.addContent(loginform);
+                               var lbtn=new sap.m.Button({text:"Login"});
+                               lbtn.attachPress(function(){
+                                               // alert("hh");
+                                                var resp=processLoginSuccessfull();
+                                               // alert(resp);
+                                                if(resp) {
+                                                login.close();
+                                                errInfo.setVisible(false);
+                                                oView.setVisible(true);
+                                                }
+                                                
+                                                
+                                                });
+                               login.addButton(lbtn);
+                               login.open();
+                               //var logindailog= sap.ui.xmlfragment("com.slb.mobile.view.fragments.LoginDialog",oController);
+                               //logindailog.open();
+                               
+    
+                               
                                // set i18n model
                                i18nModel = new sap.ui.model.resource.ResourceModel({
                                                                                    bundleUrl : "i18n/messagebundle.properties"
@@ -21,31 +55,34 @@ sap.ui.core.UIComponent.extend("com.slb.mobile.Component", {
                                
                                // set device model
                                var oDeviceModel = new sap.ui.model.json.JSONModel({
-                                            isTouch : sap.ui.Device.support.touch,
-                                            isNoTouch : !sap.ui.Device.support.touch,
-                                            isPhone : sap.ui.Device.system.phone,
-                                            isNoPhone : !sap.ui.Device.system.phone,
-                                            listMode : sap.ui.Device.system.phone ? "None" : "SingleSelectMaster",
-                                           listItemType : sap.ui.Device.system.phone ? "Active" : "Inactive"
+                                                                                  isTouch : sap.ui.Device.support.touch,
+                                                                                  isNoTouch : !sap.ui.Device.support.touch,
+                                                                                  isPhone : sap.ui.Device.system.phone,
+                                                                                  isNoPhone : !sap.ui.Device.system.phone,
+                                                                                  listMode : sap.ui.Device.system.phone ? "None" : "SingleSelectMaster",
+                                                                                  listItemType : sap.ui.Device.system.phone ? "Active" : "Inactive"
                                                                                   });
                                oDeviceModel.setDefaultBindingMode("OneWay");
                                this.setModel(oDeviceModel, "device");
                                
                                sap.ui.Device.orientation.attachHandler(function(oEvt){
                                                                        
-                                                    if(oEvt.landscape) {
-                                                                    if(oCore.byId("WODetail--showMasterIcon") != undefined) {
+                                                                       if(oEvt.landscape) {
+                                                                       if(oCore.byId("WODetail--showMasterIcon") != undefined) {
                                                                        
-                                            oCore.byId("WODetail--showMasterIcon").setVisible(false);
+                                                                       oCore.byId("WODetail--showMasterIcon").setVisible(false);
                                                                        }
                                                                        }
                                                                        else {
                                                                        oCore.byId("WODetail--showMasterIcon").setVisible(true);
                                                                        }
-                                                            });
+                                                                       });
+                               oView.setVisible(false);
                                
                                return oView;
-                               }
+                               
+
+                                }
 
 	/*metadata : {
 		name : "TDG Demo App",
@@ -265,3 +302,111 @@ sap.ui.core.UIComponent.extend("com.slb.mobile.Component", {
 	}*/
                                
 });
+function processLoginSuccessfull()
+{
+    var user=sap.ui.getCore().byId("user").getValue();
+    var pass=sap.ui.getCore().byId("password").getValue();
+    if(user=="" || pass == ""){
+        //alert("User id & password is required");
+        oCore.byId("errinfo").setText("User id & password is required");
+        oCore.byId("errinfo").setVisible(true);
+        return false;
+    }
+    var result=false;
+    var req = $.ajax({
+                     url: "http://sapf1sdi10.dir.slb.com:8010/sap/opu/odata/sap/Z_THIN_SLB_MOB_SRV/WOLIST?sap-client=330",
+                     async: false,
+                     dataType: 'json',
+                     cache: false,
+                     beforeSend:function (xhr) {
+                     xhr.setRequestHeader('Authorization', "Basic " + Base64.encode(user + ':' + pass));
+                     }
+                     });
+    req.success(function(oData,status, xhr) {
+                if(xhr.status==200){
+                //store userID in model for signature
+                var uModel = new sap.ui.model.json.JSONModel();
+                var uData={"user":user,"pass": pass};
+                uModel.setData(uData);
+                oCore.setModel(uModel,"userModel");
+                result=true;;
+               
+                }
+                });
+    req.fail(function(xhr){
+            // alert("Authentication failed. Please enter the valid username & password");
+             oCore.byId("errinfo").setText("Authentication failed. Please enter the valid username & password");
+             oCore.byId("errinfo").setVisible(true);
+             return false;
+             
+  
+             
+             });
+    return result;
+}
+var Base64 = {
+    
+    // private property
+    _keyStr : "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=",
+    
+    // public method for encoding
+    encode : function (input) {
+        var output = "";
+        var chr1, chr2, chr3, enc1, enc2, enc3, enc4;
+        var i = 0;
+        
+        input = Base64._utf8_encode(input);
+        
+        while (i < input.length) {
+            
+            chr1 = input.charCodeAt(i++);
+            chr2 = input.charCodeAt(i++);
+            chr3 = input.charCodeAt(i++);
+            
+            enc1 = chr1 >> 2;
+            enc2 = ((chr1 & 3) << 4) | (chr2 >> 4);
+            enc3 = ((chr2 & 15) << 2) | (chr3 >> 6);
+            enc4 = chr3 & 63;
+            
+            if (isNaN(chr2)) {
+                enc3 = enc4 = 64;
+            } else if (isNaN(chr3)) {
+                enc4 = 64;
+            }
+            
+            output = output +
+            this._keyStr.charAt(enc1) + this._keyStr.charAt(enc2) +
+            this._keyStr.charAt(enc3) + this._keyStr.charAt(enc4);
+            
+        }
+        
+        return output;
+    },
+    
+    // private method for UTF-8 encoding
+    _utf8_encode : function (string) {
+        string = string.replace(/\r\n/g,"\n");
+        var utftext = "";
+        
+        for (var n = 0; n < string.length; n++) {
+            
+            var c = string.charCodeAt(n);
+            
+            if (c < 128) {
+                utftext += String.fromCharCode(c);
+            }
+            else if((c > 127) && (c < 2048)) {
+                utftext += String.fromCharCode((c >> 6) | 192);
+                utftext += String.fromCharCode((c & 63) | 128);
+            }
+            else {
+                utftext += String.fromCharCode((c >> 12) | 224);
+                utftext += String.fromCharCode(((c >> 6) & 63) | 128);
+                utftext += String.fromCharCode((c & 63) | 128);
+            }
+            
+        }
+        
+        return utftext;
+    }
+}

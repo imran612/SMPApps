@@ -1,4 +1,9 @@
 var appContext;
+var authStr = "";
+var startTime = null;
+var startTimeRefresh = null;
+var online = navigator.onLine;
+
 
 /********************************************************************
  * Initialize the application
@@ -39,9 +44,11 @@ var onLogonInitSuccess = function(context) {
     //displayed to the user
     //var msg = "Server Returned: " + JSON.stringify(context);
     //console.log(msg);
-	
+     //   authStr = "Basic " + btoa(context.user + ":" + context.password);
 	//start UI5 application
+      
 	startApp();
+    //openStore(context);
   } else {
     //Something went seriously wrong here, context is not populated
     console.error("context null");
@@ -231,3 +238,102 @@ function onDataVaultGetError(errObj) {
   console.error(JSON.stringify(errObj));
   console.error("Leaving dataVaultGetError");
 }
+/*
+function openStore(context) {
+    startTime = new Date();
+    alert("store.open called");
+    
+    "serverHost" : devapp.smpInfo.server,
+    "https" : "false",
+    "serverPort" : devapp.smpInfo.port,
+    "user": "IMohammed6",// ihms612@gmail.com HCPms admin user/ SCN User
+    "password": "itt123", // Hisham@2014 HCPms admin password / SCN Password
+    "serverPort" : devapp.smpInfo.port,
+    //"communicatorId": "REST",
+    "passcode": "password",
+    "unlockPasscode": "password",
+    
+    
+    var properties = {
+        "name": "ProductsOfflineStore",
+        "host": context.serverHost,
+        "port": context.serverPort,
+        "https": context.https,
+        "serviceRoot" :  "com.slb.mobile",
+        
+        //There is a cookie store for JavaScript which is different from the Java one used by the Offline plugin
+        "streamParams" : "custom_header=Authorization:" + authStr + ";",
+        
+        //required on iOS if device or simulator uses a proxy to reach the server prior to SMP 3.0 SDK SP05 PL03
+        //"streamParams" : "custom_header=Authorization:" + authStr + ";custom_header=X-SMP-APPCID:" +  applicationContext.applicationConnectionId + ";proxy_host=proxy;proxy_port=8080;",
+        
+        "definingRequests" : {
+            "ProductsDR" : "/WOLIST"
+        }
+    };
+    
+    store = sap.OData.createOfflineStore(properties);
+    store.onrequesterror = errorCallback; //called for each modification error during flush
+    
+    //var options = {};
+    store.open(openStoreSuccessCallback, errorCallback/*, options);
+}
+
+function openStoreSuccessCallback() {
+    var endTime = new Date();
+    var duration = (endTime - startTime)/1000;
+    alert("Store opened in  " + duration + " seconds");
+    refreshStore();
+    refreshOnInterval();
+}
+
+function refreshOnInterval() {
+    var interval = 300000;  //5 minutes
+    timerID = setInterval(function () {refreshStore()}, interval);  //call refreshStore every interval,
+    //remove timer in pause event, add back in resume
+}
+
+//After calling this the store will receive any changes from the OData producer.
+function refreshStore() {
+    console.log("REFRESHSTORE");
+    if (!store) {
+        alert("The store must be open before it can be refreshed");
+        return;
+    }
+    if (isDeviceOnline()) {
+        startTimeRefresh = new Date();
+        //updateStatus2("store.refresh called");
+        store.refresh(refreshStoreCallback, errorCallback);
+    }
+}
+
+function refreshStoreCallback() {
+    var endTime = new Date();
+    var duration = (endTime - startTimeRefresh)/1000;
+    //updateStatus2("Store refreshed in  " + duration + " seconds");
+}
+/*
+function getDeviceStatusString() {
+    if (online) {
+        return "Device is ONLINE";
+    }
+    else {
+        return "Device is OFFLINE";
+    }
+}
+
+function isDeviceOnline() {
+    return online;
+}
+
+function deviceOnline() {
+    online = true;
+    sap.OData.removeHttpClient();
+    alert("Device online.");
+}
+
+function deviceOffline() {
+    online = false;
+    sap.OData.applyHttpClient();
+    alert("Using Offline Store.");
+} */
