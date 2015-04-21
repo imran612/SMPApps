@@ -1,0 +1,29 @@
+Node version: v0.10.35
+
+Cordova version: 4.3.0
+
+Config.xml file: 
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<widget id="com.slb.mobile" version="01.00.00" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+  <name>EAMMobApp</name>
+  <description>Enterprise Assest Management Mobile Application</description>
+  <author email="dev@sap.com" href="http://www.sap.com">SAP Product and Innovation</author>
+  <content src="index.html"/>
+  <access origin="*"/>
+  <preference name="sap-development-version" value="01.00.00"/>
+  <preference name="hybridapprevision" value="1"/>
+  <preference name="StatusBarOverlaysWebView" value="false" />
+  <preference name="StatusBarBackgroundColor" value="#000000" />
+  <preference name="StatusBarStyle" value="lightcontent" />
+</widget>
+
+Plugins: 
+
+com.sap.mp.cordova.plugins.authproxy,com.sap.mp.cordova.plugins.corelibs,com.sap.mp.cordova.plugins.encryptedstorage,com.sap.mp.cordova.plugins.logon,com.sap.mp.cordova.plugins.odata,org.apache.cordova.device,org.apache.cordova.inappbrowser,org.apache.cordova.statusbar
+
+iOS platform:
+
+Xcode 6.2
+Build version 6C131e
+

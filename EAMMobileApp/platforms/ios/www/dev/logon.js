@@ -35,18 +35,19 @@ var onLogonInitSuccess = function(context) {
   //Make sure Logon returned a context for us to work with
   if (context) {
     //Store the context away to be used later if necessary
-    appContext = context;
+     // alert(context);
+      appContext = context;
       
       //alert(appContext);
       //alert(appContext.applicationEndpointURL);
-      console.log(appContext);
+      console.log("appContext******************************************* "+appContext);
     //Build the results message which will be written to the log and
     //displayed to the user
     //var msg = "Server Returned: " + JSON.stringify(context);
     //console.log(msg);
      //   authStr = "Basic " + btoa(context.user + ":" + context.password);
 	//start UI5 application
-      
+     // alert(appContext.applicationEndpointURL);
 	startApp();
     //openStore(context);
   } else {

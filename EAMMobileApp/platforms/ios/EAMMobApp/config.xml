@@ -27,6 +27,11 @@
         <param name="onload" value="true" />
     </feature>
     <preference name="StatusBarOverlaysWebView" value="true" />
+    <feature name="AppConnectCordovaPlugin">
+        <param name="ios-package" value="AppConnectCordovaPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <plugin name="AppConnectCordovaPlugin" value="AppConnectCordovaPlugin" />
     <feature name="InAppBrowser">
         <param name="ios-package" value="CDVInAppBrowser" />
     </feature>
@@ -35,7 +40,6 @@
         <param name="ios-package" value="SMPAuthProxyPlugin" />
         <param name="onload" value="true" />
     </feature>
-    <preference name="SAPKapselHandleHttpRequests" value="true" />
     <feature name="MAFLogonCoreCDVPluginJS">
         <param name="ios-package" value="MAFLogonCoreCDVPlugin" />
     </feature>
@@ -51,9 +55,10 @@
     <author email="dev@sap.com" href="http://www.sap.com">SAP Product and Innovation</author>
     <content src="index.html" />
     <access origin="*" />
-    <preference name="sap-development-version" value="01.00.00" />
+    <preference name="sap-development-version" value="01.01.00" />
     <preference name="hybridapprevision" value="1" />
     <preference name="StatusBarOverlaysWebView" value="false" />
     <preference name="StatusBarBackgroundColor" value="#000000" />
     <preference name="StatusBarStyle" value="lightcontent" />
+    <preference name="SAPKapselHandleHttpRequests" value="true" />
 </widget>

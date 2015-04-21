@@ -1,0 +1,8 @@
+{
+    "com.mobileiron.cordova.appconnect": {
+        "source": {
+            "type": "local",
+            "path": "AppConnectPlugin"
+        }
+    }
+}

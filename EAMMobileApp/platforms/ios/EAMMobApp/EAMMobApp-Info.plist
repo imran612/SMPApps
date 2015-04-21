@@ -60,6 +60,17 @@
     <string>01.00.00</string>
     <key>CFBundleSignature</key>
     <string>????</string>
+    <key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleURLName</key>
+        <string>com.slb.mobile</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>accom.slb.mobile</string>
+        </array>
+      </dict>
+    </array>
     <key>CFBundleVersion</key>
     <string>01.00.00</string>
     <key>LSRequiresIPhoneOS</key>
@@ -68,10 +79,6 @@
     <string></string>
     <key>NSMainNibFile~ipad</key>
     <string></string>
-    <key>UISupportedInterfaceOrientations</key>
-    <array>
-      <string>UIInterfaceOrientationPortrait</string>
-    </array>
     <key>UISupportedInterfaceOrientations~ipad</key>
     <array>
       <string>UIInterfaceOrientationPortrait</string>

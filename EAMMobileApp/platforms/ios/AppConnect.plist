@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>com.slb.mobile</string>
+	<key>policy</key>
+	<dict>
+		<key>openinwhitelist</key>
+		<string>com.slb.mobile</string>
+		<key>pasteboard</key>
+		<string>allow</string>
+		<key>print</key>
+		<string>allow</string>
+		<key>openin</key>
+		<string>whitelist</string>
+	</dict>
+	<key>config</key>
+	<dict>
+		<key>email</key>
+		<string>$EMAIL$</string>
+		<key>password</key>
+		<string>$PASSWORD$</string>
+		<key>user</key>
+		<string>$USER$</string>
+	</dict>
+</dict>
+</plist>

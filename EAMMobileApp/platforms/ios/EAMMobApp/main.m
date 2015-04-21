@@ -26,10 +26,11 @@
 
 #import <UIKit/UIKit.h>
 
+#import "AppConnect/AppConnect.h"
 int main(int argc, char* argv[])
 {
     @autoreleasepool {
-        int retVal = UIApplicationMain(argc, argv, nil, @"AppDelegate");
+        int retVal = UIApplicationMain(argc, argv, kACUIApplicationClassName, @"AppDelegate");
         return retVal;
     }
 }
