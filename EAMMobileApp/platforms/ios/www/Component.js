@@ -12,8 +12,8 @@ sap.ui.core.UIComponent.extend("com.slb.mobile.Component", {
                                                        type : "JS",
                                                        viewData : { component : this }
                                                        });
-                               
-                               var login = new sap.m.Dialog({title:"Login"});
+                            /****** Removing the login popup ****/
+                            /*   var login = new sap.m.Dialog({title:"Login"});
                                
                                var errInfo = new sap.m.Text("errinfo",{visible:false,text:"Please enter the username & password"}).addStyleClass("err");
                                var loginform= new sap.ui.layout.form.SimpleForm( {
@@ -42,6 +42,10 @@ sap.ui.core.UIComponent.extend("com.slb.mobile.Component", {
                                                 });
                                login.addButton(lbtn);
                                login.open();
+                             
+                             */
+                               /******End of removing popup */
+                               
                                //var logindailog= sap.ui.xmlfragment("com.slb.mobile.view.fragments.LoginDialog",oController);
                                //logindailog.open();
                                
@@ -77,7 +81,7 @@ sap.ui.core.UIComponent.extend("com.slb.mobile.Component", {
                                                                        oCore.byId("WODetail--showMasterIcon").setVisible(true);
                                                                        }
                                                                        });
-                               oView.setVisible(false);
+                               //oView.setVisible(false);
                                
                                return oView;
                                

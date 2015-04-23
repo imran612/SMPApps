@@ -29,14 +29,16 @@ sap.ui.controller("com.slb.mobile.view.WOListMaster", {
                   var woModel1 = new sap.ui.model.json.JSONModel(); */
                   var item = {};
                   var temp1;
-                  var userdata=oCore.getModel("userModel").getData();
+                //  var userdata=oCore.getModel("userModel").getData();
+                  var sUrl = appContext.applicationEndpointURL + "/WOLIST?sap-client=330&$format=json";
                   var req = $.ajax({
-                                   url: getDataEndPoint('WorkOrders'),
+                                   //url: getDataEndPoint('WorkOrders'),
+                                   url: sUrl,
                                    async: false,
                                    dataType: 'json',
                                    cache: false,
                                    beforeSend:function (xhr) {
-                                    xhr.setRequestHeader('Authorization', "Basic " + Base64.encode(userdata.user + ':' + userdata.pass));
+                                    xhr.setRequestHeader('Authorization', "Basic " + Base64.encode("05173240" + ':' + "Maryam@2011"));
                                    }
                                    });
                   req.success(function(oData,status, xhr) {
