@@ -1,0 +1,689 @@
+<html>
+    
+    <head>
+        
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+        
+        <title>Products</title>
+        
+        
+        
+        <!-- <script src="datajs-1.1.2.min.js"></script>  MUST USE jQuery.sap.require -->
+        
+        
+        
+        <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+        
+        <script type="text/javascript" charset="utf-8" src="js/index.js"></script>
+        
+        
+        
+        <!-- Load SAP UI5 from the local copy used by the Logon plugin. -->
+        
+        <!--<script type="text/javascript" src="smp/logon/ui/resources/sap/ui/thirdparty/jquery/jquery-1.10.2.js"></script> -->
+        
+        <script src="https://sapui5.hana.ondemand.com/resources/sap-ui-core.js" id="sap-ui-bootstrap" data-sap-ui-libs="sap.m" data-sap-ui-theme="sap_bluecrystal"> </script>
+        
+        
+        
+        <script>
+            
+            var oList = new sap.m.List();
+            
+            var appId = "com.slb.mobile1"; // Change this to app id on server
+            
+            var applicationContext = null;
+            
+            var smpServerProtocol = "http";
+            
+            var smpServerHost = "hcpms-p1941267893trial.hanatrial.ondemand.com";
+            
+            var smpServerPort = "8080";
+            
+            var store = null; //Offline OData store
+            
+            
+            
+            // Optional initial connection context
+            
+          /*  var context = {
+                
+                "serverHost": smpServerHost, //Place your SMP 3.0 server name here
+                
+                "https": smpServerProtocol == "https",
+                
+                "serverPort": smpServerPort,
+                
+                "user": "p1941267893", //user name for registration and OData Endpoint
+                
+                "password": "Hisham@2014",  //password for registration and OData Endpoint
+                
+                //once set can be changed by calling sap.Logon.changePassword()
+                
+                "communicatorId": "REST",
+                
+                "passcode": "password",  //note hardcoding passwords and unlock passcodes are strictly for ease of use during development
+                
+                //once set can be changed by calling sap.Logon.managePasscode()
+                
+                "unlockPasscode": "password",
+                
+                "passcode_CONFIRM":"password",
+                
+                "ssoPasscode":"Password1"
+                
+            }; */
+        
+        var context = {
+            
+            "serverHost": "us1455saps033.dir.slb.com", //Place your SMP 3.0 server name here
+            
+            "https": "http",
+            
+            "serverPort": "8080",
+            
+            "user": "IMohammed6", //user name for registration and OData Endpoint
+            
+            "password": "itt123",  //password for registration and OData Endpoint
+            
+            //once set can be changed by calling sap.Logon.changePassword()
+            
+            "communicatorId": "REST",
+            
+            "passcode": "password",  //note hardcoding passwords and unlock passcodes are strictly for ease of use during development
+            
+            //once set can be changed by calling sap.Logon.managePasscode()
+            
+            "unlockPasscode": "password",
+            
+            "passcode_CONFIRM":"password",
+            
+            "ssoPasscode":"Password1"
+            
+        };
+        
+        window.onerror = onError;
+        
+        
+        
+        function onError(msg, url, line) {
+            
+            var idx = url.lastIndexOf("/");
+            
+            var file = "unknown";
+            
+            if (idx > -1) {
+                
+                file = url.substring(idx + 1);
+                
+            }
+            
+            alert("An error occurred in " + file + " (at line # " + line + "): " + msg);
+            
+            return false; //suppressErrorAlert;
+            
+        }
+        
+        
+        
+        function init() {
+            
+            if (sap.Logger) {
+                
+                sap.Logger.setLogLevel(sap.Logger.DEBUG);  //enables the display of debug log messages from the Kapsel plugins.
+                
+                sap.Logger.debug("Log level set to DEBUG");
+                
+            }
+            
+            jQuery.sap.require("sap.ui.thirdparty.datajs");
+            
+            register();
+            
+            console.log("init completed");
+            
+        }
+        
+        
+        
+        function register() {
+            
+            updateStatus2("register called");
+            
+            sap.Logon.init(logonSuccessCallback, logonErrorCallback, appId, context);
+            
+        }
+        
+        
+        
+        function logonSuccessCallback(result) {
+            
+            console.log("logonSuccessCallback " + JSON.stringify(result));
+            
+            applicationContext = result;
+            
+        }
+        
+        
+        
+        function logonErrorCallback(error) {   //this method is called if the user cancels the registration.
+            
+            console.log("An error occurred:  " + JSON.stringify(error));
+            
+            if (device.platform == "Android") {  //Not supported on iOS
+                
+                navigator.app.exitApp();
+                
+            }
+            
+        }
+        
+        
+        
+        function unRegister() {
+            
+            updateStatus2("Attempting to unregister");
+            
+            sap.Logon.core.deleteRegistration(logonUnregisterSuccessCallback, errorCallback);
+            
+        }
+        
+        
+        
+        function logonUnregisterSuccessCallback(result) {
+            
+            updateStatus2("Successfully UNREGISTERED");
+            
+            console.log("logonUnregisterSuccessCallback " + JSON.stringify(result));
+            
+            applicationContext = null;
+            
+        }
+        
+        
+        
+        function errorCallback(e) {
+            
+            alert("An error occurred " + JSON.stringify(e));
+            
+            console.log("An error occurred " + JSON.stringify(e));
+            
+            updateStatus1("");
+            
+        }
+        
+        
+        
+        function read() {
+            
+            updateStatus2("read called");
+            
+            startTime = new Date();
+            
+            oList.removeAllItems();
+            
+            var uri = applicationContext.applicationEndpointURL;
+            
+            var user = applicationContext.registrationContext.user;
+            
+            var password = applicationContext.registrationContext.password;
+            
+            var headers = {"X-SMP-APPCID" : applicationContext.applicationConnectionId};
+           /* var sUrl = applicationContext.applicationEndpointURL + "/WOLIST?sap-client=330&$format=json";
+            alert(sUrl);
+            var data = jQuery.ajax({
+                                   url: sUrl,
+                                   async: false,
+                                   dataType: "json",
+                                   cache: false,
+                                   beforeSend:function (xhr) {
+                                   xhr.setRequestHeader('Authorization', "Basic " + Base64.encode("05173240" + ':' + "Maryam@2011"));
+                                   },
+                                   success: function(response,status, XMLHttpRequest) {
+                                   
+                                   alert("suc");
+                                   },
+                                   error: function (response,status, XMLHttpRequest) {
+                                   alert("err");
+                                   }
+                                   }); */
+           
+            var sUrl = applicationContext.applicationEndpointURL + "/WOLIST?sap-client=330&$format=json";
+           // alert(sUrl);
+            var data = jQuery.ajax({
+            url: sUrl,
+            dataType: "json",
+            type: "GET",
+            cache: false,
+            /*beforeSend:function (xhr) {
+            xhr.setRequestHeader('Authorization', "Basic " + Base64.encode("05173240" + ':' + "Hisham@2014"));
+            }, */
+            success: function(response,status, XMLHttpRequest) {
+            
+            alert("suc");
+            },
+            error: function (response,status, XMLHttpRequest) {
+            alert("err");
+            }
+            });
+            
+            
+            // Create OData model from URL
+            
+          /**  var oModel = new sap.ui.model.odata.ODataModel(uri, true, null,null, headers);
+            var iOS = ( navigator.userAgent.match(/(iPad|iPhone|iPod)/g) ? true : false );
+            if (iOS) { //unsure why but the first call seems to be to http://sapes1 rather than https which fails.
+               
+               var oModel = new sap.ui.model.odata.ODataModel(uri, true, null,null, headers);
+            }
+  
+            var oTemplate = new sap.m.StandardListItem({
+                                                       
+                                                       title: "{Name}", description: "{Description}"
+                                                       
+                                                       });
+                                                       
+                                                       oList.setModel(oModel);
+                                                       
+                                                       oList.bindItems("/Products", oTemplate, null, null);
+                                                        **/
+
+                                                       oList.placeAt("content");
+                                                       
+                                                       var endTime = new Date();
+                                                       
+                                                       var duration = (endTime - startTime)/1000;
+                                                       
+                                                       updateStatus2("Read completed in  " + duration + " seconds");
+                                                       
+        }
+        
+        
+        
+        function openStore() {
+            
+            if (!haveAppId()) {
+                
+                return;
+                
+            }
+            
+            updateStatus2("store.open called");
+            
+            startTime = new Date();
+            
+            var properties = {
+                
+                "name": "ProductsOfflineStore",
+                
+                "host": applicationContext.registrationContext.serverHost,
+                
+                "port": applicationContext.registrationContext.serverPort,
+                
+                "https": applicationContext.registrationContext.https,
+                
+                "serviceRoot" :  "http://hcpms-p1941267893trial.hanatrial.ondemand.com/com.slb.mobile/",  //appId,
+                
+                
+                
+                "definingRequests" : {
+                    
+                    "ProductsDR" : "/Products"
+                    
+                }
+                
+            };
+            
+            
+            
+            store = sap.OData.createOfflineStore(properties);
+            
+            
+            
+            //var options = {};
+            
+            store.open(openStoreSuccessCallback, errorCallback/*, options*/);
+            
+        }
+        
+        
+        
+        function openStoreSuccessCallback() {
+            
+            var endTime = new Date();
+            
+            var duration = (endTime - startTime)/1000;
+            
+            updateStatus2("Store opened in  " + duration + " seconds");
+            
+            updateStatus1("Store is OPEN.");
+            
+            sap.OData.applyHttpClient();  //Offline OData calls can now be made against datajs.
+            
+        }
+        
+        
+        
+        function closeStore() {
+            
+            if (!store) {
+                
+                updateStatus2("The store must be opened before it can be closed");
+                
+                return;
+                
+            }
+            
+            updateStatus2("store.close called");
+            
+            startTime = new Date();
+            
+            store.close(closeStoreSuccessCallback, errorCallback);
+            
+        }
+        
+        
+        
+        function closeStoreSuccessCallback() {
+            
+            sap.OData.removeHttpClient();
+            
+            var endTime = new Date();
+            
+            var duration = (endTime - startTime)/1000;
+            
+            updateStatus1("Store is CLOSED.");
+            
+            updateStatus2("Store closed in  " + duration + " seconds");
+            
+        }
+        
+        
+        
+        //Removes the physical store from the filesystem
+        
+        function clearStore() {
+            
+            if (!store) {
+                
+                updateStatus2("The store must be closed before it can be cleared");
+                
+                return;
+                
+            }
+            
+            updateStatus2("store.clear called");
+            
+            store.clear(clearStoreSuccessCallback, errorCallback);
+            
+        }
+        
+        
+        
+        function clearStoreSuccessCallback() {
+            
+            updateStatus1("");
+            
+            updateStatus2("Store is CLEARED");
+            
+            store = null;
+            
+        }
+        
+        
+        
+        function updateStatus1(msg) {
+            
+            statusID.setText(msg + " " + getDeviceStatusString());
+            
+            console.log(msg + " " + getDeviceStatusString());
+            
+        }
+        
+        
+        
+        function updateStatus2(msg) {
+            
+            var d = new Date();
+            
+            statusID2.setText(msg + " at " + addZero(d.getHours()) + ":" + addZero(d.getMinutes()) + "." + addZero(d.getSeconds()));
+            
+            console.log(msg + " at " + addZero(d.getHours()) + ":" + addZero(d.getMinutes()) + "." + addZero(d.getSeconds()));
+            
+        }
+        
+        
+        
+        function haveAppId() {
+            
+            if (!applicationContext) {
+                
+                alert("Please register with the SMP Server before proceeding");
+                
+                return false;
+                
+            }
+            
+            return true;
+            
+        }
+        
+        
+        
+        function addZero(input) {
+            
+            if (input < 10) {
+                
+                return "0" + input;
+                
+            }
+            
+            return input;
+            
+        }
+        
+        
+        
+        function getDeviceStatusString() {
+            
+            if (online) {
+                
+                return "Device is ONLINE";
+                
+            }
+            
+            else {
+                
+                return "Device is OFFLINE";
+                
+            }
+            
+        }
+        
+        
+        
+        function deviceOnline() {
+            
+            online = true;
+            
+            updateStatus1("");
+            
+        }
+        
+        
+        
+        function deviceOffline() {
+            
+            online = false;
+            
+            updateStatus1("");
+            
+        }
+        
+        
+        
+        // document.addEventListener("deviceready", init, false);
+        
+        document.addEventListener("online", deviceOnline, false);
+        
+        document.addEventListener("offline", deviceOffline, false);
+        
+        
+        
+        var readButton = new sap.m.Button("Read");
+        
+        readButton.setText("Read");
+        
+        readButton.attachPress(read);
+        
+        readButton.placeAt("buttons");
+        
+        
+        
+        var openButton = new sap.m.Button("Open");
+        
+        openButton.setText("Open Store");
+        
+        openButton.attachPress(openStore);
+        
+        openButton.placeAt("buttons");
+        
+        
+        
+        var closeButton = new sap.m.Button("Close");
+        
+        closeButton.setText("Close Store");
+        
+        closeButton.attachPress(closeStore);
+        
+        closeButton.placeAt("buttons");
+        
+        
+        
+        var clearButton = new sap.m.Button("Clear");
+        
+        clearButton.setText("Clear Store");
+        
+        clearButton.attachPress(clearStore);
+        
+        clearButton.placeAt("buttons");
+        
+        
+        
+        var registerButton = new sap.m.Button("Register");
+        
+        registerButton.setText("Register");
+        
+        registerButton.attachPress(register);
+        
+        registerButton.placeAt("buttons");
+        
+        
+        
+        var unregisterButton = new sap.m.Button("UnRegister");
+        
+        unregisterButton.setText("UnRegister");
+        
+        unregisterButton.attachPress(unRegister);
+        
+        unregisterButton.placeAt("buttons");
+        
+        
+        
+        var statusID = new sap.m.Label("statusID");
+        
+        statusID.placeAt("status1");
+        
+        
+        
+        var statusID2 = new sap.m.Label("statusID2");
+        
+        statusID2.placeAt("status2");
+        
+        
+        var Base64 = {
+            
+            // private property
+            _keyStr : "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=",
+            
+            // public method for encoding
+            encode : function (input) {
+                var output = "";
+                var chr1, chr2, chr3, enc1, enc2, enc3, enc4;
+                var i = 0;
+                
+                input = Base64._utf8_encode(input);
+                
+                while (i < input.length) {
+                    
+                    chr1 = input.charCodeAt(i++);
+                    chr2 = input.charCodeAt(i++);
+                    chr3 = input.charCodeAt(i++);
+                    
+                    enc1 = chr1 >> 2;
+                    enc2 = ((chr1 & 3) << 4) | (chr2 >> 4);
+                    enc3 = ((chr2 & 15) << 2) | (chr3 >> 6);
+                    enc4 = chr3 & 63;
+                    
+                    if (isNaN(chr2)) {
+                        enc3 = enc4 = 64;
+                    } else if (isNaN(chr3)) {
+                        enc4 = 64;
+                    }
+                    
+                    output = output +
+                    this._keyStr.charAt(enc1) + this._keyStr.charAt(enc2) +
+                    this._keyStr.charAt(enc3) + this._keyStr.charAt(enc4);
+                    
+                }
+                
+                return output;
+            },
+            
+            // private method for UTF-8 encoding
+            _utf8_encode : function (string) {
+                string = string.replace(/\r\n/g,"\n");
+                var utftext = "";
+                
+                for (var n = 0; n < string.length; n++) {
+                    
+                    var c = string.charCodeAt(n);
+                    
+                    if (c < 128) {
+                        utftext += String.fromCharCode(c);
+                    }
+                    else if((c > 127) && (c < 2048)) {
+                        utftext += String.fromCharCode((c >> 6) | 192);
+                        utftext += String.fromCharCode((c & 63) | 128);
+                    }
+                    else {
+                        utftext += String.fromCharCode((c >> 12) | 224);
+                        utftext += String.fromCharCode(((c >> 6) & 63) | 128);
+                        utftext += String.fromCharCode((c & 63) | 128);
+                    }
+                    
+                }
+                
+                return utftext;
+            }
+        }
+        
+            </script>
+        
+        
+        
+    </head>
+    
+    <body class='sapUiBody'>
+        
+        <div id='buttons'></div>
+        
+        <div id='status1'></div>
+        
+        <div id='status2'></div>
+        
+        <div id='content'></div>
+        
+    </body>
+    
+</html>

@@ -1,0 +1,38 @@
+{
+    "com.sap.mp.cordova.plugins.logon": {
+        "source": {
+            "type": "local",
+            "path": "/Users/imranmohammed/SLB/SMP3SDKMac/SMP7/ebf24384/modules/KapselSDK/KapselSDK/plugins/logon"
+        }
+    },
+    "com.sap.mp.cordova.plugins.corelibs": {
+        "source": {
+            "type": "local",
+            "path": "/Users/imranmohammed/SLB/SMP3SDKMac/SMP7/ebf24384/modules/KapselSDK/KapselSDK/plugins/corelibs"
+        }
+    },
+    "com.sap.mp.cordova.plugins.authproxy": {
+        "source": {
+            "type": "local",
+            "path": "/Users/imranmohammed/SLB/SMP3SDKMac/SMP7/ebf24384/modules/KapselSDK/KapselSDK/plugins/authproxy"
+        }
+    },
+    "org.apache.cordova.device": {
+        "source": {
+            "type": "registry",
+            "id": "org.apache.cordova.device"
+        }
+    },
+    "org.apache.cordova.inappbrowser": {
+        "source": {
+            "type": "registry",
+            "id": "org.apache.cordova.inappbrowser"
+        }
+    },
+    "com.sap.mp.cordova.plugins.odata": {
+        "source": {
+            "type": "local",
+            "path": "/Users/imranmohammed/SLB/SMP3SDKMac/SMP7/ebf24384/modules/KapselSDK/KapselSDK/plugins/odata"
+        }
+    }
+}
