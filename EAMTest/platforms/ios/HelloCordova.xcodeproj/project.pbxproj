@@ -76,6 +76,8 @@
 		AF4AECAF9C8F4A878C190039 /* libODataAPI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 890D71C9A6224B13895347FD /* libODataAPI.a */; };
 		03D00DB8B0764927B9302EC4 /* libODataOffline.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E17687FDF74D436C96C322C5 /* libODataOffline.a */; };
 		F5A5D95C58944C368D2940E8 /* libSMPODataPlugin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A51609FE6CF64133A9499700 /* libSMPODataPlugin.a */; };
+		59C90848DE7B4B0BB19EF1EA /* CDVConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = EE341D9AE0CD4F8C860CE6E3 /* CDVConnection.m */; };
+		F56F5FFD2C824220964E0A9F /* CDVReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BFF65112F249AB96993BFA /* CDVReachability.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -181,6 +183,10 @@
 		890D71C9A6224B13895347FD /* libODataAPI.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libODataAPI.a"; path = "HelloCordova/Plugins/com.sap.mp.cordova.plugins.odata/libODataAPI.a"; sourceTree = "<group>"; fileEncoding = 4; };
 		E17687FDF74D436C96C322C5 /* libODataOffline.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libODataOffline.a"; path = "HelloCordova/Plugins/com.sap.mp.cordova.plugins.odata/libODataOffline.a"; sourceTree = "<group>"; fileEncoding = 4; };
 		A51609FE6CF64133A9499700 /* libSMPODataPlugin.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libSMPODataPlugin.a"; path = "HelloCordova/Plugins/com.sap.mp.cordova.plugins.odata/libSMPODataPlugin.a"; sourceTree = "<group>"; fileEncoding = 4; };
+		EE341D9AE0CD4F8C860CE6E3 /* CDVConnection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVConnection.m"; path = "org.apache.cordova.network-information/CDVConnection.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		18BFF65112F249AB96993BFA /* CDVReachability.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVReachability.m"; path = "org.apache.cordova.network-information/CDVReachability.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		4893C423A20449ABBCCEC675 /* CDVConnection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVConnection.h"; path = "org.apache.cordova.network-information/CDVConnection.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		B3100358BAC24099AC2E0662 /* CDVReachability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVReachability.h"; path = "org.apache.cordova.network-information/CDVReachability.h"; sourceTree = "<group>"; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -351,6 +357,10 @@
 				0799D3CBC41E4F3E980F509F /* CDVInAppBrowser.m */,
 				4F8FC6D07A53401D8BB9A1B8 /* CDVInAppBrowser.h */,
 				9DE6F81881134CC9BB0F6AC5 /* CertificateProvider.h */,
+				EE341D9AE0CD4F8C860CE6E3 /* CDVConnection.m */,
+				18BFF65112F249AB96993BFA /* CDVReachability.m */,
+				4893C423A20449ABBCCEC675 /* CDVConnection.h */,
+				B3100358BAC24099AC2E0662 /* CDVReachability.h */,
 			);
 			name = Plugins;
 			path = "HelloCordova/Plugins";
@@ -540,6 +550,8 @@
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
 				94F7ACA187A048179BE5BE38 /* CDVDevice.m in Sources */,
 				E607061494FD42D4BA262706 /* CDVInAppBrowser.m in Sources */,
+				59C90848DE7B4B0BB19EF1EA /* CDVConnection.m in Sources */,
+				F56F5FFD2C824220964E0A9F /* CDVReachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

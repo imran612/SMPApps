@@ -53,6 +53,10 @@
                         {
                             "xml": false,
                             "count": 1
+                        },
+                        {
+                            "xml": true,
+                            "count": 1
                         }
                     ],
                     "CoreData.framework": [
@@ -78,6 +82,10 @@
                         },
                         {
                             "xml": "<feature name=\"InAppBrowser\"><param name=\"ios-package\" value=\"CDVInAppBrowser\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"NetworkStatus\"><param name=\"ios-package\" value=\"CDVConnection\" /></feature>",
                             "count": 1
                         }
                     ],
@@ -114,6 +122,9 @@
             "PACKAGE_NAME": "com.slb.mobileEAMTest"
         },
         "com.sap.mp.cordova.plugins.odata": {
+            "PACKAGE_NAME": "com.slb.mobileEAMTest"
+        },
+        "org.apache.cordova.network-information": {
             "PACKAGE_NAME": "com.slb.mobileEAMTest"
         }
     },

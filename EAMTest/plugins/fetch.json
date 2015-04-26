@@ -34,5 +34,11 @@
             "type": "local",
             "path": "/Users/imranmohammed/SLB/SMP3SDKMac/SMP7/ebf24384/modules/KapselSDK/KapselSDK/plugins/odata"
         }
+    },
+    "org.apache.cordova.network-information": {
+        "source": {
+            "type": "registry",
+            "id": "org.apache.cordova.network-information"
+        }
     }
 }

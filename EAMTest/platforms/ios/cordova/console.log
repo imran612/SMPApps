@@ -2290,3 +2290,658 @@ To disable web storage backup to iCloud, set the BackupWebStorage preference to 
 2015-04-23 19:18:28.006 HelloCordova[25655:362427] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '39.329834' ms. Plugin should use a background thread.
 2015-04-23 19:18:28.083 HelloCordova[25655:362427] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '76.127930' ms. Plugin should use a background thread.
 2015-04-23 19:18:28.161 HelloCordova[25655:362427] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '76.662109' ms. Plugin should use a background thread.
+2015-04-23 21:21:04.486 HelloCordova[28187:384605] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-23 21:21:04.487 HelloCordova[28187:384605] Multi-tasking -> Device: YES, App: YES
+2015-04-23 21:21:04.502 HelloCordova[28187:384605] Unlimited access to network resources
+2015-04-23 21:21:04.510 HelloCordova[28187:384605] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-23 21:21:04.794 HelloCordova[28187:384605] [group: com.sap.smp.client.ios] [artifact: Supportability] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-04-23 21:21:04.794 HelloCordova[28187:384605] [group: com.sap.smp.client.ios] [artifact: ClientLog] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-04-23 21:21:04.820 HelloCordova[28187:384605] [group: com.sap.smp.client.ios] [artifact: E2ETrace2] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-04-23 21:21:04.821 HelloCordova[28187:384605] CommonAuthenticationConfigurator isNSHTTPURLProtocolReplacementEnabled: 0
+2015-04-23 21:21:04.821 HelloCordova[28187:384605] [CDVTimer][authproxy] 26.965022ms
+2015-04-23 21:21:04.821 HelloCordova[28187:384605] [CDVTimer][TotalPluginStartup] 27.105987ms
+2015-04-23 21:21:04.964 HelloCordova[28187:384605] Resetting plugins due to page load.
+2015-04-23 21:21:05.133 HelloCordova[28187:384605] Finished load of: file:///Users/imranmohammed/Library/Developer/CoreSimulator/Devices/9D0E70A7-FB73-4B1C-AFF8-003FEC43F3E9/data/Containers/Bundle/Application/526C90D5-F423-44AA-A2A0-74E6BDC79078/HelloCordova.app/www/index.html
+2015-04-23 21:21:05.241 HelloCordova[28187:384605] [group: com.sap.mobile.maf.tools.ios] [artifact: MAFLogger] [version: 1.207.0] [buildTime: 2015-02-24 23:55] [gitCommit: 0648677345ea49cb2688ed34b110338d0a15cf6b] [gitBranch: origin/fa/rel-1.207]
+2015-04-23 21:21:05.241 HelloCordova[28187:384605] [group: com.sap.smp.client.ios] [artifact: Logger] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-04-23 21:21:05.261 HelloCordova[28187:384605] [group: com.sap.smp.client.ios] [artifact: ClientHubSLL] [version: 3.7.0] [buildTime: 2015-02-23 22:49] [gitCommit: e7aa7076609783021fdedc87f29f65522d139dd1] [gitBranch: origin/fa/rel-3.7]
+2015-04-23 21:21:05.262 HelloCordova[28187:384605] ER:No URL Types configured.
+2015-04-23 21:21:05.263 HelloCordova[28187:384605] [group: com.sap.smp.client.ios] [artifact: Datavault] [version: 3.7.0] [buildTime: 2015-02-23 22:49] [gitCommit: e7aa7076609783021fdedc87f29f65522d139dd1] [gitBranch: origin/fa/rel-3.7]
+2015-04-23 21:21:05.291 HelloCordova[28187:384605] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '50.413086' ms. Plugin should use a background thread.
+2015-04-23 21:21:05.308 HelloCordova[28187:384605] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '16.435059' ms. Plugin should use a background thread.
+2015-04-23 21:21:05.398 HelloCordova[28187:384605] Setting the WebView's frame to {{0, 0}, {375, 623}}
+2015-04-23 21:21:05.398 HelloCordova[28187:384605] Setting the WebView's frame to {{0, 0}, {375, 667}}
+2015-04-23 21:21:05.405 HelloCordova[28187:384605] THREAD WARNING: ['InAppBrowser'] took '96.658203' ms. Plugin should use a background thread.
+2015-04-23 21:21:05.761 HelloCordova[28187:384605] THREAD WARNING: ['InAppBrowser'] took '150.661865' ms. Plugin should use a background thread.
+2015-04-23 21:21:08.791 HelloCordova[28187:384644] ER:Exception: DataVault Locked Error: Error Domain=MAFSecureStoreManagerErrorDomain Code=6 "Secure store is locked" UserInfo=0x7bfc3110 {exceptionReason=DataVault Locked, exceptionName=DataVaultException, NSLocalizedDescription=Secure store is locked}
+2015-04-23 21:21:08.913 HelloCordova[28187:384605] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '10.002197' ms. Plugin should use a background thread.
+2015-04-23 21:21:08.913 HelloCordova[28187:384605] Resetting plugins due to page load.
+2015-04-23 21:21:08.927 HelloCordova[28187:384605] Finished load of: file:///Users/imranmohammed/Library/Developer/CoreSimulator/Devices/9D0E70A7-FB73-4B1C-AFF8-003FEC43F3E9/data/Containers/Bundle/Application/526C90D5-F423-44AA-A2A0-74E6BDC79078/HelloCordova.app/www/index.html
+2015-04-23 21:21:08.966 HelloCordova[28187:384605] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '10.785889' ms. Plugin should use a background thread.
+2015-04-23 21:21:09.000 HelloCordova[28187:384605] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '27.202881' ms. Plugin should use a background thread.
+2015-04-23 21:21:09.062 HelloCordova[28187:384605] Setting the WebView's frame to {{0, 0}, {375, 623}}
+2015-04-23 21:21:09.062 HelloCordova[28187:384605] Setting the WebView's frame to {{0, 0}, {375, 667}}
+2015-04-23 21:21:09.068 HelloCordova[28187:384605] THREAD WARNING: ['InAppBrowser'] took '67.819092' ms. Plugin should use a background thread.
+2015-04-23 21:21:09.767 HelloCordova[28187:384605] THREAD WARNING: ['InAppBrowser'] took '118.814941' ms. Plugin should use a background thread.
+2015-04-23 21:21:14.117 HelloCordova[28187:384642] [group: com.sap.smp.client.ios] [artifact: CoreServices] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-04-23 21:21:14.117 HelloCordova[28187:384642] Initializing Client connection with ApplicationID : com.slb.mobile  Domain :  default  SecurityConfiguration:  (null)
+2015-04-23 21:21:14.117 HelloCordova[28187:384642] [group: com.sap.smp.client.ios] [artifact: Request] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-04-23 21:21:14.118 HelloCordova[28187:384642] Setting Client connection with Url:  https://hcpms-p1941267893trial.hanatrial.ondemand.com:443
+2015-04-23 21:21:14.119 HelloCordova[28187:384642] Clearing SMP server related session cookies
+2015-04-23 21:21:14.119 HelloCordova[28187:384642] Assigning the selectors
+2015-04-23 21:21:14.120 HelloCordova[28187:384642] Automatic Registration : Registering user ASYNCHRONOUSLY with user name : p1941267893, security configuration : (null) 
+2015-04-23 21:21:14.121 HelloCordova[28187:384642] Starting asynchronous request <Request: 0x7d89ec00>{name = '(null)'}
+2015-04-23 21:21:14.123 HelloCordova[28187:384752] Registering reachability notifier for: hcpms-p1941267893trial.hanatrial.ondemand.com
+2015-04-23 21:21:14.127 HelloCordova[28187:384752] UrlString:   https://hcpms-p1941267893trial.hanatrial.ondemand.com:443
+2015-04-23 21:21:14.127 HelloCordova[28187:384752] Unable to instantiate Cache... Delta Link and CSRF (Offline) handling not possible
+2015-04-23 21:21:14.131 HelloCordova[28187:384752] UrlString:   https://hcpms-p1941267893trial.hanatrial.ondemand.com:443
+2015-04-23 21:21:14.137 HelloCordova[28187:384752] Request handleNetworkEvent -> Unexpected stream event type received
+2015-04-23 21:21:14.137 HelloCordova[28187:384752] ===Used: 0 bytes of bandwidth in last measurement period===
+2015-04-23 21:21:15.138 HelloCordova[28187:384752] ===Used: 0 bytes of bandwidth in last measurement period===
+2015-04-23 21:21:16.387 HelloCordova[28187:384752] ===Used: 33286 bytes of bandwidth in last measurement period===
+2015-04-23 21:21:16.443 HelloCordova[28187:384752] Got no keep-alive header, will keep this connection open for 60.000000 seconds
+2015-04-23 21:21:16.444 HelloCordova[28187:384752] Request <Request: 0x7d89ec00>{name = '(null)'} finished downloading data (4357 bytes)
+2015-04-23 21:21:16.444 HelloCordova[28187:384752] Request #1 finished using connection #1
+2015-04-23 21:21:16.444 HelloCordova[28187:384752] Request finished: <Request: 0x7d89ec00>{name = '(null)'}
+2015-04-23 21:21:16.444 HelloCordova[28187:384605] Registration request finished...
+2015-04-23 21:21:16.444 HelloCordova[28187:384605] Parsing started
+2015-04-23 21:21:16.444 HelloCordova[28187:384605] Found an element named: id with a value of: (null)
+2015-04-23 21:21:16.444 HelloCordova[28187:384605] Found an element named: title with a value of: (null)
+2015-04-23 21:21:16.445 HelloCordova[28187:384605] Found an element named: updated with a value of: (null)
+2015-04-23 21:21:16.445 HelloCordova[28187:384605] Found an element named: name with a value of: (null)
+2015-04-23 21:21:16.445 HelloCordova[28187:384605] Found an element named: author with a value of: (null)
+2015-04-23 21:21:16.445 HelloCordova[28187:384605] Found an element named: link with a value of: (null)
+2015-04-23 21:21:16.445 HelloCordova[28187:384605] Found an element named: category with a value of: (null)
+2015-04-23 21:21:16.445 HelloCordova[28187:384605] Found an element named: d:ETag with a value of: 2015-04-24 02:21:16.0
+2015-04-23 21:21:16.446 HelloCordova[28187:384605] Found an element named: d:ApplicationConnectionId with a value of: 8a4f0cea-3555-4a43-b15d-fc908f7a8b4c
+2015-04-23 21:21:16.446 HelloCordova[28187:384605] Found an element named: d:AndroidGcmPushEnabled with a value of: false
+2015-04-23 21:21:16.446 HelloCordova[28187:384605] Found an element named: d:AndroidGcmRegistrationId with a value of: 
+2015-04-23 21:21:16.446 HelloCordova[28187:384605] Found an element named: d:AndroidGcmSenderId with a value of: 
+2015-04-23 21:21:16.446 HelloCordova[28187:384605] Found an element named: d:ApnsPushEnable with a value of: false
+2015-04-23 21:21:16.447 HelloCordova[28187:384605] Found an element named: d:ApnsDeviceToken with a value of: 
+2015-04-23 21:21:16.447 HelloCordova[28187:384605] Found an element named: d:ApplicationVersion with a value of: 1.0
+2015-04-23 21:21:16.447 HelloCordova[28187:384605] Found an element named: d:BlackberryPushEnabled with a value of: false
+2015-04-23 21:21:16.447 HelloCordova[28187:384605] Found an element named: d:BlackberryDevicePin with a value of: 
+2015-04-23 21:21:16.447 HelloCordova[28187:384605] Found an element named: d:BlackberryBESListenerPort with a value of: 0
+2015-04-23 21:21:16.447 HelloCordova[28187:384605] Found an element named: d:BlackberryPushAppID with a value of: 
+2015-04-23 21:21:16.447 HelloCordova[28187:384605] Found an element named: d:BlackberryPushBaseURL with a value of: 
+2015-04-23 21:21:16.447 HelloCordova[28187:384605] Found an element named: d:BlackberryPushListenerPort with a value of: 0
+2015-04-23 21:21:16.448 HelloCordova[28187:384605] Found an element named: d:BlackberryListenerType with a value of: 0
+2015-04-23 21:21:16.448 HelloCordova[28187:384605] Found an element named: d:CollectClientUsageReports with a value of: false
+2015-04-23 21:21:16.448 HelloCordova[28187:384605] Found an element named: d:ConnectionLogLevel with a value of: NONE
+2015-04-23 21:21:16.448 HelloCordova[28187:384605] Found an element named: d:CustomizationBundleId with a value of: 
+2015-04-23 21:21:16.448 HelloCordova[28187:384605] Found an element named: d:CustomCustom1 with a value of: 
+2015-04-23 21:21:16.448 HelloCordova[28187:384605] Found an element named: d:CustomCustom2 with a value of: 
+2015-04-23 21:21:16.448 HelloCordova[28187:384605] Found an element named: d:CustomCustom3 with a value of: 
+2015-04-23 21:21:16.448 HelloCordova[28187:384605] Found an element named: d:CustomCustom4 with a value of: 
+2015-04-23 21:21:16.448 HelloCordova[28187:384605] Found an element named: d:DeviceModel with a value of: 
+2015-04-23 21:21:16.448 HelloCordova[28187:384605] Found an element named: d:DeviceType with a value of: iPhone
+2015-04-23 21:21:16.449 HelloCordova[28187:384605] Found an element named: d:DeviceSubType with a value of: 
+2015-04-23 21:21:16.449 HelloCordova[28187:384605] Found an element named: d:DevicePhoneNumber with a value of: 
+2015-04-23 21:21:16.449 HelloCordova[28187:384605] Found an element named: d:DeviceIMSI with a value of: 
+2015-04-23 21:21:16.449 HelloCordova[28187:384605] Found an element named: d:E2ETraceLevel with a value of: Low
+2015-04-23 21:21:16.449 HelloCordova[28187:384605] Found an element named: d:EnableAppSpecificClientUsageKeys with a value of: false
+2015-04-23 21:21:16.449 HelloCordova[28187:384605] Found an element named: d:FeatureVectorPolicyAllEnabled with a value of: true
+2015-04-23 21:21:16.449 HelloCordova[28187:384605] Found an element named: d:LogEntryExpiry with a value of: 7
+2015-04-23 21:21:16.449 HelloCordova[28187:384605] Found an element named: d:MaxConnectionWaitTimeForClientUsage with a value of: 
+2015-04-23 21:21:16.449 HelloCordova[28187:384605] Found an element named: d:MpnsChannelURI with a value of: 
+2015-04-23 21:21:16.450 HelloCordova[28187:384605] Found an element named: d:MpnsPushEnable with a value of: false
+2015-04-23 21:21:16.450 HelloCordova[28187:384605] Found an element named: d:PasswordPolicyEnabled with a value of: false
+2015-04-23 21:21:16.450 HelloCordova[28187:384605] Found an element named: d:PasswordPolicyDefaultPasswordAllowed with a value of: false
+2015-04-23 21:21:16.450 HelloCordova[28187:384605] Found an element named: d:PasswordPolicyMinLength with a value of: 8
+2015-04-23 21:21:16.450 HelloCordova[28187:384605] Found an element named: d:PasswordPolicyDigitRequired with a value of: false
+2015-04-23 21:21:16.450 HelloCordova[28187:384605] Found an element named: d:PasswordPolicyUpperRequired with a value of: false
+2015-04-23 21:21:16.450 HelloCordova[28187:384605] Found an element named: d:PasswordPolicyLowerRequired with a value of: false
+2015-04-23 21:21:16.450 HelloCordova[28187:384605] Found an element named: d:PasswordPolicySpecialRequired with a value of: false
+2015-04-23 21:21:16.451 HelloCordova[28187:384605] Found an element named: d:PasswordPolicyExpiresInNDays with a value of: 0
+2015-04-23 21:21:16.451 HelloCordova[28187:384605] Found an element named: d:PasswordPolicyMinUniqueChars with a value of: 0
+2015-04-23 21:21:16.451 HelloCordova[28187:384605] Found an element named: d:PasswordPolicyLockTimeout with a value of: 0
+2015-04-23 21:21:16.451 HelloCordova[28187:384605] Found an element named: d:PasswordPolicyRetryLimit with a value of: 20
+2015-04-23 21:21:16.451 HelloCordova[28187:384605] Found an element named: d:ProxyApplicationEndpoint with a value of: http://services.odata.org/V2/OData/OData.svc
+2015-04-23 21:21:16.451 HelloCordova[28187:384605] Found an element named: d:ProxyPushEndpoint with a value of: 
+2015-04-23 21:21:16.451 HelloCordova[28187:384605] Found an element named: d:PublishedToMobilePlace with a value of: false
+2015-04-23 21:21:16.452 HelloCordova[28187:384605] Found an element named: d:UploadLogs with a value of: false
+2015-04-23 21:21:16.452 HelloCordova[28187:384605] Found an element named: d:WnsChannelURI with a value of: 
+2015-04-23 21:21:16.452 HelloCordova[28187:384605] Found an element named: d:WnsPushEnable with a value of: false
+2015-04-23 21:21:16.452 HelloCordova[28187:384605] Found an element named: d:FeatureVectorPolicy with a value of: 
+2015-04-23 21:21:16.452 HelloCordova[28187:384605] Found an element named: m:properties with a value of: 
+2015-04-23 21:21:16.453 HelloCordova[28187:384605] Found an element named: content with a value of: 
+2015-04-23 21:21:16.453 HelloCordova[28187:384605] Found an element named: entry with a value of: 
+2015-04-23 21:21:16.453 HelloCordova[28187:384605] Parsing ended --> {
+    "d:AndroidGcmPushEnabled" = false;
+    "d:AndroidGcmRegistrationId" = "";
+    "d:AndroidGcmSenderId" = "";
+    "d:ApnsDeviceToken" = "";
+    "d:ApnsPushEnable" = false;
+    "d:ApplicationConnectionId" = "8a4f0cea-3555-4a43-b15d-fc908f7a8b4c";
+    "d:ApplicationVersion" = "1.0";
+    "d:BlackberryBESListenerPort" = 0;
+    "d:BlackberryDevicePin" = "";
+    "d:BlackberryListenerType" = 0;
+    "d:BlackberryPushAppID" = "";
+    "d:BlackberryPushBaseURL" = "";
+    "d:BlackberryPushEnabled" = false;
+    "d:BlackberryPushListenerPort" = 0;
+    "d:CollectClientUsageReports" = false;
+    "d:ConnectionLogLevel" = NONE;
+    "d:CustomCustom1" = "";
+    "d:CustomCustom2" = "";
+    "d:CustomCustom3" = "";
+    "d:CustomCustom4" = "";
+    "d:CustomizationBundleId" = "";
+    "d:DeviceIMSI" = "";
+    "d:DeviceModel" = "";
+    "d:DevicePhoneNumber" = "";
+    "d:DeviceSubType" = "";
+    "d:DeviceType" = iPhone;
+    "d:E2ETraceLevel" = Low;
+    "d:ETag" = "2015-04-24 02:21:16.0";
+    "d:EnableAppSpecificClientUsageKeys" = false;
+    "d:FeatureVectorPolicy" = "";
+    "d:FeatureVectorPolicyAllEnabled" = true;
+    "d:LogEntryExpiry" = 7;
+    "d:MaxConnectionWaitTimeForClientUsage" = "";
+    "d:MpnsChannelURI" = "";
+    "d:MpnsPushEnable" = false;
+    "d:PasswordPolicyDefaultPasswordAllowed" = false;
+    "d:PasswordPolicyDigitRequired" = false;
+    "d:PasswordPolicyEnabled" = false;
+    "d:PasswordPolicyExpiresInNDays" = 0;
+    "d:PasswordPolicyLockTimeout" = 0;
+    "d:PasswordPolicyLowerRequired" = false;
+    "d:PasswordPolicyMinLength" = 8;
+    "d:PasswordPolicyMinUniqueChars" = 0;
+    "d:PasswordPolicyRetryLimit" = 20;
+    "d:PasswordPolicySpecialRequired" = false;
+    "d:PasswordPolicyUpperRequired" = false;
+    "d:ProxyApplicationEndpoint" = "http://services.odata.org/V2/OData/OData.svc";
+    "d:ProxyPushEndpoint" = "";
+    "d:PublishedToMobilePlace" = false;
+    "d:UploadLogs" = false;
+    "d:WnsChannelURI" = "";
+    "d:WnsPushEnable" = false;
+}
+2015-04-23 21:21:16.454 HelloCordova[28187:384605] urlString:   https://hcpms-p1941267893trial.hanatrial.ondemand.com:443
+2015-04-23 21:21:16.454 HelloCordova[28187:384605] Request String:  https://hcpms-p1941267893trial.hanatrial.ondemand.com:443/odata/applications/v1/com.slb.mobile/Connections('8a4f0cea-3555-4a43-b15d-fc908f7a8b4c')
+2015-04-23 21:21:16.455 HelloCordova[28187:384605] Starting synchronous request <Request: 0x7ca0a400>{name = '(null)'}
+2015-04-23 21:21:16.455 HelloCordova[28187:384605] UrlString:   https://hcpms-p1941267893trial.hanatrial.ondemand.com:443
+2015-04-23 21:21:16.455 HelloCordova[28187:384605] Unable to instantiate Cache... Delta Link and CSRF (Offline) handling not possible
+2015-04-23 21:21:16.457 HelloCordova[28187:384605] UrlString:   https://hcpms-p1941267893trial.hanatrial.ondemand.com:443
+2015-04-23 21:21:16.458 HelloCordova[28187:384605] Request handleNetworkEvent -> Unexpected stream event type received
+2015-04-23 21:21:16.886 HelloCordova[28187:384605] Got no keep-alive header, will keep this connection open for 60.000000 seconds
+2015-04-23 21:21:16.886 HelloCordova[28187:384605] Request <Request: 0x7ca0a400>{name = '(null)'} finished downloading data (4357 bytes)
+2015-04-23 21:21:16.887 HelloCordova[28187:384605] Request #2 finished using connection #1
+2015-04-23 21:21:16.887 HelloCordova[28187:384605] Request finished: <Request: 0x7ca0a400>{name = '(null)'}
+2015-04-23 21:21:16.887 HelloCordova[28187:384605] Response Code: 200
+2015-04-23 21:21:16.887 HelloCordova[28187:384605] Parsing started
+2015-04-23 21:21:16.887 HelloCordova[28187:384605] Found an element named: id with a value of: (null)
+2015-04-23 21:21:16.888 HelloCordova[28187:384605] Found an element named: title with a value of: (null)
+2015-04-23 21:21:16.888 HelloCordova[28187:384605] Found an element named: updated with a value of: (null)
+2015-04-23 21:21:16.888 HelloCordova[28187:384605] Found an element named: name with a value of: (null)
+2015-04-23 21:21:16.888 HelloCordova[28187:384605] Found an element named: author with a value of: (null)
+2015-04-23 21:21:16.888 HelloCordova[28187:384605] Found an element named: link with a value of: (null)
+2015-04-23 21:21:16.888 HelloCordova[28187:384605] Found an element named: category with a value of: (null)
+2015-04-23 21:21:16.889 HelloCordova[28187:384605] Found an element named: d:ETag with a value of: 2015-04-24 02:21:16.0
+2015-04-23 21:21:16.889 HelloCordova[28187:384605] Found an element named: d:ApplicationConnectionId with a value of: 8a4f0cea-3555-4a43-b15d-fc908f7a8b4c
+2015-04-23 21:21:16.889 HelloCordova[28187:384605] Found an element named: d:AndroidGcmPushEnabled with a value of: false
+2015-04-23 21:21:16.889 HelloCordova[28187:384605] Found an element named: d:AndroidGcmRegistrationId with a value of: 
+2015-04-23 21:21:16.889 HelloCordova[28187:384605] Found an element named: d:AndroidGcmSenderId with a value of: 
+2015-04-23 21:21:16.889 HelloCordova[28187:384605] Found an element named: d:ApnsPushEnable with a value of: false
+2015-04-23 21:21:16.890 HelloCordova[28187:384605] Found an element named: d:ApnsDeviceToken with a value of: 
+2015-04-23 21:21:16.890 HelloCordova[28187:384605] Found an element named: d:ApplicationVersion with a value of: 1.0
+2015-04-23 21:21:16.890 HelloCordova[28187:384605] Found an element named: d:BlackberryPushEnabled with a value of: false
+2015-04-23 21:21:16.890 HelloCordova[28187:384605] Found an element named: d:BlackberryDevicePin with a value of: 
+2015-04-23 21:21:16.890 HelloCordova[28187:384605] Found an element named: d:BlackberryBESListenerPort with a value of: 0
+2015-04-23 21:21:16.890 HelloCordova[28187:384605] Found an element named: d:BlackberryPushAppID with a value of: 
+2015-04-23 21:21:16.890 HelloCordova[28187:384605] Found an element named: d:BlackberryPushBaseURL with a value of: 
+2015-04-23 21:21:16.890 HelloCordova[28187:384605] Found an element named: d:BlackberryPushListenerPort with a value of: 0
+2015-04-23 21:21:16.890 HelloCordova[28187:384605] Found an element named: d:BlackberryListenerType with a value of: 0
+2015-04-23 21:21:16.891 HelloCordova[28187:384605] Found an element named: d:CollectClientUsageReports with a value of: false
+2015-04-23 21:21:16.891 HelloCordova[28187:384605] Found an element named: d:ConnectionLogLevel with a value of: NONE
+2015-04-23 21:21:16.891 HelloCordova[28187:384605] Found an element named: d:CustomizationBundleId with a value of: 
+2015-04-23 21:21:16.891 HelloCordova[28187:384605] Found an element named: d:CustomCustom1 with a value of: 
+2015-04-23 21:21:16.891 HelloCordova[28187:384605] Found an element named: d:CustomCustom2 with a value of: 
+2015-04-23 21:21:16.891 HelloCordova[28187:384605] Found an element named: d:CustomCustom3 with a value of: 
+2015-04-23 21:21:16.891 HelloCordova[28187:384605] Found an element named: d:CustomCustom4 with a value of: 
+2015-04-23 21:21:16.891 HelloCordova[28187:384605] Found an element named: d:DeviceModel with a value of: 
+2015-04-23 21:21:16.891 HelloCordova[28187:384605] Found an element named: d:DeviceType with a value of: iPhone
+2015-04-23 21:21:16.892 HelloCordova[28187:384605] Found an element named: d:DeviceSubType with a value of: 
+2015-04-23 21:21:16.892 HelloCordova[28187:384605] Found an element named: d:DevicePhoneNumber with a value of: 
+2015-04-23 21:21:16.892 HelloCordova[28187:384605] Found an element named: d:DeviceIMSI with a value of: 
+2015-04-23 21:21:16.892 HelloCordova[28187:384605] Found an element named: d:E2ETraceLevel with a value of: Low
+2015-04-23 21:21:16.892 HelloCordova[28187:384605] Found an element named: d:EnableAppSpecificClientUsageKeys with a value of: false
+2015-04-23 21:21:16.892 HelloCordova[28187:384605] Found an element named: d:FeatureVectorPolicyAllEnabled with a value of: true
+2015-04-23 21:21:16.892 HelloCordova[28187:384605] Found an element named: d:LogEntryExpiry with a value of: 7
+2015-04-23 21:21:16.892 HelloCordova[28187:384605] Found an element named: d:MaxConnectionWaitTimeForClientUsage with a value of: 
+2015-04-23 21:21:16.892 HelloCordova[28187:384605] Found an element named: d:MpnsChannelURI with a value of: 
+2015-04-23 21:21:16.892 HelloCordova[28187:384605] Found an element named: d:MpnsPushEnable with a value of: false
+2015-04-23 21:21:16.893 HelloCordova[28187:384605] Found an element named: d:PasswordPolicyEnabled with a value of: false
+2015-04-23 21:21:16.893 HelloCordova[28187:384605] Found an element named: d:PasswordPolicyDefaultPasswordAllowed with a value of: false
+2015-04-23 21:21:16.893 HelloCordova[28187:384605] Found an element named: d:PasswordPolicyMinLength with a value of: 8
+2015-04-23 21:21:16.893 HelloCordova[28187:384605] Found an element named: d:PasswordPolicyDigitRequired with a value of: false
+2015-04-23 21:21:16.893 HelloCordova[28187:384605] Found an element named: d:PasswordPolicyUpperRequired with a value of: false
+2015-04-23 21:21:16.893 HelloCordova[28187:384605] Found an element named: d:PasswordPolicyLowerRequired with a value of: false
+2015-04-23 21:21:16.893 HelloCordova[28187:384605] Found an element named: d:PasswordPolicySpecialRequired with a value of: false
+2015-04-23 21:21:16.893 HelloCordova[28187:384605] Found an element named: d:PasswordPolicyExpiresInNDays with a value of: 0
+2015-04-23 21:21:16.893 HelloCordova[28187:384605] Found an element named: d:PasswordPolicyMinUniqueChars with a value of: 0
+2015-04-23 21:21:16.894 HelloCordova[28187:384605] Found an element named: d:PasswordPolicyLockTimeout with a value of: 0
+2015-04-23 21:21:16.894 HelloCordova[28187:384605] Found an element named: d:PasswordPolicyRetryLimit with a value of: 20
+2015-04-23 21:21:16.894 HelloCordova[28187:384605] Found an element named: d:ProxyApplicationEndpoint with a value of: http://services.odata.org/V2/OData/OData.svc
+2015-04-23 21:21:16.894 HelloCordova[28187:384605] Found an element named: d:ProxyPushEndpoint with a value of: 
+2015-04-23 21:21:16.894 HelloCordova[28187:384605] Found an element named: d:PublishedToMobilePlace with a value of: false
+2015-04-23 21:21:16.894 HelloCordova[28187:384605] Found an element named: d:UploadLogs with a value of: false
+2015-04-23 21:21:16.894 HelloCordova[28187:384605] Found an element named: d:WnsChannelURI with a value of: 
+2015-04-23 21:21:16.894 HelloCordova[28187:384605] Found an element named: d:WnsPushEnable with a value of: false
+2015-04-23 21:21:16.894 HelloCordova[28187:384605] Found an element named: d:FeatureVectorPolicy with a value of: 
+2015-04-23 21:21:16.894 HelloCordova[28187:384605] Found an element named: m:properties with a value of: 
+2015-04-23 21:21:16.895 HelloCordova[28187:384605] Found an element named: content with a value of: 
+2015-04-23 21:21:16.895 HelloCordova[28187:384605] Found an element named: entry with a value of: 
+2015-04-23 21:21:16.895 HelloCordova[28187:384605] Parsing ended --> {
+    "d:AndroidGcmPushEnabled" = false;
+    "d:AndroidGcmRegistrationId" = "";
+    "d:AndroidGcmSenderId" = "";
+    "d:ApnsDeviceToken" = "";
+    "d:ApnsPushEnable" = false;
+    "d:ApplicationConnectionId" = "8a4f0cea-3555-4a43-b15d-fc908f7a8b4c";
+    "d:ApplicationVersion" = "1.0";
+    "d:BlackberryBESListenerPort" = 0;
+    "d:BlackberryDevicePin" = "";
+    "d:BlackberryListenerType" = 0;
+    "d:BlackberryPushAppID" = "";
+    "d:BlackberryPushBaseURL" = "";
+    "d:BlackberryPushEnabled" = false;
+    "d:BlackberryPushListenerPort" = 0;
+    "d:CollectClientUsageReports" = false;
+    "d:ConnectionLogLevel" = NONE;
+    "d:CustomCustom1" = "";
+    "d:CustomCustom2" = "";
+    "d:CustomCustom3" = "";
+    "d:CustomCustom4" = "";
+    "d:CustomizationBundleId" = "";
+    "d:DeviceIMSI" = "";
+    "d:DeviceModel" = "";
+    "d:DevicePhoneNumber" = "";
+    "d:DeviceSubType" = "";
+    "d:DeviceType" = iPhone;
+    "d:E2ETraceLevel" = Low;
+    "d:ETag" = "2015-04-24 02:21:16.0";
+    "d:EnableAppSpecificClientUsageKeys" = false;
+    "d:FeatureVectorPolicy" = "";
+    "d:FeatureVectorPolicyAllEnabled" = true;
+    "d:LogEntryExpiry" = 7;
+    "d:MaxConnectionWaitTimeForClientUsage" = "";
+    "d:MpnsChannelURI" = "";
+    "d:MpnsPushEnable" = false;
+    "d:PasswordPolicyDefaultPasswordAllowed" = false;
+    "d:PasswordPolicyDigitRequired" = false;
+    "d:PasswordPolicyEnabled" = false;
+    "d:PasswordPolicyExpiresInNDays" = 0;
+    "d:PasswordPolicyLockTimeout" = 0;
+    "d:PasswordPolicyLowerRequired" = false;
+    "d:PasswordPolicyMinLength" = 8;
+    "d:PasswordPolicyMinUniqueChars" = 0;
+    "d:PasswordPolicyRetryLimit" = 20;
+    "d:PasswordPolicySpecialRequired" = false;
+    "d:PasswordPolicyUpperRequired" = false;
+    "d:ProxyApplicationEndpoint" = "http://services.odata.org/V2/OData/OData.svc";
+    "d:ProxyPushEndpoint" = "";
+    "d:PublishedToMobilePlace" = false;
+    "d:UploadLogs" = false;
+    "d:WnsChannelURI" = "";
+    "d:WnsPushEnable" = false;
+}
+2015-04-23 21:21:16.940 HelloCordova[28187:384605] THREAD WARNING: ['InAppBrowser'] took '16.983154' ms. Plugin should use a background thread.
+2015-04-23 21:21:18.898 HelloCordova[28187:384605] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '35.767578' ms. Plugin should use a background thread.
+2015-04-23 21:21:19.001 HelloCordova[28187:384605] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '102.513184' ms. Plugin should use a background thread.
+2015-04-23 21:21:43.812 HelloCordova[28187:384605] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '20.807861' ms. Plugin should use a background thread.
+2015-04-23 21:21:43.850 HelloCordova[28187:384605] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '37.090820' ms. Plugin should use a background thread.
+2015-04-23 21:21:43.900 HelloCordova[28187:384605] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '49.118164' ms. Plugin should use a background thread.
+2015-04-23 21:21:43.983 HelloCordova[28187:384605] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '82.366943' ms. Plugin should use a background thread.
+2015-04-23 22:07:33.031 HelloCordova[28187:384652] void SendDelegateMessage(NSInvocation *): delegate (webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-04-23 22:08:08.319 HelloCordova[30447:390185] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-23 22:08:08.320 HelloCordova[30447:390185] Multi-tasking -> Device: YES, App: YES
+2015-04-23 22:08:08.323 HelloCordova[30447:390185] Unlimited access to network resources
+2015-04-23 22:08:08.330 HelloCordova[30447:390185] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-23 22:08:08.444 HelloCordova[30447:390185] [group: com.sap.smp.client.ios] [artifact: Supportability] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-04-23 22:08:08.445 HelloCordova[30447:390185] [group: com.sap.smp.client.ios] [artifact: ClientLog] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-04-23 22:08:08.452 HelloCordova[30447:390185] [group: com.sap.smp.client.ios] [artifact: E2ETrace2] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-04-23 22:08:08.452 HelloCordova[30447:390185] CommonAuthenticationConfigurator isNSHTTPURLProtocolReplacementEnabled: 0
+2015-04-23 22:08:08.452 HelloCordova[30447:390185] [CDVTimer][authproxy] 7.977009ms
+2015-04-23 22:08:08.452 HelloCordova[30447:390185] [CDVTimer][TotalPluginStartup] 8.165002ms
+2015-04-23 22:08:08.560 HelloCordova[30447:390185] Resetting plugins due to page load.
+2015-04-23 22:08:08.608 HelloCordova[30447:390185] Finished load of: file:///Users/imranmohammed/Library/Developer/CoreSimulator/Devices/9D0E70A7-FB73-4B1C-AFF8-003FEC43F3E9/data/Containers/Bundle/Application/FA6FB5BD-20F0-45CD-ABE3-291E803605DC/HelloCordova.app/www/index.html
+2015-04-23 22:08:08.661 HelloCordova[30447:390185] [group: com.sap.mobile.maf.tools.ios] [artifact: MAFLogger] [version: 1.207.0] [buildTime: 2015-02-24 23:55] [gitCommit: 0648677345ea49cb2688ed34b110338d0a15cf6b] [gitBranch: origin/fa/rel-1.207]
+2015-04-23 22:08:08.661 HelloCordova[30447:390185] [group: com.sap.smp.client.ios] [artifact: Logger] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-04-23 22:08:08.665 HelloCordova[30447:390185] [group: com.sap.smp.client.ios] [artifact: ClientHubSLL] [version: 3.7.0] [buildTime: 2015-02-23 22:49] [gitCommit: e7aa7076609783021fdedc87f29f65522d139dd1] [gitBranch: origin/fa/rel-3.7]
+2015-04-23 22:08:08.668 HelloCordova[30447:390185] ER:No URL Types configured.
+2015-04-23 22:08:08.670 HelloCordova[30447:390185] [group: com.sap.smp.client.ios] [artifact: Datavault] [version: 3.7.0] [buildTime: 2015-02-23 22:49] [gitCommit: e7aa7076609783021fdedc87f29f65522d139dd1] [gitBranch: origin/fa/rel-3.7]
+2015-04-23 22:08:08.711 HelloCordova[30447:390185] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '50.697021' ms. Plugin should use a background thread.
+2015-04-23 22:08:08.732 HelloCordova[30447:390185] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '19.684082' ms. Plugin should use a background thread.
+2015-04-23 22:08:08.837 HelloCordova[30447:390185] Setting the WebView's frame to {{0, 0}, {375, 623}}
+2015-04-23 22:08:08.837 HelloCordova[30447:390185] Setting the WebView's frame to {{0, 0}, {375, 667}}
+2015-04-23 22:08:08.843 HelloCordova[30447:390185] THREAD WARNING: ['InAppBrowser'] took '110.943115' ms. Plugin should use a background thread.
+2015-04-23 22:08:09.224 HelloCordova[30447:390185] THREAD WARNING: ['InAppBrowser'] took '169.670898' ms. Plugin should use a background thread.
+2015-04-23 22:08:36.915 HelloCordova[30447:390185] [group: com.sap.smp.client.ios] [artifact: CoreServices] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-04-23 22:08:36.916 HelloCordova[30447:390185] Initializing Client connection with ApplicationID : com.slb.mobile  Domain :  default  SecurityConfiguration:  (null)
+2015-04-23 22:08:36.916 HelloCordova[30447:390185] [group: com.sap.smp.client.ios] [artifact: Request] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-04-23 22:08:36.921 HelloCordova[30447:390185] Setting Client connection with Url:  https://hcpms-p1941267893trial.hanatrial.ondemand.com:443
+2015-04-23 22:08:37.029 HelloCordova[30447:390185] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '210.021973' ms. Plugin should use a background thread.
+2015-04-23 22:08:37.049 HelloCordova[30447:390185] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '18.349854' ms. Plugin should use a background thread.
+2015-04-23 22:08:37.428 HelloCordova[30447:390185] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '118.553955' ms. Plugin should use a background thread.
+2015-04-23 22:10:03.839 HelloCordova[30447:390197] void SendDelegateMessage(NSInvocation *): delegate (webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-04-23 22:23:33.289 HelloCordova[32770:398227] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-23 22:23:33.290 HelloCordova[32770:398227] Multi-tasking -> Device: YES, App: YES
+2015-04-23 22:23:33.291 HelloCordova[32770:398227] Unlimited access to network resources
+2015-04-23 22:23:33.293 HelloCordova[32770:398227] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-23 22:23:33.371 HelloCordova[32770:398227] [group: com.sap.smp.client.ios] [artifact: Supportability] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-04-23 22:23:33.371 HelloCordova[32770:398227] [group: com.sap.smp.client.ios] [artifact: ClientLog] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-04-23 22:23:33.379 HelloCordova[32770:398227] [group: com.sap.smp.client.ios] [artifact: E2ETrace2] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-04-23 22:23:33.379 HelloCordova[32770:398227] CommonAuthenticationConfigurator isNSHTTPURLProtocolReplacementEnabled: 0
+2015-04-23 22:23:33.379 HelloCordova[32770:398227] [CDVTimer][authproxy] 8.852005ms
+2015-04-23 22:23:33.379 HelloCordova[32770:398227] [CDVTimer][TotalPluginStartup] 8.987010ms
+2015-04-23 22:23:33.427 HelloCordova[32770:398227] Resetting plugins due to page load.
+2015-04-23 22:23:33.475 HelloCordova[32770:398227] Finished load of: file:///Users/imranmohammed/Library/Developer/CoreSimulator/Devices/9D0E70A7-FB73-4B1C-AFF8-003FEC43F3E9/data/Containers/Bundle/Application/7971FEA9-2959-4C7A-8253-09D137FAF60A/HelloCordova.app/www/index.html
+2015-04-23 22:23:33.530 HelloCordova[32770:398227] [group: com.sap.mobile.maf.tools.ios] [artifact: MAFLogger] [version: 1.207.0] [buildTime: 2015-02-24 23:55] [gitCommit: 0648677345ea49cb2688ed34b110338d0a15cf6b] [gitBranch: origin/fa/rel-1.207]
+2015-04-23 22:23:33.531 HelloCordova[32770:398227] [group: com.sap.smp.client.ios] [artifact: Logger] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-04-23 22:23:33.533 HelloCordova[32770:398227] [group: com.sap.smp.client.ios] [artifact: ClientHubSLL] [version: 3.7.0] [buildTime: 2015-02-23 22:49] [gitCommit: e7aa7076609783021fdedc87f29f65522d139dd1] [gitBranch: origin/fa/rel-3.7]
+2015-04-23 22:23:33.535 HelloCordova[32770:398227] ER:No URL Types configured.
+2015-04-23 22:23:33.536 HelloCordova[32770:398227] [group: com.sap.smp.client.ios] [artifact: Datavault] [version: 3.7.0] [buildTime: 2015-02-23 22:49] [gitCommit: e7aa7076609783021fdedc87f29f65522d139dd1] [gitBranch: origin/fa/rel-3.7]
+2015-04-23 22:23:33.567 HelloCordova[32770:398227] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '36.719971' ms. Plugin should use a background thread.
+2015-04-23 22:23:33.583 HelloCordova[32770:398227] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '15.845215' ms. Plugin should use a background thread.
+2015-04-23 22:23:33.651 HelloCordova[32770:398227] Setting the WebView's frame to {{0, 0}, {375, 623}}
+2015-04-23 22:23:33.651 HelloCordova[32770:398227] Setting the WebView's frame to {{0, 0}, {375, 667}}
+2015-04-23 22:23:33.658 HelloCordova[32770:398227] THREAD WARNING: ['InAppBrowser'] took '74.137939' ms. Plugin should use a background thread.
+2015-04-23 22:23:34.006 HelloCordova[32770:398227] THREAD WARNING: ['InAppBrowser'] took '125.197266' ms. Plugin should use a background thread.
+2015-04-23 22:23:42.489 HelloCordova[32770:398227] [group: com.sap.smp.client.ios] [artifact: CoreServices] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-04-23 22:23:42.489 HelloCordova[32770:398227] Initializing Client connection with ApplicationID : com.slb.mobile  Domain :  default  SecurityConfiguration:  (null)
+2015-04-23 22:23:42.490 HelloCordova[32770:398227] [group: com.sap.smp.client.ios] [artifact: Request] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-04-23 22:23:42.497 HelloCordova[32770:398227] Setting Client connection with Url:  https://hcpms-p1941267893trial.hanatrial.ondemand.com:443
+2015-04-23 22:23:42.623 HelloCordova[32770:398227] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '250.184082' ms. Plugin should use a background thread.
+2015-04-23 22:23:42.642 HelloCordova[32770:398227] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '17.132080' ms. Plugin should use a background thread.
+2015-04-23 22:23:42.709 HelloCordova[32770:398227] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '66.430176' ms. Plugin should use a background thread.
+2015-04-23 22:23:42.796 HelloCordova[32770:398227] THREAD WARNING: ['InAppBrowser'] took '85.239014' ms. Plugin should use a background thread.
+2015-04-23 22:34:38.075 HelloCordova[35063:404117] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-23 22:34:38.076 HelloCordova[35063:404117] Multi-tasking -> Device: YES, App: YES
+2015-04-23 22:34:38.077 HelloCordova[35063:404117] Unlimited access to network resources
+2015-04-23 22:34:38.080 HelloCordova[35063:404117] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-23 22:34:38.183 HelloCordova[35063:404117] [group: com.sap.smp.client.ios] [artifact: Supportability] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-04-23 22:34:38.183 HelloCordova[35063:404117] [group: com.sap.smp.client.ios] [artifact: ClientLog] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-04-23 22:34:38.189 HelloCordova[35063:404117] [group: com.sap.smp.client.ios] [artifact: E2ETrace2] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-04-23 22:34:38.189 HelloCordova[35063:404117] CommonAuthenticationConfigurator isNSHTTPURLProtocolReplacementEnabled: 0
+2015-04-23 22:34:38.189 HelloCordova[35063:404117] [CDVTimer][authproxy] 6.402969ms
+2015-04-23 22:34:38.190 HelloCordova[35063:404117] [CDVTimer][TotalPluginStartup] 6.583989ms
+2015-04-23 22:34:38.229 HelloCordova[35063:404117] Resetting plugins due to page load.
+2015-04-23 22:34:38.286 HelloCordova[35063:404117] Finished load of: file:///Users/imranmohammed/Library/Developer/CoreSimulator/Devices/9D0E70A7-FB73-4B1C-AFF8-003FEC43F3E9/data/Containers/Bundle/Application/FA6AAFB0-113A-4468-95B5-3D95A51A3468/HelloCordova.app/www/index.html
+2015-04-23 22:34:38.351 HelloCordova[35063:404117] [group: com.sap.mobile.maf.tools.ios] [artifact: MAFLogger] [version: 1.207.0] [buildTime: 2015-02-24 23:55] [gitCommit: 0648677345ea49cb2688ed34b110338d0a15cf6b] [gitBranch: origin/fa/rel-1.207]
+2015-04-23 22:34:38.352 HelloCordova[35063:404117] [group: com.sap.smp.client.ios] [artifact: Logger] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-04-23 22:34:38.357 HelloCordova[35063:404117] [group: com.sap.smp.client.ios] [artifact: ClientHubSLL] [version: 3.7.0] [buildTime: 2015-02-23 22:49] [gitCommit: e7aa7076609783021fdedc87f29f65522d139dd1] [gitBranch: origin/fa/rel-3.7]
+2015-04-23 22:34:38.359 HelloCordova[35063:404117] ER:No URL Types configured.
+2015-04-23 22:34:38.360 HelloCordova[35063:404117] [group: com.sap.smp.client.ios] [artifact: Datavault] [version: 3.7.0] [buildTime: 2015-02-23 22:49] [gitCommit: e7aa7076609783021fdedc87f29f65522d139dd1] [gitBranch: origin/fa/rel-3.7]
+2015-04-23 22:34:38.400 HelloCordova[35063:404117] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '48.741699' ms. Plugin should use a background thread.
+2015-04-23 22:34:38.419 HelloCordova[35063:404117] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '18.118652' ms. Plugin should use a background thread.
+2015-04-23 22:34:38.497 HelloCordova[35063:404117] Setting the WebView's frame to {{0, 0}, {375, 623}}
+2015-04-23 22:34:38.497 HelloCordova[35063:404117] Setting the WebView's frame to {{0, 0}, {375, 667}}
+2015-04-23 22:34:38.508 HelloCordova[35063:404117] THREAD WARNING: ['InAppBrowser'] took '88.464111' ms. Plugin should use a background thread.
+2015-04-23 22:34:38.833 HelloCordova[35063:404117] THREAD WARNING: ['InAppBrowser'] took '143.627930' ms. Plugin should use a background thread.
+2015-04-23 22:35:34.374 HelloCordova[35063:404117] [group: com.sap.smp.client.ios] [artifact: CoreServices] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-04-23 22:35:34.374 HelloCordova[35063:404117] Initializing Client connection with ApplicationID : com.slb.mobile  Domain :  default  SecurityConfiguration:  (null)
+2015-04-23 22:35:34.374 HelloCordova[35063:404117] [group: com.sap.smp.client.ios] [artifact: Request] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-04-23 22:35:34.377 HelloCordova[35063:404117] Setting Client connection with Url:  https://hcpms-p1941267893trial.hanatrial.ondemand.com:443
+2015-04-23 22:35:34.504 HelloCordova[35063:404117] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '238.192139' ms. Plugin should use a background thread.
+2015-04-23 22:35:34.524 HelloCordova[35063:404117] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '18.096924' ms. Plugin should use a background thread.
+2015-04-23 22:35:34.854 HelloCordova[35063:404117] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '90.030762' ms. Plugin should use a background thread.
+2015-04-23 22:36:56.635 HelloCordova[35063:404128] void SendDelegateMessage(NSInvocation *): delegate (webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-04-23 22:43:25.071 HelloCordova[37340:409375] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-23 22:43:25.072 HelloCordova[37340:409375] Multi-tasking -> Device: YES, App: YES
+2015-04-23 22:43:25.074 HelloCordova[37340:409375] Unlimited access to network resources
+2015-04-23 22:43:25.076 HelloCordova[37340:409375] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-23 22:43:25.171 HelloCordova[37340:409375] [group: com.sap.smp.client.ios] [artifact: Supportability] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-04-23 22:43:25.171 HelloCordova[37340:409375] [group: com.sap.smp.client.ios] [artifact: ClientLog] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-04-23 22:43:25.182 HelloCordova[37340:409375] [group: com.sap.smp.client.ios] [artifact: E2ETrace2] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-04-23 22:43:25.183 HelloCordova[37340:409375] CommonAuthenticationConfigurator isNSHTTPURLProtocolReplacementEnabled: 0
+2015-04-23 22:43:25.183 HelloCordova[37340:409375] [CDVTimer][authproxy] 12.053967ms
+2015-04-23 22:43:25.183 HelloCordova[37340:409375] [CDVTimer][TotalPluginStartup] 12.235999ms
+2015-04-23 22:43:25.225 HelloCordova[37340:409375] Resetting plugins due to page load.
+2015-04-23 22:43:25.277 HelloCordova[37340:409375] Finished load of: file:///Users/imranmohammed/Library/Developer/CoreSimulator/Devices/9D0E70A7-FB73-4B1C-AFF8-003FEC43F3E9/data/Containers/Bundle/Application/D1DD856A-E09F-4D13-88C8-866D5D14B12C/HelloCordova.app/www/index.html
+2015-04-23 22:43:25.344 HelloCordova[37340:409375] [group: com.sap.mobile.maf.tools.ios] [artifact: MAFLogger] [version: 1.207.0] [buildTime: 2015-02-24 23:55] [gitCommit: 0648677345ea49cb2688ed34b110338d0a15cf6b] [gitBranch: origin/fa/rel-1.207]
+2015-04-23 22:43:25.344 HelloCordova[37340:409375] [group: com.sap.smp.client.ios] [artifact: Logger] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-04-23 22:43:25.349 HelloCordova[37340:409375] [group: com.sap.smp.client.ios] [artifact: ClientHubSLL] [version: 3.7.0] [buildTime: 2015-02-23 22:49] [gitCommit: e7aa7076609783021fdedc87f29f65522d139dd1] [gitBranch: origin/fa/rel-3.7]
+2015-04-23 22:43:25.352 HelloCordova[37340:409375] ER:No URL Types configured.
+2015-04-23 22:43:25.353 HelloCordova[37340:409375] [group: com.sap.smp.client.ios] [artifact: Datavault] [version: 3.7.0] [buildTime: 2015-02-23 22:49] [gitCommit: e7aa7076609783021fdedc87f29f65522d139dd1] [gitBranch: origin/fa/rel-3.7]
+2015-04-23 22:43:25.394 HelloCordova[37340:409375] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '50.677979' ms. Plugin should use a background thread.
+2015-04-23 22:43:25.415 HelloCordova[37340:409375] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '19.935791' ms. Plugin should use a background thread.
+2015-04-23 22:43:25.512 HelloCordova[37340:409375] Setting the WebView's frame to {{0, 0}, {375, 623}}
+2015-04-23 22:43:25.513 HelloCordova[37340:409375] Setting the WebView's frame to {{0, 0}, {375, 667}}
+2015-04-23 22:43:25.521 HelloCordova[37340:409375] THREAD WARNING: ['InAppBrowser'] took '105.573730' ms. Plugin should use a background thread.
+2015-04-23 22:43:25.916 HelloCordova[37340:409375] THREAD WARNING: ['InAppBrowser'] took '189.085205' ms. Plugin should use a background thread.
+2015-04-23 22:43:27.724 HelloCordova[37340:409375] [group: com.sap.smp.client.ios] [artifact: CoreServices] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-04-23 22:43:27.725 HelloCordova[37340:409375] Initializing Client connection with ApplicationID : com.slb.mobile  Domain :  default  SecurityConfiguration:  (null)
+2015-04-23 22:43:27.725 HelloCordova[37340:409375] [group: com.sap.smp.client.ios] [artifact: Request] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-04-23 22:43:27.728 HelloCordova[37340:409375] Setting Client connection with Url:  https://hcpms-p1941267893trial.hanatrial.ondemand.com:443
+2015-04-23 22:43:27.846 HelloCordova[37340:409375] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '228.749023' ms. Plugin should use a background thread.
+2015-04-23 22:43:27.865 HelloCordova[37340:409375] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '17.289795' ms. Plugin should use a background thread.
+2015-04-23 22:43:28.178 HelloCordova[37340:409375] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '73.475342' ms. Plugin should use a background thread.
+2015-04-23 22:44:54.701 HelloCordova[37340:409392] void SendDelegateMessage(NSInvocation *): delegate (webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-04-23 22:48:55.186 HelloCordova[39619:413761] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-23 22:48:55.187 HelloCordova[39619:413761] Multi-tasking -> Device: YES, App: YES
+2015-04-23 22:48:55.189 HelloCordova[39619:413761] Unlimited access to network resources
+2015-04-23 22:48:55.192 HelloCordova[39619:413761] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-23 22:48:55.288 HelloCordova[39619:413761] [group: com.sap.smp.client.ios] [artifact: Supportability] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-04-23 22:48:55.288 HelloCordova[39619:413761] [group: com.sap.smp.client.ios] [artifact: ClientLog] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-04-23 22:48:55.297 HelloCordova[39619:413761] [group: com.sap.smp.client.ios] [artifact: E2ETrace2] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-04-23 22:48:55.298 HelloCordova[39619:413761] CommonAuthenticationConfigurator isNSHTTPURLProtocolReplacementEnabled: 0
+2015-04-23 22:48:55.298 HelloCordova[39619:413761] [CDVTimer][authproxy] 10.710955ms
+2015-04-23 22:48:55.298 HelloCordova[39619:413761] [CDVTimer][TotalPluginStartup] 10.886967ms
+2015-04-23 22:48:55.350 HelloCordova[39619:413761] Resetting plugins due to page load.
+2015-04-23 22:48:55.396 HelloCordova[39619:413761] Finished load of: file:///Users/imranmohammed/Library/Developer/CoreSimulator/Devices/9D0E70A7-FB73-4B1C-AFF8-003FEC43F3E9/data/Containers/Bundle/Application/546B51C8-6A7C-48FA-86B3-E673D2235889/HelloCordova.app/www/index.html
+2015-04-23 22:50:06.234 HelloCordova[41925:417093] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-23 22:50:06.234 HelloCordova[41925:417093] Multi-tasking -> Device: YES, App: YES
+2015-04-23 22:50:06.236 HelloCordova[41925:417093] Unlimited access to network resources
+2015-04-23 22:50:06.238 HelloCordova[41925:417093] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-23 22:50:06.313 HelloCordova[41925:417093] [group: com.sap.smp.client.ios] [artifact: Supportability] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-04-23 22:50:06.313 HelloCordova[41925:417093] [group: com.sap.smp.client.ios] [artifact: ClientLog] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-04-23 22:50:06.317 HelloCordova[41925:417093] [group: com.sap.smp.client.ios] [artifact: E2ETrace2] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-04-23 22:50:06.317 HelloCordova[41925:417093] CommonAuthenticationConfigurator isNSHTTPURLProtocolReplacementEnabled: 0
+2015-04-23 22:50:06.317 HelloCordova[41925:417093] [CDVTimer][authproxy] 4.903972ms
+2015-04-23 22:50:06.317 HelloCordova[41925:417093] [CDVTimer][TotalPluginStartup] 5.032003ms
+2015-04-23 22:50:06.353 HelloCordova[41925:417093] Resetting plugins due to page load.
+2015-04-23 22:50:06.397 HelloCordova[41925:417093] Finished load of: file:///Users/imranmohammed/Library/Developer/CoreSimulator/Devices/9D0E70A7-FB73-4B1C-AFF8-003FEC43F3E9/data/Containers/Bundle/Application/A0EB1C2D-5A27-4F8F-A8E8-F8E79E22FF3D/HelloCordova.app/www/index.html
+2015-04-23 22:54:11.511 HelloCordova[44219:421324] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-23 22:54:11.512 HelloCordova[44219:421324] Multi-tasking -> Device: YES, App: YES
+2015-04-23 22:54:11.513 HelloCordova[44219:421324] Unlimited access to network resources
+2015-04-23 22:54:11.516 HelloCordova[44219:421324] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-23 22:54:11.599 HelloCordova[44219:421324] [group: com.sap.smp.client.ios] [artifact: Supportability] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-04-23 22:54:11.599 HelloCordova[44219:421324] [group: com.sap.smp.client.ios] [artifact: ClientLog] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-04-23 22:54:11.606 HelloCordova[44219:421324] [group: com.sap.smp.client.ios] [artifact: E2ETrace2] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-04-23 22:54:11.606 HelloCordova[44219:421324] CommonAuthenticationConfigurator isNSHTTPURLProtocolReplacementEnabled: 0
+2015-04-23 22:54:11.606 HelloCordova[44219:421324] [CDVTimer][authproxy] 7.280052ms
+2015-04-23 22:54:11.607 HelloCordova[44219:421324] [CDVTimer][TotalPluginStartup] 7.408977ms
+2015-04-23 22:54:11.656 HelloCordova[44219:421324] Resetting plugins due to page load.
+2015-04-23 22:54:11.710 HelloCordova[44219:421324] Finished load of: file:///Users/imranmohammed/Library/Developer/CoreSimulator/Devices/9D0E70A7-FB73-4B1C-AFF8-003FEC43F3E9/data/Containers/Bundle/Application/F7BB524F-B9D6-4B12-A9EC-6F11E9A1F3E1/HelloCordova.app/www/index.html
+2015-04-23 22:54:11.771 HelloCordova[44219:421324] [group: com.sap.mobile.maf.tools.ios] [artifact: MAFLogger] [version: 1.207.0] [buildTime: 2015-02-24 23:55] [gitCommit: 0648677345ea49cb2688ed34b110338d0a15cf6b] [gitBranch: origin/fa/rel-1.207]
+2015-04-23 22:54:11.771 HelloCordova[44219:421324] [group: com.sap.smp.client.ios] [artifact: Logger] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-04-23 22:54:11.775 HelloCordova[44219:421324] [group: com.sap.smp.client.ios] [artifact: ClientHubSLL] [version: 3.7.0] [buildTime: 2015-02-23 22:49] [gitCommit: e7aa7076609783021fdedc87f29f65522d139dd1] [gitBranch: origin/fa/rel-3.7]
+2015-04-23 22:54:11.776 HelloCordova[44219:421324] ER:No URL Types configured.
+2015-04-23 22:54:11.777 HelloCordova[44219:421324] [group: com.sap.smp.client.ios] [artifact: Datavault] [version: 3.7.0] [buildTime: 2015-02-23 22:49] [gitCommit: e7aa7076609783021fdedc87f29f65522d139dd1] [gitBranch: origin/fa/rel-3.7]
+2015-04-23 22:54:11.829 HelloCordova[44219:421324] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '57.734863' ms. Plugin should use a background thread.
+2015-04-23 22:54:11.882 HelloCordova[44219:421324] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '21.786865' ms. Plugin should use a background thread.
+2015-04-23 22:54:12.039 HelloCordova[44219:421324] Setting the WebView's frame to {{0, 0}, {375, 623}}
+2015-04-23 22:54:12.039 HelloCordova[44219:421324] Setting the WebView's frame to {{0, 0}, {375, 667}}
+2015-04-23 22:54:12.050 HelloCordova[44219:421324] THREAD WARNING: ['InAppBrowser'] took '92.240234' ms. Plugin should use a background thread.
+2015-04-23 22:54:12.395 HelloCordova[44219:421324] THREAD WARNING: ['InAppBrowser'] took '148.987061' ms. Plugin should use a background thread.
+2015-04-23 22:54:14.648 HelloCordova[44219:421324] [group: com.sap.smp.client.ios] [artifact: CoreServices] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-04-23 22:54:14.649 HelloCordova[44219:421324] Initializing Client connection with ApplicationID : com.slb.mobile  Domain :  default  SecurityConfiguration:  (null)
+2015-04-23 22:54:14.649 HelloCordova[44219:421324] [group: com.sap.smp.client.ios] [artifact: Request] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-04-23 22:54:14.652 HelloCordova[44219:421324] Setting Client connection with Url:  https://hcpms-p1941267893trial.hanatrial.ondemand.com:443
+2015-04-23 22:54:14.789 HelloCordova[44219:421324] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '274.672119' ms. Plugin should use a background thread.
+2015-04-23 22:54:14.809 HelloCordova[44219:421324] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '17.830078' ms. Plugin should use a background thread.
+2015-04-23 22:54:15.016 HelloCordova[44219:421324] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '205.228027' ms. Plugin should use a background thread.
+2015-04-23 22:55:25.580 HelloCordova[44219:421348] void SendDelegateMessage(NSInvocation *): delegate (webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-04-23 22:57:34.695 HelloCordova[46508:425006] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-23 22:57:34.696 HelloCordova[46508:425006] Multi-tasking -> Device: YES, App: YES
+2015-04-23 22:57:34.698 HelloCordova[46508:425006] Unlimited access to network resources
+2015-04-23 22:57:34.701 HelloCordova[46508:425006] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-23 22:57:34.788 HelloCordova[46508:425006] [group: com.sap.smp.client.ios] [artifact: Supportability] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-04-23 22:57:34.789 HelloCordova[46508:425006] [group: com.sap.smp.client.ios] [artifact: ClientLog] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-04-23 22:57:34.793 HelloCordova[46508:425006] [group: com.sap.smp.client.ios] [artifact: E2ETrace2] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-04-23 22:57:34.794 HelloCordova[46508:425006] CommonAuthenticationConfigurator isNSHTTPURLProtocolReplacementEnabled: 0
+2015-04-23 22:57:34.794 HelloCordova[46508:425006] [CDVTimer][authproxy] 5.452991ms
+2015-04-23 22:57:34.794 HelloCordova[46508:425006] [CDVTimer][TotalPluginStartup] 5.577028ms
+2015-04-23 22:57:34.826 HelloCordova[46508:425006] Resetting plugins due to page load.
+2015-04-23 22:57:35.063 HelloCordova[46508:425006] Finished load of: file:///Users/imranmohammed/Library/Developer/CoreSimulator/Devices/9D0E70A7-FB73-4B1C-AFF8-003FEC43F3E9/data/Containers/Bundle/Application/521FCA8F-D8D6-48CB-8BA2-22F8E53ACF71/HelloCordova.app/www/index.html
+2015-04-23 22:57:35.140 HelloCordova[46508:425006] [group: com.sap.mobile.maf.tools.ios] [artifact: MAFLogger] [version: 1.207.0] [buildTime: 2015-02-24 23:55] [gitCommit: 0648677345ea49cb2688ed34b110338d0a15cf6b] [gitBranch: origin/fa/rel-1.207]
+2015-04-23 22:57:35.140 HelloCordova[46508:425006] [group: com.sap.smp.client.ios] [artifact: Logger] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-04-23 22:57:35.144 HelloCordova[46508:425006] [group: com.sap.smp.client.ios] [artifact: ClientHubSLL] [version: 3.7.0] [buildTime: 2015-02-23 22:49] [gitCommit: e7aa7076609783021fdedc87f29f65522d139dd1] [gitBranch: origin/fa/rel-3.7]
+2015-04-23 22:57:35.145 HelloCordova[46508:425006] ER:No URL Types configured.
+2015-04-23 22:57:35.146 HelloCordova[46508:425006] [group: com.sap.smp.client.ios] [artifact: Datavault] [version: 3.7.0] [buildTime: 2015-02-23 22:49] [gitCommit: e7aa7076609783021fdedc87f29f65522d139dd1] [gitBranch: origin/fa/rel-3.7]
+2015-04-23 22:57:35.179 HelloCordova[46508:425006] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '39.326904' ms. Plugin should use a background thread.
+2015-04-23 22:57:35.193 HelloCordova[46508:425006] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '13.171875' ms. Plugin should use a background thread.
+2015-04-23 22:57:35.249 HelloCordova[46508:425006] Setting the WebView's frame to {{0, 0}, {375, 623}}
+2015-04-23 22:57:35.249 HelloCordova[46508:425006] Setting the WebView's frame to {{0, 0}, {375, 667}}
+2015-04-23 22:57:35.255 HelloCordova[46508:425006] THREAD WARNING: ['InAppBrowser'] took '61.687012' ms. Plugin should use a background thread.
+2015-04-23 22:57:35.539 HelloCordova[46508:425006] THREAD WARNING: ['InAppBrowser'] took '137.916260' ms. Plugin should use a background thread.
+2015-04-23 22:57:38.269 HelloCordova[46508:425006] [group: com.sap.smp.client.ios] [artifact: CoreServices] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-04-23 22:57:38.269 HelloCordova[46508:425006] Initializing Client connection with ApplicationID : com.slb.mobile  Domain :  default  SecurityConfiguration:  (null)
+2015-04-23 22:57:38.269 HelloCordova[46508:425006] [group: com.sap.smp.client.ios] [artifact: Request] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-04-23 22:57:38.272 HelloCordova[46508:425006] Setting Client connection with Url:  https://hcpms-p1941267893trial.hanatrial.ondemand.com:443
+2015-04-23 22:57:38.368 HelloCordova[46508:425006] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '184.276855' ms. Plugin should use a background thread.
+2015-04-23 22:57:38.385 HelloCordova[46508:425006] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '15.981201' ms. Plugin should use a background thread.
+2015-04-23 22:57:38.475 HelloCordova[46508:425006] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '65.487061' ms. Plugin should use a background thread.
+2015-04-23 22:59:36.794 HelloCordova[48792:428508] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-23 22:59:36.795 HelloCordova[48792:428508] Multi-tasking -> Device: YES, App: YES
+2015-04-23 22:59:36.797 HelloCordova[48792:428508] Unlimited access to network resources
+2015-04-23 22:59:36.801 HelloCordova[48792:428508] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-23 22:59:36.920 HelloCordova[48792:428508] [group: com.sap.smp.client.ios] [artifact: Supportability] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-04-23 22:59:36.920 HelloCordova[48792:428508] [group: com.sap.smp.client.ios] [artifact: ClientLog] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-04-23 22:59:36.931 HelloCordova[48792:428508] [group: com.sap.smp.client.ios] [artifact: E2ETrace2] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-04-23 22:59:36.932 HelloCordova[48792:428508] CommonAuthenticationConfigurator isNSHTTPURLProtocolReplacementEnabled: 0
+2015-04-23 22:59:36.933 HelloCordova[48792:428508] [CDVTimer][authproxy] 12.848020ms
+2015-04-23 22:59:36.933 HelloCordova[48792:428508] [CDVTimer][TotalPluginStartup] 13.146043ms
+2015-04-23 22:59:36.989 HelloCordova[48792:428508] Resetting plugins due to page load.
+2015-04-23 22:59:37.237 HelloCordova[48792:428508] Finished load of: file:///Users/imranmohammed/Library/Developer/CoreSimulator/Devices/9D0E70A7-FB73-4B1C-AFF8-003FEC43F3E9/data/Containers/Bundle/Application/384A41F7-DFBD-446A-A667-895BB8F32229/HelloCordova.app/www/index.html
+2015-04-23 22:59:37.323 HelloCordova[48792:428508] [group: com.sap.mobile.maf.tools.ios] [artifact: MAFLogger] [version: 1.207.0] [buildTime: 2015-02-24 23:55] [gitCommit: 0648677345ea49cb2688ed34b110338d0a15cf6b] [gitBranch: origin/fa/rel-1.207]
+2015-04-23 22:59:37.324 HelloCordova[48792:428508] [group: com.sap.smp.client.ios] [artifact: Logger] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-04-23 22:59:37.329 HelloCordova[48792:428508] [group: com.sap.smp.client.ios] [artifact: ClientHubSLL] [version: 3.7.0] [buildTime: 2015-02-23 22:49] [gitCommit: e7aa7076609783021fdedc87f29f65522d139dd1] [gitBranch: origin/fa/rel-3.7]
+2015-04-23 22:59:37.330 HelloCordova[48792:428508] ER:No URL Types configured.
+2015-04-23 22:59:37.332 HelloCordova[48792:428508] [group: com.sap.smp.client.ios] [artifact: Datavault] [version: 3.7.0] [buildTime: 2015-02-23 22:49] [gitCommit: e7aa7076609783021fdedc87f29f65522d139dd1] [gitBranch: origin/fa/rel-3.7]
+2015-04-23 22:59:37.377 HelloCordova[48792:428508] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '53.979004' ms. Plugin should use a background thread.
+2015-04-23 22:59:37.396 HelloCordova[48792:428508] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '18.403076' ms. Plugin should use a background thread.
+2015-04-23 22:59:37.493 HelloCordova[48792:428508] Setting the WebView's frame to {{0, 0}, {375, 623}}
+2015-04-23 22:59:37.494 HelloCordova[48792:428508] Setting the WebView's frame to {{0, 0}, {375, 667}}
+2015-04-23 22:59:37.503 HelloCordova[48792:428508] THREAD WARNING: ['InAppBrowser'] took '106.228271' ms. Plugin should use a background thread.
+2015-04-23 22:59:37.822 HelloCordova[48792:428508] THREAD WARNING: ['InAppBrowser'] took '149.970947' ms. Plugin should use a background thread.
+2015-04-23 22:59:39.475 HelloCordova[48792:428508] [group: com.sap.smp.client.ios] [artifact: CoreServices] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-04-23 22:59:39.475 HelloCordova[48792:428508] Initializing Client connection with ApplicationID : com.slb.mobile  Domain :  default  SecurityConfiguration:  (null)
+2015-04-23 22:59:39.476 HelloCordova[48792:428508] [group: com.sap.smp.client.ios] [artifact: Request] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-04-23 22:59:39.479 HelloCordova[48792:428508] Setting Client connection with Url:  https://hcpms-p1941267893trial.hanatrial.ondemand.com:443
+2015-04-23 22:59:39.600 HelloCordova[48792:428508] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '225.954102' ms. Plugin should use a background thread.
+2015-04-23 22:59:39.625 HelloCordova[48792:428508] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '23.835938' ms. Plugin should use a background thread.
+2015-04-23 22:59:39.941 HelloCordova[48792:428508] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '81.799072' ms. Plugin should use a background thread.
+2015-04-23 23:02:19.512 HelloCordova[51068:432057] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-23 23:02:19.513 HelloCordova[51068:432057] Multi-tasking -> Device: YES, App: YES
+2015-04-23 23:02:19.515 HelloCordova[51068:432057] Unlimited access to network resources
+2015-04-23 23:02:19.518 HelloCordova[51068:432057] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-23 23:02:19.613 HelloCordova[51068:432057] [group: com.sap.smp.client.ios] [artifact: Supportability] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-04-23 23:02:19.613 HelloCordova[51068:432057] [group: com.sap.smp.client.ios] [artifact: ClientLog] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-04-23 23:02:19.619 HelloCordova[51068:432057] [group: com.sap.smp.client.ios] [artifact: E2ETrace2] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-04-23 23:02:19.620 HelloCordova[51068:432057] CommonAuthenticationConfigurator isNSHTTPURLProtocolReplacementEnabled: 0
+2015-04-23 23:02:19.620 HelloCordova[51068:432057] [CDVTimer][authproxy] 7.302999ms
+2015-04-23 23:02:19.620 HelloCordova[51068:432057] [CDVTimer][TotalPluginStartup] 7.413030ms
+2015-04-23 23:02:19.652 HelloCordova[51068:432057] Resetting plugins due to page load.
+2015-04-23 23:02:19.841 HelloCordova[51068:432057] Finished load of: file:///Users/imranmohammed/Library/Developer/CoreSimulator/Devices/9D0E70A7-FB73-4B1C-AFF8-003FEC43F3E9/data/Containers/Bundle/Application/2F255458-6A38-4BE8-96A8-E4B8A30CD58A/HelloCordova.app/www/index.html
+2015-04-23 23:02:19.909 HelloCordova[51068:432057] [group: com.sap.mobile.maf.tools.ios] [artifact: MAFLogger] [version: 1.207.0] [buildTime: 2015-02-24 23:55] [gitCommit: 0648677345ea49cb2688ed34b110338d0a15cf6b] [gitBranch: origin/fa/rel-1.207]
+2015-04-23 23:02:19.909 HelloCordova[51068:432057] [group: com.sap.smp.client.ios] [artifact: Logger] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-04-23 23:02:19.912 HelloCordova[51068:432057] [group: com.sap.smp.client.ios] [artifact: ClientHubSLL] [version: 3.7.0] [buildTime: 2015-02-23 22:49] [gitCommit: e7aa7076609783021fdedc87f29f65522d139dd1] [gitBranch: origin/fa/rel-3.7]
+2015-04-23 23:02:19.913 HelloCordova[51068:432057] ER:No URL Types configured.
+2015-04-23 23:02:19.914 HelloCordova[51068:432057] [group: com.sap.smp.client.ios] [artifact: Datavault] [version: 3.7.0] [buildTime: 2015-02-23 22:49] [gitCommit: e7aa7076609783021fdedc87f29f65522d139dd1] [gitBranch: origin/fa/rel-3.7]
+2015-04-23 23:02:19.947 HelloCordova[51068:432057] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '37.934814' ms. Plugin should use a background thread.
+2015-04-23 23:02:19.964 HelloCordova[51068:432057] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '17.348145' ms. Plugin should use a background thread.
+2015-04-23 23:02:20.027 HelloCordova[51068:432057] Setting the WebView's frame to {{0, 0}, {375, 623}}
+2015-04-23 23:02:20.027 HelloCordova[51068:432057] Setting the WebView's frame to {{0, 0}, {375, 667}}
+2015-04-23 23:02:20.033 HelloCordova[51068:432057] THREAD WARNING: ['InAppBrowser'] took '68.457031' ms. Plugin should use a background thread.
+2015-04-23 23:02:20.331 HelloCordova[51068:432057] THREAD WARNING: ['InAppBrowser'] took '148.962158' ms. Plugin should use a background thread.
+2015-04-23 23:02:24.255 HelloCordova[51068:432057] [group: com.sap.smp.client.ios] [artifact: CoreServices] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-04-23 23:02:24.255 HelloCordova[51068:432057] Initializing Client connection with ApplicationID : com.slb.mobile  Domain :  default  SecurityConfiguration:  (null)
+2015-04-23 23:02:24.255 HelloCordova[51068:432057] [group: com.sap.smp.client.ios] [artifact: Request] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-04-23 23:02:24.258 HelloCordova[51068:432057] Setting Client connection with Url:  https://hcpms-p1941267893trial.hanatrial.ondemand.com:443
+2015-04-23 23:02:24.353 HelloCordova[51068:432057] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '183.550781' ms. Plugin should use a background thread.
+2015-04-23 23:02:24.369 HelloCordova[51068:432057] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '14.910156' ms. Plugin should use a background thread.
+2015-04-23 23:02:24.458 HelloCordova[51068:432057] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '64.978271' ms. Plugin should use a background thread.
+2015-04-24 10:44:55.927 HelloCordova[51068:432072] void SendDelegateMessage(NSInvocation *): delegate (webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode

@@ -78,6 +78,21 @@ module.exports = [
         ]
     },
     {
+        "file": "plugins/org.apache.cordova.network-information/www/network.js",
+        "id": "org.apache.cordova.network-information.network",
+        "clobbers": [
+            "navigator.connection",
+            "navigator.network.connection"
+        ]
+    },
+    {
+        "file": "plugins/org.apache.cordova.network-information/www/Connection.js",
+        "id": "org.apache.cordova.network-information.Connection",
+        "clobbers": [
+            "Connection"
+        ]
+    },
+    {
         "file": "plugins/org.apache.cordova.device/www/device.js",
         "id": "org.apache.cordova.device.device",
         "clobbers": [
@@ -99,6 +114,7 @@ module.exports.metadata =
     "com.sap.mp.cordova.plugins.authproxy": "3.7.1",
     "com.sap.mp.cordova.plugins.logon": "3.7.1",
     "com.sap.mp.cordova.plugins.odata": "3.7.1",
+    "org.apache.cordova.network-information": "0.2.15",
     "org.apache.cordova.device": "0.3.0",
     "org.apache.cordova.inappbrowser": "0.6.0"
 }
