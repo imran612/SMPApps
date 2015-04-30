@@ -96,27 +96,27 @@ var screens = {
                         },
                         serverHost : {
                             uiKey:'FLD_HOST',
-                            visible:false
+                            visible:true
                         },
                         serverPort : {
                             uiKey:'FLD_PORT',
                             type: 'number',
-                            visible:false
+                            visible:true
                         },
                         communicatorId : {
                             uiKey: 'FLD_COMMUNICATORID',
                             'default':'REST',
-                            visible:false
+                            visible:true
                         },
                         https: {
                             uiKey:'FLD_IS_HTTPS',
                             type: 'switch',
                             'default':false,
-                            visible:false
+                            visible:true
                         },
                         securityConfig: {
                             uiKey:'FLD_SECCONF',
-                            visible:false
+                            visible:true
                         }
 
             }
@@ -152,7 +152,7 @@ var screens = {
             			serverHost : {
             				uiKey:'FLD_HOST',
             				editable:true,
-                            visible:false
+                            visible:true
             			},
                         user : {
                             uiKey:'FLD_USER'
@@ -169,26 +169,26 @@ var screens = {
                             uiKey:'FLD_IS_HTTPS',
                             type: 'switch',
                             'default':false,
-                            visible:false
+                            visible:true
                         },
                         serverPort : {
                             uiKey:'FLD_PORT',
                             type: 'number',
                             editable:true,
-                            visible:false
+                            visible:true
                         },
                         farmId : {
                             uiKey:'FLD_FARMID',
-                            visible:false
+                            visible:true
                         },
                         communicatorId : {
                             uiKey: 'FLD_COMMUNICATORID',
                             'default':'REST',
-                            visible:false
+                            visible:true
                         },
                         securityConfig: {
                             uiKey:'FLD_SECCONF',
-                            visible:false
+                            visible:true
                         },
 
             }

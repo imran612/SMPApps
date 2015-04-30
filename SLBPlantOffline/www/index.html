@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+        
+		<!--<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv='Content-Type' content='text/html;charset=UTF-8'/>-->
+
+        <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+        <!--<script src="datajs-1.1.2.min.js"></script>-->
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+		
+		<!-- only load the mobile lib "sap.m" and the "sap_bluecrystal" theme -->
+
+		<script>
+            function init() {
+                jQuery.sap.require("com.slb.plantoffline.app.SMPController");
+
+                if (sap.Logger) {
+                    sap.Logger.setLogLevel(sap.Logger.DEBUG);  //enables the display of debug log messages from the Kapsel plugins.
+                    sap.Logger.debug("Log level set to DEBUG");
+                }
+                
+                sap.ui.getCore().attachInit(function() {
+                                            sap.ui.jsview("RootView", "ui5bp.view.App").placeAt('content');
+                                            });
+                
+                
+                
+                com.slb.plantoffline.app.SMPController.init();
+                document.addEventListener("online", com.slb.plantoffline.app.SMPController.deviceOnline, false);
+                document.addEventListener("offline", com.slb.plantoffline.app.SMPController.deviceOffline, false);
+                console.log("init completed");
+                
+            }
+        
+            function delayInit () {
+                setTimeout(function(){
+                        init();
+                       }, 5000);
+            }
+        
+        
+            document.addEventListener("deviceready", delayInit, false);
+            //document.addEventListener("deviceready", init, false);
+            
+				
+		</script>
+        
+        <script src="resources/sap-ui-core.js"
+            id="sap-ui-bootstrap"
+            data-sap-ui-libs="sap.m, sap.ui.commons"
+            data-sap-ui-theme="sap_bluecrystal"
+            data-sap-ui-resourceroots='{
+            "com.slb.plantoffline" : "./",
+            "view" : "./view",
+            "model" : "./model",
+            "util" : "./util",
+            "ui5bp": "./"}'>
+        </script>
+        
+
+	</head>
+	<body class="sapUiBody" role="application">
+		<div id="content"></div>
+	</body>
+</html>

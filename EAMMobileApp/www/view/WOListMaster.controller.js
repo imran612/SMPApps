@@ -23,60 +23,57 @@ sap.ui.controller("com.slb.mobile.view.WOListMaster", {
                  // this.getView().setModel(oModel3);
                   var woList=[];
                   var woModel = new sap.ui.model.json.JSONModel();
-                 /* woModel.loadData("http://sapf1sdi10.dir.slb.com:8010/sap/opu/odata/sap/Z_THIN_SLB_MOB_SRV/WOLIST",false);
-                  woModel.attachRequestCompleted(function() {
-                                            });
-                  var woModel1 = new sap.ui.model.json.JSONModel(); */
                   var item = {};
                   var temp1;
-                //  var userdata=oCore.getModel("userModel").getData();
                   var sUrl = appContext.applicationEndpointURL + "/WOLIST?sap-client=330&$format=json";
+                  var uri = appContext.applicationEndpointURL;
+                 // var sUrl = appContext.applicationEndpointURL +"?sap-client=330&$format=json";
+                  var headers = {"X-SMP-APPCID" : appContext.applicationConnectionId};
+                  var user = appContext.registrationContext.user;
+                  var password = appContext.registrationContext.password;
+
+                  //Decalaration of OData Model
+                  var oModel = new sap.ui.model.odata.ODataModel(uri, true, user,password, headers);
+                  oModel.read("/WOLIST", null, null, true,
+                              function fnSuccess(oData,response)
+                              {
+                              
+                              $(oData.results).each(function( i, val ) {
+                                                      woList.push({ "WOId" : val.Orderid,
+                                                                  "Plant"  : val.OrderType,
+                                                                  "WOText"  :val.ShortText,
+                                                                  "RigId": "R2322",
+                                                                  "JobId": "J87799",
+                                                                  "StartDate": "23-Nov-2014"
+                                                                  });
+                                                      
+                                                      });
+                              woModel.setData(woList);
+                              oCore.setModel(woModel,"mastermodel");
+                              oCore.byId("masterlist").fireEvent("drawmaster");
+                              
+                              },
+                              function fnError(response)
+                              {
+                              alert("eerrr");
+                              }
+                              );
+                  
+             /*****************************comment ajax request ********************
                   var req = $.ajax({
-                                   //url: getDataEndPoint('WorkOrders'),
                                    url: sUrl,
-                                   async: false,
                                    dataType: 'json',
                                    cache: false,
                                    beforeSend:function (xhr) {
-                                    xhr.setRequestHeader('Authorization', "Basic " + Base64.encode("05173240" + ':' + "Maryam@2011"));
+                                   xhr.setRequestHeader('Authorization', "Basic " + Base64.encode(user + ':' + password));
                                    }
+                                  // type: "GET"
+                  
                                    });
                   req.success(function(oData,status, xhr) {
+                             // alert("suc");
                               if(xhr.status==200){
-                              
-                            /*
-                           var temp=  { "ProductCollection": [
-                                                    {
-                                                    "WOId": "5000101",
-                                                    "RigId": "R2322",
-                                                    "JobId": "J87799",
-                                                    "WOText" : "Oil Leak on Gearbox",
-                                                    "StartDate": "23-Nov-2014",
-                                                    "Plant": "ZM01",
-                                                    "ProductId": "1239102",
-                                                    "Name": "Power Projector 4713",
-                                                    "Category": "Projector",
-                                                    "SupplierName": "Corrective",
-                                                    "Description": "A very powerful projector with special features for Internet usability, USB"
-                                            
-                                                    },
-                                                    {
-                                                    "WOId": "5000102",
-                                                    "RigId": "R2322",
-                                                    "JobId": "J87799",
-                                                    "StartDate": "23-Nov-2014",
-                                                    "WOText" : "Oil Leak on Gearbox",
-                                                    "Plant": "ZM01",
-                                                    "ProductId": "2212-121-828",
-                                                    "Name": "Gladiator MX",
-                                                    "Category": "Graphics Card"
-                                                   
-                                                    }
-                              ]
-                              };
-                               woModel1.setData(temp); */
-                           
-                             $(oData.d.results).each(function( i, val ) {
+                                    $(oData.d.results).each(function( i, val ) {
                                                       woList.push({ "WOId" : val.Orderid,
                                                                   "Plant"  : val.OrderType,
                                                                   "WOText"  :val.ShortText,
@@ -86,6 +83,9 @@ sap.ui.controller("com.slb.mobile.view.WOListMaster", {
                                                                   });
 
                                                 });
+                              woModel.setData(woList);
+                              oCore.setModel(woModel,"mastermodel");
+                               oCore.byId("masterlist").fireEvent("drawmaster");
                              
                               }else{
                               
@@ -93,15 +93,11 @@ sap.ui.controller("com.slb.mobile.view.WOListMaster", {
                               });
                   req.fail(function(xhr){
                            alert("error");
-                           
-                           
                            });
-
-                  //var postData = {"ProductCollection":jdata};
                  
-                  
-                  woModel.setData(woList);
-                  oCore.setModel(woModel,"mastermodel");
+                  **************/
+                 // woModel.setData(woList);
+                  //oCore.setModel(woModel,"mastermodel");
                   
                 /*  var sURL = getDataEndPoint('WorkOrders');
                   var oHeaders = {};
@@ -117,7 +113,7 @@ sap.ui.controller("com.slb.mobile.view.WOListMaster", {
                   console.log("read using " + sURL);
                   OData.read(request, readSuccessCallback, errorCallback); */
                   
-                  oCore.byId("masterlist").fireEvent("drawmaster");
+                 // oCore.byId("masterlist").fireEvent("drawmaster");
 	},
                   getGroupHeader: function (oGroup){
                   return new sap.m.GroupHeaderListItem( {

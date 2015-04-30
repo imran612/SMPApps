@@ -1,0 +1,41 @@
+{
+    "Menu": [{
+        "title": "Plants Online",
+        "icon": "sap-icon://factory",
+        "targetPage": "PlantOnlineList",
+        "description": "Reading online data from SAP"
+    },
+    {
+        "title": "Plants Offline",
+        "icon": "sap-icon://factory",
+        "targetPage": "PlantOfflineList",
+        "description": "Reading offline data from device"
+    },
+    {
+        "title": "Plants Changed",
+        "icon": "sap-icon://factory",
+        "targetPage": "PlantChangedList",
+        "description": "Reading changed data from device"
+    },
+    {
+        "title": "Flush",
+        "icon": "sap-icon://save",
+        "targetPage": "PlantFlush",
+        "description": "Flush"
+    },
+    {
+        "title": "Refresh",
+        "icon": "sap-icon://refresh",
+        "targetPage": "PlantRefresh",
+        "description": "Refresh"
+    },
+    {
+        "title": "About",
+        "icon": "sap-icon://sys-help",
+        "targetPage": "Info",
+        "description": "More Information"
+    }
+    ]
+}
+
+
