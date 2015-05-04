@@ -70,6 +70,30 @@
           <string>accom.slb.mobile</string>
         </array>
       </dict>
+      <dict>
+        <key>CFBundleURLName</key>
+        <string>com.slb.mobile</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>accom.slb.mobile</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleURLName</key>
+        <string>com.slb.mobile</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>accom.slb.mobile</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleURLName</key>
+        <string>com.slb.mobile</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>accom.slb.mobile</string>
+        </array>
+      </dict>
     </array>
     <key>CFBundleVersion</key>
     <string>01.00.00</string>
