@@ -1,0 +1,75 @@
+<mvc:View
+    controllerName="com.slb.mobile.view.WOListMaster"
+    xmlns="sap.m"
+    xmlns:form="sap.ui.layout.form"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns:core="sap.ui.core" >
+    <Page
+        showHeader="true"
+        id="masterpage"
+        class="marginBoxContent"
+        title="Work List"
+        showNavButton="{device>/isPhone}"
+        navButtonPress="handleNavBack" >
+        <headerContent>
+            <Bar>
+                <contentLeft>
+                    <Button icon="sap-icon://action" press="goHome"/>
+                </contentLeft>
+                 <contentMiddle>
+                     <Text text="Work List" />
+                 </contentMiddle>
+                 <contentRight>
+                     <Button icon="sap-icon://filter" />
+                </contentRight>
+            </Bar>
+        </headerContent>
+         <subHeader>
+             <Bar>
+                 <contentMiddle>
+                     <SearchField width="100%" />
+                 </contentMiddle>
+            </Bar>
+         </subHeader>
+        <footer>
+            <Toolbar>
+                <ToolbarSpacer/>
+               
+            </Toolbar>
+        </footer>
+        <content>
+            <List id="mList"
+                items="{
+                path: '/ProductCollection',
+                sorter: {
+                path: 'SupplierName',
+                descending: false,
+                group: true
+                },
+                groupHeaderFactory: '.getGroupHeader'
+                }"
+                >
+                
+                
+                <ObjectListItem
+                    title="{WOId}"
+                    type="Active"
+                    press="onListItemPress"
+                    number="{Plant}">
+                    <firstStatus>
+                        <ObjectStatus state="Error"
+                        icon="sap-icon://alert"
+                        />
+                    </firstStatus>
+                    <attributes>
+                        <ObjectAttribute text="{WOText}" />
+                        <ObjectAttribute title="Rig ID" text="{RigId}" />
+                        <ObjectAttribute title="Job ID" text="{JobId}" />
+                        <ObjectAttribute title="Start Date" text="{StartDate}" />
+                    </attributes>
+                </ObjectListItem>
+            </List>
+
+        </content>
+    </Page>
+</mvc:View>
