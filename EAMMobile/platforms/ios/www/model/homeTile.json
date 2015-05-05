@@ -1,0 +1,36 @@
+{
+    "TileCollection" : [
+                       
+                        {
+                        "icon" : "activity-items",
+                        "number" : "18",
+                        "numberUnit" : "Notifications",
+                        "title" : "All Work",
+                        "info" : "6 Work Orders"
+                        },
+                        {
+                        "icon" : "activity-individual",
+                        "number" : "7",
+                        "numberUnit" : "Work Orders",
+                        "title" : "My Work Order List"
+                        },
+                        {
+                        "icon" : "task",
+                        "number" : "18",
+                        "numberUnit" : "Notifications",
+                        "title" : "Routine Notifications"
+                        },
+                        {
+                        "icon" : "search",
+                        "title" : "Assest / Equipment"
+                        },
+                        {
+                        "icon" : "refresh",
+                        "number" : "2",
+                        "numberUnit" : "Notifications",
+                        "title" : "Pending Sync",
+                        "info" : "2 Work Orders"
+                        }
+                        
+                        ]
+}

@@ -1,0 +1,80 @@
+2015-05-04 23:33:57.220 EAMMobile[47081:89370] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/imrankhan/Library/Developer/CoreSimulator/Devices/FE471D34-30AA-4184-9066-9432B1C063BE/data/Containers/Data/Application/473521A3-CB12-44F1-837F-B59581D348FC/Library/Cookies/Cookies.binarycookies
+2015-05-04 23:33:57.260 EAMMobile[47081:89370] Apache Cordova native platform version 3.6.3 is starting.
+2015-05-04 23:33:57.261 EAMMobile[47081:89370] Multi-tasking -> Device: YES, App: YES
+2015-05-04 23:33:57.265 EAMMobile[47081:89370] Unlimited access to network resources
+2015-05-04 23:33:57.267 EAMMobile[47081:89370] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2015-05-04 23:33:57.346 EAMMobile[47081:89370] [CDVTimer][statusbar] 11.403024ms
+2015-05-04 23:33:57.346 EAMMobile[47081:89370] [CDVTimer][appconnectcordovaplugin] 0.035048ms
+2015-05-04 23:33:57.353 EAMMobile[47081:89370] CommonAuthenticationConfigurator isNSHTTPURLProtocolReplacementEnabled: 0
+2015-05-04 23:33:57.353 EAMMobile[47081:89370] [CDVTimer][authproxy] 6.893992ms
+2015-05-04 23:33:57.353 EAMMobile[47081:89370] [CDVTimer][TotalPluginStartup] 18.637955ms
+2015-05-04 23:33:57.522 EAMMobile[47081:89370] Resetting plugins due to page load.
+2015-05-04 23:33:57.583 EAMMobile[47081:89370] Finished load of: file:///Users/imrankhan/Library/Developer/CoreSimulator/Devices/FE471D34-30AA-4184-9066-9432B1C063BE/data/Containers/Bundle/Application/50327C83-90FE-4C7E-8170-AAE6B02EFB5F/EAMMobile.app/www/index.html
+2015-05-04 23:37:32.281 EAMMobile[55764:100422] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/imrankhan/Library/Developer/CoreSimulator/Devices/FE471D34-30AA-4184-9066-9432B1C063BE/data/Containers/Data/Application/68C82FEB-72F0-4358-9282-E2E733FB1443/Library/Cookies/Cookies.binarycookies
+2015-05-04 23:37:32.322 EAMMobile[55764:100422] Apache Cordova native platform version 3.6.3 is starting.
+2015-05-04 23:37:32.322 EAMMobile[55764:100422] Multi-tasking -> Device: YES, App: YES
+2015-05-04 23:37:32.327 EAMMobile[55764:100422] Unlimited access to network resources
+2015-05-04 23:37:32.329 EAMMobile[55764:100422] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2015-05-04 23:37:32.405 EAMMobile[55764:100422] [CDVTimer][statusbar] 9.080946ms
+2015-05-04 23:37:32.406 EAMMobile[55764:100422] [CDVTimer][appconnectcordovaplugin] 0.036001ms
+2015-05-04 23:37:32.409 EAMMobile[55764:100422] CommonAuthenticationConfigurator isNSHTTPURLProtocolReplacementEnabled: 0
+2015-05-04 23:37:32.410 EAMMobile[55764:100422] [CDVTimer][authproxy] 3.853977ms
+2015-05-04 23:37:32.410 EAMMobile[55764:100422] [CDVTimer][TotalPluginStartup] 13.268948ms
+2015-05-04 23:37:32.440 EAMMobile[55764:100422] Resetting plugins due to page load.
+2015-05-04 23:37:32.587 EAMMobile[55764:100422] Finished load of: file:///Users/imrankhan/Library/Developer/CoreSimulator/Devices/FE471D34-30AA-4184-9066-9432B1C063BE/data/Containers/Bundle/Application/4F48D033-6243-41B2-B0D1-71990A407E8A/EAMMobile.app/www/index.html
+2015-05-04 23:37:32.619 EAMMobile[55764:100448] [Status] Initializing AppConnect plugin
+2015-05-04 23:37:32.619 EAMMobile[55764:100448] [Status] Hooking methods to enable AppConnect Tunneling
+2015-05-04 23:37:32.669 EAMMobile[55764:100422] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '48.674316' ms. Plugin should use a background thread.
+2015-05-04 23:37:32.692 EAMMobile[55764:100422] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '16.912842' ms. Plugin should use a background thread.
+2015-05-04 23:37:32.742 EAMMobile[55764:100422] Setting the WebView's frame to {{0, 0}, {768, 980}}
+2015-05-04 23:37:32.742 EAMMobile[55764:100422] Setting the WebView's frame to {{0, 0}, {768, 1024}}
+2015-05-04 23:37:32.751 EAMMobile[55764:100422] THREAD WARNING: ['InAppBrowser'] took '58.505859' ms. Plugin should use a background thread.
+2015-05-04 23:37:32.988 EAMMobile[55764:100422] THREAD WARNING: ['InAppBrowser'] took '100.453857' ms. Plugin should use a background thread.
+2015-05-05 10:26:40.536 EAMMobile[9563:41692] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/imrankhan/Library/Developer/CoreSimulator/Devices/FE471D34-30AA-4184-9066-9432B1C063BE/data/Containers/Data/Application/6CC5186B-72E6-4774-AD90-CD8F027F31F0/Library/Cookies/Cookies.binarycookies
+2015-05-05 10:26:40.576 EAMMobile[9563:41692] Apache Cordova native platform version 3.6.3 is starting.
+2015-05-05 10:26:40.576 EAMMobile[9563:41692] Multi-tasking -> Device: YES, App: YES
+2015-05-05 10:26:40.591 EAMMobile[9563:41692] Unlimited access to network resources
+2015-05-05 10:26:40.595 EAMMobile[9563:41692] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2015-05-05 10:26:40.939 EAMMobile[9563:41692] [CDVTimer][statusbar] 76.124966ms
+2015-05-05 10:26:40.940 EAMMobile[9563:41692] [CDVTimer][appconnectcordovaplugin] 0.056028ms
+2015-05-05 10:26:40.956 EAMMobile[9563:41692] CommonAuthenticationConfigurator isNSHTTPURLProtocolReplacementEnabled: 0
+2015-05-05 10:26:40.956 EAMMobile[9563:41692] [CDVTimer][authproxy] 16.088009ms
+2015-05-05 10:26:40.956 EAMMobile[9563:41692] [CDVTimer][TotalPluginStartup] 92.609942ms
+2015-05-05 10:26:40.993 EAMMobile[9563:41692] Resetting plugins due to page load.
+2015-05-05 10:26:41.220 EAMMobile[9563:41692] Finished load of: file:///Users/imrankhan/Library/Developer/CoreSimulator/Devices/FE471D34-30AA-4184-9066-9432B1C063BE/data/Containers/Bundle/Application/4E8852EC-6C8C-43E3-9143-A2635F666CE9/EAMMobile.app/www/index.html
+2015-05-05 10:26:41.258 EAMMobile[9563:41702] [Status] Initializing AppConnect plugin
+2015-05-05 10:26:41.258 EAMMobile[9563:41702] [Status] Hooking methods to enable AppConnect Tunneling
+2015-05-05 10:26:41.303 EAMMobile[9563:41692] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '44.755127' ms. Plugin should use a background thread.
+2015-05-05 10:26:41.323 EAMMobile[9563:41692] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '14.744873' ms. Plugin should use a background thread.
+2015-05-05 10:26:41.407 EAMMobile[9563:41692] Setting the WebView's frame to {{0, 0}, {768, 980}}
+2015-05-05 10:26:41.407 EAMMobile[9563:41692] Setting the WebView's frame to {{0, 0}, {768, 1024}}
+2015-05-05 10:26:41.416 EAMMobile[9563:41692] THREAD WARNING: ['InAppBrowser'] took '92.374268' ms. Plugin should use a background thread.
+2015-05-05 10:26:41.636 EAMMobile[9563:41692] THREAD WARNING: ['InAppBrowser'] took '94.574219' ms. Plugin should use a background thread.
+2015-05-05 10:26:53.400 EAMMobile[9563:41713] [Status] miaccp_URLIsAllowed:logFailure
+2015-05-05 10:26:55.792 EAMMobile[9563:41692] THREAD WARNING: ['InAppBrowser'] took '11.569824' ms. Plugin should use a background thread.
+2015-05-05 10:27:18.559 EAMMobile[9563:41692] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '12.143799' ms. Plugin should use a background thread.
+2015-05-05 10:27:18.598 EAMMobile[9563:41692] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '39.035889' ms. Plugin should use a background thread.
+2015-05-05 10:27:19.859 EAMMobile[9563:43367] [Status] miaccp_URLIsAllowed
+2015-05-05 10:27:19.860 EAMMobile[9563:43367] [Status] miaccp_URLIsAllowed:logFailure
+2015-05-05 10:27:19.861 EAMMobile[9563:43221] [Status] miaccp_URLIsAllowed
+2015-05-05 10:27:19.861 EAMMobile[9563:43221] [Status] miaccp_URLIsAllowed:logFailure
+2015-05-05 10:27:20.485 EAMMobile[9563:41724] [Status] miaccp_URLIsAllowed
+2015-05-05 10:27:20.485 EAMMobile[9563:41724] [Status] miaccp_URLIsAllowed:logFailure
