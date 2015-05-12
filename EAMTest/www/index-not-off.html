@@ -1,0 +1,365 @@
+<html>
+    <head>
+    <script src="datajs-1.1.2.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+     <script src="https://sapui5.hana.ondemand.com/resources/sap-ui-core.js" id="sap-ui-bootstrap" data-sap-ui-libs="sap.m" data-sap-ui-theme="sap_bluecrystal"> </script>
+    <script>
+        var appId = "com.hcl.offline"; // Change this to app id on server
+        var applicationContext = null;
+        var smpServerProtocol = "https";
+        var smpServerHost = "hcpms-p1941267893trial.hanatrial.ondemand.com";
+        var smpServerPort = "443";
+        
+        var authStr = "";
+        var startTime = null;
+        var startTimeRefresh = null;
+        var online = navigator.onLine;
+        var timerID = null;
+        
+        window.onerror = onError;
+
+   /* var smpServerHost = "us1455saps033.dir.slb.com";
+    var smpServerPort = "8080";
+    var smpServerProtocol = "http";
+    var sURL = "http://us1455saps033.dir.slb.com/com.hcl.offline/PlantSet?sap-client=330&$format=json"; */
+
+        // Optional initial connection context
+        var context = {
+            "serverHost": smpServerHost, //Place your SMP 3.0 server name here
+            "https": smpServerProtocol == "https",
+         // "https": "false",
+            "serverPort": smpServerPort,
+            "user": "p1941267893", //user name for registration and the OData Endpoint
+            "password": "Hisham@2014",  //password for registration and the OData Endpoint
+           // "user": "IMohammed6", //user name for registration and the OData Endpoint
+            //"password": "itt123",
+                                  //once set can be changed by calling sap.Logon.changePassword()
+            "communicatorId": "REST",
+            "passcode": "password",  //note hardcoding passwords and unlock passcodes are strictly for ease of use during development
+                                     //once set can be changed by calling sap.Logon.managePasscode()
+            "unlockPasscode": "password",
+            "passcode_CONFIRM":"password",
+            "ssoPasscode":"Password1"
+        };
+
+        function onError(msg, url, line) {
+            var idx = url.lastIndexOf("/");
+            var file = "unknown";
+            if (idx > -1) {
+                file = url.substring(idx + 1);
+            }
+            alert("An error occurred in " + file + " (at line # " + line + "): " + msg);
+            return false; //suppressErrorAlert;
+        }
+        
+        function init() {
+            jQuery.sap.require("sap.ui.thirdparty.datajs");
+            console.log("DEVICEREADY");
+            if (sap.Logger) {
+                sap.Logger.setLogLevel(sap.Logger.DEBUG);  //enables the display of debug log messages from the Kapsel plugins.
+                sap.Logger.debug("Log level set to DEBUG");
+            }
+            
+            sap.Logon.init(logonSuccessCallback, logonErrorCallback, appId, context);
+            console.log("init completed");
+        }
+        
+        function logonSuccessCallback(result) {
+            console.log("STORE UNLOCKED");
+            console.log("logonSuccessCallback " + JSON.stringify(result));
+            applicationContext = result;
+            authStr = "Basic " + btoa(applicationContext.registrationContext.user + ":" + applicationContext.registrationContext.password);
+            showScreen("MainDiv");
+            openStore();
+        }
+
+        function logonErrorCallback(error) {   //this method is called if the user cancels the registration.
+            console.log("An error occurred:  " + JSON.stringify(error));
+            if (device.platform == "Android") {  //Not supported on iOS
+                navigator.app.exitApp();
+            }
+        }
+    
+    function readGWData() {
+        var sUrl;
+         if (online) {
+            //  sap.OData.removeHttpClient();
+             sUrl = applicationContext.applicationEndpointURL;
+           sUrl = applicationContext.applicationEndpointURL;
+         } else {
+             sUrl = applicationContext.applicationEndpointURL;
+             //sap.OData.applyHttpClient();
+         }
+        
+        var uri = applicationContext.applicationEndpointURL;
+        // var sUrl = appContext.applicationEndpointURL +"?sap-client=330&$format=json";
+        var headers = {"X-SMP-APPCID" : applicationContext.applicationConnectionId};
+        var user = applicationContext.registrationContext.user;
+        var password = applicationContext.registrationContext.password;
+        authStr = "Basic " + btoa(user + ":" + password);
+        var oHeaders = {};
+        oHeaders['Authorization'] = authStr;
+        //oHeaders['X-SMP-APPCID'] = applicationContext.applicationConnectionId;    //this header is provided by the logon plugin
+        
+        var request = {
+            headers : oHeaders,
+            requestUri : sUrl,
+            method : "GET"
+        };
+       /* if(online) {
+            sap.OData.removeHttpClient();
+            
+        } else {
+            sap.OData.applyHttpClient();
+        } */
+        OData.read(request, readSuccessCallback, errorCallback);
+    }
+    /*function readSuccessCallback(data, response) {
+        var woList=[];
+        var woModel = new sap.ui.model.json.JSONModel();
+        $(data.results).each(function( i, val ) {
+                             woList.push({ "WOId" : val.Orderid,
+                                         "Plant"  : val.OrderType,
+                                         "WOText"  :val.ShortText,
+                                         "RigId": "R2322",
+                                         "JobId": "J87799",
+                                         "StartDate": "23-Nov-2014"
+                                         });
+                             
+                             });
+                             woModel.setData(woList);
+                             sap.ui.getCore().setModel(woModel,"mastermodel");
+    } 
+  */
+    
+    
+        function read() {
+            updateStatus2("read request started");
+            startTime = new Date();
+
+            clearTable();
+            var sURL = applicationContext.applicationEndpointURL + "/Products?$orderby=Name desc";
+            
+            var oHeaders = {};
+            //The appcid header is handled by the Logon plugin
+             // var headers = {"X-SMP-APPCID" : appContext.applicationConnectionId};
+           // oHeaders['X-SMP-APPCID'] =  applicationContext.applicationConnectionId;
+            oHeaders['Authorization'] = authStr;
+           // oHeaders['Accept'] = "application/json";
+            //oHeaders['Content-Type'] = "application/xml";
+            
+            oHeaders['x-csrf-token'] = "Fetch";
+            var request = {
+                headers : oHeaders,
+               // "MaxDataServiceVersion" : "2.0",
+                //"DataServiceVersion" : "2.0",
+                requestUri : sURL,
+                method : "GET"
+            };
+            console.log("read using " + sURL);
+            OData.read(request, readSuccessCallback, errorCallback);
+        }
+
+        function readSuccessCallback(data, response) {
+            var endTime = new Date();
+            var duration = (endTime - startTime)/1000;
+          //  updateStatus2("Read " + data.results.length + " records in " + duration + " seconds");
+            alert("data read yeah!!!");
+           /* var productsTable = document.getElementById("ProductsTable");
+            for (var i = 0; i < data.results.length; i++) {
+                var row = productsTable.insertRow(1);
+                var cell1 = row.insertCell(0);
+                var cell2 = row.insertCell(1);
+                var cell3 = row.insertCell(2);  
+                cell1.innerHTML = data.results[i].Name;
+                cell2.innerHTML = data.results[i].Description;
+                cell3.innerHTML = data.results[i].Price;
+            } */
+        }
+        
+        function clearTable() {
+            var productsTable = document.getElementById("ProductsTable");
+            while(productsTable.rows.length > 1) {
+                productsTable.deleteRow(1);
+            }
+        }
+        
+        function errorCallback(e) {
+            alert("An error occurred: " + JSON.stringify(e));
+            showScreen("MainDiv");
+        }
+        
+        function register() {
+            sap.Logon.init(logonSuccessCallback, logonErrorCallback, appId, context);
+        }
+        
+        function unRegister() {
+            sap.Logon.core.deleteRegistration(logonUnregisterSuccessCallback, errorCallback);
+            clearTable();
+        }
+
+        function logonUnregisterSuccessCallback(result) {
+            alert("Successfully Unregistered");
+            console.log("logonUnregisterSuccessCallback " + JSON.stringify(result));
+            applicationContext = null;
+        }
+        
+        function showScreen(screenIDToShow) {
+            var screenToShow = document.getElementById(screenIDToShow);
+            screenToShow.style.display = "block";
+            var screens = document.getElementsByClassName('screenDiv');
+            for (var i = 0; i < screens.length; i++) {
+                if (screens[i].id != screenToShow.id) {
+                    screens[i].style.display = "none";
+                }
+            }
+        }
+        
+        function openStore() {
+            startTime = new Date();
+            updateStatus2("store.open called");
+            var properties = {
+                "name": "ProductsOfflineStore",
+                "host": applicationContext.registrationContext.serverHost,
+                "port": applicationContext.registrationContext.serverPort,
+                "https": applicationContext.registrationContext.https,
+               // "serviceRoot" : applicationContext.applicationEndpointURL,
+                "serviceRoot" :  "https://hcpms-p1941267893trial.hanatrial.ondemand.com/com.hcl.offline/",
+                // "serviceRoot" :  "http://us1455saps033.dir.slb.com/com.hcl.offline/",
+                
+                //There is a cookie store for JavaScript which is different from the Java one used by the Offline plugin
+               // "streamParams" : "custom_header=Authorization:" + authStr + ";",
+
+                //required on iOS if device or simulator uses a proxy to reach the server prior to SMP 3.0 SDK SP05 PL03
+                //"streamParams" : "custom_header=Authorization:" + authStr + ";custom_header=X-SMP-APPCID:" +  applicationContext.applicationConnectionId + ";proxy_host=proxy;proxy_port=8080;",
+
+                "definingRequests" : {
+                   // "ProductsDR" : "/WOLIST"
+                    "ProductsDR" : "/Products"
+                   // "ProductsDR" : "/PlantSet"
+
+                }
+            };
+                
+            store = sap.OData.createOfflineStore(properties);
+            store.onrequesterror = errorCallback; //called for each modification error during flush
+
+            //var options = {};
+            store.open(openStoreSuccessCallback, errorCallback/*, options*/);
+        }
+
+        function openStoreSuccessCallback() {
+            var endTime = new Date();
+            var duration = (endTime - startTime)/1000;
+            updateStatus2("Store opened in  " + duration + " seconds");
+            refreshStore();
+            refreshOnInterval();
+        }
+        
+        function refreshOnInterval() {
+            var interval = 300000;  //5 minutes
+            timerID = setInterval(function () {refreshStore()}, interval);  //call refreshStore every interval,
+            																//remove timer in pause event, add back in resume
+        }
+        
+        //After calling this the store will receive any changes from the OData producer.
+        function refreshStore() {
+            console.log("REFRESHSTORE");
+            if (!store) {
+                updateStatus2("The store must be open before it can be refreshed");
+                return;
+            }
+            if (isDeviceOnline()) {
+                startTimeRefresh = new Date();
+                updateStatus2("store.refresh called");
+                store.refresh(refreshStoreCallback, errorCallback);
+            }
+        }
+        
+        function refreshStoreCallback() {
+            var endTime = new Date();
+            var duration = (endTime - startTimeRefresh)/1000;
+            updateStatus2("Store refreshed in  " + duration + " seconds");
+        }
+        
+        function getDeviceStatusString() {
+            if (online) {
+                return "Device is ONLINE";
+            }
+            else {
+                return "Device is OFFLINE";
+            }
+        }
+        
+        function isDeviceOnline() {
+            return online;
+        }
+        
+        function deviceOnline() {
+            online = true;
+            sap.OData.removeHttpClient();
+            updateStatus1("");
+        }
+        
+        function deviceOffline() {
+            online = false;
+            sap.OData.applyHttpClient();
+            updateStatus1("Using Offline Store.");
+        }
+        
+        function initOnLoad() {
+            updateStatus1("");
+        }
+        
+        function updateStatus1(msg) {
+            document.getElementById('statusID').innerHTML = msg + " " + getDeviceStatusString();
+            console.log(msg + " " + getDeviceStatusString());
+        }
+        
+        function updateStatus2(msg) {
+            var d = new Date();
+            document.getElementById('statusID2').innerHTML = msg + " at " + addZero(d.getHours()) + ":" + addZero(d.getMinutes()) + "." + addZero(d.getSeconds());
+            console.log(msg + " at " + addZero(d.getHours()) + ":" + addZero(d.getMinutes()) + "." + addZero(d.getSeconds()));
+        }
+        
+        function addZero(input) {
+            if (input < 10) {
+                 return "0" + input;
+            }
+            return input;
+        }
+        
+        function onPause() {
+            console.log("PAUSED");
+            clearInterval(timerID);
+        }
+        
+        function onResume() {
+            console.log("RESUMED");
+            refreshOnInterval();
+        }
+
+        document.addEventListener("deviceready", init, false);
+        document.addEventListener("online", deviceOnline, false);
+        document.addEventListener("offline", deviceOffline, false);
+        document.addEventListener("pause", onPause, false);
+        document.addEventListener("resume", onResume, false);
+        
+    </script>
+    </head>
+    <body onload="initOnLoad()">
+        <div class="screenDiv" id="LoadingDiv">
+            <h1>Loading ...</h1>
+        </div>
+        
+        <div class="screenDiv" id="MainDiv" style="display: none">
+            <h1>Offline OData Sample 3</h1>
+            <button id="register" onclick="register()">Register</button>
+            <button id="read" onclick="read()">Read</button>
+            <button id="unregister" onclick="unRegister()">Unregister</button><br>
+            <span id="statusID"></span><br>
+            <span id="statusID2"></span>
+            <table id="ProductsTable"><tr><th></th><th>Name</th><th>Description</th><th>Price</th><th></th><th></th></tr></table>
+        </div>
+    </body>
+</html>

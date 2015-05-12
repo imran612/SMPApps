@@ -1,0 +1,862 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06A4792D66AE49A2A72730E3 /* libClientLog.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DEBD7FCCADCD4A17AC42281D /* libClientLog.a */; };
+		06D1EC96CD9B49A8834E3CED /* libDatavault.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F11539A73A04377AA482ADA /* libDatavault.a */; };
+		12E541384069471BAAAC9382 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E7A0D980C654F03862F2D0B /* libstdc++.dylib */; };
+		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1F766FE113BBADB100FB74C0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F766FDC13BBADB100FB74C0 /* Localizable.strings */; };
+		21651896CDBD43C2AD59ECF4 /* CDVDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A06917E34C14AAC800CFFC9 /* CDVDevice.m */; };
+		237A4BE6F9964F4B85E653FB /* libConnectivity.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F506C88777A466C8AF0B015 /* libConnectivity.a */; };
+		2605F400C073469E9DB8D1E0 /* libClientHubSLL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3BAC72590854F148CB4DBEC /* libClientHubSLL.a */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		289F9AD6650B4859BD8F2A63 /* libSMPODataPlugin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 20C6D709264D45D1928200AA /* libSMPODataPlugin.a */; };
+		29033700D8F843298A95D857 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2679929E914D45A9B9D366DF /* libsqlite3.dylib */; };
+		2EF9DA47DE444819AC957348 /* libHttpConversation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B9C0AA23003C48BB8FACEFBF /* libHttpConversation.a */; };
+		301BF552109A68D80062928A /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF535109A57CC0062928A /* libCordova.a */; };
+		302D95F114D2391D003F00A1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302D95EF14D2391D003F00A1 /* MainViewController.m */; };
+		302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302D95F014D2391D003F00A1 /* MainViewController.xib */; };
+		305D5FD1115AB8F900A74A75 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 305D5FD0115AB8F900A74A75 /* MobileCoreServices.framework */; };
+		3088BBBD154F3926009F9C59 /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3088BBB7154F3926009F9C59 /* Default-Landscape@2x~ipad.png */; };
+		3088BBBE154F3926009F9C59 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3088BBB8154F3926009F9C59 /* Default-Landscape~ipad.png */; };
+		3088BBBF154F3926009F9C59 /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3088BBB9154F3926009F9C59 /* Default-Portrait@2x~ipad.png */; };
+		3088BBC0154F3926009F9C59 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3088BBBA154F3926009F9C59 /* Default-Portrait~ipad.png */; };
+		3088BBC1154F3926009F9C59 /* Default@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 3088BBBB154F3926009F9C59 /* Default@2x~iphone.png */; };
+		3088BBC2154F3926009F9C59 /* Default~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 3088BBBC154F3926009F9C59 /* Default~iphone.png */; };
+		308D05371370CCF300D202BF /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 308D052E1370CCF300D202BF /* icon-72.png */; };
+		308D05381370CCF300D202BF /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 308D052F1370CCF300D202BF /* icon.png */; };
+		308D05391370CCF300D202BF /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 308D05301370CCF300D202BF /* icon@2x.png */; };
+		30A0434814DC770100060A13 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 30A0434314DC770100060A13 /* Localizable.strings */; };
+		30FC414916E50CA1004E6F35 /* icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30FC414816E50CA1004E6F35 /* icon-72@2x.png */; };
+		37B0E17DF1D74DB987F0213C /* libSupportability.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F30363B785D4E19A5B180A9 /* libSupportability.a */; };
+		3824B55CED984287A2D5F91E /* libODataOffline.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 63198A228FB44B07B7585C89 /* libODataOffline.a */; };
+		395F91E39FA74AA98B9ECF4E /* libRequest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD6F27978267444784A137ED /* libRequest.a */; };
+		49D70AEF89564E7F898918AE /* libPerformanceLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1734820429445E88F836A2C /* libPerformanceLib.a */; };
+		4B6C6FC065F0476380F53278 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D6CFF1102FF47B8851E907D /* Security.framework */; };
+		53440F737E6949188595A378 /* libE2ETrace.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBB84680ACFB445DB939D6D1 /* libE2ETrace.a */; };
+		575C550F30194FD38517B184 /* CDVInAppBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F3EF2542D0E42029F8EF0A1 /* CDVInAppBrowser.m */; };
+		5B1594DD16A7569C00FEF299 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */; };
+		5D2EE9B1BAB14236B4F3B900 /* MAFLogonManagerNG.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1D9CD756616545009CE07C74 /* MAFLogonManagerNG.bundle */; };
+		631E194DB5AA47F6A77E96ED /* libLogger.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA18579A7CFD48A481A76EBC /* libLogger.a */; };
+		6477AB4AB9C6431C8528834E /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF07472D31B54686855D1BF7 /* CoreData.framework */; };
+		677E1286174D42B8B2D57901 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68581DD10FC04993BCEC0603 /* MessageUI.framework */; };
+		6E050C93C0AD4EB7B9F1943C /* libODataAPI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E542801746BB4376BE7D3013 /* libODataAPI.a */; };
+		7317DBC8A5B14C77BB40C612 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2054E479BF94B5DAABC0107 /* CFNetwork.framework */; };
+		74DEDFD6D6F6497B92D30DC8 /* libCoreServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 41BF17F242434302AA52C9EA /* libCoreServices.a */; };
+		7E7966DE1810823500FA85AD /* icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966D41810823500FA85AD /* icon-40.png */; };
+		7E7966DF1810823500FA85AD /* icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966D51810823500FA85AD /* icon-40@2x.png */; };
+		7E7966E01810823500FA85AD /* icon-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966D61810823500FA85AD /* icon-50.png */; };
+		7E7966E11810823500FA85AD /* icon-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966D71810823500FA85AD /* icon-50@2x.png */; };
+		7E7966E21810823500FA85AD /* icon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966D81810823500FA85AD /* icon-60.png */; };
+		7E7966E31810823500FA85AD /* icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966D91810823500FA85AD /* icon-60@2x.png */; };
+		7E7966E41810823500FA85AD /* icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DA1810823500FA85AD /* icon-76.png */; };
+		7E7966E51810823500FA85AD /* icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DB1810823500FA85AD /* icon-76@2x.png */; };
+		7E7966E61810823500FA85AD /* icon-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DC1810823500FA85AD /* icon-small.png */; };
+		7E7966E71810823500FA85AD /* icon-small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DD1810823500FA85AD /* icon-small@2x.png */; };
+		7EC69A81670644059821CB88 /* libMAFLogger.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDF46B14DC74B2FA09D10C9 /* libMAFLogger.a */; };
+		817BF722A41041298A6A54A9 /* libE2ETrace2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD352968D8B84449B648A256 /* libE2ETrace2.a */; };
+		8E4EDCC9CD4640FD81718BE5 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C31CDB098414B088497E10A /* libc++.dylib */; };
+		912A976A8DF342BBB6160C27 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E7917E27408847049E824500 /* libz.dylib */; };
+		917C16E74D1649128F356DCA /* libSMPCoreLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CB217E6C75742CB8745AD20 /* libSMPCoreLib.a */; };
+		A6564EEE9B34489EABFC227F /* Certificate.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 736E0811AB5A444DB4A2E809 /* Certificate.xcassets */; };
+		ABDC0396957F44E59D5B17E6 /* libHttpConvAuthFlows.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2035E60A25884289AEBA04DF /* libHttpConvAuthFlows.a */; };
+		B5E17B046D4B4AD087109AB4 /* libSMPAuthProxyPlugin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 69A351905A31475B8D0EA9FB /* libSMPAuthProxyPlugin.a */; };
+		BE5AD59F58244CBAB89294A5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 379A47E6AFC8494F90D33146 /* SystemConfiguration.framework */; };
+		BF1BD214BCEC4B7BA3E40586 /* libAfariaSLL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF225BFCA1BD4EB3B1BFE102 /* libAfariaSLL.a */; };
+		BFC997C3ECC640B7880790E9 /* libMAFLogonManagerNG.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC3C77A53B1641F3A92D838F /* libMAFLogonManagerNG.a */; };
+		C15F53FF92B8489E812CCCA7 /* CDVReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 08CED2205B1A42C9B095F828 /* CDVReachability.m */; };
+		CC45454040CA4F6E82660F82 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6ED4BD3C5E04EF980780F6B /* libcrypto.a */; };
+		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
+		DCE82835D45948478D108113 /* HttpConvAuthFlows.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CCA4EDE50FAC41688D392188 /* HttpConvAuthFlows.bundle */; };
+		FDA47D029162485AB0CD485C /* libMAFLogonCoreCDVPlugin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1F71E638CDA4E68960656B1 /* libMAFLogonCoreCDVPlugin.a */; };
+		FE5CBA8A51E942C9AAF50B5D /* CDVConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1A7797D0804599985D449E /* CDVConnection.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		301BF534109A57CC0062928A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = CordovaLib;
+		};
+		301BF550109A68C00062928A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = CordovaLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08CED2205B1A42C9B095F828 /* CDVReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVReachability.m; path = "cordova-plugin-network-information/CDVReachability.m"; sourceTree = "<group>"; };
+		0F3EF2542D0E42029F8EF0A1 /* CDVInAppBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVInAppBrowser.m; path = org.apache.cordova.inappbrowser/CDVInAppBrowser.m; sourceTree = "<group>"; };
+		11D825D97B2D4AC087A46CB1 /* CDVConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVConnection.h; path = "cordova-plugin-network-information/CDVConnection.h"; sourceTree = "<group>"; };
+		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* hclTestOffline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hclTestOffline.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D9CD756616545009CE07C74 /* MAFLogonManagerNG.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MAFLogonManagerNG.bundle; sourceTree = "<group>"; };
+		1F766FDD13BBADB100FB74C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
+		1F766FE013BBADB100FB74C0 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Localizable.strings; sourceTree = "<group>"; };
+		2035E60A25884289AEBA04DF /* libHttpConvAuthFlows.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libHttpConvAuthFlows.a; path = hclTestOffline/Plugins/com.sap.mp.cordova.plugins.corelibs/libHttpConvAuthFlows.a; sourceTree = "<group>"; };
+		20C6D709264D45D1928200AA /* libSMPODataPlugin.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libSMPODataPlugin.a; path = hclTestOffline/Plugins/com.sap.mp.cordova.plugins.odata/libSMPODataPlugin.a; sourceTree = "<group>"; };
+		2679929E914D45A9B9D366DF /* libsqlite3.dylib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CordovaLib.xcodeproj; path = CordovaLib/CordovaLib.xcodeproj; sourceTree = "<group>"; };
+		301BF56E109A69640062928A /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = SOURCE_ROOT; };
+		302D95EE14D2391D003F00A1 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		302D95EF14D2391D003F00A1 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		302D95F014D2391D003F00A1 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		3058BE9ABEDD4E37BB472DDE /* CDVReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVReachability.h; path = "cordova-plugin-network-information/CDVReachability.h"; sourceTree = "<group>"; };
+		305D5FD0115AB8F900A74A75 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		3088BBB7154F3926009F9C59 /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
+		3088BBB8154F3926009F9C59 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		3088BBB9154F3926009F9C59 /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		3088BBBA154F3926009F9C59 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		3088BBBB154F3926009F9C59 /* Default@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x~iphone.png"; sourceTree = "<group>"; };
+		3088BBBC154F3926009F9C59 /* Default~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default~iphone.png"; sourceTree = "<group>"; };
+		308D052E1370CCF300D202BF /* icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-72.png"; sourceTree = "<group>"; };
+		308D052F1370CCF300D202BF /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		308D05301370CCF300D202BF /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		30A0434414DC770100060A13 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = Localizable.strings; sourceTree = "<group>"; };
+		30A0434714DC770100060A13 /* se */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = se; path = Localizable.strings; sourceTree = "<group>"; };
+		30FC414816E50CA1004E6F35 /* icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-72@2x.png"; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* hclTestOffline-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "hclTestOffline-Prefix.pch"; sourceTree = "<group>"; };
+		379A47E6AFC8494F90D33146 /* SystemConfiguration.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3A06917E34C14AAC800CFFC9 /* CDVDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVDevice.m; path = org.apache.cordova.device/CDVDevice.m; sourceTree = "<group>"; };
+		3C31CDB098414B088497E10A /* libc++.dylib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		3E7A0D980C654F03862F2D0B /* libstdc++.dylib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		3F30363B785D4E19A5B180A9 /* libSupportability.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libSupportability.a; path = hclTestOffline/Plugins/com.sap.mp.cordova.plugins.corelibs/libSupportability.a; sourceTree = "<group>"; };
+		41BF17F242434302AA52C9EA /* libCoreServices.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libCoreServices.a; path = hclTestOffline/Plugins/com.sap.mp.cordova.plugins.corelibs/libCoreServices.a; sourceTree = "<group>"; };
+		4CB217E6C75742CB8745AD20 /* libSMPCoreLib.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libSMPCoreLib.a; path = hclTestOffline/Plugins/com.sap.mp.cordova.plugins.corelibs/libSMPCoreLib.a; sourceTree = "<group>"; };
+		4F11539A73A04377AA482ADA /* libDatavault.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libDatavault.a; path = hclTestOffline/Plugins/com.sap.mp.cordova.plugins.corelibs/libDatavault.a; sourceTree = "<group>"; };
+		4F506C88777A466C8AF0B015 /* libConnectivity.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libConnectivity.a; path = hclTestOffline/Plugins/com.sap.mp.cordova.plugins.corelibs/libConnectivity.a; sourceTree = "<group>"; };
+		597323D488FF44429B36BC63 /* CDVDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVDevice.h; path = org.apache.cordova.device/CDVDevice.h; sourceTree = "<group>"; };
+		5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		63198A228FB44B07B7585C89 /* libODataOffline.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libODataOffline.a; path = hclTestOffline/Plugins/com.sap.mp.cordova.plugins.odata/libODataOffline.a; sourceTree = "<group>"; };
+		68581DD10FC04993BCEC0603 /* MessageUI.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		69A351905A31475B8D0EA9FB /* libSMPAuthProxyPlugin.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libSMPAuthProxyPlugin.a; path = hclTestOffline/Plugins/com.sap.mp.cordova.plugins.authproxy/libSMPAuthProxyPlugin.a; sourceTree = "<group>"; };
+		6D6CFF1102FF47B8851E907D /* Security.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		73656330E2F94D82BD1E760F /* CDVInAppBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVInAppBrowser.h; path = org.apache.cordova.inappbrowser/CDVInAppBrowser.h; sourceTree = "<group>"; };
+		736E0811AB5A444DB4A2E809 /* Certificate.xcassets */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; path = Certificate.xcassets; sourceTree = "<group>"; };
+		7A1A7797D0804599985D449E /* CDVConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVConnection.m; path = "cordova-plugin-network-information/CDVConnection.m"; sourceTree = "<group>"; };
+		7E7966D41810823500FA85AD /* icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-40.png"; sourceTree = "<group>"; };
+		7E7966D51810823500FA85AD /* icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-40@2x.png"; sourceTree = "<group>"; };
+		7E7966D61810823500FA85AD /* icon-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-50.png"; sourceTree = "<group>"; };
+		7E7966D71810823500FA85AD /* icon-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-50@2x.png"; sourceTree = "<group>"; };
+		7E7966D81810823500FA85AD /* icon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-60.png"; sourceTree = "<group>"; };
+		7E7966D91810823500FA85AD /* icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-60@2x.png"; sourceTree = "<group>"; };
+		7E7966DA1810823500FA85AD /* icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-76.png"; sourceTree = "<group>"; };
+		7E7966DB1810823500FA85AD /* icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-76@2x.png"; sourceTree = "<group>"; };
+		7E7966DC1810823500FA85AD /* icon-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-small.png"; sourceTree = "<group>"; };
+		7E7966DD1810823500FA85AD /* icon-small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-small@2x.png"; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* hclTestOffline-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "hclTestOffline-Info.plist"; path = "../hclTestOffline-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		A3BAC72590854F148CB4DBEC /* libClientHubSLL.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libClientHubSLL.a; path = hclTestOffline/Plugins/com.sap.mp.cordova.plugins.corelibs/libClientHubSLL.a; sourceTree = "<group>"; };
+		B1734820429445E88F836A2C /* libPerformanceLib.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libPerformanceLib.a; path = hclTestOffline/Plugins/com.sap.mp.cordova.plugins.corelibs/libPerformanceLib.a; sourceTree = "<group>"; };
+		B9C0AA23003C48BB8FACEFBF /* libHttpConversation.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libHttpConversation.a; path = hclTestOffline/Plugins/com.sap.mp.cordova.plugins.corelibs/libHttpConversation.a; sourceTree = "<group>"; };
+		BC3C77A53B1641F3A92D838F /* libMAFLogonManagerNG.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libMAFLogonManagerNG.a; path = hclTestOffline/Plugins/com.sap.mp.cordova.plugins.logon/libMAFLogonManagerNG.a; sourceTree = "<group>"; };
+		BD6F27978267444784A137ED /* libRequest.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libRequest.a; path = hclTestOffline/Plugins/com.sap.mp.cordova.plugins.corelibs/libRequest.a; sourceTree = "<group>"; };
+		BDE701AFA7724F179CC04BD4 /* CertificateProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CertificateProvider.h; path = com.sap.mp.cordova.plugins.logon/CertificateProvider.h; sourceTree = "<group>"; };
+		CCA4EDE50FAC41688D392188 /* HttpConvAuthFlows.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HttpConvAuthFlows.bundle; sourceTree = "<group>"; };
+		CEDF46B14DC74B2FA09D10C9 /* libMAFLogger.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libMAFLogger.a; path = hclTestOffline/Plugins/com.sap.mp.cordova.plugins.logon/libMAFLogger.a; sourceTree = "<group>"; };
+		D2054E479BF94B5DAABC0107 /* CFNetwork.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x~iphone.png"; sourceTree = "<group>"; };
+		D6ED4BD3C5E04EF980780F6B /* libcrypto.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libcrypto.a; path = hclTestOffline/Plugins/com.sap.mp.cordova.plugins.corelibs/libcrypto.a; sourceTree = "<group>"; };
+		DEBD7FCCADCD4A17AC42281D /* libClientLog.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libClientLog.a; path = hclTestOffline/Plugins/com.sap.mp.cordova.plugins.corelibs/libClientLog.a; sourceTree = "<group>"; };
+		DF225BFCA1BD4EB3B1BFE102 /* libAfariaSLL.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libAfariaSLL.a; path = hclTestOffline/Plugins/com.sap.mp.cordova.plugins.corelibs/libAfariaSLL.a; sourceTree = "<group>"; };
+		E542801746BB4376BE7D3013 /* libODataAPI.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libODataAPI.a; path = hclTestOffline/Plugins/com.sap.mp.cordova.plugins.odata/libODataAPI.a; sourceTree = "<group>"; };
+		E7917E27408847049E824500 /* libz.dylib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		EB87FDF21871DA7A0020F90C /* merges */ = {isa = PBXFileReference; lastKnownFileType = folder; name = merges; path = ../../merges; sourceTree = "<group>"; };
+		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
+		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
+		EBB84680ACFB445DB939D6D1 /* libE2ETrace.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libE2ETrace.a; path = hclTestOffline/Plugins/com.sap.mp.cordova.plugins.corelibs/libE2ETrace.a; sourceTree = "<group>"; };
+		EF07472D31B54686855D1BF7 /* CoreData.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F1F71E638CDA4E68960656B1 /* libMAFLogonCoreCDVPlugin.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libMAFLogonCoreCDVPlugin.a; path = hclTestOffline/Plugins/com.sap.mp.cordova.plugins.logon/libMAFLogonCoreCDVPlugin.a; sourceTree = "<group>"; };
+		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = hclTestOffline/config.xml; sourceTree = "<group>"; };
+		FA18579A7CFD48A481A76EBC /* libLogger.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libLogger.a; path = hclTestOffline/Plugins/com.sap.mp.cordova.plugins.corelibs/libLogger.a; sourceTree = "<group>"; };
+		FD352968D8B84449B648A256 /* libE2ETrace2.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libE2ETrace2.a; path = hclTestOffline/Plugins/com.sap.mp.cordova.plugins.corelibs/libE2ETrace2.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B1594DD16A7569C00FEF299 /* AssetsLibrary.framework in Frameworks */,
+				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				305D5FD1115AB8F900A74A75 /* MobileCoreServices.framework in Frameworks */,
+				237A4BE6F9964F4B85E653FB /* libConnectivity.a in Frameworks */,
+				395F91E39FA74AA98B9ECF4E /* libRequest.a in Frameworks */,
+				53440F737E6949188595A378 /* libE2ETrace.a in Frameworks */,
+				74DEDFD6D6F6497B92D30DC8 /* libCoreServices.a in Frameworks */,
+				2605F400C073469E9DB8D1E0 /* libClientHubSLL.a in Frameworks */,
+				631E194DB5AA47F6A77E96ED /* libLogger.a in Frameworks */,
+				2EF9DA47DE444819AC957348 /* libHttpConversation.a in Frameworks */,
+				ABDC0396957F44E59D5B17E6 /* libHttpConvAuthFlows.a in Frameworks */,
+				37B0E17DF1D74DB987F0213C /* libSupportability.a in Frameworks */,
+				06A4792D66AE49A2A72730E3 /* libClientLog.a in Frameworks */,
+				817BF722A41041298A6A54A9 /* libE2ETrace2.a in Frameworks */,
+				BF1BD214BCEC4B7BA3E40586 /* libAfariaSLL.a in Frameworks */,
+				06D1EC96CD9B49A8834E3CED /* libDatavault.a in Frameworks */,
+				49D70AEF89564E7F898918AE /* libPerformanceLib.a in Frameworks */,
+				917C16E74D1649128F356DCA /* libSMPCoreLib.a in Frameworks */,
+				CC45454040CA4F6E82660F82 /* libcrypto.a in Frameworks */,
+				912A976A8DF342BBB6160C27 /* libz.dylib in Frameworks */,
+				12E541384069471BAAAC9382 /* libstdc++.dylib in Frameworks */,
+				8E4EDCC9CD4640FD81718BE5 /* libc++.dylib in Frameworks */,
+				29033700D8F843298A95D857 /* libsqlite3.dylib in Frameworks */,
+				4B6C6FC065F0476380F53278 /* Security.framework in Frameworks */,
+				677E1286174D42B8B2D57901 /* MessageUI.framework in Frameworks */,
+				7317DBC8A5B14C77BB40C612 /* CFNetwork.framework in Frameworks */,
+				BE5AD59F58244CBAB89294A5 /* SystemConfiguration.framework in Frameworks */,
+				6477AB4AB9C6431C8528834E /* CoreData.framework in Frameworks */,
+				B5E17B046D4B4AD087109AB4 /* libSMPAuthProxyPlugin.a in Frameworks */,
+				7EC69A81670644059821CB88 /* libMAFLogger.a in Frameworks */,
+				FDA47D029162485AB0CD485C /* libMAFLogonCoreCDVPlugin.a in Frameworks */,
+				BFC997C3ECC640B7880790E9 /* libMAFLogonManagerNG.a in Frameworks */,
+				6E050C93C0AD4EB7B9F1943C /* libODataAPI.a in Frameworks */,
+				3824B55CED984287A2D5F91E /* libODataOffline.a in Frameworks */,
+				289F9AD6650B4859BD8F2A63 /* libSMPODataPlugin.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				302D95EE14D2391D003F00A1 /* MainViewController.h */,
+				302D95EF14D2391D003F00A1 /* MainViewController.m */,
+				302D95F014D2391D003F00A1 /* MainViewController.xib */,
+				1D3623240D0F684500981E51 /* AppDelegate.h */,
+				1D3623250D0F684500981E51 /* AppDelegate.m */,
+			);
+			name = Classes;
+			path = hclTestOffline/Classes;
+			sourceTree = SOURCE_ROOT;
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* hclTestOffline.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F766FDB13BBADB100FB74C0 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				1F766FDC13BBADB100FB74C0 /* Localizable.strings */,
+			);
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+		1F766FDE13BBADB100FB74C0 /* es.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				1F766FDF13BBADB100FB74C0 /* Localizable.strings */,
+			);
+			path = es.lproj;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				EB87FDF41871DAF40020F90C /* config.xml */,
+				EB87FDF31871DA8E0020F90C /* www */,
+				EB87FDF21871DA7A0020F90C /* merges */,
+				EB87FDF11871DA420020F90C /* Staging */,
+				301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				307C750510C5A3420062BCA9 /* Plugins */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* hclTestOffline-Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			path = hclTestOffline;
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				30A0434214DC770100060A13 /* de.lproj */,
+				30A0434514DC770100060A13 /* se.lproj */,
+				1F766FDB13BBADB100FB74C0 /* en.lproj */,
+				1F766FDE13BBADB100FB74C0 /* es.lproj */,
+				308D052D1370CCF300D202BF /* icons */,
+				308D05311370CCF300D202BF /* splash */,
+				8D1107310486CEB800E47090 /* hclTestOffline-Info.plist */,
+				736E0811AB5A444DB4A2E809 /* Certificate.xcassets */,
+				CCA4EDE50FAC41688D392188 /* HttpConvAuthFlows.bundle */,
+				1D9CD756616545009CE07C74 /* MAFLogonManagerNG.bundle */,
+			);
+			name = Resources;
+			path = hclTestOffline/Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+				305D5FD0115AB8F900A74A75 /* MobileCoreServices.framework */,
+				4F506C88777A466C8AF0B015 /* libConnectivity.a */,
+				BD6F27978267444784A137ED /* libRequest.a */,
+				EBB84680ACFB445DB939D6D1 /* libE2ETrace.a */,
+				41BF17F242434302AA52C9EA /* libCoreServices.a */,
+				A3BAC72590854F148CB4DBEC /* libClientHubSLL.a */,
+				FA18579A7CFD48A481A76EBC /* libLogger.a */,
+				B9C0AA23003C48BB8FACEFBF /* libHttpConversation.a */,
+				2035E60A25884289AEBA04DF /* libHttpConvAuthFlows.a */,
+				3F30363B785D4E19A5B180A9 /* libSupportability.a */,
+				DEBD7FCCADCD4A17AC42281D /* libClientLog.a */,
+				FD352968D8B84449B648A256 /* libE2ETrace2.a */,
+				DF225BFCA1BD4EB3B1BFE102 /* libAfariaSLL.a */,
+				4F11539A73A04377AA482ADA /* libDatavault.a */,
+				B1734820429445E88F836A2C /* libPerformanceLib.a */,
+				4CB217E6C75742CB8745AD20 /* libSMPCoreLib.a */,
+				D6ED4BD3C5E04EF980780F6B /* libcrypto.a */,
+				E7917E27408847049E824500 /* libz.dylib */,
+				3E7A0D980C654F03862F2D0B /* libstdc++.dylib */,
+				3C31CDB098414B088497E10A /* libc++.dylib */,
+				2679929E914D45A9B9D366DF /* libsqlite3.dylib */,
+				6D6CFF1102FF47B8851E907D /* Security.framework */,
+				68581DD10FC04993BCEC0603 /* MessageUI.framework */,
+				D2054E479BF94B5DAABC0107 /* CFNetwork.framework */,
+				379A47E6AFC8494F90D33146 /* SystemConfiguration.framework */,
+				EF07472D31B54686855D1BF7 /* CoreData.framework */,
+				69A351905A31475B8D0EA9FB /* libSMPAuthProxyPlugin.a */,
+				CEDF46B14DC74B2FA09D10C9 /* libMAFLogger.a */,
+				F1F71E638CDA4E68960656B1 /* libMAFLogonCoreCDVPlugin.a */,
+				BC3C77A53B1641F3A92D838F /* libMAFLogonManagerNG.a */,
+				E542801746BB4376BE7D3013 /* libODataAPI.a */,
+				63198A228FB44B07B7585C89 /* libODataOffline.a */,
+				20C6D709264D45D1928200AA /* libSMPODataPlugin.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		301BF52E109A57CC0062928A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				301BF535109A57CC0062928A /* libCordova.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		307C750510C5A3420062BCA9 /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				3A06917E34C14AAC800CFFC9 /* CDVDevice.m */,
+				597323D488FF44429B36BC63 /* CDVDevice.h */,
+				0F3EF2542D0E42029F8EF0A1 /* CDVInAppBrowser.m */,
+				73656330E2F94D82BD1E760F /* CDVInAppBrowser.h */,
+				BDE701AFA7724F179CC04BD4 /* CertificateProvider.h */,
+				7A1A7797D0804599985D449E /* CDVConnection.m */,
+				08CED2205B1A42C9B095F828 /* CDVReachability.m */,
+				11D825D97B2D4AC087A46CB1 /* CDVConnection.h */,
+				3058BE9ABEDD4E37BB472DDE /* CDVReachability.h */,
+			);
+			name = Plugins;
+			path = hclTestOffline/Plugins;
+			sourceTree = SOURCE_ROOT;
+		};
+		308D052D1370CCF300D202BF /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				7E7966D41810823500FA85AD /* icon-40.png */,
+				7E7966D51810823500FA85AD /* icon-40@2x.png */,
+				7E7966D61810823500FA85AD /* icon-50.png */,
+				7E7966D71810823500FA85AD /* icon-50@2x.png */,
+				7E7966D81810823500FA85AD /* icon-60.png */,
+				7E7966D91810823500FA85AD /* icon-60@2x.png */,
+				7E7966DA1810823500FA85AD /* icon-76.png */,
+				7E7966DB1810823500FA85AD /* icon-76@2x.png */,
+				7E7966DC1810823500FA85AD /* icon-small.png */,
+				7E7966DD1810823500FA85AD /* icon-small@2x.png */,
+				30FC414816E50CA1004E6F35 /* icon-72@2x.png */,
+				308D052E1370CCF300D202BF /* icon-72.png */,
+				308D052F1370CCF300D202BF /* icon.png */,
+				308D05301370CCF300D202BF /* icon@2x.png */,
+			);
+			path = icons;
+			sourceTree = "<group>";
+		};
+		308D05311370CCF300D202BF /* splash */ = {
+			isa = PBXGroup;
+			children = (
+				D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */,
+				3088BBB7154F3926009F9C59 /* Default-Landscape@2x~ipad.png */,
+				3088BBB8154F3926009F9C59 /* Default-Landscape~ipad.png */,
+				3088BBB9154F3926009F9C59 /* Default-Portrait@2x~ipad.png */,
+				3088BBBA154F3926009F9C59 /* Default-Portrait~ipad.png */,
+				3088BBBB154F3926009F9C59 /* Default@2x~iphone.png */,
+				3088BBBC154F3926009F9C59 /* Default~iphone.png */,
+			);
+			path = splash;
+			sourceTree = "<group>";
+		};
+		30A0434214DC770100060A13 /* de.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				30A0434314DC770100060A13 /* Localizable.strings */,
+			);
+			path = de.lproj;
+			sourceTree = "<group>";
+		};
+		30A0434514DC770100060A13 /* se.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				30A0434614DC770100060A13 /* Localizable.strings */,
+			);
+			path = se.lproj;
+			sourceTree = "<group>";
+		};
+		EB87FDF11871DA420020F90C /* Staging */ = {
+			isa = PBXGroup;
+			children = (
+				F840E1F0165FE0F500CFE078 /* config.xml */,
+				301BF56E109A69640062928A /* www */,
+			);
+			name = Staging;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* hclTestOffline */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "hclTestOffline" */;
+			buildPhases = (
+				304B58A110DAC018002A0835 /* Copy www directory */,
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				301BF551109A68C00062928A /* PBXTargetDependency */,
+			);
+			name = hclTestOffline;
+			productName = hclTestOffline;
+			productReference = 1D6058910D05DD3D006BFB54 /* hclTestOffline.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 510;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "hclTestOffline" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+				es,
+				de,
+				se,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 301BF52E109A57CC0062928A /* Products */;
+					ProjectRef = 301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* hclTestOffline */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		301BF535109A57CC0062928A /* libCordova.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCordova.a;
+			remoteRef = 301BF534109A57CC0062928A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E7966E41810823500FA85AD /* icon-76.png in Resources */,
+				7E7966DF1810823500FA85AD /* icon-40@2x.png in Resources */,
+				308D05371370CCF300D202BF /* icon-72.png in Resources */,
+				308D05381370CCF300D202BF /* icon.png in Resources */,
+				308D05391370CCF300D202BF /* icon@2x.png in Resources */,
+				1F766FE113BBADB100FB74C0 /* Localizable.strings in Resources */,
+				302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */,
+				7E7966E01810823500FA85AD /* icon-50.png in Resources */,
+				7E7966E31810823500FA85AD /* icon-60@2x.png in Resources */,
+				30A0434814DC770100060A13 /* Localizable.strings in Resources */,
+				7E7966E61810823500FA85AD /* icon-small.png in Resources */,
+				3088BBBD154F3926009F9C59 /* Default-Landscape@2x~ipad.png in Resources */,
+				3088BBBE154F3926009F9C59 /* Default-Landscape~ipad.png in Resources */,
+				3088BBBF154F3926009F9C59 /* Default-Portrait@2x~ipad.png in Resources */,
+				7E7966E71810823500FA85AD /* icon-small@2x.png in Resources */,
+				3088BBC0154F3926009F9C59 /* Default-Portrait~ipad.png in Resources */,
+				7E7966DE1810823500FA85AD /* icon-40.png in Resources */,
+				3088BBC1154F3926009F9C59 /* Default@2x~iphone.png in Resources */,
+				7E7966E21810823500FA85AD /* icon-60.png in Resources */,
+				3088BBC2154F3926009F9C59 /* Default~iphone.png in Resources */,
+				D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */,
+				7E7966E11810823500FA85AD /* icon-50@2x.png in Resources */,
+				7E7966E51810823500FA85AD /* icon-76@2x.png in Resources */,
+				30FC414916E50CA1004E6F35 /* icon-72@2x.png in Resources */,
+				A6564EEE9B34489EABFC227F /* Certificate.xcassets in Resources */,
+				DCE82835D45948478D108113 /* HttpConvAuthFlows.bundle in Resources */,
+				5D2EE9B1BAB14236B4F3B900 /* MAFLogonManagerNG.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		304B58A110DAC018002A0835 /* Copy www directory */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy www directory";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cordova/lib/copy-www-build-step.sh";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
+				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
+				21651896CDBD43C2AD59ECF4 /* CDVDevice.m in Sources */,
+				575C550F30194FD38517B184 /* CDVInAppBrowser.m in Sources */,
+				FE5CBA8A51E942C9AAF50B5D /* CDVConnection.m in Sources */,
+				C15F53FF92B8489E812CCCA7 /* CDVReachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		301BF551109A68C00062928A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CordovaLib;
+			targetProxy = 301BF550109A68C00062928A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1F766FDC13BBADB100FB74C0 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F766FDD13BBADB100FB74C0 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		1F766FDF13BBADB100FB74C0 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F766FE013BBADB100FB74C0 /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		30A0434314DC770100060A13 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30A0434414DC770100060A13 /* de */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		30A0434614DC770100060A13 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30A0434714DC770100060A13 /* se */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hclTestOffline/hclTestOffline-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "hclTestOffline/hclTestOffline-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/hclTestOffline/Plugins/com.sap.mp.cordova.plugins.corelibs\"",
+					"\"$(SRCROOT)/hclTestOffline/Plugins/com.sap.mp.cordova.plugins.corelibs\"",
+					"\"$(SRCROOT)/hclTestOffline/Plugins/com.sap.mp.cordova.plugins.corelibs\"",
+					"\"$(SRCROOT)/hclTestOffline/Plugins/com.sap.mp.cordova.plugins.corelibs\"",
+					"\"$(SRCROOT)/hclTestOffline/Plugins/com.sap.mp.cordova.plugins.corelibs\"",
+					"\"$(SRCROOT)/hclTestOffline/Plugins/com.sap.mp.cordova.plugins.corelibs\"",
+					"\"$(SRCROOT)/hclTestOffline/Plugins/com.sap.mp.cordova.plugins.corelibs\"",
+					"\"$(SRCROOT)/hclTestOffline/Plugins/com.sap.mp.cordova.plugins.corelibs\"",
+					"\"$(SRCROOT)/hclTestOffline/Plugins/com.sap.mp.cordova.plugins.corelibs\"",
+					"\"$(SRCROOT)/hclTestOffline/Plugins/com.sap.mp.cordova.plugins.corelibs\"",
+					"\"$(SRCROOT)/hclTestOffline/Plugins/com.sap.mp.cordova.plugins.corelibs\"",
+					"\"$(SRCROOT)/hclTestOffline/Plugins/com.sap.mp.cordova.plugins.corelibs\"",
+					"\"$(SRCROOT)/hclTestOffline/Plugins/com.sap.mp.cordova.plugins.corelibs\"",
+					"\"$(SRCROOT)/hclTestOffline/Plugins/com.sap.mp.cordova.plugins.corelibs\"",
+					"\"$(SRCROOT)/hclTestOffline/Plugins/com.sap.mp.cordova.plugins.corelibs\"",
+					"\"$(SRCROOT)/hclTestOffline/Plugins/com.sap.mp.cordova.plugins.corelibs\"",
+					"\"$(SRCROOT)/hclTestOffline/Plugins/com.sap.mp.cordova.plugins.authproxy\"",
+					"\"$(SRCROOT)/hclTestOffline/Plugins/com.sap.mp.cordova.plugins.logon\"",
+					"\"$(SRCROOT)/hclTestOffline/Plugins/com.sap.mp.cordova.plugins.logon\"",
+					"\"$(SRCROOT)/hclTestOffline/Plugins/com.sap.mp.cordova.plugins.logon\"",
+					"\"$(SRCROOT)/hclTestOffline/Plugins/com.sap.mp.cordova.plugins.odata\"",
+					"\"$(SRCROOT)/hclTestOffline/Plugins/com.sap.mp.cordova.plugins.odata\"",
+					"\"$(SRCROOT)/hclTestOffline/Plugins/com.sap.mp.cordova.plugins.odata\"",
+				);
+				OTHER_LDFLAGS = (
+					"-weak_framework",
+					CoreFoundation,
+					"-weak_framework",
+					UIKit,
+					"-weak_framework",
+					AVFoundation,
+					"-weak_framework",
+					CoreMedia,
+					"-weak-lSystem",
+					"-force_load",
+					"\"$(BUILT_PRODUCTS_DIR)/libCordova.a\"",
+					"-ObjC",
+				);
+				PRODUCT_NAME = hclTestOffline;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hclTestOffline/hclTestOffline-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "hclTestOffline/hclTestOffline-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/hclTestOffline/Plugins/com.sap.mp.cordova.plugins.corelibs\"",
+					"\"$(SRCROOT)/hclTestOffline/Plugins/com.sap.mp.cordova.plugins.corelibs\"",
+					"\"$(SRCROOT)/hclTestOffline/Plugins/com.sap.mp.cordova.plugins.corelibs\"",
+					"\"$(SRCROOT)/hclTestOffline/Plugins/com.sap.mp.cordova.plugins.corelibs\"",
+					"\"$(SRCROOT)/hclTestOffline/Plugins/com.sap.mp.cordova.plugins.corelibs\"",
+					"\"$(SRCROOT)/hclTestOffline/Plugins/com.sap.mp.cordova.plugins.corelibs\"",
+					"\"$(SRCROOT)/hclTestOffline/Plugins/com.sap.mp.cordova.plugins.corelibs\"",
+					"\"$(SRCROOT)/hclTestOffline/Plugins/com.sap.mp.cordova.plugins.corelibs\"",
+					"\"$(SRCROOT)/hclTestOffline/Plugins/com.sap.mp.cordova.plugins.corelibs\"",
+					"\"$(SRCROOT)/hclTestOffline/Plugins/com.sap.mp.cordova.plugins.corelibs\"",
+					"\"$(SRCROOT)/hclTestOffline/Plugins/com.sap.mp.cordova.plugins.corelibs\"",
+					"\"$(SRCROOT)/hclTestOffline/Plugins/com.sap.mp.cordova.plugins.corelibs\"",
+					"\"$(SRCROOT)/hclTestOffline/Plugins/com.sap.mp.cordova.plugins.corelibs\"",
+					"\"$(SRCROOT)/hclTestOffline/Plugins/com.sap.mp.cordova.plugins.corelibs\"",
+					"\"$(SRCROOT)/hclTestOffline/Plugins/com.sap.mp.cordova.plugins.corelibs\"",
+					"\"$(SRCROOT)/hclTestOffline/Plugins/com.sap.mp.cordova.plugins.corelibs\"",
+					"\"$(SRCROOT)/hclTestOffline/Plugins/com.sap.mp.cordova.plugins.authproxy\"",
+					"\"$(SRCROOT)/hclTestOffline/Plugins/com.sap.mp.cordova.plugins.logon\"",
+					"\"$(SRCROOT)/hclTestOffline/Plugins/com.sap.mp.cordova.plugins.logon\"",
+					"\"$(SRCROOT)/hclTestOffline/Plugins/com.sap.mp.cordova.plugins.logon\"",
+					"\"$(SRCROOT)/hclTestOffline/Plugins/com.sap.mp.cordova.plugins.odata\"",
+					"\"$(SRCROOT)/hclTestOffline/Plugins/com.sap.mp.cordova.plugins.odata\"",
+					"\"$(SRCROOT)/hclTestOffline/Plugins/com.sap.mp.cordova.plugins.odata\"",
+				);
+				OTHER_LDFLAGS = (
+					"-weak_framework",
+					CoreFoundation,
+					"-weak_framework",
+					UIKit,
+					"-weak_framework",
+					AVFoundation,
+					"-weak_framework",
+					CoreMedia,
+					"-weak-lSystem",
+					"-force_load",
+					"\"$(BUILT_PRODUCTS_DIR)/libCordova.a\"",
+					"-ObjC",
+				);
+				PRODUCT_NAME = hclTestOffline;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"$(TARGET_BUILD_DIR)/usr/local/lib/include\"",
+					"\"$(OBJROOT)/UninstalledProducts/include\"",
+					"\"$(BUILT_PRODUCTS_DIR)\"",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-weak_framework",
+					CoreFoundation,
+					"-weak_framework",
+					UIKit,
+					"-weak_framework",
+					AVFoundation,
+					"-weak_framework",
+					CoreMedia,
+					"-weak-lSystem",
+					"-force_load",
+					"\"$(BUILT_PRODUCTS_DIR)/libCordova.a\"",
+					"-ObjC",
+				);
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"$(TARGET_BUILD_DIR)/usr/local/lib/include\"",
+					"\"$(OBJROOT)/UninstalledProducts/include\"",
+					"\"$(BUILT_PRODUCTS_DIR)\"",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = (
+					"-weak_framework",
+					CoreFoundation,
+					"-weak_framework",
+					UIKit,
+					"-weak_framework",
+					AVFoundation,
+					"-weak_framework",
+					CoreMedia,
+					"-weak-lSystem",
+					"-force_load",
+					"\"$(BUILT_PRODUCTS_DIR)/libCordova.a\"",
+					"-ObjC",
+				);
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "hclTestOffline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "hclTestOffline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

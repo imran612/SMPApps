@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.slb.mobile" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <preference name="AllowInlineMediaPlayback" value="false" />
+    <preference name="AutoHideSplashScreen" value="true" />
+    <preference name="BackupWebStorage" value="cloud" />
+    <preference name="DisallowOverscroll" value="false" />
+    <preference name="EnableViewportScale" value="false" />
+    <preference name="FadeSplashScreen" value="true" />
+    <preference name="FadeSplashScreenDuration" value=".25" />
+    <preference name="KeyboardDisplayRequiresUserAction" value="true" />
+    <preference name="MediaPlaybackRequiresUserAction" value="false" />
+    <preference name="ShowSplashScreenSpinner" value="true" />
+    <preference name="SuppressesIncrementalRendering" value="false" />
+    <preference name="TopActivityIndicator" value="gray" />
+    <preference name="GapBetweenPages" value="0" />
+    <preference name="PageLength" value="0" />
+    <preference name="PaginationBreakingMode" value="page" />
+    <preference name="PaginationMode" value="unpaginated" />
+    <feature name="LocalStorage">
+        <param name="ios-package" value="CDVLocalStorage" />
+    </feature>
+    <feature name="Device">
+        <param name="ios-package" value="CDVDevice" />
+    </feature>
+    <feature name="InAppBrowser">
+        <param name="ios-package" value="CDVInAppBrowser" />
+    </feature>
+    <feature name="StatusBar">
+        <param name="ios-package" value="CDVStatusBar" />
+        <param name="onload" value="true" />
+    </feature>
+    <preference name="StatusBarOverlaysWebView" value="true" />
+    <feature name="AppConnectCordovaPlugin">
+        <param name="ios-package" value="AppConnectCordovaPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <plugin name="AppConnectCordovaPlugin" value="AppConnectCordovaPlugin" />
+    <feature name="NetworkStatus">
+        <param name="ios-package" value="CDVConnection" />
+    </feature>
+    <feature name="AuthProxy">
+        <param name="ios-package" value="SMPAuthProxyPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="MAFLogonCoreCDVPluginJS">
+        <param name="ios-package" value="MAFLogonCoreCDVPlugin" />
+    </feature>
+    <feature name="OData">
+        <param name="ios-package" value="SMPODataPlugin" />
+    </feature>
+    <name>EAMMobile</name>
+    <description>Enterprise Assest Management Mobile Application</description>
+    <author email="dev@sap.com" href="http://www.sap.com">SAP Product and Innovation</author>
+    <content src="index.html" />
+    <access origin="*" />
+    <preference name="sap-development-version" value="01.01.00" />
+    <preference name="hybridapprevision" value="1" />
+    <preference name="StatusBarOverlaysWebView" value="false" />
+    <preference name="StatusBarBackgroundColor" value="#000000" />
+    <preference name="StatusBarStyle" value="lightcontent" />
+    <preference name="SAPKapselHandleHttpRequests" value="true" />
+</widget>

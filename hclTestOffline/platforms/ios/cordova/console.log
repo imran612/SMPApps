@@ -1,0 +1,995 @@
+2015-05-06 15:30:31.530 hclTestOffline[99187:3088706] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/imrankhan/Library/Developer/CoreSimulator/Devices/EEEDFA71-D7A9-459F-9DDC-3BBBD5D345B9/data/Containers/Data/Application/03F5B100-AD78-4643-BEEC-9D314D3D7C8D/Library/Cookies/Cookies.binarycookies
+2015-05-06 15:30:31.565 hclTestOffline[99187:3088706] Apache Cordova native platform version 3.6.3 is starting.
+2015-05-06 15:30:31.565 hclTestOffline[99187:3088706] Multi-tasking -> Device: YES, App: YES
+2015-05-06 15:30:31.569 hclTestOffline[99187:3088706] Unlimited access to network resources
+2015-05-06 15:30:31.571 hclTestOffline[99187:3088706] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2015-05-06 15:30:31.637 hclTestOffline[99187:3088706] [group: com.sap.smp.client.ios] [artifact: Supportability] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-05-06 15:30:31.637 hclTestOffline[99187:3088706] [group: com.sap.smp.client.ios] [artifact: ClientLog] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-05-06 15:30:31.642 hclTestOffline[99187:3088706] [group: com.sap.smp.client.ios] [artifact: E2ETrace2] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-05-06 15:30:31.643 hclTestOffline[99187:3088706] CommonAuthenticationConfigurator isNSHTTPURLProtocolReplacementEnabled: 0
+2015-05-06 15:30:31.643 hclTestOffline[99187:3088706] [CDVTimer][authproxy] 7.393003ms
+2015-05-06 15:30:31.643 hclTestOffline[99187:3088706] [CDVTimer][TotalPluginStartup] 7.491052ms
+2015-05-06 15:30:31.825 hclTestOffline[99187:3088706] Resetting plugins due to page load.
+2015-05-06 15:30:31.994 hclTestOffline[99187:3088706] Finished load of: file:///Users/imrankhan/Library/Developer/CoreSimulator/Devices/EEEDFA71-D7A9-459F-9DDC-3BBBD5D345B9/data/Containers/Bundle/Application/7BF9DB78-22B2-475F-9C44-416858F4D9CF/hclTestOffline.app/www/index.html
+2015-05-06 15:30:40.970 hclTestOffline[99187:3088712] Terminating since there is no system app.
+2015-05-06 15:31:10.986 hclTestOffline[4331:3097189] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/imrankhan/Library/Developer/CoreSimulator/Devices/EEEDFA71-D7A9-459F-9DDC-3BBBD5D345B9/data/Containers/Data/Application/22FFB7F2-7160-4847-8B1F-9615A3838CB4/Library/Cookies/Cookies.binarycookies
+2015-05-06 15:31:11.026 hclTestOffline[4331:3097189] Apache Cordova native platform version 3.6.3 is starting.
+2015-05-06 15:31:11.027 hclTestOffline[4331:3097189] Multi-tasking -> Device: YES, App: YES
+2015-05-06 15:31:11.031 hclTestOffline[4331:3097189] Unlimited access to network resources
+2015-05-06 15:31:11.033 hclTestOffline[4331:3097189] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2015-05-06 15:31:11.094 hclTestOffline[4331:3097189] [group: com.sap.smp.client.ios] [artifact: Supportability] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-05-06 15:31:11.094 hclTestOffline[4331:3097189] [group: com.sap.smp.client.ios] [artifact: ClientLog] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-05-06 15:31:11.098 hclTestOffline[4331:3097189] [group: com.sap.smp.client.ios] [artifact: E2ETrace2] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-05-06 15:31:11.098 hclTestOffline[4331:3097189] CommonAuthenticationConfigurator isNSHTTPURLProtocolReplacementEnabled: 0
+2015-05-06 15:31:11.098 hclTestOffline[4331:3097189] [CDVTimer][authproxy] 4.047990ms
+2015-05-06 15:31:11.098 hclTestOffline[4331:3097189] [CDVTimer][TotalPluginStartup] 4.149020ms
+2015-05-06 15:31:11.119 hclTestOffline[4331:3097189] Resetting plugins due to page load.
+2015-05-06 15:31:11.273 hclTestOffline[4331:3097189] Finished load of: file:///Users/imrankhan/Library/Developer/CoreSimulator/Devices/EEEDFA71-D7A9-459F-9DDC-3BBBD5D345B9/data/Containers/Bundle/Application/FC9C6376-4136-44CD-A1EF-C329426B6DB8/hclTestOffline.app/www/index.html
+2015-05-06 15:32:42.675 hclTestOffline[9239:3110039] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/imrankhan/Library/Developer/CoreSimulator/Devices/EEEDFA71-D7A9-459F-9DDC-3BBBD5D345B9/data/Containers/Data/Application/3D59884B-1D03-4F2E-94F9-CC7BEA288B6B/Library/Cookies/Cookies.binarycookies
+2015-05-06 15:32:42.719 hclTestOffline[9239:3110039] Apache Cordova native platform version 3.6.3 is starting.
+2015-05-06 15:32:42.720 hclTestOffline[9239:3110039] Multi-tasking -> Device: YES, App: YES
+2015-05-06 15:32:42.726 hclTestOffline[9239:3110039] Unlimited access to network resources
+2015-05-06 15:32:42.729 hclTestOffline[9239:3110039] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2015-05-06 15:32:42.797 hclTestOffline[9239:3110039] [group: com.sap.smp.client.ios] [artifact: Supportability] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-05-06 15:32:42.797 hclTestOffline[9239:3110039] [group: com.sap.smp.client.ios] [artifact: ClientLog] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-05-06 15:32:42.801 hclTestOffline[9239:3110039] [group: com.sap.smp.client.ios] [artifact: E2ETrace2] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-05-06 15:32:42.801 hclTestOffline[9239:3110039] CommonAuthenticationConfigurator isNSHTTPURLProtocolReplacementEnabled: 0
+2015-05-06 15:32:42.801 hclTestOffline[9239:3110039] [CDVTimer][authproxy] 4.024982ms
+2015-05-06 15:32:42.801 hclTestOffline[9239:3110039] [CDVTimer][TotalPluginStartup] 4.124999ms
+2015-05-06 15:32:42.828 hclTestOffline[9239:3110039] Resetting plugins due to page load.
+2015-05-06 15:32:43.004 hclTestOffline[9239:3110039] Finished load of: file:///Users/imrankhan/Library/Developer/CoreSimulator/Devices/EEEDFA71-D7A9-459F-9DDC-3BBBD5D345B9/data/Containers/Bundle/Application/9A169151-C2D1-4CCC-9AA8-0D693D5404C5/hclTestOffline.app/www/index.html
+2015-05-06 15:34:42.190 hclTestOffline[14218:3126975] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/imrankhan/Library/Developer/CoreSimulator/Devices/EEEDFA71-D7A9-459F-9DDC-3BBBD5D345B9/data/Containers/Data/Application/910AB5C6-4D60-40B9-942D-495B8800C857/Library/Cookies/Cookies.binarycookies
+2015-05-06 15:34:42.232 hclTestOffline[14218:3126975] Apache Cordova native platform version 3.6.3 is starting.
+2015-05-06 15:34:42.232 hclTestOffline[14218:3126975] Multi-tasking -> Device: YES, App: YES
+2015-05-06 15:34:42.236 hclTestOffline[14218:3126975] Unlimited access to network resources
+2015-05-06 15:34:42.239 hclTestOffline[14218:3126975] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2015-05-06 15:34:42.299 hclTestOffline[14218:3126975] [group: com.sap.smp.client.ios] [artifact: Supportability] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-05-06 15:34:42.299 hclTestOffline[14218:3126975] [group: com.sap.smp.client.ios] [artifact: ClientLog] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-05-06 15:34:42.303 hclTestOffline[14218:3126975] [group: com.sap.smp.client.ios] [artifact: E2ETrace2] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-05-06 15:34:42.304 hclTestOffline[14218:3126975] CommonAuthenticationConfigurator isNSHTTPURLProtocolReplacementEnabled: 0
+2015-05-06 15:34:42.305 hclTestOffline[14218:3126975] [CDVTimer][authproxy] 7.025957ms
+2015-05-06 15:34:42.305 hclTestOffline[14218:3126975] [CDVTimer][TotalPluginStartup] 7.214010ms
+2015-05-06 15:34:42.484 hclTestOffline[14218:3126975] Resetting plugins due to page load.
+2015-05-06 15:34:42.627 hclTestOffline[14218:3126975] Finished load of: file:///Users/imrankhan/Library/Developer/CoreSimulator/Devices/EEEDFA71-D7A9-459F-9DDC-3BBBD5D345B9/data/Containers/Bundle/Application/D5A3FC27-D7F5-4B22-83C4-65FE65EA7AB7/hclTestOffline.app/www/index.html
+2015-05-06 15:35:08.551 hclTestOffline[19086:3134729] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/imrankhan/Library/Developer/CoreSimulator/Devices/EEEDFA71-D7A9-459F-9DDC-3BBBD5D345B9/data/Containers/Data/Application/AB384644-704E-4063-AFA3-58ED4FE1F6BE/Library/Cookies/Cookies.binarycookies
+2015-05-06 15:35:08.624 hclTestOffline[19086:3134729] Apache Cordova native platform version 3.6.3 is starting.
+2015-05-06 15:35:08.624 hclTestOffline[19086:3134729] Multi-tasking -> Device: YES, App: YES
+2015-05-06 15:35:08.628 hclTestOffline[19086:3134729] Unlimited access to network resources
+2015-05-06 15:35:08.630 hclTestOffline[19086:3134729] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2015-05-06 15:35:08.689 hclTestOffline[19086:3134729] [group: com.sap.smp.client.ios] [artifact: Supportability] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-05-06 15:35:08.689 hclTestOffline[19086:3134729] [group: com.sap.smp.client.ios] [artifact: ClientLog] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-05-06 15:35:08.692 hclTestOffline[19086:3134729] [group: com.sap.smp.client.ios] [artifact: E2ETrace2] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-05-06 15:35:08.693 hclTestOffline[19086:3134729] CommonAuthenticationConfigurator isNSHTTPURLProtocolReplacementEnabled: 0
+2015-05-06 15:35:08.693 hclTestOffline[19086:3134729] [CDVTimer][authproxy] 4.287004ms
+2015-05-06 15:35:08.693 hclTestOffline[19086:3134729] [CDVTimer][TotalPluginStartup] 4.383028ms
+2015-05-06 15:35:08.717 hclTestOffline[19086:3134729] Resetting plugins due to page load.
+2015-05-06 15:35:08.865 hclTestOffline[19086:3134729] Finished load of: file:///Users/imrankhan/Library/Developer/CoreSimulator/Devices/EEEDFA71-D7A9-459F-9DDC-3BBBD5D345B9/data/Containers/Bundle/Application/76DD6CD8-CD4D-40D5-A9AA-38569E17A7B1/hclTestOffline.app/www/index.html
+2015-05-06 15:35:21.267 hclTestOffline[19086:3134729] [group: com.sap.mobile.maf.tools.ios] [artifact: MAFLogger] [version: 1.207.0] [buildTime: 2015-02-24 23:55] [gitCommit: 0648677345ea49cb2688ed34b110338d0a15cf6b] [gitBranch: origin/fa/rel-1.207]
+2015-05-06 15:35:21.268 hclTestOffline[19086:3134729] [group: com.sap.smp.client.ios] [artifact: Logger] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-05-06 15:35:21.272 hclTestOffline[19086:3134729] [group: com.sap.smp.client.ios] [artifact: ClientHubSLL] [version: 3.7.0] [buildTime: 2015-02-23 22:49] [gitCommit: e7aa7076609783021fdedc87f29f65522d139dd1] [gitBranch: origin/fa/rel-3.7]
+2015-05-06 15:35:21.273 hclTestOffline[19086:3134729] ER:No URL Types configured.
+2015-05-06 15:35:21.274 hclTestOffline[19086:3134729] [group: com.sap.smp.client.ios] [artifact: Datavault] [version: 3.7.0] [buildTime: 2015-02-23 22:49] [gitCommit: e7aa7076609783021fdedc87f29f65522d139dd1] [gitBranch: origin/fa/rel-3.7]
+2015-05-06 15:35:21.300 hclTestOffline[19086:3134729] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '35.291748' ms. Plugin should use a background thread.
+2015-05-06 15:35:21.322 hclTestOffline[19086:3134729] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '15.565918' ms. Plugin should use a background thread.
+2015-05-06 15:35:21.370 hclTestOffline[19086:3134729] Setting the WebView's frame to {{0, 0}, {320, 436}}
+2015-05-06 15:35:21.371 hclTestOffline[19086:3134729] Setting the WebView's frame to {{0, 0}, {320, 480}}
+2015-05-06 15:35:21.376 hclTestOffline[19086:3134729] THREAD WARNING: ['InAppBrowser'] took '53.135986' ms. Plugin should use a background thread.
+2015-05-06 15:35:21.578 hclTestOffline[19086:3134729] THREAD WARNING: ['InAppBrowser'] took '97.157227' ms. Plugin should use a background thread.
+2015-05-06 15:35:41.573 hclTestOffline[19086:3140043] [group: com.sap.smp.client.ios] [artifact: CoreServices] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-05-06 15:35:41.573 hclTestOffline[19086:3140043] Initializing Client connection with ApplicationID : com.hcl.offline  Domain :  default  SecurityConfiguration:  (null)
+2015-05-06 15:35:41.574 hclTestOffline[19086:3140043] [group: com.sap.smp.client.ios] [artifact: Request] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-05-06 15:35:41.576 hclTestOffline[19086:3140043] Setting Client connection with Url:  http://us1455saps033.dir.slb.com:8080
+2015-05-06 15:35:41.577 hclTestOffline[19086:3140043] Clearing SMP server related session cookies
+2015-05-06 15:35:41.577 hclTestOffline[19086:3140043] Assigning the selectors
+2015-05-06 15:35:41.578 hclTestOffline[19086:3140043] Automatic Registration : Registering user ASYNCHRONOUSLY with user name : IMohammed6, security configuration : (null) 
+2015-05-06 15:35:41.578 hclTestOffline[19086:3140043] Starting asynchronous request <Request: 0x7a866400>{name = '(null)'}
+2015-05-06 15:35:41.579 hclTestOffline[19086:3140098] Registering reachability notifier for: us1455saps033.dir.slb.com
+2015-05-06 15:35:41.584 hclTestOffline[19086:3140098] UrlString:   http://us1455saps033.dir.slb.com:8080
+2015-05-06 15:35:41.584 hclTestOffline[19086:3140098] Unable to instantiate Cache... Delta Link and CSRF (Offline) handling not possible
+2015-05-06 15:35:41.586 hclTestOffline[19086:3140098] UrlString:   http://us1455saps033.dir.slb.com:8080
+2015-05-06 15:35:41.588 hclTestOffline[19086:3140098] Request handleNetworkEvent -> Unexpected stream event type received
+2015-05-06 15:35:41.588 hclTestOffline[19086:3140098] ===Used: 0 bytes of bandwidth in last measurement period===
+2015-05-06 15:35:41.692 hclTestOffline[19086:3140098] Request <Request: 0x7a866400>{name = '(null)'} finished downloading data (0 bytes)
+2015-05-06 15:35:41.692 hclTestOffline[19086:3140098] Got no keep-alive header, will keep this connection open for 60.000000 seconds
+2015-05-06 15:35:41.692 hclTestOffline[19086:3140098] Request #1 finished using connection #1
+2015-05-06 15:35:41.693 hclTestOffline[19086:3140098] UrlString:   http://us1455saps033.dir.slb.com:8080
+2015-05-06 15:35:41.693 hclTestOffline[19086:3140098] Request handleNetworkEvent -> Unexpected stream event type received
+2015-05-06 15:35:42.695 hclTestOffline[19086:3140098] ===Used: 65536 bytes of bandwidth in last measurement period===
+2015-05-06 15:35:43.696 hclTestOffline[19086:3140098] ===Used: 0 bytes of bandwidth in last measurement period===
+2015-05-06 15:35:43.962 hclTestOffline[19086:3140098] Got no keep-alive header, will keep this connection open for 60.000000 seconds
+2015-05-06 15:35:43.963 hclTestOffline[19086:3140098] Request <Request: 0x7a866400>{name = '(null)'} finished downloading data (1220 bytes)
+2015-05-06 15:35:43.963 hclTestOffline[19086:3140098] Request #1 finished using connection #1
+2015-05-06 15:35:43.963 hclTestOffline[19086:3140098] Request finished: <Request: 0x7a866400>{name = '(null)'}
+2015-05-06 15:35:43.963 hclTestOffline[19086:3134729] Registration request finished...
+2015-05-06 15:35:43.963 hclTestOffline[19086:3134729] Parsing started
+2015-05-06 15:35:43.963 hclTestOffline[19086:3134729] Found an element named: id with a value of: (null)
+2015-05-06 15:35:43.964 hclTestOffline[19086:3134729] Found an element named: title with a value of: (null)
+2015-05-06 15:35:43.964 hclTestOffline[19086:3134729] Found an element named: updated with a value of: (null)
+2015-05-06 15:35:43.964 hclTestOffline[19086:3134729] Found an element named: name with a value of: (null)
+2015-05-06 15:35:43.964 hclTestOffline[19086:3134729] Found an element named: author with a value of: (null)
+2015-05-06 15:35:43.964 hclTestOffline[19086:3134729] Found an element named: link with a value of: (null)
+2015-05-06 15:35:43.964 hclTestOffline[19086:3134729] Found an element named: category with a value of: (null)
+2015-05-06 15:35:43.964 hclTestOffline[19086:3134729] Found an element named: d:ETag with a value of: 2015-05-06 20:35:43.0
+2015-05-06 15:35:43.964 hclTestOffline[19086:3134729] Found an element named: d:ApplicationConnectionId with a value of: f674dba5-9827-43c2-b84e-0bbc00788fd4
+2015-05-06 15:35:43.964 hclTestOffline[19086:3134729] Found an element named: d:AndroidGcmPushEnabled with a value of: false
+2015-05-06 15:35:43.964 hclTestOffline[19086:3134729] Found an element named: d:AndroidGcmRegistrationId with a value of: 
+2015-05-06 15:35:43.964 hclTestOffline[19086:3134729] Found an element named: d:AndroidGcmSenderId with a value of: 
+2015-05-06 15:35:43.964 hclTestOffline[19086:3134729] Found an element named: d:ApnsPushEnable with a value of: false
+2015-05-06 15:35:43.964 hclTestOffline[19086:3134729] Found an element named: d:ApnsDeviceToken with a value of: 
+2015-05-06 15:35:43.965 hclTestOffline[19086:3134729] Found an element named: d:ApplicationVersion with a value of: 1.0
+2015-05-06 15:35:43.965 hclTestOffline[19086:3134729] Found an element named: d:BlackberryPushEnabled with a value of: false
+2015-05-06 15:35:43.965 hclTestOffline[19086:3134729] Found an element named: d:BlackberryDevicePin with a value of: 
+2015-05-06 15:35:43.965 hclTestOffline[19086:3134729] Found an element named: d:BlackberryBESListenerPort with a value of: 0
+2015-05-06 15:35:43.965 hclTestOffline[19086:3134729] Found an element named: d:BlackberryPushAppID with a value of: 
+2015-05-06 15:35:43.965 hclTestOffline[19086:3134729] Found an element named: d:BlackberryPushBaseURL with a value of: 
+2015-05-06 15:35:43.965 hclTestOffline[19086:3134729] Found an element named: d:BlackberryPushListenerPort with a value of: 0
+2015-05-06 15:35:43.965 hclTestOffline[19086:3134729] Found an element named: d:BlackberryListenerType with a value of: 0
+2015-05-06 15:35:43.965 hclTestOffline[19086:3134729] Found an element named: d:CollectClientUsageReports with a value of: false
+2015-05-06 15:35:43.965 hclTestOffline[19086:3134729] Found an element named: d:ConnectionLogLevel with a value of: NONE
+2015-05-06 15:35:43.965 hclTestOffline[19086:3134729] Found an element named: d:CustomizationBundleId with a value of: 
+2015-05-06 15:35:43.965 hclTestOffline[19086:3134729] Found an element named: d:CustomCustom1 with a value of: 
+2015-05-06 15:35:43.965 hclTestOffline[19086:3134729] Found an element named: d:CustomCustom2 with a value of: 
+2015-05-06 15:35:43.965 hclTestOffline[19086:3134729] Found an element named: d:CustomCustom3 with a value of: 
+2015-05-06 15:35:43.966 hclTestOffline[19086:3134729] Found an element named: d:CustomCustom4 with a value of: 
+2015-05-06 15:35:43.966 hclTestOffline[19086:3134729] Found an element named: d:DeviceModel with a value of: 
+2015-05-06 15:35:43.966 hclTestOffline[19086:3134729] Found an element named: d:DeviceType with a value of: iPhone
+2015-05-06 15:35:43.966 hclTestOffline[19086:3134729] Found an element named: d:DeviceSubType with a value of: 
+2015-05-06 15:35:43.966 hclTestOffline[19086:3134729] Found an element named: d:DevicePhoneNumber with a value of: 
+2015-05-06 15:35:43.966 hclTestOffline[19086:3134729] Found an element named: d:DeviceIMSI with a value of: 
+2015-05-06 15:35:43.966 hclTestOffline[19086:3134729] Found an element named: d:E2ETraceLevel with a value of: Low
+2015-05-06 15:35:43.966 hclTestOffline[19086:3134729] Found an element named: d:EnableAppSpecificClientUsageKeys with a value of: false
+2015-05-06 15:35:43.966 hclTestOffline[19086:3134729] Found an element named: d:FeatureVectorPolicyAllEnabled with a value of: false
+2015-05-06 15:35:43.966 hclTestOffline[19086:3134729] Found an element named: d:LogEntryExpiry with a value of: 7
+2015-05-06 15:35:43.966 hclTestOffline[19086:3134729] Found an element named: d:MaxConnectionWaitTimeForClientUsage with a value of: false
+2015-05-06 15:35:43.966 hclTestOffline[19086:3134729] Found an element named: d:MpnsChannelURI with a value of: 
+2015-05-06 15:35:43.966 hclTestOffline[19086:3134729] Found an element named: d:MpnsPushEnable with a value of: false
+2015-05-06 15:35:43.967 hclTestOffline[19086:3134729] Found an element named: d:PasswordPolicyEnabled with a value of: false
+2015-05-06 15:35:43.967 hclTestOffline[19086:3134729] Found an element named: d:PasswordPolicyDefaultPasswordAllowed with a value of: false
+2015-05-06 15:35:43.967 hclTestOffline[19086:3134729] Found an element named: d:PasswordPolicyMinLength with a value of: 8
+2015-05-06 15:35:43.967 hclTestOffline[19086:3134729] Found an element named: d:PasswordPolicyDigitRequired with a value of: false
+2015-05-06 15:35:43.967 hclTestOffline[19086:3134729] Found an element named: d:PasswordPolicyUpperRequired with a value of: false
+2015-05-06 15:35:43.967 hclTestOffline[19086:3134729] Found an element named: d:PasswordPolicyLowerRequired with a value of: false
+2015-05-06 15:35:43.967 hclTestOffline[19086:3134729] Found an element named: d:PasswordPolicySpecialRequired with a value of: false
+2015-05-06 15:35:43.967 hclTestOffline[19086:3134729] Found an element named: d:PasswordPolicyExpiresInNDays with a value of: 0
+2015-05-06 15:35:43.967 hclTestOffline[19086:3134729] Found an element named: d:PasswordPolicyMinUniqueChars with a value of: 0
+2015-05-06 15:35:43.967 hclTestOffline[19086:3134729] Found an element named: d:PasswordPolicyLockTimeout with a value of: 0
+2015-05-06 15:35:43.967 hclTestOffline[19086:3134729] Found an element named: d:PasswordPolicyRetryLimit with a value of: 20
+2015-05-06 15:35:43.967 hclTestOffline[19086:3134729] Found an element named: d:ProxyApplicationEndpoint with a value of: http://sapf1sdi10.dir.slb.com:8010/sap/opu/odata/sap/Z_PLANT_DEMO_SRV/
+2015-05-06 15:35:43.967 hclTestOffline[19086:3134729] Found an element named: d:ProxyPushEndpoint with a value of: http://us1455saps033.DIR.slb.com:8080/Notification
+2015-05-06 15:35:43.968 hclTestOffline[19086:3134729] Found an element named: d:PublishedToMobilePlace with a value of: false
+2015-05-06 15:35:43.968 hclTestOffline[19086:3134729] Found an element named: d:UploadLogs with a value of: false
+2015-05-06 15:35:43.968 hclTestOffline[19086:3134729] Found an element named: d:WnsChannelURI with a value of: 
+2015-05-06 15:35:43.968 hclTestOffline[19086:3134729] Found an element named: d:WnsPushEnable with a value of: false
+2015-05-06 15:35:43.968 hclTestOffline[19086:3134729] Found an element named: d:FeatureVectorPolicy with a value of: 
+2015-05-06 15:35:43.968 hclTestOffline[19086:3134729] Found an element named: m:properties with a value of: 
+2015-05-06 15:35:43.968 hclTestOffline[19086:3134729] Found an element named: content with a value of: 
+2015-05-06 15:35:43.968 hclTestOffline[19086:3134729] Found an element named: entry with a value of: 
+2015-05-06 15:35:43.968 hclTestOffline[19086:3134729] Parsing ended --> {
+    "d:AndroidGcmPushEnabled" = false;
+    "d:AndroidGcmRegistrationId" = "";
+    "d:AndroidGcmSenderId" = "";
+    "d:ApnsDeviceToken" = "";
+    "d:ApnsPushEnable" = false;
+    "d:ApplicationConnectionId" = "f674dba5-9827-43c2-b84e-0bbc00788fd4";
+    "d:ApplicationVersion" = "1.0";
+    "d:BlackberryBESListenerPort" = 0;
+    "d:BlackberryDevicePin" = "";
+    "d:BlackberryListenerType" = 0;
+    "d:BlackberryPushAppID" = "";
+    "d:BlackberryPushBaseURL" = "";
+    "d:BlackberryPushEnabled" = false;
+    "d:BlackberryPushListenerPort" = 0;
+    "d:CollectClientUsageReports" = false;
+    "d:ConnectionLogLevel" = NONE;
+    "d:CustomCustom1" = "";
+    "d:CustomCustom2" = "";
+    "d:CustomCustom3" = "";
+    "d:CustomCustom4" = "";
+    "d:CustomizationBundleId" = "";
+    "d:DeviceIMSI" = "";
+    "d:DeviceModel" = "";
+    "d:DevicePhoneNumber" = "";
+    "d:DeviceSubType" = "";
+    "d:DeviceType" = iPhone;
+    "d:E2ETraceLevel" = Low;
+    "d:ETag" = "2015-05-06 20:35:43.0";
+    "d:EnableAppSpecificClientUsageKeys" = false;
+    "d:FeatureVectorPolicy" = "";
+    "d:FeatureVectorPolicyAllEnabled" = false;
+    "d:LogEntryExpiry" = 7;
+    "d:MaxConnectionWaitTimeForClientUsage" = false;
+    "d:MpnsChannelURI" = "";
+    "d:MpnsPushEnable" = false;
+    "d:PasswordPolicyDefaultPasswordAllowed" = false;
+    "d:PasswordPolicyDigitRequired" = false;
+    "d:PasswordPolicyEnabled" = false;
+    "d:PasswordPolicyExpiresInNDays" = 0;
+    "d:PasswordPolicyLockTimeout" = 0;
+    "d:PasswordPolicyLowerRequired" = false;
+    "d:PasswordPolicyMinLength" = 8;
+    "d:PasswordPolicyMinUniqueChars" = 0;
+    "d:PasswordPolicyRetryLimit" = 20;
+    "d:PasswordPolicySpecialRequired" = false;
+    "d:PasswordPolicyUpperRequired" = false;
+    "d:ProxyApplicationEndpoint" = "http://sapf1sdi10.dir.slb.com:8010/sap/opu/odata/sap/Z_PLANT_DEMO_SRV/";
+    "d:ProxyPushEndpoint" = "http://us1455saps033.DIR.slb.com:8080/Notification";
+    "d:PublishedToMobilePlace" = false;
+    "d:UploadLogs" = false;
+    "d:WnsChannelURI" = "";
+    "d:WnsPushEnable" = false;
+}
+2015-05-06 15:35:43.969 hclTestOffline[19086:3134729] urlString:   http://us1455saps033.dir.slb.com:8080
+2015-05-06 15:35:43.969 hclTestOffline[19086:3134729] Request String:  http://us1455saps033.dir.slb.com:8080/odata/applications/v1/com.hcl.offline/Connections('f674dba5-9827-43c2-b84e-0bbc00788fd4')
+2015-05-06 15:35:43.969 hclTestOffline[19086:3134729] Starting synchronous request <Request: 0x7a8c7000>{name = '(null)'}
+2015-05-06 15:35:43.969 hclTestOffline[19086:3134729] UrlString:   http://us1455saps033.dir.slb.com:8080
+2015-05-06 15:35:43.970 hclTestOffline[19086:3134729] Unable to instantiate Cache... Delta Link and CSRF (Offline) handling not possible
+2015-05-06 15:35:43.970 hclTestOffline[19086:3134729] UrlString:   http://us1455saps033.dir.slb.com:8080
+2015-05-06 15:35:43.971 hclTestOffline[19086:3134729] Request handleNetworkEvent -> Unexpected stream event type received
+2015-05-06 15:35:44.201 hclTestOffline[19086:3134729] Got no keep-alive header, will keep this connection open for 60.000000 seconds
+2015-05-06 15:35:44.201 hclTestOffline[19086:3134729] Request <Request: 0x7a8c7000>{name = '(null)'} finished downloading data (1221 bytes)
+2015-05-06 15:35:44.201 hclTestOffline[19086:3134729] Request #2 finished using connection #1
+2015-05-06 15:35:44.201 hclTestOffline[19086:3134729] Request finished: <Request: 0x7a8c7000>{name = '(null)'}
+2015-05-06 15:35:44.202 hclTestOffline[19086:3134729] Response Code: 200
+2015-05-06 15:35:44.202 hclTestOffline[19086:3134729] Parsing started
+2015-05-06 15:35:44.202 hclTestOffline[19086:3134729] Found an element named: id with a value of: (null)
+2015-05-06 15:35:44.202 hclTestOffline[19086:3134729] Found an element named: title with a value of: (null)
+2015-05-06 15:35:44.202 hclTestOffline[19086:3134729] Found an element named: updated with a value of: (null)
+2015-05-06 15:35:44.202 hclTestOffline[19086:3134729] Found an element named: name with a value of: (null)
+2015-05-06 15:35:44.202 hclTestOffline[19086:3134729] Found an element named: author with a value of: (null)
+2015-05-06 15:35:44.202 hclTestOffline[19086:3134729] Found an element named: link with a value of: (null)
+2015-05-06 15:35:44.203 hclTestOffline[19086:3134729] Found an element named: category with a value of: (null)
+2015-05-06 15:35:44.203 hclTestOffline[19086:3134729] Found an element named: d:ETag with a value of: 2015-05-06 20:35:43.0
+2015-05-06 15:35:44.203 hclTestOffline[19086:3134729] Found an element named: d:ApplicationConnectionId with a value of: f674dba5-9827-43c2-b84e-0bbc00788fd4
+2015-05-06 15:35:44.203 hclTestOffline[19086:3134729] Found an element named: d:AndroidGcmPushEnabled with a value of: false
+2015-05-06 15:35:44.203 hclTestOffline[19086:3134729] Found an element named: d:AndroidGcmRegistrationId with a value of: 
+2015-05-06 15:35:44.203 hclTestOffline[19086:3134729] Found an element named: d:AndroidGcmSenderId with a value of: 
+2015-05-06 15:35:44.203 hclTestOffline[19086:3134729] Found an element named: d:ApnsPushEnable with a value of: false
+2015-05-06 15:35:44.203 hclTestOffline[19086:3134729] Found an element named: d:ApnsDeviceToken with a value of: 
+2015-05-06 15:35:44.203 hclTestOffline[19086:3134729] Found an element named: d:ApplicationVersion with a value of: 1.0
+2015-05-06 15:35:44.203 hclTestOffline[19086:3134729] Found an element named: d:BlackberryPushEnabled with a value of: false
+2015-05-06 15:35:44.203 hclTestOffline[19086:3134729] Found an element named: d:BlackberryDevicePin with a value of: 
+2015-05-06 15:35:44.204 hclTestOffline[19086:3134729] Found an element named: d:BlackberryBESListenerPort with a value of: 0
+2015-05-06 15:35:44.204 hclTestOffline[19086:3134729] Found an element named: d:BlackberryPushAppID with a value of: 
+2015-05-06 15:35:44.204 hclTestOffline[19086:3134729] Found an element named: d:BlackberryPushBaseURL with a value of: 
+2015-05-06 15:35:44.204 hclTestOffline[19086:3134729] Found an element named: d:BlackberryPushListenerPort with a value of: 0
+2015-05-06 15:35:44.204 hclTestOffline[19086:3134729] Found an element named: d:BlackberryListenerType with a value of: 0
+2015-05-06 15:35:44.204 hclTestOffline[19086:3134729] Found an element named: d:CollectClientUsageReports with a value of: false
+2015-05-06 15:35:44.204 hclTestOffline[19086:3134729] Found an element named: d:ConnectionLogLevel with a value of: NONE
+2015-05-06 15:35:44.204 hclTestOffline[19086:3134729] Found an element named: d:CustomizationBundleId with a value of: 
+2015-05-06 15:35:44.204 hclTestOffline[19086:3134729] Found an element named: d:CustomCustom1 with a value of: 
+2015-05-06 15:35:44.204 hclTestOffline[19086:3134729] Found an element named: d:CustomCustom2 with a value of: 
+2015-05-06 15:35:44.205 hclTestOffline[19086:3134729] Found an element named: d:CustomCustom3 with a value of: 
+2015-05-06 15:35:44.205 hclTestOffline[19086:3134729] Found an element named: d:CustomCustom4 with a value of: 
+2015-05-06 15:35:44.205 hclTestOffline[19086:3134729] Found an element named: d:DeviceModel with a value of: 
+2015-05-06 15:35:44.205 hclTestOffline[19086:3134729] Found an element named: d:DeviceType with a value of: iPhone
+2015-05-06 15:35:44.205 hclTestOffline[19086:3134729] Found an element named: d:DeviceSubType with a value of: 
+2015-05-06 15:35:44.205 hclTestOffline[19086:3134729] Found an element named: d:DevicePhoneNumber with a value of: 
+2015-05-06 15:35:44.205 hclTestOffline[19086:3134729] Found an element named: d:DeviceIMSI with a value of: 
+2015-05-06 15:35:44.205 hclTestOffline[19086:3134729] Found an element named: d:E2ETraceLevel with a value of: Low
+2015-05-06 15:35:44.205 hclTestOffline[19086:3134729] Found an element named: d:EnableAppSpecificClientUsageKeys with a value of: false
+2015-05-06 15:35:44.205 hclTestOffline[19086:3134729] Found an element named: d:FeatureVectorPolicyAllEnabled with a value of: false
+2015-05-06 15:35:44.205 hclTestOffline[19086:3134729] Found an element named: d:LogEntryExpiry with a value of: 7
+2015-05-06 15:35:44.205 hclTestOffline[19086:3134729] Found an element named: d:MaxConnectionWaitTimeForClientUsage with a value of: false
+2015-05-06 15:35:44.206 hclTestOffline[19086:3134729] Found an element named: d:MpnsChannelURI with a value of: 
+2015-05-06 15:35:44.206 hclTestOffline[19086:3134729] Found an element named: d:MpnsPushEnable with a value of: false
+2015-05-06 15:35:44.206 hclTestOffline[19086:3134729] Found an element named: d:PasswordPolicyEnabled with a value of: false
+2015-05-06 15:35:44.206 hclTestOffline[19086:3134729] Found an element named: d:PasswordPolicyDefaultPasswordAllowed with a value of: false
+2015-05-06 15:35:44.206 hclTestOffline[19086:3134729] Found an element named: d:PasswordPolicyMinLength with a value of: 8
+2015-05-06 15:35:44.206 hclTestOffline[19086:3134729] Found an element named: d:PasswordPolicyDigitRequired with a value of: false
+2015-05-06 15:35:44.206 hclTestOffline[19086:3134729] Found an element named: d:PasswordPolicyUpperRequired with a value of: false
+2015-05-06 15:35:44.206 hclTestOffline[19086:3134729] Found an element named: d:PasswordPolicyLowerRequired with a value of: false
+2015-05-06 15:35:44.206 hclTestOffline[19086:3134729] Found an element named: d:PasswordPolicySpecialRequired with a value of: false
+2015-05-06 15:35:44.206 hclTestOffline[19086:3134729] Found an element named: d:PasswordPolicyExpiresInNDays with a value of: 0
+2015-05-06 15:35:44.206 hclTestOffline[19086:3134729] Found an element named: d:PasswordPolicyMinUniqueChars with a value of: 0
+2015-05-06 15:35:44.207 hclTestOffline[19086:3134729] Found an element named: d:PasswordPolicyLockTimeout with a value of: 0
+2015-05-06 15:35:44.207 hclTestOffline[19086:3134729] Found an element named: d:PasswordPolicyRetryLimit with a value of: 20
+2015-05-06 15:35:44.207 hclTestOffline[19086:3134729] Found an element named: d:ProxyApplicationEndpoint with a value of: http://sapf1sdi10.dir.slb.com:8010/sap/opu/odata/sap/Z_PLANT_DEMO_SRV/
+2015-05-06 15:35:44.207 hclTestOffline[19086:3134729] Found an element named: d:ProxyPushEndpoint with a value of: http://us1455saps033.DIR.slb.com:8080/Notification
+2015-05-06 15:35:44.207 hclTestOffline[19086:3134729] Found an element named: d:PublishedToMobilePlace with a value of: false
+2015-05-06 15:35:44.207 hclTestOffline[19086:3134729] Found an element named: d:UploadLogs with a value of: false
+2015-05-06 15:35:44.207 hclTestOffline[19086:3134729] Found an element named: d:WnsChannelURI with a value of: 
+2015-05-06 15:35:44.207 hclTestOffline[19086:3134729] Found an element named: d:WnsPushEnable with a value of: false
+2015-05-06 15:35:44.207 hclTestOffline[19086:3134729] Found an element named: d:FeatureVectorPolicy with a value of: 
+2015-05-06 15:35:44.207 hclTestOffline[19086:3134729] Found an element named: m:properties with a value of: 
+2015-05-06 15:35:44.207 hclTestOffline[19086:3134729] Found an element named: content with a value of: 
+2015-05-06 15:35:44.207 hclTestOffline[19086:3134729] Found an element named: entry with a value of: 
+2015-05-06 15:35:44.208 hclTestOffline[19086:3134729] Parsing ended --> {
+    "d:AndroidGcmPushEnabled" = false;
+    "d:AndroidGcmRegistrationId" = "";
+    "d:AndroidGcmSenderId" = "";
+    "d:ApnsDeviceToken" = "";
+    "d:ApnsPushEnable" = false;
+    "d:ApplicationConnectionId" = "f674dba5-9827-43c2-b84e-0bbc00788fd4";
+    "d:ApplicationVersion" = "1.0";
+    "d:BlackberryBESListenerPort" = 0;
+    "d:BlackberryDevicePin" = "";
+    "d:BlackberryListenerType" = 0;
+    "d:BlackberryPushAppID" = "";
+    "d:BlackberryPushBaseURL" = "";
+    "d:BlackberryPushEnabled" = false;
+    "d:BlackberryPushListenerPort" = 0;
+    "d:CollectClientUsageReports" = false;
+    "d:ConnectionLogLevel" = NONE;
+    "d:CustomCustom1" = "";
+    "d:CustomCustom2" = "";
+    "d:CustomCustom3" = "";
+    "d:CustomCustom4" = "";
+    "d:CustomizationBundleId" = "";
+    "d:DeviceIMSI" = "";
+    "d:DeviceModel" = "";
+    "d:DevicePhoneNumber" = "";
+    "d:DeviceSubType" = "";
+    "d:DeviceType" = iPhone;
+    "d:E2ETraceLevel" = Low;
+    "d:ETag" = "2015-05-06 20:35:43.0";
+    "d:EnableAppSpecificClientUsageKeys" = false;
+    "d:FeatureVectorPolicy" = "";
+    "d:FeatureVectorPolicyAllEnabled" = false;
+    "d:LogEntryExpiry" = 7;
+    "d:MaxConnectionWaitTimeForClientUsage" = false;
+    "d:MpnsChannelURI" = "";
+    "d:MpnsPushEnable" = false;
+    "d:PasswordPolicyDefaultPasswordAllowed" = false;
+    "d:PasswordPolicyDigitRequired" = false;
+    "d:PasswordPolicyEnabled" = false;
+    "d:PasswordPolicyExpiresInNDays" = 0;
+    "d:PasswordPolicyLockTimeout" = 0;
+    "d:PasswordPolicyLowerRequired" = false;
+    "d:PasswordPolicyMinLength" = 8;
+    "d:PasswordPolicyMinUniqueChars" = 0;
+    "d:PasswordPolicyRetryLimit" = 20;
+    "d:PasswordPolicySpecialRequired" = false;
+    "d:PasswordPolicyUpperRequired" = false;
+    "d:ProxyApplicationEndpoint" = "http://sapf1sdi10.dir.slb.com:8010/sap/opu/odata/sap/Z_PLANT_DEMO_SRV/";
+    "d:ProxyPushEndpoint" = "http://us1455saps033.DIR.slb.com:8080/Notification";
+    "d:PublishedToMobilePlace" = false;
+    "d:UploadLogs" = false;
+    "d:WnsChannelURI" = "";
+    "d:WnsPushEnable" = false;
+}
+2015-05-06 15:40:33.171 hclTestOffline[23985:3176606] Apache Cordova native platform version 3.6.3 is starting.
+2015-05-06 15:40:33.172 hclTestOffline[23985:3176606] Multi-tasking -> Device: YES, App: YES
+2015-05-06 15:40:33.176 hclTestOffline[23985:3176606] Unlimited access to network resources
+2015-05-06 15:40:33.177 hclTestOffline[23985:3176606] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2015-05-06 15:40:33.236 hclTestOffline[23985:3176606] [group: com.sap.smp.client.ios] [artifact: Supportability] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-05-06 15:40:33.236 hclTestOffline[23985:3176606] [group: com.sap.smp.client.ios] [artifact: ClientLog] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-05-06 15:40:33.239 hclTestOffline[23985:3176606] [group: com.sap.smp.client.ios] [artifact: E2ETrace2] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-05-06 15:40:33.240 hclTestOffline[23985:3176606] CommonAuthenticationConfigurator isNSHTTPURLProtocolReplacementEnabled: 0
+2015-05-06 15:40:33.240 hclTestOffline[23985:3176606] [CDVTimer][authproxy] 4.104018ms
+2015-05-06 15:40:33.240 hclTestOffline[23985:3176606] [CDVTimer][TotalPluginStartup] 4.200995ms
+2015-05-06 15:40:33.262 hclTestOffline[23985:3176606] Resetting plugins due to page load.
+2015-05-06 15:40:33.404 hclTestOffline[23985:3176606] Finished load of: file:///Users/imrankhan/Library/Developer/CoreSimulator/Devices/EEEDFA71-D7A9-459F-9DDC-3BBBD5D345B9/data/Containers/Bundle/Application/2786C699-E62F-4978-BBDA-2C1AFC599655/hclTestOffline.app/www/index.html
+2015-05-06 15:40:42.592 hclTestOffline[23985:3176606] [group: com.sap.mobile.maf.tools.ios] [artifact: MAFLogger] [version: 1.207.0] [buildTime: 2015-02-24 23:55] [gitCommit: 0648677345ea49cb2688ed34b110338d0a15cf6b] [gitBranch: origin/fa/rel-1.207]
+2015-05-06 15:40:42.592 hclTestOffline[23985:3176606] [group: com.sap.smp.client.ios] [artifact: Logger] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-05-06 15:40:42.594 hclTestOffline[23985:3176606] [group: com.sap.smp.client.ios] [artifact: ClientHubSLL] [version: 3.7.0] [buildTime: 2015-02-23 22:49] [gitCommit: e7aa7076609783021fdedc87f29f65522d139dd1] [gitBranch: origin/fa/rel-3.7]
+2015-05-06 15:40:42.595 hclTestOffline[23985:3176606] ER:No URL Types configured.
+2015-05-06 15:40:42.596 hclTestOffline[23985:3176606] [group: com.sap.smp.client.ios] [artifact: Datavault] [version: 3.7.0] [buildTime: 2015-02-23 22:49] [gitCommit: e7aa7076609783021fdedc87f29f65522d139dd1] [gitBranch: origin/fa/rel-3.7]
+2015-05-06 15:40:42.634 hclTestOffline[23985:3176606] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '42.988037' ms. Plugin should use a background thread.
+2015-05-06 15:40:42.656 hclTestOffline[23985:3176606] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '15.347900' ms. Plugin should use a background thread.
+2015-05-06 15:40:42.709 hclTestOffline[23985:3176606] Setting the WebView's frame to {{0, 0}, {320, 436}}
+2015-05-06 15:40:42.709 hclTestOffline[23985:3176606] Setting the WebView's frame to {{0, 0}, {320, 480}}
+2015-05-06 15:40:42.714 hclTestOffline[23985:3176606] THREAD WARNING: ['InAppBrowser'] took '57.593018' ms. Plugin should use a background thread.
+2015-05-06 15:40:42.714 hclTestOffline[23985:3176606] -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7af3b960
+2015-05-06 15:40:42.714 hclTestOffline[23985:3176606] *** WebKit discarded an uncaught exception in the webView:willRemoveScrollingLayer:withContentsLayer:forNode: delegate: <NSInvalidArgumentException> -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7af3b960
+2015-05-06 15:40:43.003 hclTestOffline[23985:3176606] THREAD WARNING: ['InAppBrowser'] took '95.070312' ms. Plugin should use a background thread.
+2015-05-06 15:40:49.499 hclTestOffline[23985:3176608] [group: com.sap.smp.client.ios] [artifact: CoreServices] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-05-06 15:40:49.499 hclTestOffline[23985:3176608] Initializing Client connection with ApplicationID : com.hcl.offline  Domain :  default  SecurityConfiguration:  (null)
+2015-05-06 15:40:49.500 hclTestOffline[23985:3176608] [group: com.sap.smp.client.ios] [artifact: Request] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-05-06 15:40:49.501 hclTestOffline[23985:3176608] Setting Client connection with Url:  http://us1455saps033.dir.slb.com:8080
+2015-05-06 15:40:49.502 hclTestOffline[23985:3176608] Clearing SMP server related session cookies
+2015-05-06 15:40:49.502 hclTestOffline[23985:3176608] Assigning the selectors
+2015-05-06 15:40:49.503 hclTestOffline[23985:3176608] Automatic Registration : Registering user ASYNCHRONOUSLY with user name : IMohammed6, security configuration : (null) 
+2015-05-06 15:40:49.503 hclTestOffline[23985:3176608] Starting asynchronous request <Request: 0x7d300e00>{name = '(null)'}
+2015-05-06 15:40:49.503 hclTestOffline[23985:3178917] Registering reachability notifier for: us1455saps033.dir.slb.com
+2015-05-06 15:40:49.504 hclTestOffline[23985:3178917] UrlString:   http://us1455saps033.dir.slb.com:8080
+2015-05-06 15:40:49.505 hclTestOffline[23985:3178917] Unable to instantiate Cache... Delta Link and CSRF (Offline) handling not possible
+2015-05-06 15:40:49.506 hclTestOffline[23985:3178917] UrlString:   http://us1455saps033.dir.slb.com:8080
+2015-05-06 15:40:49.507 hclTestOffline[23985:3178917] Request handleNetworkEvent -> Unexpected stream event type received
+2015-05-06 15:40:49.507 hclTestOffline[23985:3178917] ===Used: 0 bytes of bandwidth in last measurement period===
+2015-05-06 15:40:49.629 hclTestOffline[23985:3178917] Request <Request: 0x7d300e00>{name = '(null)'} finished downloading data (0 bytes)
+2015-05-06 15:40:49.629 hclTestOffline[23985:3178917] Got no keep-alive header, will keep this connection open for 60.000000 seconds
+2015-05-06 15:40:49.629 hclTestOffline[23985:3178917] Request #1 finished using connection #1
+2015-05-06 15:40:49.630 hclTestOffline[23985:3178917] UrlString:   http://us1455saps033.dir.slb.com:8080
+2015-05-06 15:40:49.630 hclTestOffline[23985:3178917] Request handleNetworkEvent -> Unexpected stream event type received
+2015-05-06 15:40:50.635 hclTestOffline[23985:3178917] ===Used: 65536 bytes of bandwidth in last measurement period===
+2015-05-06 15:40:51.406 hclTestOffline[23985:3178917] Got no keep-alive header, will keep this connection open for 60.000000 seconds
+2015-05-06 15:40:51.407 hclTestOffline[23985:3178917] Request <Request: 0x7d300e00>{name = '(null)'} finished downloading data (1219 bytes)
+2015-05-06 15:40:51.407 hclTestOffline[23985:3178917] Request #1 finished using connection #1
+2015-05-06 15:40:51.407 hclTestOffline[23985:3178917] Request finished: <Request: 0x7d300e00>{name = '(null)'}
+2015-05-06 15:40:51.407 hclTestOffline[23985:3176606] Registration request finished...
+2015-05-06 15:40:51.407 hclTestOffline[23985:3176606] Parsing started
+2015-05-06 15:40:51.407 hclTestOffline[23985:3176606] Found an element named: id with a value of: (null)
+2015-05-06 15:40:51.408 hclTestOffline[23985:3176606] Found an element named: title with a value of: (null)
+2015-05-06 15:40:51.408 hclTestOffline[23985:3176606] Found an element named: updated with a value of: (null)
+2015-05-06 15:40:51.408 hclTestOffline[23985:3176606] Found an element named: name with a value of: (null)
+2015-05-06 15:40:51.408 hclTestOffline[23985:3176606] Found an element named: author with a value of: (null)
+2015-05-06 15:40:51.408 hclTestOffline[23985:3176606] Found an element named: link with a value of: (null)
+2015-05-06 15:40:51.408 hclTestOffline[23985:3176606] Found an element named: category with a value of: (null)
+2015-05-06 15:40:51.408 hclTestOffline[23985:3176606] Found an element named: d:ETag with a value of: 2015-05-06 20:40:51.0
+2015-05-06 15:40:51.408 hclTestOffline[23985:3176606] Found an element named: d:ApplicationConnectionId with a value of: 6d59fe46-5d28-4e40-8c7b-cfc505810a33
+2015-05-06 15:40:51.408 hclTestOffline[23985:3176606] Found an element named: d:AndroidGcmPushEnabled with a value of: false
+2015-05-06 15:40:51.408 hclTestOffline[23985:3176606] Found an element named: d:AndroidGcmRegistrationId with a value of: 
+2015-05-06 15:40:51.408 hclTestOffline[23985:3176606] Found an element named: d:AndroidGcmSenderId with a value of: 
+2015-05-06 15:40:51.408 hclTestOffline[23985:3176606] Found an element named: d:ApnsPushEnable with a value of: false
+2015-05-06 15:40:51.409 hclTestOffline[23985:3176606] Found an element named: d:ApnsDeviceToken with a value of: 
+2015-05-06 15:40:51.409 hclTestOffline[23985:3176606] Found an element named: d:ApplicationVersion with a value of: 1.0
+2015-05-06 15:40:51.409 hclTestOffline[23985:3176606] Found an element named: d:BlackberryPushEnabled with a value of: false
+2015-05-06 15:40:51.409 hclTestOffline[23985:3176606] Found an element named: d:BlackberryDevicePin with a value of: 
+2015-05-06 15:40:51.409 hclTestOffline[23985:3176606] Found an element named: d:BlackberryBESListenerPort with a value of: 0
+2015-05-06 15:40:51.409 hclTestOffline[23985:3176606] Found an element named: d:BlackberryPushAppID with a value of: 
+2015-05-06 15:40:51.409 hclTestOffline[23985:3176606] Found an element named: d:BlackberryPushBaseURL with a value of: 
+2015-05-06 15:40:51.409 hclTestOffline[23985:3176606] Found an element named: d:BlackberryPushListenerPort with a value of: 0
+2015-05-06 15:40:51.409 hclTestOffline[23985:3176606] Found an element named: d:BlackberryListenerType with a value of: 0
+2015-05-06 15:40:51.409 hclTestOffline[23985:3176606] Found an element named: d:CollectClientUsageReports with a value of: false
+2015-05-06 15:40:51.409 hclTestOffline[23985:3176606] Found an element named: d:ConnectionLogLevel with a value of: NONE
+2015-05-06 15:40:51.409 hclTestOffline[23985:3176606] Found an element named: d:CustomizationBundleId with a value of: 
+2015-05-06 15:40:51.410 hclTestOffline[23985:3176606] Found an element named: d:CustomCustom1 with a value of: 
+2015-05-06 15:40:51.410 hclTestOffline[23985:3176606] Found an element named: d:CustomCustom2 with a value of: 
+2015-05-06 15:40:51.410 hclTestOffline[23985:3176606] Found an element named: d:CustomCustom3 with a value of: 
+2015-05-06 15:40:51.410 hclTestOffline[23985:3176606] Found an element named: d:CustomCustom4 with a value of: 
+2015-05-06 15:40:51.410 hclTestOffline[23985:3176606] Found an element named: d:DeviceModel with a value of: 
+2015-05-06 15:40:51.410 hclTestOffline[23985:3176606] Found an element named: d:DeviceType with a value of: iPhone
+2015-05-06 15:40:51.410 hclTestOffline[23985:3176606] Found an element named: d:DeviceSubType with a value of: 
+2015-05-06 15:40:51.410 hclTestOffline[23985:3176606] Found an element named: d:DevicePhoneNumber with a value of: 
+2015-05-06 15:40:51.410 hclTestOffline[23985:3176606] Found an element named: d:DeviceIMSI with a value of: 
+2015-05-06 15:40:51.410 hclTestOffline[23985:3176606] Found an element named: d:E2ETraceLevel with a value of: Low
+2015-05-06 15:40:51.410 hclTestOffline[23985:3176606] Found an element named: d:EnableAppSpecificClientUsageKeys with a value of: false
+2015-05-06 15:40:51.410 hclTestOffline[23985:3176606] Found an element named: d:FeatureVectorPolicyAllEnabled with a value of: false
+2015-05-06 15:40:51.410 hclTestOffline[23985:3176606] Found an element named: d:LogEntryExpiry with a value of: 7
+2015-05-06 15:40:51.411 hclTestOffline[23985:3176606] Found an element named: d:MaxConnectionWaitTimeForClientUsage with a value of: false
+2015-05-06 15:40:51.411 hclTestOffline[23985:3176606] Found an element named: d:MpnsChannelURI with a value of: 
+2015-05-06 15:40:51.411 hclTestOffline[23985:3176606] Found an element named: d:MpnsPushEnable with a value of: false
+2015-05-06 15:40:51.411 hclTestOffline[23985:3176606] Found an element named: d:PasswordPolicyEnabled with a value of: false
+2015-05-06 15:40:51.411 hclTestOffline[23985:3176606] Found an element named: d:PasswordPolicyDefaultPasswordAllowed with a value of: false
+2015-05-06 15:40:51.411 hclTestOffline[23985:3176606] Found an element named: d:PasswordPolicyMinLength with a value of: 8
+2015-05-06 15:40:51.411 hclTestOffline[23985:3176606] Found an element named: d:PasswordPolicyDigitRequired with a value of: false
+2015-05-06 15:40:51.411 hclTestOffline[23985:3176606] Found an element named: d:PasswordPolicyUpperRequired with a value of: false
+2015-05-06 15:40:51.411 hclTestOffline[23985:3176606] Found an element named: d:PasswordPolicyLowerRequired with a value of: false
+2015-05-06 15:40:51.411 hclTestOffline[23985:3176606] Found an element named: d:PasswordPolicySpecialRequired with a value of: false
+2015-05-06 15:40:51.411 hclTestOffline[23985:3176606] Found an element named: d:PasswordPolicyExpiresInNDays with a value of: 0
+2015-05-06 15:40:51.411 hclTestOffline[23985:3176606] Found an element named: d:PasswordPolicyMinUniqueChars with a value of: 0
+2015-05-06 15:40:51.411 hclTestOffline[23985:3176606] Found an element named: d:PasswordPolicyLockTimeout with a value of: 0
+2015-05-06 15:40:51.412 hclTestOffline[23985:3176606] Found an element named: d:PasswordPolicyRetryLimit with a value of: 20
+2015-05-06 15:40:51.412 hclTestOffline[23985:3176606] Found an element named: d:ProxyApplicationEndpoint with a value of: http://sapf1sdi10.dir.slb.com:8010/sap/opu/odata/sap/Z_PLANT_DEMO_SRV/
+2015-05-06 15:40:51.412 hclTestOffline[23985:3176606] Found an element named: d:ProxyPushEndpoint with a value of: http://us1455saps033.DIR.slb.com:8080/Notification
+2015-05-06 15:40:51.412 hclTestOffline[23985:3176606] Found an element named: d:PublishedToMobilePlace with a value of: false
+2015-05-06 15:40:51.412 hclTestOffline[23985:3176606] Found an element named: d:UploadLogs with a value of: false
+2015-05-06 15:40:51.412 hclTestOffline[23985:3176606] Found an element named: d:WnsChannelURI with a value of: 
+2015-05-06 15:40:51.412 hclTestOffline[23985:3176606] Found an element named: d:WnsPushEnable with a value of: false
+2015-05-06 15:40:51.412 hclTestOffline[23985:3176606] Found an element named: d:FeatureVectorPolicy with a value of: 
+2015-05-06 15:40:51.412 hclTestOffline[23985:3176606] Found an element named: m:properties with a value of: 
+2015-05-06 15:40:51.412 hclTestOffline[23985:3176606] Found an element named: content with a value of: 
+2015-05-06 15:40:51.412 hclTestOffline[23985:3176606] Found an element named: entry with a value of: 
+2015-05-06 15:40:51.412 hclTestOffline[23985:3176606] Parsing ended --> {
+    "d:AndroidGcmPushEnabled" = false;
+    "d:AndroidGcmRegistrationId" = "";
+    "d:AndroidGcmSenderId" = "";
+    "d:ApnsDeviceToken" = "";
+    "d:ApnsPushEnable" = false;
+    "d:ApplicationConnectionId" = "6d59fe46-5d28-4e40-8c7b-cfc505810a33";
+    "d:ApplicationVersion" = "1.0";
+    "d:BlackberryBESListenerPort" = 0;
+    "d:BlackberryDevicePin" = "";
+    "d:BlackberryListenerType" = 0;
+    "d:BlackberryPushAppID" = "";
+    "d:BlackberryPushBaseURL" = "";
+    "d:BlackberryPushEnabled" = false;
+    "d:BlackberryPushListenerPort" = 0;
+    "d:CollectClientUsageReports" = false;
+    "d:ConnectionLogLevel" = NONE;
+    "d:CustomCustom1" = "";
+    "d:CustomCustom2" = "";
+    "d:CustomCustom3" = "";
+    "d:CustomCustom4" = "";
+    "d:CustomizationBundleId" = "";
+    "d:DeviceIMSI" = "";
+    "d:DeviceModel" = "";
+    "d:DevicePhoneNumber" = "";
+    "d:DeviceSubType" = "";
+    "d:DeviceType" = iPhone;
+    "d:E2ETraceLevel" = Low;
+    "d:ETag" = "2015-05-06 20:40:51.0";
+    "d:EnableAppSpecificClientUsageKeys" = false;
+    "d:FeatureVectorPolicy" = "";
+    "d:FeatureVectorPolicyAllEnabled" = false;
+    "d:LogEntryExpiry" = 7;
+    "d:MaxConnectionWaitTimeForClientUsage" = false;
+    "d:MpnsChannelURI" = "";
+    "d:MpnsPushEnable" = false;
+    "d:PasswordPolicyDefaultPasswordAllowed" = false;
+    "d:PasswordPolicyDigitRequired" = false;
+    "d:PasswordPolicyEnabled" = false;
+    "d:PasswordPolicyExpiresInNDays" = 0;
+    "d:PasswordPolicyLockTimeout" = 0;
+    "d:PasswordPolicyLowerRequired" = false;
+    "d:PasswordPolicyMinLength" = 8;
+    "d:PasswordPolicyMinUniqueChars" = 0;
+    "d:PasswordPolicyRetryLimit" = 20;
+    "d:PasswordPolicySpecialRequired" = false;
+    "d:PasswordPolicyUpperRequired" = false;
+    "d:ProxyApplicationEndpoint" = "http://sapf1sdi10.dir.slb.com:8010/sap/opu/odata/sap/Z_PLANT_DEMO_SRV/";
+    "d:ProxyPushEndpoint" = "http://us1455saps033.DIR.slb.com:8080/Notification";
+    "d:PublishedToMobilePlace" = false;
+    "d:UploadLogs" = false;
+    "d:WnsChannelURI" = "";
+    "d:WnsPushEnable" = false;
+}
+2015-05-06 15:40:51.413 hclTestOffline[23985:3176606] urlString:   http://us1455saps033.dir.slb.com:8080
+2015-05-06 15:40:51.413 hclTestOffline[23985:3176606] Request String:  http://us1455saps033.dir.slb.com:8080/odata/applications/v1/com.hcl.offline/Connections('6d59fe46-5d28-4e40-8c7b-cfc505810a33')
+2015-05-06 15:40:51.414 hclTestOffline[23985:3176606] Starting synchronous request <Request: 0x7cafb000>{name = '(null)'}
+2015-05-06 15:40:51.414 hclTestOffline[23985:3176606] UrlString:   http://us1455saps033.dir.slb.com:8080
+2015-05-06 15:40:51.414 hclTestOffline[23985:3176606] Unable to instantiate Cache... Delta Link and CSRF (Offline) handling not possible
+2015-05-06 15:40:51.414 hclTestOffline[23985:3176606] UrlString:   http://us1455saps033.dir.slb.com:8080
+2015-05-06 15:40:51.415 hclTestOffline[23985:3176606] Request handleNetworkEvent -> Unexpected stream event type received
+2015-05-06 15:40:51.641 hclTestOffline[23985:3176606] Got no keep-alive header, will keep this connection open for 60.000000 seconds
+2015-05-06 15:40:51.641 hclTestOffline[23985:3176606] ===Used: 2438 bytes of bandwidth in last measurement period===
+2015-05-06 15:40:51.641 hclTestOffline[23985:3176606] Request <Request: 0x7cafb000>{name = '(null)'} finished downloading data (1219 bytes)
+2015-05-06 15:40:51.641 hclTestOffline[23985:3176606] Request #2 finished using connection #1
+2015-05-06 15:40:51.642 hclTestOffline[23985:3176606] Request finished: <Request: 0x7cafb000>{name = '(null)'}
+2015-05-06 15:40:51.642 hclTestOffline[23985:3176606] Response Code: 200
+2015-05-06 15:40:51.642 hclTestOffline[23985:3176606] Parsing started
+2015-05-06 15:40:51.642 hclTestOffline[23985:3176606] Found an element named: id with a value of: (null)
+2015-05-06 15:40:51.642 hclTestOffline[23985:3176606] Found an element named: title with a value of: (null)
+2015-05-06 15:40:51.642 hclTestOffline[23985:3176606] Found an element named: updated with a value of: (null)
+2015-05-06 15:40:51.642 hclTestOffline[23985:3176606] Found an element named: name with a value of: (null)
+2015-05-06 15:40:51.642 hclTestOffline[23985:3176606] Found an element named: author with a value of: (null)
+2015-05-06 15:40:51.642 hclTestOffline[23985:3176606] Found an element named: link with a value of: (null)
+2015-05-06 15:40:51.643 hclTestOffline[23985:3176606] Found an element named: category with a value of: (null)
+2015-05-06 15:40:51.643 hclTestOffline[23985:3176606] Found an element named: d:ETag with a value of: 2015-05-06 20:40:51.0
+2015-05-06 15:40:51.643 hclTestOffline[23985:3176606] Found an element named: d:ApplicationConnectionId with a value of: 6d59fe46-5d28-4e40-8c7b-cfc505810a33
+2015-05-06 15:40:51.643 hclTestOffline[23985:3176606] Found an element named: d:AndroidGcmPushEnabled with a value of: false
+2015-05-06 15:40:51.643 hclTestOffline[23985:3176606] Found an element named: d:AndroidGcmRegistrationId with a value of: 
+2015-05-06 15:40:51.643 hclTestOffline[23985:3176606] Found an element named: d:AndroidGcmSenderId with a value of: 
+2015-05-06 15:40:51.643 hclTestOffline[23985:3176606] Found an element named: d:ApnsPushEnable with a value of: false
+2015-05-06 15:40:51.643 hclTestOffline[23985:3176606] Found an element named: d:ApnsDeviceToken with a value of: 
+2015-05-06 15:40:51.643 hclTestOffline[23985:3176606] Found an element named: d:ApplicationVersion with a value of: 1.0
+2015-05-06 15:40:51.643 hclTestOffline[23985:3176606] Found an element named: d:BlackberryPushEnabled with a value of: false
+2015-05-06 15:40:51.644 hclTestOffline[23985:3176606] Found an element named: d:BlackberryDevicePin with a value of: 
+2015-05-06 15:40:51.644 hclTestOffline[23985:3176606] Found an element named: d:BlackberryBESListenerPort with a value of: 0
+2015-05-06 15:40:51.644 hclTestOffline[23985:3176606] Found an element named: d:BlackberryPushAppID with a value of: 
+2015-05-06 15:40:51.644 hclTestOffline[23985:3176606] Found an element named: d:BlackberryPushBaseURL with a value of: 
+2015-05-06 15:40:51.644 hclTestOffline[23985:3176606] Found an element named: d:BlackberryPushListenerPort with a value of: 0
+2015-05-06 15:40:51.644 hclTestOffline[23985:3176606] Found an element named: d:BlackberryListenerType with a value of: 0
+2015-05-06 15:40:51.644 hclTestOffline[23985:3176606] Found an element named: d:CollectClientUsageReports with a value of: false
+2015-05-06 15:40:51.644 hclTestOffline[23985:3176606] Found an element named: d:ConnectionLogLevel with a value of: NONE
+2015-05-06 15:40:51.644 hclTestOffline[23985:3176606] Found an element named: d:CustomizationBundleId with a value of: 
+2015-05-06 15:40:51.644 hclTestOffline[23985:3176606] Found an element named: d:CustomCustom1 with a value of: 
+2015-05-06 15:40:51.644 hclTestOffline[23985:3176606] Found an element named: d:CustomCustom2 with a value of: 
+2015-05-06 15:40:51.644 hclTestOffline[23985:3176606] Found an element named: d:CustomCustom3 with a value of: 
+2015-05-06 15:40:51.645 hclTestOffline[23985:3176606] Found an element named: d:CustomCustom4 with a value of: 
+2015-05-06 15:40:51.645 hclTestOffline[23985:3176606] Found an element named: d:DeviceModel with a value of: 
+2015-05-06 15:40:51.645 hclTestOffline[23985:3176606] Found an element named: d:DeviceType with a value of: iPhone
+2015-05-06 15:40:51.645 hclTestOffline[23985:3176606] Found an element named: d:DeviceSubType with a value of: 
+2015-05-06 15:40:51.645 hclTestOffline[23985:3176606] Found an element named: d:DevicePhoneNumber with a value of: 
+2015-05-06 15:40:51.645 hclTestOffline[23985:3176606] Found an element named: d:DeviceIMSI with a value of: 
+2015-05-06 15:40:51.645 hclTestOffline[23985:3176606] Found an element named: d:E2ETraceLevel with a value of: Low
+2015-05-06 15:40:51.645 hclTestOffline[23985:3176606] Found an element named: d:EnableAppSpecificClientUsageKeys with a value of: false
+2015-05-06 15:40:51.645 hclTestOffline[23985:3176606] Found an element named: d:FeatureVectorPolicyAllEnabled with a value of: false
+2015-05-06 15:40:51.645 hclTestOffline[23985:3176606] Found an element named: d:LogEntryExpiry with a value of: 7
+2015-05-06 15:40:51.645 hclTestOffline[23985:3176606] Found an element named: d:MaxConnectionWaitTimeForClientUsage with a value of: false
+2015-05-06 15:40:51.645 hclTestOffline[23985:3176606] Found an element named: d:MpnsChannelURI with a value of: 
+2015-05-06 15:40:51.646 hclTestOffline[23985:3176606] Found an element named: d:MpnsPushEnable with a value of: false
+2015-05-06 15:40:51.646 hclTestOffline[23985:3176606] Found an element named: d:PasswordPolicyEnabled with a value of: false
+2015-05-06 15:40:51.646 hclTestOffline[23985:3176606] Found an element named: d:PasswordPolicyDefaultPasswordAllowed with a value of: false
+2015-05-06 15:40:51.646 hclTestOffline[23985:3176606] Found an element named: d:PasswordPolicyMinLength with a value of: 8
+2015-05-06 15:40:51.646 hclTestOffline[23985:3176606] Found an element named: d:PasswordPolicyDigitRequired with a value of: false
+2015-05-06 15:40:51.646 hclTestOffline[23985:3176606] Found an element named: d:PasswordPolicyUpperRequired with a value of: false
+2015-05-06 15:40:51.646 hclTestOffline[23985:3176606] Found an element named: d:PasswordPolicyLowerRequired with a value of: false
+2015-05-06 15:40:51.646 hclTestOffline[23985:3176606] Found an element named: d:PasswordPolicySpecialRequired with a value of: false
+2015-05-06 15:40:51.646 hclTestOffline[23985:3176606] Found an element named: d:PasswordPolicyExpiresInNDays with a value of: 0
+2015-05-06 15:40:51.646 hclTestOffline[23985:3176606] Found an element named: d:PasswordPolicyMinUniqueChars with a value of: 0
+2015-05-06 15:40:51.646 hclTestOffline[23985:3176606] Found an element named: d:PasswordPolicyLockTimeout with a value of: 0
+2015-05-06 15:40:51.646 hclTestOffline[23985:3176606] Found an element named: d:PasswordPolicyRetryLimit with a value of: 20
+2015-05-06 15:40:51.647 hclTestOffline[23985:3176606] Found an element named: d:ProxyApplicationEndpoint with a value of: http://sapf1sdi10.dir.slb.com:8010/sap/opu/odata/sap/Z_PLANT_DEMO_SRV/
+2015-05-06 15:40:51.647 hclTestOffline[23985:3176606] Found an element named: d:ProxyPushEndpoint with a value of: http://us1455saps033.DIR.slb.com:8080/Notification
+2015-05-06 15:40:51.647 hclTestOffline[23985:3176606] Found an element named: d:PublishedToMobilePlace with a value of: false
+2015-05-06 15:40:51.647 hclTestOffline[23985:3176606] Found an element named: d:UploadLogs with a value of: false
+2015-05-06 15:40:51.647 hclTestOffline[23985:3176606] Found an element named: d:WnsChannelURI with a value of: 
+2015-05-06 15:40:51.647 hclTestOffline[23985:3176606] Found an element named: d:WnsPushEnable with a value of: false
+2015-05-06 15:40:51.647 hclTestOffline[23985:3176606] Found an element named: d:FeatureVectorPolicy with a value of: 
+2015-05-06 15:40:51.647 hclTestOffline[23985:3176606] Found an element named: m:properties with a value of: 
+2015-05-06 15:40:51.647 hclTestOffline[23985:3176606] Found an element named: content with a value of: 
+2015-05-06 15:40:51.647 hclTestOffline[23985:3176606] Found an element named: entry with a value of: 
+2015-05-06 15:40:51.647 hclTestOffline[23985:3176606] Parsing ended --> {
+    "d:AndroidGcmPushEnabled" = false;
+    "d:AndroidGcmRegistrationId" = "";
+    "d:AndroidGcmSenderId" = "";
+    "d:ApnsDeviceToken" = "";
+    "d:ApnsPushEnable" = false;
+    "d:ApplicationConnectionId" = "6d59fe46-5d28-4e40-8c7b-cfc505810a33";
+    "d:ApplicationVersion" = "1.0";
+    "d:BlackberryBESListenerPort" = 0;
+    "d:BlackberryDevicePin" = "";
+    "d:BlackberryListenerType" = 0;
+    "d:BlackberryPushAppID" = "";
+    "d:BlackberryPushBaseURL" = "";
+    "d:BlackberryPushEnabled" = false;
+    "d:BlackberryPushListenerPort" = 0;
+    "d:CollectClientUsageReports" = false;
+    "d:ConnectionLogLevel" = NONE;
+    "d:CustomCustom1" = "";
+    "d:CustomCustom2" = "";
+    "d:CustomCustom3" = "";
+    "d:CustomCustom4" = "";
+    "d:CustomizationBundleId" = "";
+    "d:DeviceIMSI" = "";
+    "d:DeviceModel" = "";
+    "d:DevicePhoneNumber" = "";
+    "d:DeviceSubType" = "";
+    "d:DeviceType" = iPhone;
+    "d:E2ETraceLevel" = Low;
+    "d:ETag" = "2015-05-06 20:40:51.0";
+    "d:EnableAppSpecificClientUsageKeys" = false;
+    "d:FeatureVectorPolicy" = "";
+    "d:FeatureVectorPolicyAllEnabled" = false;
+    "d:LogEntryExpiry" = 7;
+    "d:MaxConnectionWaitTimeForClientUsage" = false;
+    "d:MpnsChannelURI" = "";
+    "d:MpnsPushEnable" = false;
+    "d:PasswordPolicyDefaultPasswordAllowed" = false;
+    "d:PasswordPolicyDigitRequired" = false;
+    "d:PasswordPolicyEnabled" = false;
+    "d:PasswordPolicyExpiresInNDays" = 0;
+    "d:PasswordPolicyLockTimeout" = 0;
+    "d:PasswordPolicyLowerRequired" = false;
+    "d:PasswordPolicyMinLength" = 8;
+    "d:PasswordPolicyMinUniqueChars" = 0;
+    "d:PasswordPolicyRetryLimit" = 20;
+    "d:PasswordPolicySpecialRequired" = false;
+    "d:PasswordPolicyUpperRequired" = false;
+    "d:ProxyApplicationEndpoint" = "http://sapf1sdi10.dir.slb.com:8010/sap/opu/odata/sap/Z_PLANT_DEMO_SRV/";
+    "d:ProxyPushEndpoint" = "http://us1455saps033.DIR.slb.com:8080/Notification";
+    "d:PublishedToMobilePlace" = false;
+    "d:UploadLogs" = false;
+    "d:WnsChannelURI" = "";
+    "d:WnsPushEnable" = false;
+}
+2015-05-06 15:40:54.204 hclTestOffline[23985:3176606] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '12.976807' ms. Plugin should use a background thread.
+2015-05-06 15:40:54.239 hclTestOffline[23985:3176606] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '34.022217' ms. Plugin should use a background thread.
+2015-05-06 15:41:10.354 hclTestOffline[23985:3176606] THREAD WARNING: ['OData'] took '12.073975' ms. Plugin should use a background thread.
+2015-05-06 15:41:39.786 hclTestOffline[23985:3182049] SMP_AUTH_PROXY ERROR connection:didFailWithError:, Error Domain=NSURLErrorDomain Code=-1009 "The Internet connection appears to be offline." UserInfo=0x7af1acc0 {NSErrorFailingURLStringKey=http://us1455saps033.dir.slb.com:8080/com.hcl.offline/PlantSet?$skip=0&$top=1000&$orderby=Werks%20asc&$inlinecount=allpages, _kCFStreamErrorCodeKey=8, NSErrorFailingURLKey=http://us1455saps033.dir.slb.com:8080/com.hcl.offline/PlantSet?$skip=0&$top=1000&$orderby=Werks%20asc&$inlinecount=allpages, NSLocalizedDescription=The Internet connection appears to be offline., _kCFStreamErrorDomainKey=12, NSUnderlyingError=0x7b04d530 "The Internet connection appears to be offline."}
+2015-05-06 15:43:21.334 hclTestOffline[28922:3201701] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/imrankhan/Library/Developer/CoreSimulator/Devices/EEEDFA71-D7A9-459F-9DDC-3BBBD5D345B9/data/Containers/Data/Application/86CEEDA7-CFB4-454F-BA6A-AF579C25CD7B/Library/Cookies/Cookies.binarycookies
+2015-05-06 15:43:21.372 hclTestOffline[28922:3201701] Apache Cordova native platform version 3.6.3 is starting.
+2015-05-06 15:43:21.372 hclTestOffline[28922:3201701] Multi-tasking -> Device: YES, App: YES
+2015-05-06 15:43:21.376 hclTestOffline[28922:3201701] Unlimited access to network resources
+2015-05-06 15:43:21.378 hclTestOffline[28922:3201701] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2015-05-06 15:43:21.438 hclTestOffline[28922:3201701] [group: com.sap.smp.client.ios] [artifact: Supportability] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-05-06 15:43:21.439 hclTestOffline[28922:3201701] [group: com.sap.smp.client.ios] [artifact: ClientLog] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-05-06 15:43:21.445 hclTestOffline[28922:3201701] [group: com.sap.smp.client.ios] [artifact: E2ETrace2] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-05-06 15:43:21.446 hclTestOffline[28922:3201701] CommonAuthenticationConfigurator isNSHTTPURLProtocolReplacementEnabled: 0
+2015-05-06 15:43:21.446 hclTestOffline[28922:3201701] [CDVTimer][authproxy] 9.258032ms
+2015-05-06 15:43:21.446 hclTestOffline[28922:3201701] [CDVTimer][TotalPluginStartup] 9.388983ms
+2015-05-06 15:43:21.610 hclTestOffline[28922:3201701] Resetting plugins due to page load.
+2015-05-06 15:43:21.747 hclTestOffline[28922:3201701] Finished load of: file:///Users/imrankhan/Library/Developer/CoreSimulator/Devices/EEEDFA71-D7A9-459F-9DDC-3BBBD5D345B9/data/Containers/Bundle/Application/9B828E07-02E6-4EDF-A395-071619DF1EA2/hclTestOffline.app/www/index.html
+2015-05-06 15:43:38.320 hclTestOffline[28922:3201701] [group: com.sap.mobile.maf.tools.ios] [artifact: MAFLogger] [version: 1.207.0] [buildTime: 2015-02-24 23:55] [gitCommit: 0648677345ea49cb2688ed34b110338d0a15cf6b] [gitBranch: origin/fa/rel-1.207]
+2015-05-06 15:43:38.320 hclTestOffline[28922:3201701] [group: com.sap.smp.client.ios] [artifact: Logger] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-05-06 15:43:38.325 hclTestOffline[28922:3201701] [group: com.sap.smp.client.ios] [artifact: ClientHubSLL] [version: 3.7.0] [buildTime: 2015-02-23 22:49] [gitCommit: e7aa7076609783021fdedc87f29f65522d139dd1] [gitBranch: origin/fa/rel-3.7]
+2015-05-06 15:43:38.326 hclTestOffline[28922:3201701] ER:No URL Types configured.
+2015-05-06 15:43:38.328 hclTestOffline[28922:3201701] [group: com.sap.smp.client.ios] [artifact: Datavault] [version: 3.7.0] [buildTime: 2015-02-23 22:49] [gitCommit: e7aa7076609783021fdedc87f29f65522d139dd1] [gitBranch: origin/fa/rel-3.7]
+2015-05-06 15:43:38.354 hclTestOffline[28922:3201701] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '36.782959' ms. Plugin should use a background thread.
+2015-05-06 15:43:38.366 hclTestOffline[28922:3201701] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '11.239014' ms. Plugin should use a background thread.
+2015-05-06 15:43:38.366 hclTestOffline[28922:3201701] -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7d22b0b0
+2015-05-06 15:43:38.366 hclTestOffline[28922:3201701] *** WebKit discarded an uncaught exception in the webView:willRemoveScrollingLayer:withContentsLayer:forNode: delegate: <NSInvalidArgumentException> -[WebActionDisablingCALayerDelegate setBeingRemoved:]: unrecognized selector sent to instance 0x7d22b0b0
+2015-05-06 15:43:38.382 hclTestOffline[28922:3201701] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '15.621338' ms. Plugin should use a background thread.
+2015-05-06 15:43:38.426 hclTestOffline[28922:3201701] Setting the WebView's frame to {{0, 0}, {320, 436}}
+2015-05-06 15:43:38.426 hclTestOffline[28922:3201701] Setting the WebView's frame to {{0, 0}, {320, 480}}
+2015-05-06 15:43:38.431 hclTestOffline[28922:3201701] THREAD WARNING: ['InAppBrowser'] took '48.472168' ms. Plugin should use a background thread.
+2015-05-06 15:43:38.705 hclTestOffline[28922:3201701] THREAD WARNING: ['InAppBrowser'] took '94.296143' ms. Plugin should use a background thread.
+2015-05-06 15:43:39.997 hclTestOffline[28922:3202568] [group: com.sap.smp.client.ios] [artifact: CoreServices] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-05-06 15:43:39.997 hclTestOffline[28922:3202568] Initializing Client connection with ApplicationID : com.hcl.offline  Domain :  default  SecurityConfiguration:  (null)
+2015-05-06 15:43:39.998 hclTestOffline[28922:3202568] [group: com.sap.smp.client.ios] [artifact: Request] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-05-06 15:43:40.000 hclTestOffline[28922:3202568] Setting Client connection with Url:  http://us1455saps033.dir.slb.com:8080
+2015-05-06 15:43:40.001 hclTestOffline[28922:3202568] Clearing SMP server related session cookies
+2015-05-06 15:43:40.001 hclTestOffline[28922:3202568] Assigning the selectors
+2015-05-06 15:43:40.002 hclTestOffline[28922:3202568] Automatic Registration : Registering user ASYNCHRONOUSLY with user name : IMohammed6, security configuration : (null) 
+2015-05-06 15:43:40.002 hclTestOffline[28922:3202568] Starting asynchronous request <Request: 0x7bb1ce00>{name = '(null)'}
+2015-05-06 15:43:40.003 hclTestOffline[28922:3203260] Registering reachability notifier for: us1455saps033.dir.slb.com
+2015-05-06 15:43:40.009 hclTestOffline[28922:3203260] UrlString:   http://us1455saps033.dir.slb.com:8080
+2015-05-06 15:43:40.009 hclTestOffline[28922:3203260] Unable to instantiate Cache... Delta Link and CSRF (Offline) handling not possible
+2015-05-06 15:43:40.011 hclTestOffline[28922:3203260] UrlString:   http://us1455saps033.dir.slb.com:8080
+2015-05-06 15:43:40.012 hclTestOffline[28922:3203260] Request handleNetworkEvent -> Unexpected stream event type received
+2015-05-06 15:43:40.013 hclTestOffline[28922:3203260] ===Used: 0 bytes of bandwidth in last measurement period===
+2015-05-06 15:43:40.119 hclTestOffline[28922:3203260] Request <Request: 0x7bb1ce00>{name = '(null)'} finished downloading data (0 bytes)
+2015-05-06 15:43:40.119 hclTestOffline[28922:3203260] Got no keep-alive header, will keep this connection open for 60.000000 seconds
+2015-05-06 15:43:40.120 hclTestOffline[28922:3203260] Request #1 finished using connection #1
+2015-05-06 15:43:40.120 hclTestOffline[28922:3203260] UrlString:   http://us1455saps033.dir.slb.com:8080
+2015-05-06 15:43:40.120 hclTestOffline[28922:3203260] Request handleNetworkEvent -> Unexpected stream event type received
+2015-05-06 15:43:41.123 hclTestOffline[28922:3203260] ===Used: 65536 bytes of bandwidth in last measurement period===
+2015-05-06 15:43:41.969 hclTestOffline[28922:3203260] Got no keep-alive header, will keep this connection open for 60.000000 seconds
+2015-05-06 15:43:41.970 hclTestOffline[28922:3203260] Request <Request: 0x7bb1ce00>{name = '(null)'} finished downloading data (1219 bytes)
+2015-05-06 15:43:41.970 hclTestOffline[28922:3203260] Request #1 finished using connection #1
+2015-05-06 15:43:41.970 hclTestOffline[28922:3203260] Request finished: <Request: 0x7bb1ce00>{name = '(null)'}
+2015-05-06 15:43:41.970 hclTestOffline[28922:3201701] Registration request finished...
+2015-05-06 15:43:41.970 hclTestOffline[28922:3201701] Parsing started
+2015-05-06 15:43:41.970 hclTestOffline[28922:3201701] Found an element named: id with a value of: (null)
+2015-05-06 15:43:41.970 hclTestOffline[28922:3201701] Found an element named: title with a value of: (null)
+2015-05-06 15:43:41.971 hclTestOffline[28922:3201701] Found an element named: updated with a value of: (null)
+2015-05-06 15:43:41.971 hclTestOffline[28922:3201701] Found an element named: name with a value of: (null)
+2015-05-06 15:43:41.971 hclTestOffline[28922:3201701] Found an element named: author with a value of: (null)
+2015-05-06 15:43:41.971 hclTestOffline[28922:3201701] Found an element named: link with a value of: (null)
+2015-05-06 15:43:41.971 hclTestOffline[28922:3201701] Found an element named: category with a value of: (null)
+2015-05-06 15:43:41.971 hclTestOffline[28922:3201701] Found an element named: d:ETag with a value of: 2015-05-06 20:43:41.0
+2015-05-06 15:43:41.971 hclTestOffline[28922:3201701] Found an element named: d:ApplicationConnectionId with a value of: 6582deda-85d3-4c07-8ade-be17b3d43987
+2015-05-06 15:43:41.971 hclTestOffline[28922:3201701] Found an element named: d:AndroidGcmPushEnabled with a value of: false
+2015-05-06 15:43:41.971 hclTestOffline[28922:3201701] Found an element named: d:AndroidGcmRegistrationId with a value of: 
+2015-05-06 15:43:41.971 hclTestOffline[28922:3201701] Found an element named: d:AndroidGcmSenderId with a value of: 
+2015-05-06 15:43:41.971 hclTestOffline[28922:3201701] Found an element named: d:ApnsPushEnable with a value of: false
+2015-05-06 15:43:41.972 hclTestOffline[28922:3201701] Found an element named: d:ApnsDeviceToken with a value of: 
+2015-05-06 15:43:41.972 hclTestOffline[28922:3201701] Found an element named: d:ApplicationVersion with a value of: 1.0
+2015-05-06 15:43:41.972 hclTestOffline[28922:3201701] Found an element named: d:BlackberryPushEnabled with a value of: false
+2015-05-06 15:43:41.972 hclTestOffline[28922:3201701] Found an element named: d:BlackberryDevicePin with a value of: 
+2015-05-06 15:43:41.972 hclTestOffline[28922:3201701] Found an element named: d:BlackberryBESListenerPort with a value of: 0
+2015-05-06 15:43:41.972 hclTestOffline[28922:3201701] Found an element named: d:BlackberryPushAppID with a value of: 
+2015-05-06 15:43:41.972 hclTestOffline[28922:3201701] Found an element named: d:BlackberryPushBaseURL with a value of: 
+2015-05-06 15:43:41.972 hclTestOffline[28922:3201701] Found an element named: d:BlackberryPushListenerPort with a value of: 0
+2015-05-06 15:43:41.972 hclTestOffline[28922:3201701] Found an element named: d:BlackberryListenerType with a value of: 0
+2015-05-06 15:43:41.972 hclTestOffline[28922:3201701] Found an element named: d:CollectClientUsageReports with a value of: false
+2015-05-06 15:43:41.972 hclTestOffline[28922:3201701] Found an element named: d:ConnectionLogLevel with a value of: NONE
+2015-05-06 15:43:41.972 hclTestOffline[28922:3201701] Found an element named: d:CustomizationBundleId with a value of: 
+2015-05-06 15:43:41.972 hclTestOffline[28922:3201701] Found an element named: d:CustomCustom1 with a value of: 
+2015-05-06 15:43:41.973 hclTestOffline[28922:3201701] Found an element named: d:CustomCustom2 with a value of: 
+2015-05-06 15:43:41.973 hclTestOffline[28922:3201701] Found an element named: d:CustomCustom3 with a value of: 
+2015-05-06 15:43:41.973 hclTestOffline[28922:3201701] Found an element named: d:CustomCustom4 with a value of: 
+2015-05-06 15:43:41.973 hclTestOffline[28922:3201701] Found an element named: d:DeviceModel with a value of: 
+2015-05-06 15:43:41.973 hclTestOffline[28922:3201701] Found an element named: d:DeviceType with a value of: iPhone
+2015-05-06 15:43:41.973 hclTestOffline[28922:3201701] Found an element named: d:DeviceSubType with a value of: 
+2015-05-06 15:43:41.973 hclTestOffline[28922:3201701] Found an element named: d:DevicePhoneNumber with a value of: 
+2015-05-06 15:43:41.973 hclTestOffline[28922:3201701] Found an element named: d:DeviceIMSI with a value of: 
+2015-05-06 15:43:41.973 hclTestOffline[28922:3201701] Found an element named: d:E2ETraceLevel with a value of: Low
+2015-05-06 15:43:41.973 hclTestOffline[28922:3201701] Found an element named: d:EnableAppSpecificClientUsageKeys with a value of: false
+2015-05-06 15:43:41.973 hclTestOffline[28922:3201701] Found an element named: d:FeatureVectorPolicyAllEnabled with a value of: false
+2015-05-06 15:43:41.973 hclTestOffline[28922:3201701] Found an element named: d:LogEntryExpiry with a value of: 7
+2015-05-06 15:43:41.974 hclTestOffline[28922:3201701] Found an element named: d:MaxConnectionWaitTimeForClientUsage with a value of: false
+2015-05-06 15:43:41.974 hclTestOffline[28922:3201701] Found an element named: d:MpnsChannelURI with a value of: 
+2015-05-06 15:43:41.974 hclTestOffline[28922:3201701] Found an element named: d:MpnsPushEnable with a value of: false
+2015-05-06 15:43:41.974 hclTestOffline[28922:3201701] Found an element named: d:PasswordPolicyEnabled with a value of: false
+2015-05-06 15:43:41.974 hclTestOffline[28922:3201701] Found an element named: d:PasswordPolicyDefaultPasswordAllowed with a value of: false
+2015-05-06 15:43:41.974 hclTestOffline[28922:3201701] Found an element named: d:PasswordPolicyMinLength with a value of: 8
+2015-05-06 15:43:41.974 hclTestOffline[28922:3201701] Found an element named: d:PasswordPolicyDigitRequired with a value of: false
+2015-05-06 15:43:41.974 hclTestOffline[28922:3201701] Found an element named: d:PasswordPolicyUpperRequired with a value of: false
+2015-05-06 15:43:41.974 hclTestOffline[28922:3201701] Found an element named: d:PasswordPolicyLowerRequired with a value of: false
+2015-05-06 15:43:41.974 hclTestOffline[28922:3201701] Found an element named: d:PasswordPolicySpecialRequired with a value of: false
+2015-05-06 15:43:41.974 hclTestOffline[28922:3201701] Found an element named: d:PasswordPolicyExpiresInNDays with a value of: 0
+2015-05-06 15:43:41.974 hclTestOffline[28922:3201701] Found an element named: d:PasswordPolicyMinUniqueChars with a value of: 0
+2015-05-06 15:43:41.974 hclTestOffline[28922:3201701] Found an element named: d:PasswordPolicyLockTimeout with a value of: 0
+2015-05-06 15:43:41.974 hclTestOffline[28922:3201701] Found an element named: d:PasswordPolicyRetryLimit with a value of: 20
+2015-05-06 15:43:41.975 hclTestOffline[28922:3201701] Found an element named: d:ProxyApplicationEndpoint with a value of: http://sapf1sdi10.dir.slb.com:8010/sap/opu/odata/sap/Z_PLANT_DEMO_SRV/
+2015-05-06 15:43:41.975 hclTestOffline[28922:3201701] Found an element named: d:ProxyPushEndpoint with a value of: http://us1455saps033.DIR.slb.com:8080/Notification
+2015-05-06 15:43:41.975 hclTestOffline[28922:3201701] Found an element named: d:PublishedToMobilePlace with a value of: false
+2015-05-06 15:43:41.975 hclTestOffline[28922:3201701] Found an element named: d:UploadLogs with a value of: false
+2015-05-06 15:43:41.975 hclTestOffline[28922:3201701] Found an element named: d:WnsChannelURI with a value of: 
+2015-05-06 15:43:41.975 hclTestOffline[28922:3201701] Found an element named: d:WnsPushEnable with a value of: false
+2015-05-06 15:43:41.975 hclTestOffline[28922:3201701] Found an element named: d:FeatureVectorPolicy with a value of: 
+2015-05-06 15:43:41.975 hclTestOffline[28922:3201701] Found an element named: m:properties with a value of: 
+2015-05-06 15:43:41.975 hclTestOffline[28922:3201701] Found an element named: content with a value of: 
+2015-05-06 15:43:41.975 hclTestOffline[28922:3201701] Found an element named: entry with a value of: 
+2015-05-06 15:43:41.975 hclTestOffline[28922:3201701] Parsing ended --> {
+    "d:AndroidGcmPushEnabled" = false;
+    "d:AndroidGcmRegistrationId" = "";
+    "d:AndroidGcmSenderId" = "";
+    "d:ApnsDeviceToken" = "";
+    "d:ApnsPushEnable" = false;
+    "d:ApplicationConnectionId" = "6582deda-85d3-4c07-8ade-be17b3d43987";
+    "d:ApplicationVersion" = "1.0";
+    "d:BlackberryBESListenerPort" = 0;
+    "d:BlackberryDevicePin" = "";
+    "d:BlackberryListenerType" = 0;
+    "d:BlackberryPushAppID" = "";
+    "d:BlackberryPushBaseURL" = "";
+    "d:BlackberryPushEnabled" = false;
+    "d:BlackberryPushListenerPort" = 0;
+    "d:CollectClientUsageReports" = false;
+    "d:ConnectionLogLevel" = NONE;
+    "d:CustomCustom1" = "";
+    "d:CustomCustom2" = "";
+    "d:CustomCustom3" = "";
+    "d:CustomCustom4" = "";
+    "d:CustomizationBundleId" = "";
+    "d:DeviceIMSI" = "";
+    "d:DeviceModel" = "";
+    "d:DevicePhoneNumber" = "";
+    "d:DeviceSubType" = "";
+    "d:DeviceType" = iPhone;
+    "d:E2ETraceLevel" = Low;
+    "d:ETag" = "2015-05-06 20:43:41.0";
+    "d:EnableAppSpecificClientUsageKeys" = false;
+    "d:FeatureVectorPolicy" = "";
+    "d:FeatureVectorPolicyAllEnabled" = false;
+    "d:LogEntryExpiry" = 7;
+    "d:MaxConnectionWaitTimeForClientUsage" = false;
+    "d:MpnsChannelURI" = "";
+    "d:MpnsPushEnable" = false;
+    "d:PasswordPolicyDefaultPasswordAllowed" = false;
+    "d:PasswordPolicyDigitRequired" = false;
+    "d:PasswordPolicyEnabled" = false;
+    "d:PasswordPolicyExpiresInNDays" = 0;
+    "d:PasswordPolicyLockTimeout" = 0;
+    "d:PasswordPolicyLowerRequired" = false;
+    "d:PasswordPolicyMinLength" = 8;
+    "d:PasswordPolicyMinUniqueChars" = 0;
+    "d:PasswordPolicyRetryLimit" = 20;
+    "d:PasswordPolicySpecialRequired" = false;
+    "d:PasswordPolicyUpperRequired" = false;
+    "d:ProxyApplicationEndpoint" = "http://sapf1sdi10.dir.slb.com:8010/sap/opu/odata/sap/Z_PLANT_DEMO_SRV/";
+    "d:ProxyPushEndpoint" = "http://us1455saps033.DIR.slb.com:8080/Notification";
+    "d:PublishedToMobilePlace" = false;
+    "d:UploadLogs" = false;
+    "d:WnsChannelURI" = "";
+    "d:WnsPushEnable" = false;
+}
+2015-05-06 15:43:41.976 hclTestOffline[28922:3201701] urlString:   http://us1455saps033.dir.slb.com:8080
+2015-05-06 15:43:41.976 hclTestOffline[28922:3201701] Request String:  http://us1455saps033.dir.slb.com:8080/odata/applications/v1/com.hcl.offline/Connections('6582deda-85d3-4c07-8ade-be17b3d43987')
+2015-05-06 15:43:41.976 hclTestOffline[28922:3201701] Starting synchronous request <Request: 0x7bba1a00>{name = '(null)'}
+2015-05-06 15:43:41.977 hclTestOffline[28922:3201701] UrlString:   http://us1455saps033.dir.slb.com:8080
+2015-05-06 15:43:41.977 hclTestOffline[28922:3201701] Unable to instantiate Cache... Delta Link and CSRF (Offline) handling not possible
+2015-05-06 15:43:41.977 hclTestOffline[28922:3201701] UrlString:   http://us1455saps033.dir.slb.com:8080
+2015-05-06 15:43:41.978 hclTestOffline[28922:3201701] Request handleNetworkEvent -> Unexpected stream event type received
+2015-05-06 15:43:42.229 hclTestOffline[28922:3201701] ===Used: 1219 bytes of bandwidth in last measurement period===
+2015-05-06 15:43:42.237 hclTestOffline[28922:3201701] Got no keep-alive header, will keep this connection open for 60.000000 seconds
+2015-05-06 15:43:42.237 hclTestOffline[28922:3201701] Request <Request: 0x7bba1a00>{name = '(null)'} finished downloading data (1219 bytes)
+2015-05-06 15:43:42.237 hclTestOffline[28922:3201701] Request #2 finished using connection #1
+2015-05-06 15:43:42.237 hclTestOffline[28922:3201701] Request finished: <Request: 0x7bba1a00>{name = '(null)'}
+2015-05-06 15:43:42.237 hclTestOffline[28922:3201701] Response Code: 200
+2015-05-06 15:43:42.237 hclTestOffline[28922:3201701] Parsing started
+2015-05-06 15:43:42.238 hclTestOffline[28922:3201701] Found an element named: id with a value of: (null)
+2015-05-06 15:43:42.238 hclTestOffline[28922:3201701] Found an element named: title with a value of: (null)
+2015-05-06 15:43:42.238 hclTestOffline[28922:3201701] Found an element named: updated with a value of: (null)
+2015-05-06 15:43:42.238 hclTestOffline[28922:3201701] Found an element named: name with a value of: (null)
+2015-05-06 15:43:42.238 hclTestOffline[28922:3201701] Found an element named: author with a value of: (null)
+2015-05-06 15:43:42.238 hclTestOffline[28922:3201701] Found an element named: link with a value of: (null)
+2015-05-06 15:43:42.238 hclTestOffline[28922:3201701] Found an element named: category with a value of: (null)
+2015-05-06 15:43:42.238 hclTestOffline[28922:3201701] Found an element named: d:ETag with a value of: 2015-05-06 20:43:41.0
+2015-05-06 15:43:42.238 hclTestOffline[28922:3201701] Found an element named: d:ApplicationConnectionId with a value of: 6582deda-85d3-4c07-8ade-be17b3d43987
+2015-05-06 15:43:42.238 hclTestOffline[28922:3201701] Found an element named: d:AndroidGcmPushEnabled with a value of: false
+2015-05-06 15:43:42.239 hclTestOffline[28922:3201701] Found an element named: d:AndroidGcmRegistrationId with a value of: 
+2015-05-06 15:43:42.239 hclTestOffline[28922:3201701] Found an element named: d:AndroidGcmSenderId with a value of: 
+2015-05-06 15:43:42.239 hclTestOffline[28922:3201701] Found an element named: d:ApnsPushEnable with a value of: false
+2015-05-06 15:43:42.239 hclTestOffline[28922:3201701] Found an element named: d:ApnsDeviceToken with a value of: 
+2015-05-06 15:43:42.239 hclTestOffline[28922:3201701] Found an element named: d:ApplicationVersion with a value of: 1.0
+2015-05-06 15:43:42.239 hclTestOffline[28922:3201701] Found an element named: d:BlackberryPushEnabled with a value of: false
+2015-05-06 15:43:42.239 hclTestOffline[28922:3201701] Found an element named: d:BlackberryDevicePin with a value of: 
+2015-05-06 15:43:42.239 hclTestOffline[28922:3201701] Found an element named: d:BlackberryBESListenerPort with a value of: 0
+2015-05-06 15:43:42.239 hclTestOffline[28922:3201701] Found an element named: d:BlackberryPushAppID with a value of: 
+2015-05-06 15:43:42.239 hclTestOffline[28922:3201701] Found an element named: d:BlackberryPushBaseURL with a value of: 
+2015-05-06 15:43:42.239 hclTestOffline[28922:3201701] Found an element named: d:BlackberryPushListenerPort with a value of: 0
+2015-05-06 15:43:42.240 hclTestOffline[28922:3201701] Found an element named: d:BlackberryListenerType with a value of: 0
+2015-05-06 15:43:42.240 hclTestOffline[28922:3201701] Found an element named: d:CollectClientUsageReports with a value of: false
+2015-05-06 15:43:42.240 hclTestOffline[28922:3201701] Found an element named: d:ConnectionLogLevel with a value of: NONE
+2015-05-06 15:43:42.240 hclTestOffline[28922:3201701] Found an element named: d:CustomizationBundleId with a value of: 
+2015-05-06 15:43:42.240 hclTestOffline[28922:3201701] Found an element named: d:CustomCustom1 with a value of: 
+2015-05-06 15:43:42.240 hclTestOffline[28922:3201701] Found an element named: d:CustomCustom2 with a value of: 
+2015-05-06 15:43:42.240 hclTestOffline[28922:3201701] Found an element named: d:CustomCustom3 with a value of: 
+2015-05-06 15:43:42.240 hclTestOffline[28922:3201701] Found an element named: d:CustomCustom4 with a value of: 
+2015-05-06 15:43:42.240 hclTestOffline[28922:3201701] Found an element named: d:DeviceModel with a value of: 
+2015-05-06 15:43:42.240 hclTestOffline[28922:3201701] Found an element named: d:DeviceType with a value of: iPhone
+2015-05-06 15:43:42.240 hclTestOffline[28922:3201701] Found an element named: d:DeviceSubType with a value of: 
+2015-05-06 15:43:42.241 hclTestOffline[28922:3201701] Found an element named: d:DevicePhoneNumber with a value of: 
+2015-05-06 15:43:42.241 hclTestOffline[28922:3201701] Found an element named: d:DeviceIMSI with a value of: 
+2015-05-06 15:43:42.241 hclTestOffline[28922:3201701] Found an element named: d:E2ETraceLevel with a value of: Low
+2015-05-06 15:43:42.241 hclTestOffline[28922:3201701] Found an element named: d:EnableAppSpecificClientUsageKeys with a value of: false
+2015-05-06 15:43:42.241 hclTestOffline[28922:3201701] Found an element named: d:FeatureVectorPolicyAllEnabled with a value of: false
+2015-05-06 15:43:42.241 hclTestOffline[28922:3201701] Found an element named: d:LogEntryExpiry with a value of: 7
+2015-05-06 15:43:42.241 hclTestOffline[28922:3201701] Found an element named: d:MaxConnectionWaitTimeForClientUsage with a value of: false
+2015-05-06 15:43:42.241 hclTestOffline[28922:3201701] Found an element named: d:MpnsChannelURI with a value of: 
+2015-05-06 15:43:42.241 hclTestOffline[28922:3201701] Found an element named: d:MpnsPushEnable with a value of: false
+2015-05-06 15:43:42.241 hclTestOffline[28922:3201701] Found an element named: d:PasswordPolicyEnabled with a value of: false
+2015-05-06 15:43:42.241 hclTestOffline[28922:3201701] Found an element named: d:PasswordPolicyDefaultPasswordAllowed with a value of: false
+2015-05-06 15:43:42.241 hclTestOffline[28922:3201701] Found an element named: d:PasswordPolicyMinLength with a value of: 8
+2015-05-06 15:43:42.242 hclTestOffline[28922:3201701] Found an element named: d:PasswordPolicyDigitRequired with a value of: false
+2015-05-06 15:43:42.242 hclTestOffline[28922:3201701] Found an element named: d:PasswordPolicyUpperRequired with a value of: false
+2015-05-06 15:43:42.242 hclTestOffline[28922:3201701] Found an element named: d:PasswordPolicyLowerRequired with a value of: false
+2015-05-06 15:43:42.242 hclTestOffline[28922:3201701] Found an element named: d:PasswordPolicySpecialRequired with a value of: false
+2015-05-06 15:43:42.242 hclTestOffline[28922:3201701] Found an element named: d:PasswordPolicyExpiresInNDays with a value of: 0
+2015-05-06 15:43:42.242 hclTestOffline[28922:3201701] Found an element named: d:PasswordPolicyMinUniqueChars with a value of: 0
+2015-05-06 15:43:42.242 hclTestOffline[28922:3201701] Found an element named: d:PasswordPolicyLockTimeout with a value of: 0
+2015-05-06 15:43:42.242 hclTestOffline[28922:3201701] Found an element named: d:PasswordPolicyRetryLimit with a value of: 20
+2015-05-06 15:43:42.242 hclTestOffline[28922:3201701] Found an element named: d:ProxyApplicationEndpoint with a value of: http://sapf1sdi10.dir.slb.com:8010/sap/opu/odata/sap/Z_PLANT_DEMO_SRV/
+2015-05-06 15:43:42.242 hclTestOffline[28922:3201701] Found an element named: d:ProxyPushEndpoint with a value of: http://us1455saps033.DIR.slb.com:8080/Notification
+2015-05-06 15:43:42.242 hclTestOffline[28922:3201701] Found an element named: d:PublishedToMobilePlace with a value of: false
+2015-05-06 15:43:42.242 hclTestOffline[28922:3201701] Found an element named: d:UploadLogs with a value of: false
+2015-05-06 15:43:42.243 hclTestOffline[28922:3201701] Found an element named: d:WnsChannelURI with a value of: 
+2015-05-06 15:43:42.243 hclTestOffline[28922:3201701] Found an element named: d:WnsPushEnable with a value of: false
+2015-05-06 15:43:42.243 hclTestOffline[28922:3201701] Found an element named: d:FeatureVectorPolicy with a value of: 
+2015-05-06 15:43:42.243 hclTestOffline[28922:3201701] Found an element named: m:properties with a value of: 
+2015-05-06 15:43:42.243 hclTestOffline[28922:3201701] Found an element named: content with a value of: 
+2015-05-06 15:43:42.243 hclTestOffline[28922:3201701] Found an element named: entry with a value of: 
+2015-05-06 15:43:42.243 hclTestOffline[28922:3201701] Parsing ended --> {
+    "d:AndroidGcmPushEnabled" = false;
+    "d:AndroidGcmRegistrationId" = "";
+    "d:AndroidGcmSenderId" = "";
+    "d:ApnsDeviceToken" = "";
+    "d:ApnsPushEnable" = false;
+    "d:ApplicationConnectionId" = "6582deda-85d3-4c07-8ade-be17b3d43987";
+    "d:ApplicationVersion" = "1.0";
+    "d:BlackberryBESListenerPort" = 0;
+    "d:BlackberryDevicePin" = "";
+    "d:BlackberryListenerType" = 0;
+    "d:BlackberryPushAppID" = "";
+    "d:BlackberryPushBaseURL" = "";
+    "d:BlackberryPushEnabled" = false;
+    "d:BlackberryPushListenerPort" = 0;
+    "d:CollectClientUsageReports" = false;
+    "d:ConnectionLogLevel" = NONE;
+    "d:CustomCustom1" = "";
+    "d:CustomCustom2" = "";
+    "d:CustomCustom3" = "";
+    "d:CustomCustom4" = "";
+    "d:CustomizationBundleId" = "";
+    "d:DeviceIMSI" = "";
+    "d:DeviceModel" = "";
+    "d:DevicePhoneNumber" = "";
+    "d:DeviceSubType" = "";
+    "d:DeviceType" = iPhone;
+    "d:E2ETraceLevel" = Low;
+    "d:ETag" = "2015-05-06 20:43:41.0";
+    "d:EnableAppSpecificClientUsageKeys" = false;
+    "d:FeatureVectorPolicy" = "";
+    "d:FeatureVectorPolicyAllEnabled" = false;
+    "d:LogEntryExpiry" = 7;
+    "d:MaxConnectionWaitTimeForClientUsage" = false;
+    "d:MpnsChannelURI" = "";
+    "d:MpnsPushEnable" = false;
+    "d:PasswordPolicyDefaultPasswordAllowed" = false;
+    "d:PasswordPolicyDigitRequired" = false;
+    "d:PasswordPolicyEnabled" = false;
+    "d:PasswordPolicyExpiresInNDays" = 0;
+    "d:PasswordPolicyLockTimeout" = 0;
+    "d:PasswordPolicyLowerRequired" = false;
+    "d:PasswordPolicyMinLength" = 8;
+    "d:PasswordPolicyMinUniqueChars" = 0;
+    "d:PasswordPolicyRetryLimit" = 20;
+    "d:PasswordPolicySpecialRequired" = false;
+    "d:PasswordPolicyUpperRequired" = false;
+    "d:ProxyApplicationEndpoint" = "http://sapf1sdi10.dir.slb.com:8010/sap/opu/odata/sap/Z_PLANT_DEMO_SRV/";
+    "d:ProxyPushEndpoint" = "http://us1455saps033.DIR.slb.com:8080/Notification";
+    "d:PublishedToMobilePlace" = false;
+    "d:UploadLogs" = false;
+    "d:WnsChannelURI" = "";
+    "d:WnsPushEnable" = false;
+}
+2015-05-06 15:45:15.033 hclTestOffline[28922:3201701] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '12.726807' ms. Plugin should use a background thread.
+2015-05-06 15:45:15.068 hclTestOffline[28922:3201701] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '34.720703' ms. Plugin should use a background thread.
+2015-05-06 15:48:27.628 hclTestOffline[28922:3201701] THREAD WARNING: ['OData'] took '12.242676' ms. Plugin should use a background thread.
+2015-05-06 15:49:15.845 hclTestOffline[28922:3239620] Terminating since there is no system app.

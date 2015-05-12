@@ -1,0 +1,44 @@
+
+<mvc:View
+height="100%"
+controllerName="root.view.mainview"
+xmlns:mvc="sap.ui.core.mvc"
+xmlns:core="sap.ui.core"
+xmlns="sap.m">
+<Page
+showHeader="true"
+enableScrolling="false"
+title="Technology LifeCycle Management"
+>
+<headerContent>
+    <Toolbar>
+        <ToolbarSpacer/>
+        <Button icon="sap-icon://account" text="Demo User" id="settingsBtn" />
+        
+        <Button icon="sap-icon://action-settings" text="Settings"  press="openSettings"/>
+       <!-- <core:Icon src="sap-icon://navigation-down-arrow" press="openSettings"/>  -->
+    </Toolbar>
+</headerContent>
+<TileContainer
+id="container"
+tileDelete="handleTileDelete"
+tiles="{/TileCollection}">
+<StandardTile
+icon="sap-icon://{icon}"
+type="{type}"
+number="{number}"
+numberUnit="{numberUnit}"
+title="{title}"
+info="{info}"
+infoState="{infoState}"
+press="handleTilePress"
+/>
+</TileContainer>
+<footer>
+    <Toolbar>
+        <ToolbarSpacer/>
+    </Toolbar>
+</footer>
+</Page>
+</mvc:View>
+

@@ -19,7 +19,7 @@
                     sap.Logger.setLogLevel(sap.Logger.DEBUG);  //enables the display of debug log messages from the Kapsel plugins.
                     sap.Logger.debug("Log level set to DEBUG");
                 }
-                
+         
                 sap.ui.getCore().attachInit(function() {
                                             sap.ui.jsview("RootView", "ui5bp.view.App").placeAt('content');
                                             });
@@ -41,7 +41,7 @@
         
         
             document.addEventListener("deviceready", delayInit, false);
-            
+            //document.addEventListener("deviceready", init, false);
             
 				
 		</script>

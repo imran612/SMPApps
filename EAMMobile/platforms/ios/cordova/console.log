@@ -78,3 +78,115 @@ https://developer.apple.com/icloud/documentation/data-storage/
 2015-05-05 10:27:19.861 EAMMobile[9563:43221] [Status] miaccp_URLIsAllowed:logFailure
 2015-05-05 10:27:20.485 EAMMobile[9563:41724] [Status] miaccp_URLIsAllowed
 2015-05-05 10:27:20.485 EAMMobile[9563:41724] [Status] miaccp_URLIsAllowed:logFailure
+2015-05-05 11:12:34.589 EAMMobile[18728:192349] Apache Cordova native platform version 3.6.3 is starting.
+2015-05-05 11:12:34.590 EAMMobile[18728:192349] Multi-tasking -> Device: YES, App: YES
+2015-05-05 11:12:34.594 EAMMobile[18728:192349] Unlimited access to network resources
+2015-05-05 11:12:34.596 EAMMobile[18728:192349] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2015-05-05 11:12:34.672 EAMMobile[18728:192349] [CDVTimer][statusbar] 9.088039ms
+2015-05-05 11:12:34.672 EAMMobile[18728:192349] [CDVTimer][appconnectcordovaplugin] 0.032008ms
+2015-05-05 11:12:34.676 EAMMobile[18728:192349] CommonAuthenticationConfigurator isNSHTTPURLProtocolReplacementEnabled: 0
+2015-05-05 11:12:34.676 EAMMobile[18728:192349] [CDVTimer][authproxy] 3.748000ms
+2015-05-05 11:12:34.676 EAMMobile[18728:192349] [CDVTimer][TotalPluginStartup] 13.206005ms
+2015-05-05 11:12:34.709 EAMMobile[18728:192349] Resetting plugins due to page load.
+2015-05-05 11:12:34.857 EAMMobile[18728:192349] Finished load of: file:///Users/imrankhan/Library/Developer/CoreSimulator/Devices/FE471D34-30AA-4184-9066-9432B1C063BE/data/Containers/Bundle/Application/EFA47C09-D650-4852-848C-ABFF7C013664/EAMMobile.app/www/index.html
+2015-05-05 11:12:34.887 EAMMobile[18728:192353] [Status] Initializing AppConnect plugin
+2015-05-05 11:12:34.887 EAMMobile[18728:192353] [Status] Hooking methods to enable AppConnect Tunneling
+2015-05-05 11:12:34.914 EAMMobile[18728:192349] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '25.583252' ms. Plugin should use a background thread.
+2015-05-05 11:12:34.971 EAMMobile[18728:192349] Setting the WebView's frame to {{0, 0}, {768, 980}}
+2015-05-05 11:12:34.972 EAMMobile[18728:192349] Setting the WebView's frame to {{0, 0}, {768, 1024}}
+2015-05-05 11:12:34.979 EAMMobile[18728:192349] THREAD WARNING: ['InAppBrowser'] took '56.421875' ms. Plugin should use a background thread.
+2015-05-05 11:12:35.179 EAMMobile[18728:192349] THREAD WARNING: ['InAppBrowser'] took '93.436768' ms. Plugin should use a background thread.
+2015-05-05 11:12:52.967 EAMMobile[18728:192950] ER:MAFLogon Exception: DataVault Locked Error: Error Domain=MAFSecureStoreManagerErrorDomain Code=6 "Secure store is locked" UserInfo=0x7b0ef8d0 {exceptionReason=DataVault Locked, exceptionName=DataVaultException, NSLocalizedDescription=Secure store is locked}
+2015-05-05 11:12:53.032 EAMMobile[18728:192349] Resetting plugins due to page load.
+2015-05-05 11:12:53.094 EAMMobile[18728:192349] Finished load of: file:///Users/imrankhan/Library/Developer/CoreSimulator/Devices/FE471D34-30AA-4184-9066-9432B1C063BE/data/Containers/Bundle/Application/EFA47C09-D650-4852-848C-ABFF7C013664/EAMMobile.app/www/index.html
+2015-05-05 11:12:53.110 EAMMobile[18728:192950] [Status] Initializing AppConnect plugin
+2015-05-05 11:12:53.110 EAMMobile[18728:192950] [AppConnect:Error] +initWithDelegate: has already been called. +initWithDelegate: should only be called once per app launch.
+2015-05-05 11:12:53.110 EAMMobile[18728:192950] [Status] Hooking methods to enable AppConnect Tunneling
+2015-05-05 11:12:53.136 EAMMobile[18728:192349] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '13.989014' ms. Plugin should use a background thread.
+2015-05-05 11:12:53.190 EAMMobile[18728:192349] Setting the WebView's frame to {{0, 0}, {768, 980}}
+2015-05-05 11:12:53.190 EAMMobile[18728:192349] Setting the WebView's frame to {{0, 0}, {768, 1024}}
+2015-05-05 11:12:53.197 EAMMobile[18728:192349] THREAD WARNING: ['InAppBrowser'] took '61.487061' ms. Plugin should use a background thread.
+2015-05-05 11:12:53.811 EAMMobile[18728:192349] THREAD WARNING: ['InAppBrowser'] took '64.769043' ms. Plugin should use a background thread.
+2015-05-05 11:13:20.048 EAMMobile[18728:192349] THREAD WARNING: ['InAppBrowser'] took '11.366699' ms. Plugin should use a background thread.
+2015-05-05 11:13:28.167 EAMMobile[18728:192349] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '12.367920' ms. Plugin should use a background thread.
+2015-05-05 11:13:28.206 EAMMobile[18728:192349] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '39.463135' ms. Plugin should use a background thread.
+2015-05-05 11:29:36.181 EAMMobile[18728:289934] Terminating since there is no system app.
+2015-05-05 11:52:51.440 EAMMobile[34466:400978] Apache Cordova native platform version 3.6.3 is starting.
+2015-05-05 11:52:51.440 EAMMobile[34466:400978] Multi-tasking -> Device: YES, App: YES
+2015-05-05 11:52:51.444 EAMMobile[34466:400978] Unlimited access to network resources
+2015-05-05 11:52:51.447 EAMMobile[34466:400978] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2015-05-05 11:52:51.528 EAMMobile[34466:400978] [CDVTimer][statusbar] 9.602010ms
+2015-05-05 11:52:51.529 EAMMobile[34466:400978] [CDVTimer][appconnectcordovaplugin] 0.036001ms
+2015-05-05 11:52:51.536 EAMMobile[34466:400978] CommonAuthenticationConfigurator isNSHTTPURLProtocolReplacementEnabled: 0
+2015-05-05 11:52:51.536 EAMMobile[34466:400978] [CDVTimer][authproxy] 7.144988ms
+2015-05-05 11:52:51.536 EAMMobile[34466:400978] [CDVTimer][TotalPluginStartup] 17.120004ms
+2015-05-05 11:52:51.620 EAMMobile[34466:400978] Resetting plugins due to page load.
+2015-05-05 11:52:51.761 EAMMobile[34466:400978] Finished load of: file:///Users/imrankhan/Library/Developer/CoreSimulator/Devices/FE471D34-30AA-4184-9066-9432B1C063BE/data/Containers/Bundle/Application/4888ED99-9827-4010-9DCA-40B915989319/EAMMobile.app/www/index.html
+2015-05-05 11:52:51.797 EAMMobile[34466:400982] [Status] Initializing AppConnect plugin
+2015-05-05 11:52:51.797 EAMMobile[34466:400982] [Status] Hooking methods to enable AppConnect Tunneling
+2015-05-05 11:52:51.830 EAMMobile[34466:400978] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '32.866943' ms. Plugin should use a background thread.
+2015-05-05 11:52:51.886 EAMMobile[34466:400978] Setting the WebView's frame to {{0, 0}, {768, 980}}
+2015-05-05 11:52:51.886 EAMMobile[34466:400978] Setting the WebView's frame to {{0, 0}, {768, 1024}}
+2015-05-05 11:52:51.894 EAMMobile[34466:400978] THREAD WARNING: ['InAppBrowser'] took '54.709961' ms. Plugin should use a background thread.
+2015-05-05 11:52:52.094 EAMMobile[34466:400978] THREAD WARNING: ['InAppBrowser'] took '91.678711' ms. Plugin should use a background thread.
+2015-05-05 11:52:58.147 EAMMobile[34466:401609] ER:MAFLogon Exception: DataVault Locked Error: Error Domain=MAFSecureStoreManagerErrorDomain Code=6 "Secure store is locked" UserInfo=0x7c64f1f0 {exceptionReason=DataVault Locked, exceptionName=DataVaultException, NSLocalizedDescription=Secure store is locked}
+2015-05-05 11:52:58.211 EAMMobile[34466:400978] Resetting plugins due to page load.
+2015-05-05 11:52:58.266 EAMMobile[34466:400978] Finished load of: file:///Users/imrankhan/Library/Developer/CoreSimulator/Devices/FE471D34-30AA-4184-9066-9432B1C063BE/data/Containers/Bundle/Application/4888ED99-9827-4010-9DCA-40B915989319/EAMMobile.app/www/index.html
+2015-05-05 11:52:58.282 EAMMobile[34466:400981] [Status] Initializing AppConnect plugin
+2015-05-05 11:52:58.282 EAMMobile[34466:400981] [AppConnect:Error] +initWithDelegate: has already been called. +initWithDelegate: should only be called once per app launch.
+2015-05-05 11:52:58.282 EAMMobile[34466:400981] [Status] Hooking methods to enable AppConnect Tunneling
+2015-05-05 11:52:58.308 EAMMobile[34466:400978] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '14.126953' ms. Plugin should use a background thread.
+2015-05-05 11:52:58.354 EAMMobile[34466:400978] Setting the WebView's frame to {{0, 0}, {768, 980}}
+2015-05-05 11:52:58.355 EAMMobile[34466:400978] Setting the WebView's frame to {{0, 0}, {768, 1024}}
+2015-05-05 11:52:58.361 EAMMobile[34466:400978] THREAD WARNING: ['InAppBrowser'] took '52.499023' ms. Plugin should use a background thread.
+2015-05-05 11:52:58.960 EAMMobile[34466:400978] THREAD WARNING: ['InAppBrowser'] took '63.900879' ms. Plugin should use a background thread.
+2015-05-12 09:59:13.258 EAMMobile[11981:414215] Apache Cordova native platform version 3.6.3 is starting.
+2015-05-12 09:59:13.258 EAMMobile[11981:414215] Multi-tasking -> Device: YES, App: YES
+2015-05-12 09:59:13.264 EAMMobile[11981:414215] Unlimited access to network resources
+2015-05-12 09:59:13.266 EAMMobile[11981:414215] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2015-05-12 09:59:13.570 EAMMobile[11981:414215] [CDVTimer][statusbar] 60.424030ms
+2015-05-12 09:59:13.570 EAMMobile[11981:414215] [CDVTimer][appconnectcordovaplugin] 0.037014ms
+2015-05-12 09:59:13.575 EAMMobile[11981:414215] CommonAuthenticationConfigurator isNSHTTPURLProtocolReplacementEnabled: 0
+2015-05-12 09:59:13.575 EAMMobile[11981:414215] [CDVTimer][authproxy] 4.366994ms
+2015-05-12 09:59:13.575 EAMMobile[11981:414215] [CDVTimer][TotalPluginStartup] 65.138996ms
+2015-05-12 09:59:13.610 EAMMobile[11981:414215] Resetting plugins due to page load.
+2015-05-12 09:59:13.839 EAMMobile[11981:414215] Finished load of: file:///Users/imrankhan/Library/Developer/CoreSimulator/Devices/FE471D34-30AA-4184-9066-9432B1C063BE/data/Containers/Bundle/Application/BF42D612-5D32-4C15-BAE7-DA021809DE2A/EAMMobile.app/www/index.html
+2015-05-12 09:59:13.873 EAMMobile[11981:414229] [Status] Initializing AppConnect plugin
+2015-05-12 09:59:13.874 EAMMobile[11981:414229] [Status] Hooking methods to enable AppConnect Tunneling
+2015-05-12 09:59:13.902 EAMMobile[11981:414215] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '26.573975' ms. Plugin should use a background thread.
+2015-05-12 09:59:13.968 EAMMobile[11981:414215] Setting the WebView's frame to {{0, 0}, {768, 980}}
+2015-05-12 09:59:13.969 EAMMobile[11981:414215] Setting the WebView's frame to {{0, 0}, {768, 1024}}
+2015-05-12 09:59:13.976 EAMMobile[11981:414215] THREAD WARNING: ['InAppBrowser'] took '65.512695' ms. Plugin should use a background thread.
+2015-05-12 09:59:14.182 EAMMobile[11981:414215] THREAD WARNING: ['InAppBrowser'] took '90.531250' ms. Plugin should use a background thread.
+2015-05-12 09:59:17.926 EAMMobile[11981:414305] ER:MAFLogon Exception: DataVault Locked Error: Error Domain=MAFSecureStoreManagerErrorDomain Code=6 "Secure store is locked" UserInfo=0x797a9690 {exceptionReason=DataVault Locked, exceptionName=DataVaultException, NSLocalizedDescription=Secure store is locked}
+2015-05-12 09:59:17.990 EAMMobile[11981:414215] Resetting plugins due to page load.
+2015-05-12 09:59:18.047 EAMMobile[11981:414215] Finished load of: file:///Users/imrankhan/Library/Developer/CoreSimulator/Devices/FE471D34-30AA-4184-9066-9432B1C063BE/data/Containers/Bundle/Application/BF42D612-5D32-4C15-BAE7-DA021809DE2A/EAMMobile.app/www/index.html
+2015-05-12 09:59:18.067 EAMMobile[11981:414305] [Status] Initializing AppConnect plugin
+2015-05-12 09:59:18.067 EAMMobile[11981:414305] [AppConnect:Error] +initWithDelegate: has already been called. +initWithDelegate: should only be called once per app launch.
+2015-05-12 09:59:18.067 EAMMobile[11981:414305] [Status] Hooking methods to enable AppConnect Tunneling
+2015-05-12 09:59:18.094 EAMMobile[11981:414215] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '15.412109' ms. Plugin should use a background thread.
+2015-05-12 09:59:18.137 EAMMobile[11981:414215] Setting the WebView's frame to {{0, 0}, {768, 980}}
+2015-05-12 09:59:18.137 EAMMobile[11981:414215] Setting the WebView's frame to {{0, 0}, {768, 1024}}
+2015-05-12 09:59:18.143 EAMMobile[11981:414215] THREAD WARNING: ['InAppBrowser'] took '48.608154' ms. Plugin should use a background thread.
+2015-05-12 09:59:18.653 EAMMobile[11981:414215] THREAD WARNING: ['InAppBrowser'] took '65.726074' ms. Plugin should use a background thread.
+2015-05-12 09:59:34.377 EAMMobile[11981:414215] THREAD WARNING: ['InAppBrowser'] took '10.833984' ms. Plugin should use a background thread.
+2015-05-12 10:02:05.136 EAMMobile[11981:414215] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '13.934814' ms. Plugin should use a background thread.
+2015-05-12 10:02:05.180 EAMMobile[11981:414215] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '43.896973' ms. Plugin should use a background thread.
