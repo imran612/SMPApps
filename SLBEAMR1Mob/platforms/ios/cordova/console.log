@@ -1793,3 +1793,1310 @@ https://developer.apple.com/icloud/documentation/data-storage/
 2015-06-02 18:27:14.693 SLBEAMR1Mob[26883:2804425] [Status] miaccp_URLIsAllowed:logFailure
 2015-06-02 18:27:14.705 SLBEAMR1Mob[26883:2804425] THREAD WARNING: ['OData'] took '12.021973' ms. Plugin should use a background thread.
 2015-06-02 18:29:28.352 SLBEAMR1Mob[26883:2817690] Terminating since there is no system app.
+2015-06-03 08:29:15.742 SLBEAMR1Mob[12041:130140] Apache Cordova native platform version 3.6.3 is starting.
+2015-06-03 08:29:15.743 SLBEAMR1Mob[12041:130140] Multi-tasking -> Device: YES, App: YES
+2015-06-03 08:29:15.762 SLBEAMR1Mob[12041:130140] Unlimited access to network resources
+2015-06-03 08:29:15.766 SLBEAMR1Mob[12041:130140] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2015-06-03 08:29:16.071 SLBEAMR1Mob[12041:130140] [CDVTimer][appconnectcordovaplugin] 0.064969ms
+2015-06-03 08:29:16.071 SLBEAMR1Mob[12041:130140] [group: com.sap.smp.client.ios] [artifact: Supportability] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 08:29:16.072 SLBEAMR1Mob[12041:130140] [group: com.sap.smp.client.ios] [artifact: ClientLog] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 08:29:16.077 SLBEAMR1Mob[12041:130140] [group: com.sap.smp.client.ios] [artifact: E2ETrace2] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 08:29:16.078 SLBEAMR1Mob[12041:130140] CommonAuthenticationConfigurator isNSHTTPURLProtocolReplacementEnabled: 0
+2015-06-03 08:29:16.078 SLBEAMR1Mob[12041:130140] [CDVTimer][authproxy] 6.689012ms
+2015-06-03 08:29:16.078 SLBEAMR1Mob[12041:130140] [CDVTimer][TotalPluginStartup] 7.053018ms
+2015-06-03 08:29:16.228 SLBEAMR1Mob[12041:130140] Resetting plugins due to page load.
+2015-06-03 08:29:16.562 SLBEAMR1Mob[12041:130140] Finished load of: file:///Users/imrankhan/Library/Developer/CoreSimulator/Devices/F55457C8-F251-4939-A14F-8870156D4198/data/Containers/Bundle/Application/694794BF-2C84-4600-8D20-04CFA20B5D35/SLBEAMR1Mob.app/www/index.html
+2015-06-03 08:29:18.064 SLBEAMR1Mob[12041:130140] THREAD WARNING: ['NetworkStatus'] took '1468.778809' ms. Plugin should use a background thread.
+2015-06-03 08:29:18.072 SLBEAMR1Mob[12041:130492] [Status] Initializing AppConnect plugin
+2015-06-03 08:29:18.072 SLBEAMR1Mob[12041:130492] [Status] Hooking methods to enable AppConnect Tunneling
+2015-06-03 08:29:18.084 SLBEAMR1Mob[12041:130140] [group: com.sap.mobile.maf.tools.ios] [artifact: MAFLogger] [version: 1.207.0] [buildTime: 2015-02-24 23:55] [gitCommit: 0648677345ea49cb2688ed34b110338d0a15cf6b] [gitBranch: origin/fa/rel-1.207]
+2015-06-03 08:29:18.084 SLBEAMR1Mob[12041:130140] [group: com.sap.smp.client.ios] [artifact: Logger] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 08:29:18.087 SLBEAMR1Mob[12041:130140] [group: com.sap.smp.client.ios] [artifact: ClientHubSLL] [version: 3.7.0] [buildTime: 2015-02-23 22:49] [gitCommit: e7aa7076609783021fdedc87f29f65522d139dd1] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 08:29:18.089 SLBEAMR1Mob[12041:130140] [group: com.sap.smp.client.ios] [artifact: Datavault] [version: 3.7.0] [buildTime: 2015-02-23 22:49] [gitCommit: e7aa7076609783021fdedc87f29f65522d139dd1] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 08:29:18.110 SLBEAMR1Mob[12041:130140] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '26.656738' ms. Plugin should use a background thread.
+2015-06-03 08:29:18.176 SLBEAMR1Mob[12041:130140] Setting the WebView's frame to {{0, 0}, {768, 980}}
+2015-06-03 08:29:18.176 SLBEAMR1Mob[12041:130140] Setting the WebView's frame to {{0, 0}, {768, 1024}}
+2015-06-03 08:29:18.183 SLBEAMR1Mob[12041:130140] THREAD WARNING: ['InAppBrowser'] took '64.759033' ms. Plugin should use a background thread.
+2015-06-03 08:29:18.390 SLBEAMR1Mob[12041:130140] THREAD WARNING: ['InAppBrowser'] took '91.552734' ms. Plugin should use a background thread.
+2015-06-03 08:29:21.425 SLBEAMR1Mob[12041:130140] [group: com.sap.smp.client.ios] [artifact: CoreServices] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 08:29:21.425 SLBEAMR1Mob[12041:130140] Initializing Client connection with ApplicationID : com.slb.eam.mob  Domain :  default  SecurityConfiguration:  (null)
+2015-06-03 08:29:21.425 SLBEAMR1Mob[12041:130140] [group: com.sap.smp.client.ios] [artifact: Request] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 08:29:21.427 SLBEAMR1Mob[12041:130140] [Status] miaccp_URLIsAllowed:logFailure
+2015-06-03 08:29:21.427 SLBEAMR1Mob[12041:130140] Setting Client connection with Url:  http://us1455saps033.dir.slb.com:8080
+2015-06-03 08:29:21.495 SLBEAMR1Mob[12041:130140] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '133.621094' ms. Plugin should use a background thread.
+2015-06-03 08:29:21.507 SLBEAMR1Mob[12041:130140] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '11.700928' ms. Plugin should use a background thread.
+2015-06-03 08:29:21.593 SLBEAMR1Mob[12041:130140] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '54.406982' ms. Plugin should use a background thread.
+2015-06-03 08:29:23.006 SLBEAMR1Mob[12041:130556] [Status] miaccp_URLIsAllowed
+2015-06-03 08:29:23.006 SLBEAMR1Mob[12041:130556] [Status] miaccp_URLIsAllowed:logFailure
+2015-06-03 08:29:23.118 SLBEAMR1Mob[12041:130140] [Status] miaccp_URLIsAllowed
+2015-06-03 08:29:23.118 SLBEAMR1Mob[12041:130140] [Status] miaccp_URLIsAllowed:logFailure
+2015-06-03 08:29:23.130 SLBEAMR1Mob[12041:130140] THREAD WARNING: ['OData'] took '12.447998' ms. Plugin should use a background thread.
+2015-06-03 09:18:35.954 SLBEAMR1Mob[22235:163863] Apache Cordova native platform version 3.6.3 is starting.
+2015-06-03 09:18:35.955 SLBEAMR1Mob[22235:163863] Multi-tasking -> Device: YES, App: YES
+2015-06-03 09:18:35.959 SLBEAMR1Mob[22235:163863] Unlimited access to network resources
+2015-06-03 09:18:35.961 SLBEAMR1Mob[22235:163863] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2015-06-03 09:18:36.018 SLBEAMR1Mob[22235:163863] [CDVTimer][appconnectcordovaplugin] 0.046968ms
+2015-06-03 09:18:36.018 SLBEAMR1Mob[22235:163863] [group: com.sap.smp.client.ios] [artifact: Supportability] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 09:18:36.018 SLBEAMR1Mob[22235:163863] [group: com.sap.smp.client.ios] [artifact: ClientLog] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 09:18:36.023 SLBEAMR1Mob[22235:163863] [group: com.sap.smp.client.ios] [artifact: E2ETrace2] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 09:18:36.023 SLBEAMR1Mob[22235:163863] CommonAuthenticationConfigurator isNSHTTPURLProtocolReplacementEnabled: 0
+2015-06-03 09:18:36.023 SLBEAMR1Mob[22235:163863] [CDVTimer][authproxy] 5.212009ms
+2015-06-03 09:18:36.023 SLBEAMR1Mob[22235:163863] [CDVTimer][TotalPluginStartup] 5.484998ms
+2015-06-03 09:18:36.054 SLBEAMR1Mob[22235:163863] Resetting plugins due to page load.
+2015-06-03 09:18:36.200 SLBEAMR1Mob[22235:163863] Finished load of: file:///Users/imrankhan/Library/Developer/CoreSimulator/Devices/F55457C8-F251-4939-A14F-8870156D4198/data/Containers/Bundle/Application/CC57E29A-9CD8-46AE-BB90-925598D6F9D6/SLBEAMR1Mob.app/www/index.html
+2015-06-03 09:18:44.282 SLBEAMR1Mob[22235:163863] THREAD WARNING: ['NetworkStatus'] took '8054.341064' ms. Plugin should use a background thread.
+2015-06-03 09:18:44.291 SLBEAMR1Mob[22235:164228] [Status] Initializing AppConnect plugin
+2015-06-03 09:18:44.291 SLBEAMR1Mob[22235:164228] [Status] Hooking methods to enable AppConnect Tunneling
+2015-06-03 09:18:44.300 SLBEAMR1Mob[22235:163863] [group: com.sap.mobile.maf.tools.ios] [artifact: MAFLogger] [version: 1.207.0] [buildTime: 2015-02-24 23:55] [gitCommit: 0648677345ea49cb2688ed34b110338d0a15cf6b] [gitBranch: origin/fa/rel-1.207]
+2015-06-03 09:18:44.300 SLBEAMR1Mob[22235:163863] [group: com.sap.smp.client.ios] [artifact: Logger] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 09:18:44.303 SLBEAMR1Mob[22235:163863] [group: com.sap.smp.client.ios] [artifact: ClientHubSLL] [version: 3.7.0] [buildTime: 2015-02-23 22:49] [gitCommit: e7aa7076609783021fdedc87f29f65522d139dd1] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 09:18:44.305 SLBEAMR1Mob[22235:163863] [group: com.sap.smp.client.ios] [artifact: Datavault] [version: 3.7.0] [buildTime: 2015-02-23 22:49] [gitCommit: e7aa7076609783021fdedc87f29f65522d139dd1] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 09:18:44.328 SLBEAMR1Mob[22235:163863] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '27.635986' ms. Plugin should use a background thread.
+2015-06-03 09:18:44.384 SLBEAMR1Mob[22235:163863] Setting the WebView's frame to {{0, 0}, {768, 980}}
+2015-06-03 09:18:44.384 SLBEAMR1Mob[22235:163863] Setting the WebView's frame to {{0, 0}, {768, 1024}}
+2015-06-03 09:18:44.391 SLBEAMR1Mob[22235:163863] THREAD WARNING: ['InAppBrowser'] took '55.235107' ms. Plugin should use a background thread.
+2015-06-03 09:18:44.598 SLBEAMR1Mob[22235:163863] THREAD WARNING: ['InAppBrowser'] took '96.309814' ms. Plugin should use a background thread.
+2015-06-03 09:23:26.000 SLBEAMR1Mob[30979:175223] Apache Cordova native platform version 3.6.3 is starting.
+2015-06-03 09:23:26.001 SLBEAMR1Mob[30979:175223] Multi-tasking -> Device: YES, App: YES
+2015-06-03 09:23:26.005 SLBEAMR1Mob[30979:175223] Unlimited access to network resources
+2015-06-03 09:23:26.007 SLBEAMR1Mob[30979:175223] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2015-06-03 09:23:26.063 SLBEAMR1Mob[30979:175223] [CDVTimer][appconnectcordovaplugin] 0.047982ms
+2015-06-03 09:23:26.063 SLBEAMR1Mob[30979:175223] [group: com.sap.smp.client.ios] [artifact: Supportability] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 09:23:26.063 SLBEAMR1Mob[30979:175223] [group: com.sap.smp.client.ios] [artifact: ClientLog] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 09:23:26.067 SLBEAMR1Mob[30979:175223] [group: com.sap.smp.client.ios] [artifact: E2ETrace2] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 09:23:26.068 SLBEAMR1Mob[30979:175223] CommonAuthenticationConfigurator isNSHTTPURLProtocolReplacementEnabled: 0
+2015-06-03 09:23:26.068 SLBEAMR1Mob[30979:175223] [CDVTimer][authproxy] 4.817963ms
+2015-06-03 09:23:26.068 SLBEAMR1Mob[30979:175223] [CDVTimer][TotalPluginStartup] 5.098999ms
+2015-06-03 09:23:26.098 SLBEAMR1Mob[30979:175223] Resetting plugins due to page load.
+2015-06-03 09:23:26.245 SLBEAMR1Mob[30979:175223] Finished load of: file:///Users/imrankhan/Library/Developer/CoreSimulator/Devices/F55457C8-F251-4939-A14F-8870156D4198/data/Containers/Bundle/Application/A7705FAF-1FC3-4E51-83BD-C7F1CCCF6FBE/SLBEAMR1Mob.app/www/index.html
+2015-06-03 09:23:29.233 SLBEAMR1Mob[30979:175223] THREAD WARNING: ['NetworkStatus'] took '2960.993164' ms. Plugin should use a background thread.
+2015-06-03 09:23:29.243 SLBEAMR1Mob[30979:175241] [Status] Initializing AppConnect plugin
+2015-06-03 09:23:29.244 SLBEAMR1Mob[30979:175241] [Status] Hooking methods to enable AppConnect Tunneling
+2015-06-03 09:23:29.254 SLBEAMR1Mob[30979:175223] [group: com.sap.mobile.maf.tools.ios] [artifact: MAFLogger] [version: 1.207.0] [buildTime: 2015-02-24 23:55] [gitCommit: 0648677345ea49cb2688ed34b110338d0a15cf6b] [gitBranch: origin/fa/rel-1.207]
+2015-06-03 09:23:29.254 SLBEAMR1Mob[30979:175223] [group: com.sap.smp.client.ios] [artifact: Logger] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 09:23:29.256 SLBEAMR1Mob[30979:175223] [group: com.sap.smp.client.ios] [artifact: ClientHubSLL] [version: 3.7.0] [buildTime: 2015-02-23 22:49] [gitCommit: e7aa7076609783021fdedc87f29f65522d139dd1] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 09:23:29.258 SLBEAMR1Mob[30979:175223] [group: com.sap.smp.client.ios] [artifact: Datavault] [version: 3.7.0] [buildTime: 2015-02-23 22:49] [gitCommit: e7aa7076609783021fdedc87f29f65522d139dd1] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 09:23:29.280 SLBEAMR1Mob[30979:175223] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '26.128174' ms. Plugin should use a background thread.
+2015-06-03 09:23:29.332 SLBEAMR1Mob[30979:175223] Setting the WebView's frame to {{0, 0}, {768, 980}}
+2015-06-03 09:23:29.332 SLBEAMR1Mob[30979:175223] Setting the WebView's frame to {{0, 0}, {768, 1024}}
+2015-06-03 09:23:29.340 SLBEAMR1Mob[30979:175223] THREAD WARNING: ['InAppBrowser'] took '52.343750' ms. Plugin should use a background thread.
+2015-06-03 09:23:29.553 SLBEAMR1Mob[30979:175223] THREAD WARNING: ['InAppBrowser'] took '94.671143' ms. Plugin should use a background thread.
+2015-06-03 09:23:31.188 SLBEAMR1Mob[30979:175223] [group: com.sap.smp.client.ios] [artifact: CoreServices] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 09:23:31.188 SLBEAMR1Mob[30979:175223] Initializing Client connection with ApplicationID : com.slb.eam.mob  Domain :  default  SecurityConfiguration:  (null)
+2015-06-03 09:23:31.188 SLBEAMR1Mob[30979:175223] [group: com.sap.smp.client.ios] [artifact: Request] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 09:23:31.190 SLBEAMR1Mob[30979:175223] [Status] miaccp_URLIsAllowed:logFailure
+2015-06-03 09:23:31.190 SLBEAMR1Mob[30979:175223] Setting Client connection with Url:  http://us1455saps033.dir.slb.com:8080
+2015-06-03 09:23:31.260 SLBEAMR1Mob[30979:175223] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '135.349121' ms. Plugin should use a background thread.
+2015-06-03 09:23:31.273 SLBEAMR1Mob[30979:175223] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '11.039062' ms. Plugin should use a background thread.
+2015-06-03 09:23:31.317 SLBEAMR1Mob[30979:175223] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '43.800049' ms. Plugin should use a background thread.
+2015-06-03 09:23:37.287 SLBEAMR1Mob[30979:175252] [Status] miaccp_URLIsAllowed
+2015-06-03 09:23:37.287 SLBEAMR1Mob[30979:175252] [Status] miaccp_URLIsAllowed:logFailure
+2015-06-03 09:23:37.413 SLBEAMR1Mob[30979:175223] [Status] miaccp_URLIsAllowed
+2015-06-03 09:23:37.413 SLBEAMR1Mob[30979:175223] [Status] miaccp_URLIsAllowed:logFailure
+2015-06-03 09:23:37.423 SLBEAMR1Mob[30979:175223] THREAD WARNING: ['OData'] took '10.895996' ms. Plugin should use a background thread.
+2015-06-03 09:45:32.363 SLBEAMR1Mob[40316:191951] Apache Cordova native platform version 3.6.3 is starting.
+2015-06-03 09:45:32.363 SLBEAMR1Mob[40316:191951] Multi-tasking -> Device: YES, App: YES
+2015-06-03 09:45:32.367 SLBEAMR1Mob[40316:191951] Unlimited access to network resources
+2015-06-03 09:45:32.369 SLBEAMR1Mob[40316:191951] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2015-06-03 09:45:32.428 SLBEAMR1Mob[40316:191951] [CDVTimer][appconnectcordovaplugin] 0.054002ms
+2015-06-03 09:45:32.428 SLBEAMR1Mob[40316:191951] [group: com.sap.smp.client.ios] [artifact: Supportability] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 09:45:32.428 SLBEAMR1Mob[40316:191951] [group: com.sap.smp.client.ios] [artifact: ClientLog] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 09:45:32.432 SLBEAMR1Mob[40316:191951] [group: com.sap.smp.client.ios] [artifact: E2ETrace2] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 09:45:32.432 SLBEAMR1Mob[40316:191951] CommonAuthenticationConfigurator isNSHTTPURLProtocolReplacementEnabled: 0
+2015-06-03 09:45:32.432 SLBEAMR1Mob[40316:191951] [CDVTimer][authproxy] 4.069984ms
+2015-06-03 09:45:32.432 SLBEAMR1Mob[40316:191951] [CDVTimer][TotalPluginStartup] 4.346013ms
+2015-06-03 09:45:32.461 SLBEAMR1Mob[40316:191951] Resetting plugins due to page load.
+2015-06-03 09:45:32.618 SLBEAMR1Mob[40316:191951] Finished load of: file:///Users/imrankhan/Library/Developer/CoreSimulator/Devices/F55457C8-F251-4939-A14F-8870156D4198/data/Containers/Bundle/Application/F1A48135-379C-4114-BA9E-2931EA67E06B/SLBEAMR1Mob.app/www/index.html
+2015-06-03 09:45:44.697 SLBEAMR1Mob[40316:191951] THREAD WARNING: ['NetworkStatus'] took '12048.487061' ms. Plugin should use a background thread.
+2015-06-03 09:45:44.699 SLBEAMR1Mob[40316:191980] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-06-03 09:45:44.791 SLBEAMR1Mob[40316:191969] [Status] Initializing AppConnect plugin
+2015-06-03 09:45:44.791 SLBEAMR1Mob[40316:191969] [Status] Hooking methods to enable AppConnect Tunneling
+2015-06-03 09:45:44.818 SLBEAMR1Mob[40316:191951] [group: com.sap.mobile.maf.tools.ios] [artifact: MAFLogger] [version: 1.207.0] [buildTime: 2015-02-24 23:55] [gitCommit: 0648677345ea49cb2688ed34b110338d0a15cf6b] [gitBranch: origin/fa/rel-1.207]
+2015-06-03 09:45:44.818 SLBEAMR1Mob[40316:191951] [group: com.sap.smp.client.ios] [artifact: Logger] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 09:45:44.820 SLBEAMR1Mob[40316:191951] [group: com.sap.smp.client.ios] [artifact: ClientHubSLL] [version: 3.7.0] [buildTime: 2015-02-23 22:49] [gitCommit: e7aa7076609783021fdedc87f29f65522d139dd1] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 09:45:44.822 SLBEAMR1Mob[40316:191951] [group: com.sap.smp.client.ios] [artifact: Datavault] [version: 3.7.0] [buildTime: 2015-02-23 22:49] [gitCommit: e7aa7076609783021fdedc87f29f65522d139dd1] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 09:45:44.845 SLBEAMR1Mob[40316:191951] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '27.021240' ms. Plugin should use a background thread.
+2015-06-03 09:45:44.858 SLBEAMR1Mob[40316:191951] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '11.802002' ms. Plugin should use a background thread.
+2015-06-03 09:45:44.906 SLBEAMR1Mob[40316:191951] Setting the WebView's frame to {{0, 0}, {768, 980}}
+2015-06-03 09:45:44.906 SLBEAMR1Mob[40316:191951] Setting the WebView's frame to {{0, 0}, {768, 1024}}
+2015-06-03 09:45:44.913 SLBEAMR1Mob[40316:191951] THREAD WARNING: ['InAppBrowser'] took '54.829834' ms. Plugin should use a background thread.
+2015-06-03 09:45:45.122 SLBEAMR1Mob[40316:191951] THREAD WARNING: ['InAppBrowser'] took '92.010986' ms. Plugin should use a background thread.
+2015-06-03 09:45:46.557 SLBEAMR1Mob[40316:191951] [group: com.sap.smp.client.ios] [artifact: CoreServices] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 09:45:46.558 SLBEAMR1Mob[40316:191951] Initializing Client connection with ApplicationID : com.slb.eam.mob  Domain :  default  SecurityConfiguration:  (null)
+2015-06-03 09:45:46.558 SLBEAMR1Mob[40316:191951] [group: com.sap.smp.client.ios] [artifact: Request] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 09:45:46.560 SLBEAMR1Mob[40316:191951] [Status] miaccp_URLIsAllowed:logFailure
+2015-06-03 09:45:46.560 SLBEAMR1Mob[40316:191951] Setting Client connection with Url:  http://us1455saps033.dir.slb.com:8080
+2015-06-03 09:45:46.642 SLBEAMR1Mob[40316:191951] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '147.555908' ms. Plugin should use a background thread.
+2015-06-03 09:45:46.667 SLBEAMR1Mob[40316:191951] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '24.610107' ms. Plugin should use a background thread.
+2015-06-03 09:45:46.758 SLBEAMR1Mob[40316:191951] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '59.933838' ms. Plugin should use a background thread.
+2015-06-03 09:50:21.068 SLBEAMR1Mob[49041:203222] Apache Cordova native platform version 3.6.3 is starting.
+2015-06-03 09:50:21.069 SLBEAMR1Mob[49041:203222] Multi-tasking -> Device: YES, App: YES
+2015-06-03 09:50:21.073 SLBEAMR1Mob[49041:203222] Unlimited access to network resources
+2015-06-03 09:50:21.075 SLBEAMR1Mob[49041:203222] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2015-06-03 09:50:21.133 SLBEAMR1Mob[49041:203222] [CDVTimer][appconnectcordovaplugin] 0.052989ms
+2015-06-03 09:50:21.134 SLBEAMR1Mob[49041:203222] [group: com.sap.smp.client.ios] [artifact: Supportability] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 09:50:21.134 SLBEAMR1Mob[49041:203222] [group: com.sap.smp.client.ios] [artifact: ClientLog] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 09:50:21.138 SLBEAMR1Mob[49041:203222] [group: com.sap.smp.client.ios] [artifact: E2ETrace2] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 09:50:21.138 SLBEAMR1Mob[49041:203222] CommonAuthenticationConfigurator isNSHTTPURLProtocolReplacementEnabled: 0
+2015-06-03 09:50:21.138 SLBEAMR1Mob[49041:203222] [CDVTimer][authproxy] 4.836977ms
+2015-06-03 09:50:21.138 SLBEAMR1Mob[49041:203222] [CDVTimer][TotalPluginStartup] 5.120039ms
+2015-06-03 09:50:21.167 SLBEAMR1Mob[49041:203222] Resetting plugins due to page load.
+2015-06-03 09:50:21.313 SLBEAMR1Mob[49041:203222] Finished load of: file:///Users/imrankhan/Library/Developer/CoreSimulator/Devices/F55457C8-F251-4939-A14F-8870156D4198/data/Containers/Bundle/Application/42FF2CD7-41CA-4BAF-AD1A-B9823D1E7A4C/SLBEAMR1Mob.app/www/index.html
+2015-06-03 09:50:29.824 SLBEAMR1Mob[49041:203222] THREAD WARNING: ['NetworkStatus'] took '8483.416016' ms. Plugin should use a background thread.
+2015-06-03 09:50:29.893 SLBEAMR1Mob[49041:203328] [Status] Initializing AppConnect plugin
+2015-06-03 09:50:29.893 SLBEAMR1Mob[49041:203328] [Status] Hooking methods to enable AppConnect Tunneling
+2015-06-03 09:50:29.914 SLBEAMR1Mob[49041:203222] [group: com.sap.mobile.maf.tools.ios] [artifact: MAFLogger] [version: 1.207.0] [buildTime: 2015-02-24 23:55] [gitCommit: 0648677345ea49cb2688ed34b110338d0a15cf6b] [gitBranch: origin/fa/rel-1.207]
+2015-06-03 09:50:29.914 SLBEAMR1Mob[49041:203222] [group: com.sap.smp.client.ios] [artifact: Logger] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 09:50:29.916 SLBEAMR1Mob[49041:203222] [group: com.sap.smp.client.ios] [artifact: ClientHubSLL] [version: 3.7.0] [buildTime: 2015-02-23 22:49] [gitCommit: e7aa7076609783021fdedc87f29f65522d139dd1] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 09:50:29.918 SLBEAMR1Mob[49041:203222] [group: com.sap.smp.client.ios] [artifact: Datavault] [version: 3.7.0] [buildTime: 2015-02-23 22:49] [gitCommit: e7aa7076609783021fdedc87f29f65522d139dd1] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 09:50:29.941 SLBEAMR1Mob[49041:203222] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '27.365967' ms. Plugin should use a background thread.
+2015-06-03 09:50:29.953 SLBEAMR1Mob[49041:203222] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '11.146973' ms. Plugin should use a background thread.
+2015-06-03 09:50:30.001 SLBEAMR1Mob[49041:203222] Setting the WebView's frame to {{0, 0}, {768, 980}}
+2015-06-03 09:50:30.002 SLBEAMR1Mob[49041:203222] Setting the WebView's frame to {{0, 0}, {768, 1024}}
+2015-06-03 09:50:30.009 SLBEAMR1Mob[49041:203222] THREAD WARNING: ['InAppBrowser'] took '56.559082' ms. Plugin should use a background thread.
+2015-06-03 09:50:30.210 SLBEAMR1Mob[49041:203222] THREAD WARNING: ['InAppBrowser'] took '90.765137' ms. Plugin should use a background thread.
+2015-06-03 09:50:31.834 SLBEAMR1Mob[49041:203222] [group: com.sap.smp.client.ios] [artifact: CoreServices] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 09:50:31.835 SLBEAMR1Mob[49041:203222] Initializing Client connection with ApplicationID : com.slb.eam.mob  Domain :  default  SecurityConfiguration:  (null)
+2015-06-03 09:50:31.835 SLBEAMR1Mob[49041:203222] [group: com.sap.smp.client.ios] [artifact: Request] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 09:50:31.837 SLBEAMR1Mob[49041:203222] [Status] miaccp_URLIsAllowed:logFailure
+2015-06-03 09:50:31.837 SLBEAMR1Mob[49041:203222] Setting Client connection with Url:  http://us1455saps033.dir.slb.com:8080
+2015-06-03 09:50:31.915 SLBEAMR1Mob[49041:203222] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '144.632080' ms. Plugin should use a background thread.
+2015-06-03 09:50:31.942 SLBEAMR1Mob[49041:203222] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '25.395264' ms. Plugin should use a background thread.
+2015-06-03 09:50:32.031 SLBEAMR1Mob[49041:203222] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '56.941162' ms. Plugin should use a background thread.
+2015-06-03 09:50:34.865 SLBEAMR1Mob[49041:203251] [Status] miaccp_URLIsAllowed
+2015-06-03 09:50:34.865 SLBEAMR1Mob[49041:203251] [Status] miaccp_URLIsAllowed:logFailure
+2015-06-03 10:05:39.743 SLBEAMR1Mob[58082:217050] Apache Cordova native platform version 3.6.3 is starting.
+2015-06-03 10:05:39.744 SLBEAMR1Mob[58082:217050] Multi-tasking -> Device: YES, App: YES
+2015-06-03 10:05:39.748 SLBEAMR1Mob[58082:217050] Unlimited access to network resources
+2015-06-03 10:05:39.750 SLBEAMR1Mob[58082:217050] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2015-06-03 10:05:39.809 SLBEAMR1Mob[58082:217050] [CDVTimer][appconnectcordovaplugin] 0.042021ms
+2015-06-03 10:05:39.809 SLBEAMR1Mob[58082:217050] [group: com.sap.smp.client.ios] [artifact: Supportability] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 10:05:39.809 SLBEAMR1Mob[58082:217050] [group: com.sap.smp.client.ios] [artifact: ClientLog] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 10:05:39.813 SLBEAMR1Mob[58082:217050] [group: com.sap.smp.client.ios] [artifact: E2ETrace2] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 10:05:39.813 SLBEAMR1Mob[58082:217050] CommonAuthenticationConfigurator isNSHTTPURLProtocolReplacementEnabled: 0
+2015-06-03 10:05:39.813 SLBEAMR1Mob[58082:217050] [CDVTimer][authproxy] 4.710972ms
+2015-06-03 10:05:39.813 SLBEAMR1Mob[58082:217050] [CDVTimer][TotalPluginStartup] 4.983008ms
+2015-06-03 10:05:39.842 SLBEAMR1Mob[58082:217050] Resetting plugins due to page load.
+2015-06-03 10:05:39.986 SLBEAMR1Mob[58082:217050] Finished load of: file:///Users/imrankhan/Library/Developer/CoreSimulator/Devices/F55457C8-F251-4939-A14F-8870156D4198/data/Containers/Bundle/Application/635B18B8-8590-4A0A-ACBF-641542B8D2C4/SLBEAMR1Mob.app/www/index.html
+2015-06-03 10:05:49.601 SLBEAMR1Mob[58082:217050] THREAD WARNING: ['NetworkStatus'] took '9588.497803' ms. Plugin should use a background thread.
+2015-06-03 10:05:49.667 SLBEAMR1Mob[58082:217058] [Status] Initializing AppConnect plugin
+2015-06-03 10:05:49.668 SLBEAMR1Mob[58082:217058] [Status] Hooking methods to enable AppConnect Tunneling
+2015-06-03 10:05:49.690 SLBEAMR1Mob[58082:217050] [group: com.sap.mobile.maf.tools.ios] [artifact: MAFLogger] [version: 1.207.0] [buildTime: 2015-02-24 23:55] [gitCommit: 0648677345ea49cb2688ed34b110338d0a15cf6b] [gitBranch: origin/fa/rel-1.207]
+2015-06-03 10:05:49.690 SLBEAMR1Mob[58082:217050] [group: com.sap.smp.client.ios] [artifact: Logger] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 10:05:49.692 SLBEAMR1Mob[58082:217050] [group: com.sap.smp.client.ios] [artifact: ClientHubSLL] [version: 3.7.0] [buildTime: 2015-02-23 22:49] [gitCommit: e7aa7076609783021fdedc87f29f65522d139dd1] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 10:05:49.694 SLBEAMR1Mob[58082:217050] [group: com.sap.smp.client.ios] [artifact: Datavault] [version: 3.7.0] [buildTime: 2015-02-23 22:49] [gitCommit: e7aa7076609783021fdedc87f29f65522d139dd1] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 10:05:49.718 SLBEAMR1Mob[58082:217050] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '28.935791' ms. Plugin should use a background thread.
+2015-06-03 10:05:49.730 SLBEAMR1Mob[58082:217050] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '11.575928' ms. Plugin should use a background thread.
+2015-06-03 10:05:49.778 SLBEAMR1Mob[58082:217050] Setting the WebView's frame to {{0, 0}, {768, 980}}
+2015-06-03 10:05:49.778 SLBEAMR1Mob[58082:217050] Setting the WebView's frame to {{0, 0}, {768, 1024}}
+2015-06-03 10:05:49.786 SLBEAMR1Mob[58082:217050] THREAD WARNING: ['InAppBrowser'] took '55.017822' ms. Plugin should use a background thread.
+2015-06-03 10:05:49.983 SLBEAMR1Mob[58082:217050] THREAD WARNING: ['InAppBrowser'] took '91.598145' ms. Plugin should use a background thread.
+2015-06-03 10:05:51.433 SLBEAMR1Mob[58082:217050] [group: com.sap.smp.client.ios] [artifact: CoreServices] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 10:05:51.433 SLBEAMR1Mob[58082:217050] Initializing Client connection with ApplicationID : com.slb.eam.mob  Domain :  default  SecurityConfiguration:  (null)
+2015-06-03 10:05:51.433 SLBEAMR1Mob[58082:217050] [group: com.sap.smp.client.ios] [artifact: Request] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 10:05:51.435 SLBEAMR1Mob[58082:217050] [Status] miaccp_URLIsAllowed:logFailure
+2015-06-03 10:05:51.435 SLBEAMR1Mob[58082:217050] Setting Client connection with Url:  http://us1455saps033.dir.slb.com:8080
+2015-06-03 10:05:51.513 SLBEAMR1Mob[58082:217050] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '143.422119' ms. Plugin should use a background thread.
+2015-06-03 10:05:51.538 SLBEAMR1Mob[58082:217050] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '23.104736' ms. Plugin should use a background thread.
+2015-06-03 10:05:51.636 SLBEAMR1Mob[58082:217050] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '58.914062' ms. Plugin should use a background thread.
+2015-06-03 10:09:38.903 SLBEAMR1Mob[66760:227891] Apache Cordova native platform version 3.6.3 is starting.
+2015-06-03 10:09:38.904 SLBEAMR1Mob[66760:227891] Multi-tasking -> Device: YES, App: YES
+2015-06-03 10:09:38.908 SLBEAMR1Mob[66760:227891] Unlimited access to network resources
+2015-06-03 10:09:38.910 SLBEAMR1Mob[66760:227891] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2015-06-03 10:09:38.969 SLBEAMR1Mob[66760:227891] [CDVTimer][appconnectcordovaplugin] 0.050962ms
+2015-06-03 10:09:38.969 SLBEAMR1Mob[66760:227891] [group: com.sap.smp.client.ios] [artifact: Supportability] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 10:09:38.970 SLBEAMR1Mob[66760:227891] [group: com.sap.smp.client.ios] [artifact: ClientLog] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 10:09:38.974 SLBEAMR1Mob[66760:227891] [group: com.sap.smp.client.ios] [artifact: E2ETrace2] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 10:09:38.974 SLBEAMR1Mob[66760:227891] CommonAuthenticationConfigurator isNSHTTPURLProtocolReplacementEnabled: 0
+2015-06-03 10:09:38.974 SLBEAMR1Mob[66760:227891] [CDVTimer][authproxy] 4.831970ms
+2015-06-03 10:09:38.974 SLBEAMR1Mob[66760:227891] [CDVTimer][TotalPluginStartup] 5.136013ms
+2015-06-03 10:09:39.004 SLBEAMR1Mob[66760:227891] Resetting plugins due to page load.
+2015-06-03 10:09:39.153 SLBEAMR1Mob[66760:227891] Finished load of: file:///Users/imrankhan/Library/Developer/CoreSimulator/Devices/F55457C8-F251-4939-A14F-8870156D4198/data/Containers/Bundle/Application/7801BF87-4FAC-473C-BFC5-A778D99950A3/SLBEAMR1Mob.app/www/index.html
+2015-06-03 10:10:08.736 SLBEAMR1Mob[66760:227891] THREAD WARNING: ['NetworkStatus'] took '29555.480957' ms. Plugin should use a background thread.
+2015-06-03 10:10:08.739 SLBEAMR1Mob[66760:227919] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-06-03 10:10:08.747 SLBEAMR1Mob[66760:228129] [Status] Initializing AppConnect plugin
+2015-06-03 10:10:08.747 SLBEAMR1Mob[66760:228129] [Status] Hooking methods to enable AppConnect Tunneling
+2015-06-03 10:10:08.757 SLBEAMR1Mob[66760:227891] [group: com.sap.mobile.maf.tools.ios] [artifact: MAFLogger] [version: 1.207.0] [buildTime: 2015-02-24 23:55] [gitCommit: 0648677345ea49cb2688ed34b110338d0a15cf6b] [gitBranch: origin/fa/rel-1.207]
+2015-06-03 10:10:08.757 SLBEAMR1Mob[66760:227891] [group: com.sap.smp.client.ios] [artifact: Logger] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 10:10:08.760 SLBEAMR1Mob[66760:227891] [group: com.sap.smp.client.ios] [artifact: ClientHubSLL] [version: 3.7.0] [buildTime: 2015-02-23 22:49] [gitCommit: e7aa7076609783021fdedc87f29f65522d139dd1] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 10:10:08.762 SLBEAMR1Mob[66760:227891] [group: com.sap.smp.client.ios] [artifact: Datavault] [version: 3.7.0] [buildTime: 2015-02-23 22:49] [gitCommit: e7aa7076609783021fdedc87f29f65522d139dd1] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 10:10:08.784 SLBEAMR1Mob[66760:227891] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '26.520020' ms. Plugin should use a background thread.
+2015-06-03 10:10:08.836 SLBEAMR1Mob[66760:227891] Setting the WebView's frame to {{0, 0}, {768, 980}}
+2015-06-03 10:10:08.836 SLBEAMR1Mob[66760:227891] Setting the WebView's frame to {{0, 0}, {768, 1024}}
+2015-06-03 10:10:08.843 SLBEAMR1Mob[66760:227891] THREAD WARNING: ['InAppBrowser'] took '50.737793' ms. Plugin should use a background thread.
+2015-06-03 10:10:09.042 SLBEAMR1Mob[66760:227891] THREAD WARNING: ['InAppBrowser'] took '95.649902' ms. Plugin should use a background thread.
+2015-06-03 10:10:10.578 SLBEAMR1Mob[66760:227891] [group: com.sap.smp.client.ios] [artifact: CoreServices] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 10:10:10.578 SLBEAMR1Mob[66760:227891] Initializing Client connection with ApplicationID : com.slb.eam.mob  Domain :  default  SecurityConfiguration:  (null)
+2015-06-03 10:10:10.579 SLBEAMR1Mob[66760:227891] [group: com.sap.smp.client.ios] [artifact: Request] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 10:10:10.581 SLBEAMR1Mob[66760:227891] [Status] miaccp_URLIsAllowed:logFailure
+2015-06-03 10:10:10.581 SLBEAMR1Mob[66760:227891] Setting Client connection with Url:  http://us1455saps033.dir.slb.com:8080
+2015-06-03 10:10:10.650 SLBEAMR1Mob[66760:227891] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '133.441162' ms. Plugin should use a background thread.
+2015-06-03 10:10:10.663 SLBEAMR1Mob[66760:227891] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '11.150146' ms. Plugin should use a background thread.
+2015-06-03 10:10:10.708 SLBEAMR1Mob[66760:227891] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '45.104004' ms. Plugin should use a background thread.
+2015-06-03 10:17:37.695 SLBEAMR1Mob[75572:240133] Apache Cordova native platform version 3.6.3 is starting.
+2015-06-03 10:17:37.696 SLBEAMR1Mob[75572:240133] Multi-tasking -> Device: YES, App: YES
+2015-06-03 10:17:37.700 SLBEAMR1Mob[75572:240133] Unlimited access to network resources
+2015-06-03 10:17:37.701 SLBEAMR1Mob[75572:240133] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2015-06-03 10:17:37.760 SLBEAMR1Mob[75572:240133] [CDVTimer][appconnectcordovaplugin] 0.048995ms
+2015-06-03 10:17:37.760 SLBEAMR1Mob[75572:240133] [group: com.sap.smp.client.ios] [artifact: Supportability] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 10:17:37.760 SLBEAMR1Mob[75572:240133] [group: com.sap.smp.client.ios] [artifact: ClientLog] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 10:17:37.764 SLBEAMR1Mob[75572:240133] [group: com.sap.smp.client.ios] [artifact: E2ETrace2] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 10:17:37.765 SLBEAMR1Mob[75572:240133] CommonAuthenticationConfigurator isNSHTTPURLProtocolReplacementEnabled: 0
+2015-06-03 10:17:37.765 SLBEAMR1Mob[75572:240133] [CDVTimer][authproxy] 4.715025ms
+2015-06-03 10:17:37.765 SLBEAMR1Mob[75572:240133] [CDVTimer][TotalPluginStartup] 4.983962ms
+2015-06-03 10:17:37.796 SLBEAMR1Mob[75572:240133] Resetting plugins due to page load.
+2015-06-03 10:17:37.959 SLBEAMR1Mob[75572:240133] Finished load of: file:///Users/imrankhan/Library/Developer/CoreSimulator/Devices/F55457C8-F251-4939-A14F-8870156D4198/data/Containers/Bundle/Application/C59822EE-B7D4-489B-8986-EF6FE2CD88D4/SLBEAMR1Mob.app/www/index.html
+2015-06-03 10:18:35.138 SLBEAMR1Mob[75572:240133] THREAD WARNING: ['NetworkStatus'] took '57150.789062' ms. Plugin should use a background thread.
+2015-06-03 10:18:35.140 SLBEAMR1Mob[75572:240156] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-06-03 10:18:35.208 SLBEAMR1Mob[75572:240422] [Status] Initializing AppConnect plugin
+2015-06-03 10:18:35.208 SLBEAMR1Mob[75572:240422] [Status] Hooking methods to enable AppConnect Tunneling
+2015-06-03 10:18:35.228 SLBEAMR1Mob[75572:240133] [group: com.sap.mobile.maf.tools.ios] [artifact: MAFLogger] [version: 1.207.0] [buildTime: 2015-02-24 23:55] [gitCommit: 0648677345ea49cb2688ed34b110338d0a15cf6b] [gitBranch: origin/fa/rel-1.207]
+2015-06-03 10:18:35.228 SLBEAMR1Mob[75572:240133] [group: com.sap.smp.client.ios] [artifact: Logger] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 10:18:35.231 SLBEAMR1Mob[75572:240133] [group: com.sap.smp.client.ios] [artifact: ClientHubSLL] [version: 3.7.0] [buildTime: 2015-02-23 22:49] [gitCommit: e7aa7076609783021fdedc87f29f65522d139dd1] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 10:18:35.233 SLBEAMR1Mob[75572:240133] [group: com.sap.smp.client.ios] [artifact: Datavault] [version: 3.7.0] [buildTime: 2015-02-23 22:49] [gitCommit: e7aa7076609783021fdedc87f29f65522d139dd1] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 10:18:35.256 SLBEAMR1Mob[75572:240133] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '27.836914' ms. Plugin should use a background thread.
+2015-06-03 10:18:35.268 SLBEAMR1Mob[75572:240133] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '11.515869' ms. Plugin should use a background thread.
+2015-06-03 10:18:35.319 SLBEAMR1Mob[75572:240133] Setting the WebView's frame to {{0, 0}, {768, 980}}
+2015-06-03 10:18:35.319 SLBEAMR1Mob[75572:240133] Setting the WebView's frame to {{0, 0}, {768, 1024}}
+2015-06-03 10:18:35.327 SLBEAMR1Mob[75572:240133] THREAD WARNING: ['InAppBrowser'] took '58.707764' ms. Plugin should use a background thread.
+2015-06-03 10:18:35.524 SLBEAMR1Mob[75572:240133] THREAD WARNING: ['InAppBrowser'] took '90.327881' ms. Plugin should use a background thread.
+2015-06-03 10:18:36.961 SLBEAMR1Mob[75572:240133] [group: com.sap.smp.client.ios] [artifact: CoreServices] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 10:18:36.961 SLBEAMR1Mob[75572:240133] Initializing Client connection with ApplicationID : com.slb.eam.mob  Domain :  default  SecurityConfiguration:  (null)
+2015-06-03 10:18:36.961 SLBEAMR1Mob[75572:240133] [group: com.sap.smp.client.ios] [artifact: Request] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 10:18:36.963 SLBEAMR1Mob[75572:240133] [Status] miaccp_URLIsAllowed:logFailure
+2015-06-03 10:18:36.964 SLBEAMR1Mob[75572:240133] Setting Client connection with Url:  http://us1455saps033.dir.slb.com:8080
+2015-06-03 10:18:37.044 SLBEAMR1Mob[75572:240133] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '145.470215' ms. Plugin should use a background thread.
+2015-06-03 10:18:37.077 SLBEAMR1Mob[75572:240133] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '23.996094' ms. Plugin should use a background thread.
+2015-06-03 10:18:37.136 SLBEAMR1Mob[75572:240133] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '58.105957' ms. Plugin should use a background thread.
+2015-06-03 10:18:38.534 SLBEAMR1Mob[75572:240170] [Status] miaccp_URLIsAllowed
+2015-06-03 10:18:38.534 SLBEAMR1Mob[75572:240170] [Status] miaccp_URLIsAllowed:logFailure
+2015-06-03 10:18:38.697 SLBEAMR1Mob[75572:240133] [Status] miaccp_URLIsAllowed
+2015-06-03 10:18:38.697 SLBEAMR1Mob[75572:240133] [Status] miaccp_URLIsAllowed:logFailure
+2015-06-03 10:18:38.708 SLBEAMR1Mob[75572:240133] THREAD WARNING: ['OData'] took '11.373047' ms. Plugin should use a background thread.
+2015-06-03 10:24:26.479 SLBEAMR1Mob[84337:251322] Apache Cordova native platform version 3.6.3 is starting.
+2015-06-03 10:24:26.479 SLBEAMR1Mob[84337:251322] Multi-tasking -> Device: YES, App: YES
+2015-06-03 10:24:26.483 SLBEAMR1Mob[84337:251322] Unlimited access to network resources
+2015-06-03 10:24:26.485 SLBEAMR1Mob[84337:251322] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2015-06-03 10:24:26.543 SLBEAMR1Mob[84337:251322] [CDVTimer][appconnectcordovaplugin] 0.050008ms
+2015-06-03 10:24:26.543 SLBEAMR1Mob[84337:251322] [group: com.sap.smp.client.ios] [artifact: Supportability] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 10:24:26.543 SLBEAMR1Mob[84337:251322] [group: com.sap.smp.client.ios] [artifact: ClientLog] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 10:24:26.547 SLBEAMR1Mob[84337:251322] [group: com.sap.smp.client.ios] [artifact: E2ETrace2] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 10:24:26.548 SLBEAMR1Mob[84337:251322] CommonAuthenticationConfigurator isNSHTTPURLProtocolReplacementEnabled: 0
+2015-06-03 10:24:26.548 SLBEAMR1Mob[84337:251322] [CDVTimer][authproxy] 4.905045ms
+2015-06-03 10:24:26.548 SLBEAMR1Mob[84337:251322] [CDVTimer][TotalPluginStartup] 5.181968ms
+2015-06-03 10:24:26.578 SLBEAMR1Mob[84337:251322] Resetting plugins due to page load.
+2015-06-03 10:24:26.724 SLBEAMR1Mob[84337:251322] Finished load of: file:///Users/imrankhan/Library/Developer/CoreSimulator/Devices/F55457C8-F251-4939-A14F-8870156D4198/data/Containers/Bundle/Application/3631A50E-0448-4329-A53D-1510C4E4536D/SLBEAMR1Mob.app/www/index.html
+2015-06-03 10:24:29.339 SLBEAMR1Mob[84337:251322] THREAD WARNING: ['NetworkStatus'] took '2586.195068' ms. Plugin should use a background thread.
+2015-06-03 10:24:29.350 SLBEAMR1Mob[84337:251338] [Status] Initializing AppConnect plugin
+2015-06-03 10:24:29.350 SLBEAMR1Mob[84337:251338] [Status] Hooking methods to enable AppConnect Tunneling
+2015-06-03 10:24:29.361 SLBEAMR1Mob[84337:251322] [group: com.sap.mobile.maf.tools.ios] [artifact: MAFLogger] [version: 1.207.0] [buildTime: 2015-02-24 23:55] [gitCommit: 0648677345ea49cb2688ed34b110338d0a15cf6b] [gitBranch: origin/fa/rel-1.207]
+2015-06-03 10:24:29.361 SLBEAMR1Mob[84337:251322] [group: com.sap.smp.client.ios] [artifact: Logger] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 10:24:29.363 SLBEAMR1Mob[84337:251322] [group: com.sap.smp.client.ios] [artifact: ClientHubSLL] [version: 3.7.0] [buildTime: 2015-02-23 22:49] [gitCommit: e7aa7076609783021fdedc87f29f65522d139dd1] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 10:24:29.365 SLBEAMR1Mob[84337:251322] [group: com.sap.smp.client.ios] [artifact: Datavault] [version: 3.7.0] [buildTime: 2015-02-23 22:49] [gitCommit: e7aa7076609783021fdedc87f29f65522d139dd1] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 10:24:29.388 SLBEAMR1Mob[84337:251322] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '27.506104' ms. Plugin should use a background thread.
+2015-06-03 10:24:29.443 SLBEAMR1Mob[84337:251322] Setting the WebView's frame to {{0, 0}, {768, 980}}
+2015-06-03 10:24:29.443 SLBEAMR1Mob[84337:251322] Setting the WebView's frame to {{0, 0}, {768, 1024}}
+2015-06-03 10:24:29.452 SLBEAMR1Mob[84337:251322] THREAD WARNING: ['InAppBrowser'] took '54.757812' ms. Plugin should use a background thread.
+2015-06-03 10:24:29.654 SLBEAMR1Mob[84337:251322] THREAD WARNING: ['InAppBrowser'] took '93.838867' ms. Plugin should use a background thread.
+2015-06-03 10:24:30.849 SLBEAMR1Mob[84337:251322] [group: com.sap.smp.client.ios] [artifact: CoreServices] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 10:24:30.849 SLBEAMR1Mob[84337:251322] Initializing Client connection with ApplicationID : com.slb.eam.mob  Domain :  default  SecurityConfiguration:  (null)
+2015-06-03 10:24:30.849 SLBEAMR1Mob[84337:251322] [group: com.sap.smp.client.ios] [artifact: Request] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 10:24:30.851 SLBEAMR1Mob[84337:251322] [Status] miaccp_URLIsAllowed:logFailure
+2015-06-03 10:24:30.851 SLBEAMR1Mob[84337:251322] Setting Client connection with Url:  http://us1455saps033.dir.slb.com:8080
+2015-06-03 10:24:30.926 SLBEAMR1Mob[84337:251322] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '144.280762' ms. Plugin should use a background thread.
+2015-06-03 10:24:30.939 SLBEAMR1Mob[84337:251322] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '11.604004' ms. Plugin should use a background thread.
+2015-06-03 10:24:30.986 SLBEAMR1Mob[84337:251322] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '46.717285' ms. Plugin should use a background thread.
+2015-06-03 10:24:32.212 SLBEAMR1Mob[84337:251357] [Status] miaccp_URLIsAllowed
+2015-06-03 10:24:32.212 SLBEAMR1Mob[84337:251357] [Status] miaccp_URLIsAllowed:logFailure
+2015-06-03 10:24:32.322 SLBEAMR1Mob[84337:251322] [Status] miaccp_URLIsAllowed
+2015-06-03 10:24:32.322 SLBEAMR1Mob[84337:251322] [Status] miaccp_URLIsAllowed:logFailure
+2015-06-03 10:24:32.334 SLBEAMR1Mob[84337:251322] THREAD WARNING: ['OData'] took '11.868896' ms. Plugin should use a background thread.
+2015-06-03 10:47:27.223 SLBEAMR1Mob[93191:264960] Apache Cordova native platform version 3.6.3 is starting.
+2015-06-03 10:47:27.223 SLBEAMR1Mob[93191:264960] Multi-tasking -> Device: YES, App: YES
+2015-06-03 10:47:27.227 SLBEAMR1Mob[93191:264960] Unlimited access to network resources
+2015-06-03 10:47:27.229 SLBEAMR1Mob[93191:264960] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2015-06-03 10:47:27.286 SLBEAMR1Mob[93191:264960] [CDVTimer][appconnectcordovaplugin] 0.048041ms
+2015-06-03 10:47:27.286 SLBEAMR1Mob[93191:264960] [group: com.sap.smp.client.ios] [artifact: Supportability] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 10:47:27.286 SLBEAMR1Mob[93191:264960] [group: com.sap.smp.client.ios] [artifact: ClientLog] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 10:47:27.290 SLBEAMR1Mob[93191:264960] [group: com.sap.smp.client.ios] [artifact: E2ETrace2] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 10:47:27.291 SLBEAMR1Mob[93191:264960] CommonAuthenticationConfigurator isNSHTTPURLProtocolReplacementEnabled: 0
+2015-06-03 10:47:27.291 SLBEAMR1Mob[93191:264960] [CDVTimer][authproxy] 4.778981ms
+2015-06-03 10:47:27.291 SLBEAMR1Mob[93191:264960] [CDVTimer][TotalPluginStartup] 5.060971ms
+2015-06-03 10:47:27.322 SLBEAMR1Mob[93191:264960] Resetting plugins due to page load.
+2015-06-03 10:47:48.453 SLBEAMR1Mob[93191:264981] void SendDelegateMessage(NSInvocation *): delegate (webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-06-03 10:47:48.468 SLBEAMR1Mob[93191:264960] Finished load of: file:///Users/imrankhan/Library/Developer/CoreSimulator/Devices/F55457C8-F251-4939-A14F-8870156D4198/data/Containers/Bundle/Application/B4C2B0C6-2D2A-4595-BDEF-10672D693DF8/SLBEAMR1Mob.app/www/index.html
+2015-06-03 10:47:50.411 SLBEAMR1Mob[93191:264960] THREAD WARNING: ['NetworkStatus'] took '1912.606934' ms. Plugin should use a background thread.
+2015-06-03 10:47:50.417 SLBEAMR1Mob[93191:265148] [Status] Initializing AppConnect plugin
+2015-06-03 10:47:50.417 SLBEAMR1Mob[93191:265148] [Status] Hooking methods to enable AppConnect Tunneling
+2015-06-03 10:47:50.427 SLBEAMR1Mob[93191:264960] [group: com.sap.mobile.maf.tools.ios] [artifact: MAFLogger] [version: 1.207.0] [buildTime: 2015-02-24 23:55] [gitCommit: 0648677345ea49cb2688ed34b110338d0a15cf6b] [gitBranch: origin/fa/rel-1.207]
+2015-06-03 10:47:50.427 SLBEAMR1Mob[93191:264960] [group: com.sap.smp.client.ios] [artifact: Logger] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 10:47:50.430 SLBEAMR1Mob[93191:264960] [group: com.sap.smp.client.ios] [artifact: ClientHubSLL] [version: 3.7.0] [buildTime: 2015-02-23 22:49] [gitCommit: e7aa7076609783021fdedc87f29f65522d139dd1] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 10:47:50.432 SLBEAMR1Mob[93191:264960] [group: com.sap.smp.client.ios] [artifact: Datavault] [version: 3.7.0] [buildTime: 2015-02-23 22:49] [gitCommit: e7aa7076609783021fdedc87f29f65522d139dd1] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 10:47:50.453 SLBEAMR1Mob[93191:264960] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '26.371094' ms. Plugin should use a background thread.
+2015-06-03 10:47:50.509 SLBEAMR1Mob[93191:264960] Setting the WebView's frame to {{0, 0}, {768, 980}}
+2015-06-03 10:47:50.509 SLBEAMR1Mob[93191:264960] Setting the WebView's frame to {{0, 0}, {768, 1024}}
+2015-06-03 10:47:50.518 SLBEAMR1Mob[93191:264960] THREAD WARNING: ['InAppBrowser'] took '55.905273' ms. Plugin should use a background thread.
+2015-06-03 10:47:50.718 SLBEAMR1Mob[93191:264960] THREAD WARNING: ['InAppBrowser'] took '95.797119' ms. Plugin should use a background thread.
+2015-06-03 10:47:53.958 SLBEAMR1Mob[93191:265138] ER:Exception: DataVault Locked Error: Error Domain=MAFSecureStoreManagerErrorDomain Code=6 "Secure store is locked" UserInfo=0x7de26f00 {exceptionReason=DataVault Locked, exceptionName=DataVaultException, NSLocalizedDescription=Secure store is locked}
+2015-06-03 10:47:54.027 SLBEAMR1Mob[93191:264960] Resetting plugins due to page load.
+2015-06-03 10:47:55.683 SLBEAMR1Mob[93191:264960] Finished load of: file:///Users/imrankhan/Library/Developer/CoreSimulator/Devices/F55457C8-F251-4939-A14F-8870156D4198/data/Containers/Bundle/Application/B4C2B0C6-2D2A-4595-BDEF-10672D693DF8/SLBEAMR1Mob.app/www/index.html
+2015-06-03 10:47:56.922 SLBEAMR1Mob[93191:264960] THREAD WARNING: ['NetworkStatus'] took '1232.665039' ms. Plugin should use a background thread.
+2015-06-03 10:47:56.929 SLBEAMR1Mob[93191:265199] [Status] Initializing AppConnect plugin
+2015-06-03 10:47:56.929 SLBEAMR1Mob[93191:265199] [AppConnect:Error] +initWithDelegate: has already been called. +initWithDelegate: should only be called once per app launch.
+2015-06-03 10:47:56.929 SLBEAMR1Mob[93191:265199] [Status] Hooking methods to enable AppConnect Tunneling
+2015-06-03 10:47:56.959 SLBEAMR1Mob[93191:264960] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '14.504150' ms. Plugin should use a background thread.
+2015-06-03 10:47:57.004 SLBEAMR1Mob[93191:264960] Setting the WebView's frame to {{0, 0}, {768, 980}}
+2015-06-03 10:47:57.004 SLBEAMR1Mob[93191:264960] Setting the WebView's frame to {{0, 0}, {768, 1024}}
+2015-06-03 10:47:57.012 SLBEAMR1Mob[93191:264960] THREAD WARNING: ['InAppBrowser'] took '52.594727' ms. Plugin should use a background thread.
+2015-06-03 10:47:57.422 SLBEAMR1Mob[93191:264960] THREAD WARNING: ['InAppBrowser'] took '66.343994' ms. Plugin should use a background thread.
+2015-06-03 10:47:58.685 SLBEAMR1Mob[93191:265138] [group: com.sap.smp.client.ios] [artifact: CoreServices] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 10:47:58.686 SLBEAMR1Mob[93191:265138] Initializing Client connection with ApplicationID : com.slb.eam.mob  Domain :  default  SecurityConfiguration:  (null)
+2015-06-03 10:47:58.686 SLBEAMR1Mob[93191:265138] [group: com.sap.smp.client.ios] [artifact: Request] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 10:47:58.687 SLBEAMR1Mob[93191:265138] Setting Client connection with Url:  http://us1455saps033.dir.slb.com:8080
+2015-06-03 10:47:58.687 SLBEAMR1Mob[93191:265138] Clearing SMP server related session cookies
+2015-06-03 10:47:58.687 SLBEAMR1Mob[93191:265138] Assigning the selectors
+2015-06-03 10:47:58.688 SLBEAMR1Mob[93191:265138] Automatic Registration : Registering user ASYNCHRONOUSLY with user name : IMohammed6, security configuration : (null) 
+2015-06-03 10:47:58.688 SLBEAMR1Mob[93191:265138] Starting asynchronous request <Request: 0x7d1f8c00>{name = '(null)'}
+2015-06-03 10:47:58.689 SLBEAMR1Mob[93191:265285] Registering reachability notifier for: us1455saps033.dir.slb.com
+2015-06-03 10:47:58.689 SLBEAMR1Mob[93191:265285] UrlString:   http://us1455saps033.dir.slb.com:8080
+2015-06-03 10:47:58.690 SLBEAMR1Mob[93191:265285] Unable to instantiate Cache... Delta Link and CSRF (Offline) handling not possible
+2015-06-03 10:47:58.691 SLBEAMR1Mob[93191:265285] UrlString:   http://us1455saps033.dir.slb.com:8080
+2015-06-03 10:47:58.692 SLBEAMR1Mob[93191:265285] Request handleNetworkEvent -> Unexpected stream event type received
+2015-06-03 10:47:58.693 SLBEAMR1Mob[93191:265285] ===Used: 0 bytes of bandwidth in last measurement period===
+2015-06-03 10:47:58.835 SLBEAMR1Mob[93191:265285] Request <Request: 0x7d1f8c00>{name = '(null)'} finished downloading data (0 bytes)
+2015-06-03 10:47:58.836 SLBEAMR1Mob[93191:265285] Got no keep-alive header, will keep this connection open for 60.000000 seconds
+2015-06-03 10:47:58.836 SLBEAMR1Mob[93191:265285] Request #1 finished using connection #1
+2015-06-03 10:47:58.836 SLBEAMR1Mob[93191:265285] UrlString:   http://us1455saps033.dir.slb.com:8080
+2015-06-03 10:47:58.836 SLBEAMR1Mob[93191:265285] Request handleNetworkEvent -> Unexpected stream event type received
+2015-06-03 10:47:59.841 SLBEAMR1Mob[93191:265285] ===Used: 65536 bytes of bandwidth in last measurement period===
+2015-06-03 10:48:01.088 SLBEAMR1Mob[93191:265285] ===Used: 0 bytes of bandwidth in last measurement period===
+2015-06-03 10:48:01.182 SLBEAMR1Mob[93191:265285] Got no keep-alive header, will keep this connection open for 60.000000 seconds
+2015-06-03 10:48:01.185 SLBEAMR1Mob[93191:265285] Request <Request: 0x7d1f8c00>{name = '(null)'} finished downloading data (1221 bytes)
+2015-06-03 10:48:01.185 SLBEAMR1Mob[93191:265285] Request #1 finished using connection #1
+2015-06-03 10:48:01.186 SLBEAMR1Mob[93191:265285] Request finished: <Request: 0x7d1f8c00>{name = '(null)'}
+2015-06-03 10:48:01.186 SLBEAMR1Mob[93191:264960] Registration request finished...
+2015-06-03 10:48:01.186 SLBEAMR1Mob[93191:264960] Parsing started
+2015-06-03 10:48:01.186 SLBEAMR1Mob[93191:264960] Found an element named: id with a value of: (null)
+2015-06-03 10:48:01.186 SLBEAMR1Mob[93191:264960] Found an element named: title with a value of: (null)
+2015-06-03 10:48:01.186 SLBEAMR1Mob[93191:264960] Found an element named: updated with a value of: (null)
+2015-06-03 10:48:01.187 SLBEAMR1Mob[93191:264960] Found an element named: name with a value of: (null)
+2015-06-03 10:48:01.187 SLBEAMR1Mob[93191:264960] Found an element named: author with a value of: (null)
+2015-06-03 10:48:01.187 SLBEAMR1Mob[93191:264960] Found an element named: link with a value of: (null)
+2015-06-03 10:48:01.187 SLBEAMR1Mob[93191:264960] Found an element named: category with a value of: (null)
+2015-06-03 10:48:01.187 SLBEAMR1Mob[93191:264960] Found an element named: d:ETag with a value of: 2015-06-03 15:48:01.0
+2015-06-03 10:48:01.187 SLBEAMR1Mob[93191:264960] Found an element named: d:ApplicationConnectionId with a value of: 7ca0843b-db36-4c79-b605-91a608e227e9
+2015-06-03 10:48:01.187 SLBEAMR1Mob[93191:264960] Found an element named: d:AndroidGcmPushEnabled with a value of: false
+2015-06-03 10:48:01.187 SLBEAMR1Mob[93191:264960] Found an element named: d:AndroidGcmRegistrationId with a value of: 
+2015-06-03 10:48:01.187 SLBEAMR1Mob[93191:264960] Found an element named: d:AndroidGcmSenderId with a value of: 
+2015-06-03 10:48:01.187 SLBEAMR1Mob[93191:264960] Found an element named: d:ApnsPushEnable with a value of: false
+2015-06-03 10:48:01.188 SLBEAMR1Mob[93191:264960] Found an element named: d:ApnsDeviceToken with a value of: 
+2015-06-03 10:48:01.188 SLBEAMR1Mob[93191:264960] Found an element named: d:ApplicationVersion with a value of: 1.0
+2015-06-03 10:48:01.188 SLBEAMR1Mob[93191:264960] Found an element named: d:BlackberryPushEnabled with a value of: false
+2015-06-03 10:48:01.188 SLBEAMR1Mob[93191:264960] Found an element named: d:BlackberryDevicePin with a value of: 
+2015-06-03 10:48:01.188 SLBEAMR1Mob[93191:264960] Found an element named: d:BlackberryBESListenerPort with a value of: 0
+2015-06-03 10:48:01.188 SLBEAMR1Mob[93191:264960] Found an element named: d:BlackberryPushAppID with a value of: 
+2015-06-03 10:48:01.188 SLBEAMR1Mob[93191:264960] Found an element named: d:BlackberryPushBaseURL with a value of: 
+2015-06-03 10:48:01.188 SLBEAMR1Mob[93191:264960] Found an element named: d:BlackberryPushListenerPort with a value of: 0
+2015-06-03 10:48:01.188 SLBEAMR1Mob[93191:264960] Found an element named: d:BlackberryListenerType with a value of: 0
+2015-06-03 10:48:01.188 SLBEAMR1Mob[93191:264960] Found an element named: d:CollectClientUsageReports with a value of: false
+2015-06-03 10:48:01.189 SLBEAMR1Mob[93191:264960] Found an element named: d:ConnectionLogLevel with a value of: NONE
+2015-06-03 10:48:01.189 SLBEAMR1Mob[93191:264960] Found an element named: d:CustomizationBundleId with a value of: 
+2015-06-03 10:48:01.189 SLBEAMR1Mob[93191:264960] Found an element named: d:CustomCustom1 with a value of: 
+2015-06-03 10:48:01.189 SLBEAMR1Mob[93191:264960] Found an element named: d:CustomCustom2 with a value of: 
+2015-06-03 10:48:01.189 SLBEAMR1Mob[93191:264960] Found an element named: d:CustomCustom3 with a value of: 
+2015-06-03 10:48:01.189 SLBEAMR1Mob[93191:264960] Found an element named: d:CustomCustom4 with a value of: 
+2015-06-03 10:48:01.189 SLBEAMR1Mob[93191:264960] Found an element named: d:DeviceModel with a value of: 
+2015-06-03 10:48:01.189 SLBEAMR1Mob[93191:264960] Found an element named: d:DeviceType with a value of: iPhone
+2015-06-03 10:48:01.189 SLBEAMR1Mob[93191:264960] Found an element named: d:DeviceSubType with a value of: 
+2015-06-03 10:48:01.189 SLBEAMR1Mob[93191:264960] Found an element named: d:DevicePhoneNumber with a value of: 
+2015-06-03 10:48:01.189 SLBEAMR1Mob[93191:264960] Found an element named: d:DeviceIMSI with a value of: 
+2015-06-03 10:48:01.190 SLBEAMR1Mob[93191:264960] Found an element named: d:E2ETraceLevel with a value of: Low
+2015-06-03 10:48:01.190 SLBEAMR1Mob[93191:264960] Found an element named: d:EnableAppSpecificClientUsageKeys with a value of: false
+2015-06-03 10:48:01.190 SLBEAMR1Mob[93191:264960] Found an element named: d:FeatureVectorPolicyAllEnabled with a value of: false
+2015-06-03 10:48:01.190 SLBEAMR1Mob[93191:264960] Found an element named: d:LogEntryExpiry with a value of: 7
+2015-06-03 10:48:01.190 SLBEAMR1Mob[93191:264960] Found an element named: d:MaxConnectionWaitTimeForClientUsage with a value of: false
+2015-06-03 10:48:01.190 SLBEAMR1Mob[93191:264960] Found an element named: d:MpnsChannelURI with a value of: 
+2015-06-03 10:48:01.190 SLBEAMR1Mob[93191:264960] Found an element named: d:MpnsPushEnable with a value of: false
+2015-06-03 10:48:01.190 SLBEAMR1Mob[93191:264960] Found an element named: d:PasswordPolicyEnabled with a value of: false
+2015-06-03 10:48:01.190 SLBEAMR1Mob[93191:264960] Found an element named: d:PasswordPolicyDefaultPasswordAllowed with a value of: false
+2015-06-03 10:48:01.190 SLBEAMR1Mob[93191:264960] Found an element named: d:PasswordPolicyMinLength with a value of: 8
+2015-06-03 10:48:01.190 SLBEAMR1Mob[93191:264960] Found an element named: d:PasswordPolicyDigitRequired with a value of: false
+2015-06-03 10:48:01.191 SLBEAMR1Mob[93191:264960] Found an element named: d:PasswordPolicyUpperRequired with a value of: false
+2015-06-03 10:48:01.191 SLBEAMR1Mob[93191:264960] Found an element named: d:PasswordPolicyLowerRequired with a value of: false
+2015-06-03 10:48:01.191 SLBEAMR1Mob[93191:264960] Found an element named: d:PasswordPolicySpecialRequired with a value of: false
+2015-06-03 10:48:01.191 SLBEAMR1Mob[93191:264960] Found an element named: d:PasswordPolicyExpiresInNDays with a value of: 0
+2015-06-03 10:48:01.191 SLBEAMR1Mob[93191:264960] Found an element named: d:PasswordPolicyMinUniqueChars with a value of: 0
+2015-06-03 10:48:01.191 SLBEAMR1Mob[93191:264960] Found an element named: d:PasswordPolicyLockTimeout with a value of: 0
+2015-06-03 10:48:01.191 SLBEAMR1Mob[93191:264960] Found an element named: d:PasswordPolicyRetryLimit with a value of: 20
+2015-06-03 10:48:01.191 SLBEAMR1Mob[93191:264960] Found an element named: d:ProxyApplicationEndpoint with a value of: http://sapf1sdi10.dir.slb.com:8010/sap/opu/odata/sap/Z_THIN_SLB_MOB_SRV/
+2015-06-03 10:48:01.191 SLBEAMR1Mob[93191:264960] Found an element named: d:ProxyPushEndpoint with a value of: http://us1455saps033.DIR.slb.com:8080/Notification
+2015-06-03 10:48:01.191 SLBEAMR1Mob[93191:264960] Found an element named: d:PublishedToMobilePlace with a value of: false
+2015-06-03 10:48:01.191 SLBEAMR1Mob[93191:264960] Found an element named: d:UploadLogs with a value of: false
+2015-06-03 10:48:01.192 SLBEAMR1Mob[93191:264960] Found an element named: d:WnsChannelURI with a value of: 
+2015-06-03 10:48:01.192 SLBEAMR1Mob[93191:264960] Found an element named: d:WnsPushEnable with a value of: false
+2015-06-03 10:48:01.192 SLBEAMR1Mob[93191:264960] Found an element named: d:FeatureVectorPolicy with a value of: 
+2015-06-03 10:48:01.192 SLBEAMR1Mob[93191:264960] Found an element named: m:properties with a value of: 
+2015-06-03 10:48:01.192 SLBEAMR1Mob[93191:264960] Found an element named: content with a value of: 
+2015-06-03 10:48:01.192 SLBEAMR1Mob[93191:264960] Found an element named: entry with a value of: 
+2015-06-03 10:48:01.192 SLBEAMR1Mob[93191:264960] Parsing ended --> {
+    "d:AndroidGcmPushEnabled" = false;
+    "d:AndroidGcmRegistrationId" = "";
+    "d:AndroidGcmSenderId" = "";
+    "d:ApnsDeviceToken" = "";
+    "d:ApnsPushEnable" = false;
+    "d:ApplicationConnectionId" = "7ca0843b-db36-4c79-b605-91a608e227e9";
+    "d:ApplicationVersion" = "1.0";
+    "d:BlackberryBESListenerPort" = 0;
+    "d:BlackberryDevicePin" = "";
+    "d:BlackberryListenerType" = 0;
+    "d:BlackberryPushAppID" = "";
+    "d:BlackberryPushBaseURL" = "";
+    "d:BlackberryPushEnabled" = false;
+    "d:BlackberryPushListenerPort" = 0;
+    "d:CollectClientUsageReports" = false;
+    "d:ConnectionLogLevel" = NONE;
+    "d:CustomCustom1" = "";
+    "d:CustomCustom2" = "";
+    "d:CustomCustom3" = "";
+    "d:CustomCustom4" = "";
+    "d:CustomizationBundleId" = "";
+    "d:DeviceIMSI" = "";
+    "d:DeviceModel" = "";
+    "d:DevicePhoneNumber" = "";
+    "d:DeviceSubType" = "";
+    "d:DeviceType" = iPhone;
+    "d:E2ETraceLevel" = Low;
+    "d:ETag" = "2015-06-03 15:48:01.0";
+    "d:EnableAppSpecificClientUsageKeys" = false;
+    "d:FeatureVectorPolicy" = "";
+    "d:FeatureVectorPolicyAllEnabled" = false;
+    "d:LogEntryExpiry" = 7;
+    "d:MaxConnectionWaitTimeForClientUsage" = false;
+    "d:MpnsChannelURI" = "";
+    "d:MpnsPushEnable" = false;
+    "d:PasswordPolicyDefaultPasswordAllowed" = false;
+    "d:PasswordPolicyDigitRequired" = false;
+    "d:PasswordPolicyEnabled" = false;
+    "d:PasswordPolicyExpiresInNDays" = 0;
+    "d:PasswordPolicyLockTimeout" = 0;
+    "d:PasswordPolicyLowerRequired" = false;
+    "d:PasswordPolicyMinLength" = 8;
+    "d:PasswordPolicyMinUniqueChars" = 0;
+    "d:PasswordPolicyRetryLimit" = 20;
+    "d:PasswordPolicySpecialRequired" = false;
+    "d:PasswordPolicyUpperRequired" = false;
+    "d:ProxyApplicationEndpoint" = "http://sapf1sdi10.dir.slb.com:8010/sap/opu/odata/sap/Z_THIN_SLB_MOB_SRV/";
+    "d:ProxyPushEndpoint" = "http://us1455saps033.DIR.slb.com:8080/Notification";
+    "d:PublishedToMobilePlace" = false;
+    "d:UploadLogs" = false;
+    "d:WnsChannelURI" = "";
+    "d:WnsPushEnable" = false;
+}
+2015-06-03 10:48:01.193 SLBEAMR1Mob[93191:264960] urlString:   http://us1455saps033.dir.slb.com:8080
+2015-06-03 10:48:01.193 SLBEAMR1Mob[93191:264960] Request String:  http://us1455saps033.dir.slb.com:8080/odata/applications/v1/com.slb.eam.mob/Connections('7ca0843b-db36-4c79-b605-91a608e227e9')
+2015-06-03 10:48:01.193 SLBEAMR1Mob[93191:264960] Starting synchronous request <Request: 0x7d212600>{name = '(null)'}
+2015-06-03 10:48:01.194 SLBEAMR1Mob[93191:264960] UrlString:   http://us1455saps033.dir.slb.com:8080
+2015-06-03 10:48:01.194 SLBEAMR1Mob[93191:264960] Unable to instantiate Cache... Delta Link and CSRF (Offline) handling not possible
+2015-06-03 10:48:01.194 SLBEAMR1Mob[93191:264960] UrlString:   http://us1455saps033.dir.slb.com:8080
+2015-06-03 10:48:01.195 SLBEAMR1Mob[93191:264960] Request handleNetworkEvent -> Unexpected stream event type received
+2015-06-03 10:48:01.416 SLBEAMR1Mob[93191:264960] Got no keep-alive header, will keep this connection open for 60.000000 seconds
+2015-06-03 10:48:01.416 SLBEAMR1Mob[93191:264960] Request <Request: 0x7d212600>{name = '(null)'} finished downloading data (1221 bytes)
+2015-06-03 10:48:01.416 SLBEAMR1Mob[93191:264960] Request #2 finished using connection #1
+2015-06-03 10:48:01.416 SLBEAMR1Mob[93191:264960] Request finished: <Request: 0x7d212600>{name = '(null)'}
+2015-06-03 10:48:01.417 SLBEAMR1Mob[93191:264960] Response Code: 200
+2015-06-03 10:48:01.417 SLBEAMR1Mob[93191:264960] Parsing started
+2015-06-03 10:48:01.417 SLBEAMR1Mob[93191:264960] Found an element named: id with a value of: (null)
+2015-06-03 10:48:01.417 SLBEAMR1Mob[93191:264960] Found an element named: title with a value of: (null)
+2015-06-03 10:48:01.417 SLBEAMR1Mob[93191:264960] Found an element named: updated with a value of: (null)
+2015-06-03 10:48:01.417 SLBEAMR1Mob[93191:264960] Found an element named: name with a value of: (null)
+2015-06-03 10:48:01.418 SLBEAMR1Mob[93191:264960] Found an element named: author with a value of: (null)
+2015-06-03 10:48:01.418 SLBEAMR1Mob[93191:264960] Found an element named: link with a value of: (null)
+2015-06-03 10:48:01.418 SLBEAMR1Mob[93191:264960] Found an element named: category with a value of: (null)
+2015-06-03 10:48:01.418 SLBEAMR1Mob[93191:264960] Found an element named: d:ETag with a value of: 2015-06-03 15:48:01.0
+2015-06-03 10:48:01.418 SLBEAMR1Mob[93191:264960] Found an element named: d:ApplicationConnectionId with a value of: 7ca0843b-db36-4c79-b605-91a608e227e9
+2015-06-03 10:48:01.418 SLBEAMR1Mob[93191:264960] Found an element named: d:AndroidGcmPushEnabled with a value of: false
+2015-06-03 10:48:01.419 SLBEAMR1Mob[93191:264960] Found an element named: d:AndroidGcmRegistrationId with a value of: 
+2015-06-03 10:48:01.419 SLBEAMR1Mob[93191:264960] Found an element named: d:AndroidGcmSenderId with a value of: 
+2015-06-03 10:48:01.419 SLBEAMR1Mob[93191:264960] Found an element named: d:ApnsPushEnable with a value of: false
+2015-06-03 10:48:01.419 SLBEAMR1Mob[93191:264960] Found an element named: d:ApnsDeviceToken with a value of: 
+2015-06-03 10:48:01.419 SLBEAMR1Mob[93191:264960] Found an element named: d:ApplicationVersion with a value of: 1.0
+2015-06-03 10:48:01.419 SLBEAMR1Mob[93191:264960] Found an element named: d:BlackberryPushEnabled with a value of: false
+2015-06-03 10:48:01.419 SLBEAMR1Mob[93191:264960] Found an element named: d:BlackberryDevicePin with a value of: 
+2015-06-03 10:48:01.419 SLBEAMR1Mob[93191:264960] Found an element named: d:BlackberryBESListenerPort with a value of: 0
+2015-06-03 10:48:01.420 SLBEAMR1Mob[93191:264960] Found an element named: d:BlackberryPushAppID with a value of: 
+2015-06-03 10:48:01.420 SLBEAMR1Mob[93191:264960] Found an element named: d:BlackberryPushBaseURL with a value of: 
+2015-06-03 10:48:01.420 SLBEAMR1Mob[93191:264960] Found an element named: d:BlackberryPushListenerPort with a value of: 0
+2015-06-03 10:48:01.420 SLBEAMR1Mob[93191:264960] Found an element named: d:BlackberryListenerType with a value of: 0
+2015-06-03 10:48:01.420 SLBEAMR1Mob[93191:264960] Found an element named: d:CollectClientUsageReports with a value of: false
+2015-06-03 10:48:01.420 SLBEAMR1Mob[93191:264960] Found an element named: d:ConnectionLogLevel with a value of: NONE
+2015-06-03 10:48:01.420 SLBEAMR1Mob[93191:264960] Found an element named: d:CustomizationBundleId with a value of: 
+2015-06-03 10:48:01.420 SLBEAMR1Mob[93191:264960] Found an element named: d:CustomCustom1 with a value of: 
+2015-06-03 10:48:01.420 SLBEAMR1Mob[93191:264960] Found an element named: d:CustomCustom2 with a value of: 
+2015-06-03 10:48:01.420 SLBEAMR1Mob[93191:264960] Found an element named: d:CustomCustom3 with a value of: 
+2015-06-03 10:48:01.421 SLBEAMR1Mob[93191:264960] Found an element named: d:CustomCustom4 with a value of: 
+2015-06-03 10:48:01.421 SLBEAMR1Mob[93191:264960] Found an element named: d:DeviceModel with a value of: 
+2015-06-03 10:48:01.421 SLBEAMR1Mob[93191:264960] Found an element named: d:DeviceType with a value of: iPhone
+2015-06-03 10:48:01.421 SLBEAMR1Mob[93191:264960] Found an element named: d:DeviceSubType with a value of: 
+2015-06-03 10:48:01.421 SLBEAMR1Mob[93191:264960] Found an element named: d:DevicePhoneNumber with a value of: 
+2015-06-03 10:48:01.421 SLBEAMR1Mob[93191:264960] Found an element named: d:DeviceIMSI with a value of: 
+2015-06-03 10:48:01.421 SLBEAMR1Mob[93191:264960] Found an element named: d:E2ETraceLevel with a value of: Low
+2015-06-03 10:48:01.421 SLBEAMR1Mob[93191:264960] Found an element named: d:EnableAppSpecificClientUsageKeys with a value of: false
+2015-06-03 10:48:01.421 SLBEAMR1Mob[93191:264960] Found an element named: d:FeatureVectorPolicyAllEnabled with a value of: false
+2015-06-03 10:48:01.421 SLBEAMR1Mob[93191:264960] Found an element named: d:LogEntryExpiry with a value of: 7
+2015-06-03 10:48:01.422 SLBEAMR1Mob[93191:264960] Found an element named: d:MaxConnectionWaitTimeForClientUsage with a value of: false
+2015-06-03 10:48:01.422 SLBEAMR1Mob[93191:264960] Found an element named: d:MpnsChannelURI with a value of: 
+2015-06-03 10:48:01.422 SLBEAMR1Mob[93191:264960] Found an element named: d:MpnsPushEnable with a value of: false
+2015-06-03 10:48:01.422 SLBEAMR1Mob[93191:264960] Found an element named: d:PasswordPolicyEnabled with a value of: false
+2015-06-03 10:48:01.422 SLBEAMR1Mob[93191:264960] Found an element named: d:PasswordPolicyDefaultPasswordAllowed with a value of: false
+2015-06-03 10:48:01.422 SLBEAMR1Mob[93191:264960] Found an element named: d:PasswordPolicyMinLength with a value of: 8
+2015-06-03 10:48:01.422 SLBEAMR1Mob[93191:264960] Found an element named: d:PasswordPolicyDigitRequired with a value of: false
+2015-06-03 10:48:01.422 SLBEAMR1Mob[93191:264960] Found an element named: d:PasswordPolicyUpperRequired with a value of: false
+2015-06-03 10:48:01.422 SLBEAMR1Mob[93191:264960] Found an element named: d:PasswordPolicyLowerRequired with a value of: false
+2015-06-03 10:48:01.422 SLBEAMR1Mob[93191:264960] Found an element named: d:PasswordPolicySpecialRequired with a value of: false
+2015-06-03 10:48:01.423 SLBEAMR1Mob[93191:264960] Found an element named: d:PasswordPolicyExpiresInNDays with a value of: 0
+2015-06-03 10:48:01.423 SLBEAMR1Mob[93191:264960] Found an element named: d:PasswordPolicyMinUniqueChars with a value of: 0
+2015-06-03 10:48:01.423 SLBEAMR1Mob[93191:264960] Found an element named: d:PasswordPolicyLockTimeout with a value of: 0
+2015-06-03 10:48:01.423 SLBEAMR1Mob[93191:264960] Found an element named: d:PasswordPolicyRetryLimit with a value of: 20
+2015-06-03 10:48:01.423 SLBEAMR1Mob[93191:264960] Found an element named: d:ProxyApplicationEndpoint with a value of: http://sapf1sdi10.dir.slb.com:8010/sap/opu/odata/sap/Z_THIN_SLB_MOB_SRV/
+2015-06-03 10:48:01.423 SLBEAMR1Mob[93191:264960] Found an element named: d:ProxyPushEndpoint with a value of: http://us1455saps033.DIR.slb.com:8080/Notification
+2015-06-03 10:48:01.423 SLBEAMR1Mob[93191:264960] Found an element named: d:PublishedToMobilePlace with a value of: false
+2015-06-03 10:48:01.423 SLBEAMR1Mob[93191:264960] Found an element named: d:UploadLogs with a value of: false
+2015-06-03 10:48:01.423 SLBEAMR1Mob[93191:264960] Found an element named: d:WnsChannelURI with a value of: 
+2015-06-03 10:48:01.423 SLBEAMR1Mob[93191:264960] Found an element named: d:WnsPushEnable with a value of: false
+2015-06-03 10:48:01.424 SLBEAMR1Mob[93191:264960] Found an element named: d:FeatureVectorPolicy with a value of: 
+2015-06-03 10:48:01.424 SLBEAMR1Mob[93191:264960] Found an element named: m:properties with a value of: 
+2015-06-03 10:48:01.424 SLBEAMR1Mob[93191:264960] Found an element named: content with a value of: 
+2015-06-03 10:48:01.424 SLBEAMR1Mob[93191:264960] Found an element named: entry with a value of: 
+2015-06-03 10:48:01.424 SLBEAMR1Mob[93191:264960] Parsing ended --> {
+    "d:AndroidGcmPushEnabled" = false;
+    "d:AndroidGcmRegistrationId" = "";
+    "d:AndroidGcmSenderId" = "";
+    "d:ApnsDeviceToken" = "";
+    "d:ApnsPushEnable" = false;
+    "d:ApplicationConnectionId" = "7ca0843b-db36-4c79-b605-91a608e227e9";
+    "d:ApplicationVersion" = "1.0";
+    "d:BlackberryBESListenerPort" = 0;
+    "d:BlackberryDevicePin" = "";
+    "d:BlackberryListenerType" = 0;
+    "d:BlackberryPushAppID" = "";
+    "d:BlackberryPushBaseURL" = "";
+    "d:BlackberryPushEnabled" = false;
+    "d:BlackberryPushListenerPort" = 0;
+    "d:CollectClientUsageReports" = false;
+    "d:ConnectionLogLevel" = NONE;
+    "d:CustomCustom1" = "";
+    "d:CustomCustom2" = "";
+    "d:CustomCustom3" = "";
+    "d:CustomCustom4" = "";
+    "d:CustomizationBundleId" = "";
+    "d:DeviceIMSI" = "";
+    "d:DeviceModel" = "";
+    "d:DevicePhoneNumber" = "";
+    "d:DeviceSubType" = "";
+    "d:DeviceType" = iPhone;
+    "d:E2ETraceLevel" = Low;
+    "d:ETag" = "2015-06-03 15:48:01.0";
+    "d:EnableAppSpecificClientUsageKeys" = false;
+    "d:FeatureVectorPolicy" = "";
+    "d:FeatureVectorPolicyAllEnabled" = false;
+    "d:LogEntryExpiry" = 7;
+    "d:MaxConnectionWaitTimeForClientUsage" = false;
+    "d:MpnsChannelURI" = "";
+    "d:MpnsPushEnable" = false;
+    "d:PasswordPolicyDefaultPasswordAllowed" = false;
+    "d:PasswordPolicyDigitRequired" = false;
+    "d:PasswordPolicyEnabled" = false;
+    "d:PasswordPolicyExpiresInNDays" = 0;
+    "d:PasswordPolicyLockTimeout" = 0;
+    "d:PasswordPolicyLowerRequired" = false;
+    "d:PasswordPolicyMinLength" = 8;
+    "d:PasswordPolicyMinUniqueChars" = 0;
+    "d:PasswordPolicyRetryLimit" = 20;
+    "d:PasswordPolicySpecialRequired" = false;
+    "d:PasswordPolicyUpperRequired" = false;
+    "d:ProxyApplicationEndpoint" = "http://sapf1sdi10.dir.slb.com:8010/sap/opu/odata/sap/Z_THIN_SLB_MOB_SRV/";
+    "d:ProxyPushEndpoint" = "http://us1455saps033.DIR.slb.com:8080/Notification";
+    "d:PublishedToMobilePlace" = false;
+    "d:UploadLogs" = false;
+    "d:WnsChannelURI" = "";
+    "d:WnsPushEnable" = false;
+}
+2015-06-03 10:48:01.453 SLBEAMR1Mob[93191:264960] THREAD WARNING: ['InAppBrowser'] took '10.621094' ms. Plugin should use a background thread.
+2015-06-03 10:48:02.879 SLBEAMR1Mob[93191:264960] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '12.741699' ms. Plugin should use a background thread.
+2015-06-03 10:48:02.920 SLBEAMR1Mob[93191:264960] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '41.107910' ms. Plugin should use a background thread.
+2015-06-03 10:48:04.697 SLBEAMR1Mob[93191:264960] THREAD WARNING: ['OData'] took '11.431885' ms. Plugin should use a background thread.
+2015-06-03 10:53:03.606 SLBEAMR1Mob[2165:277208] Apache Cordova native platform version 3.6.3 is starting.
+2015-06-03 10:53:03.607 SLBEAMR1Mob[2165:277208] Multi-tasking -> Device: YES, App: YES
+2015-06-03 10:53:03.611 SLBEAMR1Mob[2165:277208] Unlimited access to network resources
+2015-06-03 10:53:03.613 SLBEAMR1Mob[2165:277208] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2015-06-03 10:53:03.671 SLBEAMR1Mob[2165:277208] [CDVTimer][appconnectcordovaplugin] 0.048995ms
+2015-06-03 10:53:03.672 SLBEAMR1Mob[2165:277208] [group: com.sap.smp.client.ios] [artifact: Supportability] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 10:53:03.672 SLBEAMR1Mob[2165:277208] [group: com.sap.smp.client.ios] [artifact: ClientLog] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 10:53:03.676 SLBEAMR1Mob[2165:277208] [group: com.sap.smp.client.ios] [artifact: E2ETrace2] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 10:53:03.676 SLBEAMR1Mob[2165:277208] CommonAuthenticationConfigurator isNSHTTPURLProtocolReplacementEnabled: 0
+2015-06-03 10:53:03.677 SLBEAMR1Mob[2165:277208] [CDVTimer][authproxy] 4.985034ms
+2015-06-03 10:53:03.677 SLBEAMR1Mob[2165:277208] [CDVTimer][TotalPluginStartup] 5.268037ms
+2015-06-03 10:53:03.752 SLBEAMR1Mob[2165:277208] Resetting plugins due to page load.
+2015-06-03 10:53:03.900 SLBEAMR1Mob[2165:277208] Finished load of: file:///Users/imrankhan/Library/Developer/CoreSimulator/Devices/F55457C8-F251-4939-A14F-8870156D4198/data/Containers/Bundle/Application/0ADDBDAB-BF71-42F0-B68D-E04A6D81C4EC/SLBEAMR1Mob.app/www/index.html
+2015-06-03 10:53:05.528 SLBEAMR1Mob[2165:277208] THREAD WARNING: ['NetworkStatus'] took '1601.339844' ms. Plugin should use a background thread.
+2015-06-03 10:53:05.539 SLBEAMR1Mob[2165:277213] [Status] Initializing AppConnect plugin
+2015-06-03 10:53:05.539 SLBEAMR1Mob[2165:277213] [Status] Hooking methods to enable AppConnect Tunneling
+2015-06-03 10:53:05.550 SLBEAMR1Mob[2165:277208] [group: com.sap.mobile.maf.tools.ios] [artifact: MAFLogger] [version: 1.207.0] [buildTime: 2015-02-24 23:55] [gitCommit: 0648677345ea49cb2688ed34b110338d0a15cf6b] [gitBranch: origin/fa/rel-1.207]
+2015-06-03 10:53:05.550 SLBEAMR1Mob[2165:277208] [group: com.sap.smp.client.ios] [artifact: Logger] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 10:53:05.553 SLBEAMR1Mob[2165:277208] [group: com.sap.smp.client.ios] [artifact: ClientHubSLL] [version: 3.7.0] [buildTime: 2015-02-23 22:49] [gitCommit: e7aa7076609783021fdedc87f29f65522d139dd1] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 10:53:05.555 SLBEAMR1Mob[2165:277208] [group: com.sap.smp.client.ios] [artifact: Datavault] [version: 3.7.0] [buildTime: 2015-02-23 22:49] [gitCommit: e7aa7076609783021fdedc87f29f65522d139dd1] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 10:53:05.580 SLBEAMR1Mob[2165:277208] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '30.021973' ms. Plugin should use a background thread.
+2015-06-03 10:53:05.631 SLBEAMR1Mob[2165:277208] Setting the WebView's frame to {{0, 0}, {768, 980}}
+2015-06-03 10:53:05.631 SLBEAMR1Mob[2165:277208] Setting the WebView's frame to {{0, 0}, {768, 1024}}
+2015-06-03 10:53:05.638 SLBEAMR1Mob[2165:277208] THREAD WARNING: ['InAppBrowser'] took '49.169189' ms. Plugin should use a background thread.
+2015-06-03 10:53:05.833 SLBEAMR1Mob[2165:277208] THREAD WARNING: ['InAppBrowser'] took '95.250732' ms. Plugin should use a background thread.
+2015-06-03 10:53:06.967 SLBEAMR1Mob[2165:277208] [group: com.sap.smp.client.ios] [artifact: CoreServices] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 10:53:06.967 SLBEAMR1Mob[2165:277208] Initializing Client connection with ApplicationID : com.slb.eam.mob  Domain :  default  SecurityConfiguration:  (null)
+2015-06-03 10:53:06.967 SLBEAMR1Mob[2165:277208] [group: com.sap.smp.client.ios] [artifact: Request] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 10:53:06.969 SLBEAMR1Mob[2165:277208] [Status] miaccp_URLIsAllowed:logFailure
+2015-06-03 10:53:06.970 SLBEAMR1Mob[2165:277208] Setting Client connection with Url:  http://us1455saps033.dir.slb.com:8080
+2015-06-03 10:53:07.030 SLBEAMR1Mob[2165:277208] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '118.382080' ms. Plugin should use a background thread.
+2015-06-03 10:53:07.042 SLBEAMR1Mob[2165:277208] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '11.024902' ms. Plugin should use a background thread.
+2015-06-03 10:53:07.086 SLBEAMR1Mob[2165:277208] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '43.469971' ms. Plugin should use a background thread.
+2015-06-03 10:53:08.165 SLBEAMR1Mob[2165:277236] [Status] miaccp_URLIsAllowed
+2015-06-03 10:53:08.165 SLBEAMR1Mob[2165:277236] [Status] miaccp_URLIsAllowed:logFailure
+2015-06-03 10:53:08.274 SLBEAMR1Mob[2165:277208] [Status] miaccp_URLIsAllowed
+2015-06-03 10:53:08.274 SLBEAMR1Mob[2165:277208] [Status] miaccp_URLIsAllowed:logFailure
+2015-06-03 10:53:08.286 SLBEAMR1Mob[2165:277208] THREAD WARNING: ['OData'] took '12.602051' ms. Plugin should use a background thread.
+2015-06-03 11:26:10.799 SLBEAMR1Mob[11568:315778] Apache Cordova native platform version 3.6.3 is starting.
+2015-06-03 11:26:10.799 SLBEAMR1Mob[11568:315778] Multi-tasking -> Device: YES, App: YES
+2015-06-03 11:26:10.803 SLBEAMR1Mob[11568:315778] Unlimited access to network resources
+2015-06-03 11:26:10.805 SLBEAMR1Mob[11568:315778] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2015-06-03 11:26:10.863 SLBEAMR1Mob[11568:315778] [CDVTimer][appconnectcordovaplugin] 0.046015ms
+2015-06-03 11:26:10.863 SLBEAMR1Mob[11568:315778] [group: com.sap.smp.client.ios] [artifact: Supportability] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 11:26:10.863 SLBEAMR1Mob[11568:315778] [group: com.sap.smp.client.ios] [artifact: ClientLog] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 11:26:10.867 SLBEAMR1Mob[11568:315778] [group: com.sap.smp.client.ios] [artifact: E2ETrace2] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 11:26:10.867 SLBEAMR1Mob[11568:315778] CommonAuthenticationConfigurator isNSHTTPURLProtocolReplacementEnabled: 0
+2015-06-03 11:26:10.867 SLBEAMR1Mob[11568:315778] [CDVTimer][authproxy] 4.478037ms
+2015-06-03 11:26:10.867 SLBEAMR1Mob[11568:315778] [CDVTimer][TotalPluginStartup] 4.751980ms
+2015-06-03 11:26:10.898 SLBEAMR1Mob[11568:315778] Resetting plugins due to page load.
+2015-06-03 11:26:11.050 SLBEAMR1Mob[11568:315778] Finished load of: file:///Users/imrankhan/Library/Developer/CoreSimulator/Devices/F55457C8-F251-4939-A14F-8870156D4198/data/Containers/Bundle/Application/757BC335-0BC3-43EF-A4B0-412CD4357128/SLBEAMR1Mob.app/www/index.html
+2015-06-03 11:26:19.431 SLBEAMR1Mob[11568:315778] THREAD WARNING: ['NetworkStatus'] took '8350.616943' ms. Plugin should use a background thread.
+2015-06-03 11:26:19.516 SLBEAMR1Mob[11568:316021] [Status] Initializing AppConnect plugin
+2015-06-03 11:26:19.516 SLBEAMR1Mob[11568:316021] [Status] Hooking methods to enable AppConnect Tunneling
+2015-06-03 11:28:54.003 SLBEAMR1Mob[20268:337835] Apache Cordova native platform version 3.6.3 is starting.
+2015-06-03 11:28:54.004 SLBEAMR1Mob[20268:337835] Multi-tasking -> Device: YES, App: YES
+2015-06-03 11:28:54.008 SLBEAMR1Mob[20268:337835] Unlimited access to network resources
+2015-06-03 11:28:54.010 SLBEAMR1Mob[20268:337835] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2015-06-03 11:28:54.069 SLBEAMR1Mob[20268:337835] [CDVTimer][appconnectcordovaplugin] 0.060022ms
+2015-06-03 11:28:54.070 SLBEAMR1Mob[20268:337835] [group: com.sap.smp.client.ios] [artifact: Supportability] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 11:28:54.070 SLBEAMR1Mob[20268:337835] [group: com.sap.smp.client.ios] [artifact: ClientLog] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 11:28:54.074 SLBEAMR1Mob[20268:337835] [group: com.sap.smp.client.ios] [artifact: E2ETrace2] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 11:28:54.075 SLBEAMR1Mob[20268:337835] CommonAuthenticationConfigurator isNSHTTPURLProtocolReplacementEnabled: 0
+2015-06-03 11:28:54.075 SLBEAMR1Mob[20268:337835] [CDVTimer][authproxy] 5.269051ms
+2015-06-03 11:28:54.075 SLBEAMR1Mob[20268:337835] [CDVTimer][TotalPluginStartup] 5.553961ms
+2015-06-03 11:28:54.104 SLBEAMR1Mob[20268:337835] Resetting plugins due to page load.
+2015-06-03 11:28:54.254 SLBEAMR1Mob[20268:337835] Finished load of: file:///Users/imrankhan/Library/Developer/CoreSimulator/Devices/F55457C8-F251-4939-A14F-8870156D4198/data/Containers/Bundle/Application/F454FA9A-224A-4E23-9D5E-1E70E7CCA0E3/SLBEAMR1Mob.app/www/index.html
+2015-06-03 11:29:05.415 SLBEAMR1Mob[20268:337835] THREAD WARNING: ['NetworkStatus'] took '11131.344238' ms. Plugin should use a background thread.
+2015-06-03 11:29:05.417 SLBEAMR1Mob[20268:338020] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-06-03 11:29:05.495 SLBEAMR1Mob[20268:340160] [Status] Initializing AppConnect plugin
+2015-06-03 11:29:05.496 SLBEAMR1Mob[20268:340160] [Status] Hooking methods to enable AppConnect Tunneling
+2015-06-03 11:31:17.151 SLBEAMR1Mob[28902:358854] Apache Cordova native platform version 3.6.3 is starting.
+2015-06-03 11:31:17.152 SLBEAMR1Mob[28902:358854] Multi-tasking -> Device: YES, App: YES
+2015-06-03 11:31:17.156 SLBEAMR1Mob[28902:358854] Unlimited access to network resources
+2015-06-03 11:31:17.158 SLBEAMR1Mob[28902:358854] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2015-06-03 11:31:17.216 SLBEAMR1Mob[28902:358854] [CDVTimer][appconnectcordovaplugin] 0.051022ms
+2015-06-03 11:31:17.217 SLBEAMR1Mob[28902:358854] [group: com.sap.smp.client.ios] [artifact: Supportability] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 11:31:17.217 SLBEAMR1Mob[28902:358854] [group: com.sap.smp.client.ios] [artifact: ClientLog] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 11:31:17.220 SLBEAMR1Mob[28902:358854] [group: com.sap.smp.client.ios] [artifact: E2ETrace2] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 11:31:17.220 SLBEAMR1Mob[28902:358854] CommonAuthenticationConfigurator isNSHTTPURLProtocolReplacementEnabled: 0
+2015-06-03 11:31:17.221 SLBEAMR1Mob[28902:358854] [CDVTimer][authproxy] 4.013002ms
+2015-06-03 11:31:17.221 SLBEAMR1Mob[28902:358854] [CDVTimer][TotalPluginStartup] 4.337966ms
+2015-06-03 11:31:17.253 SLBEAMR1Mob[28902:358854] Resetting plugins due to page load.
+2015-06-03 11:31:17.397 SLBEAMR1Mob[28902:358854] Finished load of: file:///Users/imrankhan/Library/Developer/CoreSimulator/Devices/F55457C8-F251-4939-A14F-8870156D4198/data/Containers/Bundle/Application/45B9BDCB-80CF-4333-B593-0828B75F8C77/SLBEAMR1Mob.app/www/index.html
+2015-06-03 11:32:07.924 SLBEAMR1Mob[28902:358854] THREAD WARNING: ['NetworkStatus'] took '50497.097168' ms. Plugin should use a background thread.
+2015-06-03 11:32:07.926 SLBEAMR1Mob[28902:359109] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-06-03 11:32:08.009 SLBEAMR1Mob[28902:363041] [Status] Initializing AppConnect plugin
+2015-06-03 11:32:08.010 SLBEAMR1Mob[28902:363041] [Status] Hooking methods to enable AppConnect Tunneling
+2015-06-03 11:35:14.338 SLBEAMR1Mob[37583:378511] Apache Cordova native platform version 3.6.3 is starting.
+2015-06-03 11:35:14.338 SLBEAMR1Mob[37583:378511] Multi-tasking -> Device: YES, App: YES
+2015-06-03 11:35:14.344 SLBEAMR1Mob[37583:378511] Unlimited access to network resources
+2015-06-03 11:35:14.346 SLBEAMR1Mob[37583:378511] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2015-06-03 11:35:14.422 SLBEAMR1Mob[37583:378511] [CDVTimer][appconnectcordovaplugin] 0.047982ms
+2015-06-03 11:35:14.423 SLBEAMR1Mob[37583:378511] [group: com.sap.smp.client.ios] [artifact: Supportability] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 11:35:14.423 SLBEAMR1Mob[37583:378511] [group: com.sap.smp.client.ios] [artifact: ClientLog] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 11:35:14.430 SLBEAMR1Mob[37583:378511] [group: com.sap.smp.client.ios] [artifact: E2ETrace2] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 11:35:14.430 SLBEAMR1Mob[37583:378511] CommonAuthenticationConfigurator isNSHTTPURLProtocolReplacementEnabled: 0
+2015-06-03 11:35:14.431 SLBEAMR1Mob[37583:378511] [CDVTimer][authproxy] 8.085012ms
+2015-06-03 11:35:14.431 SLBEAMR1Mob[37583:378511] [CDVTimer][TotalPluginStartup] 8.985996ms
+2015-06-03 11:35:14.467 SLBEAMR1Mob[37583:378511] Resetting plugins due to page load.
+2015-06-03 11:35:14.649 SLBEAMR1Mob[37583:378511] Finished load of: file:///Users/imrankhan/Library/Developer/CoreSimulator/Devices/F55457C8-F251-4939-A14F-8870156D4198/data/Containers/Bundle/Application/3039C68F-27F8-4FBE-9BC4-6545C1A728DF/SLBEAMR1Mob.app/www/index.html
+2015-06-03 11:35:22.815 SLBEAMR1Mob[37583:378511] THREAD WARNING: ['NetworkStatus'] took '8123.933838' ms. Plugin should use a background thread.
+2015-06-03 11:35:22.896 SLBEAMR1Mob[37583:378544] [Status] Initializing AppConnect plugin
+2015-06-03 11:35:22.896 SLBEAMR1Mob[37583:378544] [Status] Hooking methods to enable AppConnect Tunneling
+2015-06-03 11:35:22.900 SLBEAMR1Mob[37583:378511] [group: com.sap.mobile.maf.tools.ios] [artifact: MAFLogger] [version: 1.207.0] [buildTime: 2015-02-24 23:55] [gitCommit: 0648677345ea49cb2688ed34b110338d0a15cf6b] [gitBranch: origin/fa/rel-1.207]
+2015-06-03 11:35:22.900 SLBEAMR1Mob[37583:378511] [group: com.sap.smp.client.ios] [artifact: Logger] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 11:35:22.905 SLBEAMR1Mob[37583:378511] [group: com.sap.smp.client.ios] [artifact: ClientHubSLL] [version: 3.7.0] [buildTime: 2015-02-23 22:49] [gitCommit: e7aa7076609783021fdedc87f29f65522d139dd1] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 11:35:22.906 SLBEAMR1Mob[37583:378511] [group: com.sap.smp.client.ios] [artifact: Datavault] [version: 3.7.0] [buildTime: 2015-02-23 22:49] [gitCommit: e7aa7076609783021fdedc87f29f65522d139dd1] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 11:35:22.933 SLBEAMR1Mob[37583:378511] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '32.299072' ms. Plugin should use a background thread.
+2015-06-03 11:35:22.945 SLBEAMR1Mob[37583:378511] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '12.242188' ms. Plugin should use a background thread.
+2015-06-03 11:35:22.999 SLBEAMR1Mob[37583:378511] Setting the WebView's frame to {{0, 0}, {768, 980}}
+2015-06-03 11:35:22.999 SLBEAMR1Mob[37583:378511] Setting the WebView's frame to {{0, 0}, {768, 1024}}
+2015-06-03 11:35:23.007 SLBEAMR1Mob[37583:378511] THREAD WARNING: ['InAppBrowser'] took '61.447998' ms. Plugin should use a background thread.
+2015-06-03 11:35:23.220 SLBEAMR1Mob[37583:378511] THREAD WARNING: ['InAppBrowser'] took '98.836914' ms. Plugin should use a background thread.
+2015-06-03 11:35:28.316 SLBEAMR1Mob[37583:378544] ER:Exception: DataVault Locked Error: Error Domain=MAFSecureStoreManagerErrorDomain Code=6 "Secure store is locked" UserInfo=0x79f27690 {exceptionReason=DataVault Locked, exceptionName=DataVaultException, NSLocalizedDescription=Secure store is locked}
+2015-06-03 11:35:28.408 SLBEAMR1Mob[37583:378511] Resetting plugins due to page load.
+2015-06-03 11:35:28.593 SLBEAMR1Mob[37583:378511] Finished load of: file:///Users/imrankhan/Library/Developer/CoreSimulator/Devices/F55457C8-F251-4939-A14F-8870156D4198/data/Containers/Bundle/Application/3039C68F-27F8-4FBE-9BC4-6545C1A728DF/SLBEAMR1Mob.app/www/index.html
+2015-06-03 11:35:30.176 SLBEAMR1Mob[37583:378511] THREAD WARNING: ['NetworkStatus'] took '1496.915771' ms. Plugin should use a background thread.
+2015-06-03 11:35:30.206 SLBEAMR1Mob[37583:378920] [Status] Initializing AppConnect plugin
+2015-06-03 11:35:30.206 SLBEAMR1Mob[37583:378920] [AppConnect:Error] +initWithDelegate: has already been called. +initWithDelegate: should only be called once per app launch.
+2015-06-03 11:35:30.206 SLBEAMR1Mob[37583:378920] [Status] Hooking methods to enable AppConnect Tunneling
+2015-06-03 11:35:30.223 SLBEAMR1Mob[37583:378511] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '12.709961' ms. Plugin should use a background thread.
+2015-06-03 11:35:30.237 SLBEAMR1Mob[37583:378511] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '13.485840' ms. Plugin should use a background thread.
+2015-06-03 11:35:30.288 SLBEAMR1Mob[37583:378511] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '49.157959' ms. Plugin should use a background thread.
+2015-06-03 11:35:30.347 SLBEAMR1Mob[37583:378511] Setting the WebView's frame to {{0, 0}, {768, 980}}
+2015-06-03 11:35:30.348 SLBEAMR1Mob[37583:378511] Setting the WebView's frame to {{0, 0}, {768, 1024}}
+2015-06-03 11:35:30.357 SLBEAMR1Mob[37583:378511] THREAD WARNING: ['InAppBrowser'] took '62.941162' ms. Plugin should use a background thread.
+2015-06-03 11:35:30.889 SLBEAMR1Mob[37583:378511] THREAD WARNING: ['InAppBrowser'] took '71.461182' ms. Plugin should use a background thread.
+2015-06-03 11:35:32.337 SLBEAMR1Mob[37583:378920] [group: com.sap.smp.client.ios] [artifact: CoreServices] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 11:35:32.338 SLBEAMR1Mob[37583:378920] Initializing Client connection with ApplicationID : com.slb.eam.mob  Domain :  default  SecurityConfiguration:  (null)
+2015-06-03 11:35:32.338 SLBEAMR1Mob[37583:378920] [group: com.sap.smp.client.ios] [artifact: Request] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 11:35:32.340 SLBEAMR1Mob[37583:378920] Setting Client connection with Url:  http://us1455saps033.dir.slb.com:8080
+2015-06-03 11:35:32.340 SLBEAMR1Mob[37583:378920] Clearing SMP server related session cookies
+2015-06-03 11:35:32.340 SLBEAMR1Mob[37583:378920] Assigning the selectors
+2015-06-03 11:35:32.341 SLBEAMR1Mob[37583:378920] Automatic Registration : Registering user ASYNCHRONOUSLY with user name : IMohammed6, security configuration : (null) 
+2015-06-03 11:35:32.341 SLBEAMR1Mob[37583:378920] Starting asynchronous request <Request: 0x7b886800>{name = '(null)'}
+2015-06-03 11:35:32.342 SLBEAMR1Mob[37583:379892] Registering reachability notifier for: us1455saps033.dir.slb.com
+2015-06-03 11:35:32.343 SLBEAMR1Mob[37583:379892] UrlString:   http://us1455saps033.dir.slb.com:8080
+2015-06-03 11:35:32.343 SLBEAMR1Mob[37583:379892] Unable to instantiate Cache... Delta Link and CSRF (Offline) handling not possible
+2015-06-03 11:35:32.345 SLBEAMR1Mob[37583:379892] UrlString:   http://us1455saps033.dir.slb.com:8080
+2015-06-03 11:35:32.346 SLBEAMR1Mob[37583:379892] Request handleNetworkEvent -> Unexpected stream event type received
+2015-06-03 11:35:32.347 SLBEAMR1Mob[37583:379892] ===Used: 0 bytes of bandwidth in last measurement period===
+2015-06-03 11:35:32.465 SLBEAMR1Mob[37583:379892] Request <Request: 0x7b886800>{name = '(null)'} finished downloading data (0 bytes)
+2015-06-03 11:35:32.466 SLBEAMR1Mob[37583:379892] Got no keep-alive header, will keep this connection open for 60.000000 seconds
+2015-06-03 11:35:32.466 SLBEAMR1Mob[37583:379892] Request #1 finished using connection #1
+2015-06-03 11:35:32.466 SLBEAMR1Mob[37583:379892] UrlString:   http://us1455saps033.dir.slb.com:8080
+2015-06-03 11:35:32.466 SLBEAMR1Mob[37583:379892] Request handleNetworkEvent -> Unexpected stream event type received
+2015-06-03 11:35:33.470 SLBEAMR1Mob[37583:379892] ===Used: 65536 bytes of bandwidth in last measurement period===
+2015-06-03 11:35:34.471 SLBEAMR1Mob[37583:379892] ===Used: 0 bytes of bandwidth in last measurement period===
+2015-06-03 11:35:35.163 SLBEAMR1Mob[37583:379892] Got no keep-alive header, will keep this connection open for 60.000000 seconds
+2015-06-03 11:35:35.163 SLBEAMR1Mob[37583:379892] Request <Request: 0x7b886800>{name = '(null)'} finished downloading data (1220 bytes)
+2015-06-03 11:35:35.163 SLBEAMR1Mob[37583:379892] Request #1 finished using connection #1
+2015-06-03 11:35:35.164 SLBEAMR1Mob[37583:379892] Request finished: <Request: 0x7b886800>{name = '(null)'}
+2015-06-03 11:35:35.164 SLBEAMR1Mob[37583:378511] Registration request finished...
+2015-06-03 11:35:35.164 SLBEAMR1Mob[37583:378511] Parsing started
+2015-06-03 11:35:35.164 SLBEAMR1Mob[37583:378511] Found an element named: id with a value of: (null)
+2015-06-03 11:35:35.164 SLBEAMR1Mob[37583:378511] Found an element named: title with a value of: (null)
+2015-06-03 11:35:35.164 SLBEAMR1Mob[37583:378511] Found an element named: updated with a value of: (null)
+2015-06-03 11:35:35.165 SLBEAMR1Mob[37583:378511] Found an element named: name with a value of: (null)
+2015-06-03 11:35:35.165 SLBEAMR1Mob[37583:378511] Found an element named: author with a value of: (null)
+2015-06-03 11:35:35.165 SLBEAMR1Mob[37583:378511] Found an element named: link with a value of: (null)
+2015-06-03 11:35:35.165 SLBEAMR1Mob[37583:378511] Found an element named: category with a value of: (null)
+2015-06-03 11:35:35.165 SLBEAMR1Mob[37583:378511] Found an element named: d:ETag with a value of: 2015-06-03 16:35:35.0
+2015-06-03 11:35:35.165 SLBEAMR1Mob[37583:378511] Found an element named: d:ApplicationConnectionId with a value of: 3598a45a-3d73-4bdd-a6a0-f7015cd1f9d7
+2015-06-03 11:35:35.165 SLBEAMR1Mob[37583:378511] Found an element named: d:AndroidGcmPushEnabled with a value of: false
+2015-06-03 11:35:35.166 SLBEAMR1Mob[37583:378511] Found an element named: d:AndroidGcmRegistrationId with a value of: 
+2015-06-03 11:35:35.166 SLBEAMR1Mob[37583:378511] Found an element named: d:AndroidGcmSenderId with a value of: 
+2015-06-03 11:35:35.166 SLBEAMR1Mob[37583:378511] Found an element named: d:ApnsPushEnable with a value of: false
+2015-06-03 11:35:35.166 SLBEAMR1Mob[37583:378511] Found an element named: d:ApnsDeviceToken with a value of: 
+2015-06-03 11:35:35.166 SLBEAMR1Mob[37583:378511] Found an element named: d:ApplicationVersion with a value of: 1.0
+2015-06-03 11:35:35.166 SLBEAMR1Mob[37583:378511] Found an element named: d:BlackberryPushEnabled with a value of: false
+2015-06-03 11:35:35.167 SLBEAMR1Mob[37583:378511] Found an element named: d:BlackberryDevicePin with a value of: 
+2015-06-03 11:35:35.167 SLBEAMR1Mob[37583:378511] Found an element named: d:BlackberryBESListenerPort with a value of: 0
+2015-06-03 11:35:35.167 SLBEAMR1Mob[37583:378511] Found an element named: d:BlackberryPushAppID with a value of: 
+2015-06-03 11:35:35.167 SLBEAMR1Mob[37583:378511] Found an element named: d:BlackberryPushBaseURL with a value of: 
+2015-06-03 11:35:35.167 SLBEAMR1Mob[37583:378511] Found an element named: d:BlackberryPushListenerPort with a value of: 0
+2015-06-03 11:35:35.167 SLBEAMR1Mob[37583:378511] Found an element named: d:BlackberryListenerType with a value of: 0
+2015-06-03 11:35:35.167 SLBEAMR1Mob[37583:378511] Found an element named: d:CollectClientUsageReports with a value of: false
+2015-06-03 11:35:35.167 SLBEAMR1Mob[37583:378511] Found an element named: d:ConnectionLogLevel with a value of: NONE
+2015-06-03 11:35:35.168 SLBEAMR1Mob[37583:378511] Found an element named: d:CustomizationBundleId with a value of: 
+2015-06-03 11:35:35.168 SLBEAMR1Mob[37583:378511] Found an element named: d:CustomCustom1 with a value of: 
+2015-06-03 11:35:35.168 SLBEAMR1Mob[37583:378511] Found an element named: d:CustomCustom2 with a value of: 
+2015-06-03 11:35:35.168 SLBEAMR1Mob[37583:378511] Found an element named: d:CustomCustom3 with a value of: 
+2015-06-03 11:35:35.168 SLBEAMR1Mob[37583:378511] Found an element named: d:CustomCustom4 with a value of: 
+2015-06-03 11:35:35.168 SLBEAMR1Mob[37583:378511] Found an element named: d:DeviceModel with a value of: 
+2015-06-03 11:35:35.168 SLBEAMR1Mob[37583:378511] Found an element named: d:DeviceType with a value of: iPhone
+2015-06-03 11:35:35.169 SLBEAMR1Mob[37583:378511] Found an element named: d:DeviceSubType with a value of: 
+2015-06-03 11:35:35.169 SLBEAMR1Mob[37583:378511] Found an element named: d:DevicePhoneNumber with a value of: 
+2015-06-03 11:35:35.169 SLBEAMR1Mob[37583:378511] Found an element named: d:DeviceIMSI with a value of: 
+2015-06-03 11:35:35.169 SLBEAMR1Mob[37583:378511] Found an element named: d:E2ETraceLevel with a value of: Low
+2015-06-03 11:35:35.169 SLBEAMR1Mob[37583:378511] Found an element named: d:EnableAppSpecificClientUsageKeys with a value of: false
+2015-06-03 11:35:35.169 SLBEAMR1Mob[37583:378511] Found an element named: d:FeatureVectorPolicyAllEnabled with a value of: false
+2015-06-03 11:35:35.169 SLBEAMR1Mob[37583:378511] Found an element named: d:LogEntryExpiry with a value of: 7
+2015-06-03 11:35:35.169 SLBEAMR1Mob[37583:378511] Found an element named: d:MaxConnectionWaitTimeForClientUsage with a value of: false
+2015-06-03 11:35:35.170 SLBEAMR1Mob[37583:378511] Found an element named: d:MpnsChannelURI with a value of: 
+2015-06-03 11:35:35.170 SLBEAMR1Mob[37583:378511] Found an element named: d:MpnsPushEnable with a value of: false
+2015-06-03 11:35:35.170 SLBEAMR1Mob[37583:378511] Found an element named: d:PasswordPolicyEnabled with a value of: false
+2015-06-03 11:35:35.170 SLBEAMR1Mob[37583:378511] Found an element named: d:PasswordPolicyDefaultPasswordAllowed with a value of: false
+2015-06-03 11:35:35.170 SLBEAMR1Mob[37583:378511] Found an element named: d:PasswordPolicyMinLength with a value of: 8
+2015-06-03 11:35:35.170 SLBEAMR1Mob[37583:378511] Found an element named: d:PasswordPolicyDigitRequired with a value of: false
+2015-06-03 11:35:35.170 SLBEAMR1Mob[37583:378511] Found an element named: d:PasswordPolicyUpperRequired with a value of: false
+2015-06-03 11:35:35.170 SLBEAMR1Mob[37583:378511] Found an element named: d:PasswordPolicyLowerRequired with a value of: false
+2015-06-03 11:35:35.171 SLBEAMR1Mob[37583:378511] Found an element named: d:PasswordPolicySpecialRequired with a value of: false
+2015-06-03 11:35:35.171 SLBEAMR1Mob[37583:378511] Found an element named: d:PasswordPolicyExpiresInNDays with a value of: 0
+2015-06-03 11:35:35.171 SLBEAMR1Mob[37583:378511] Found an element named: d:PasswordPolicyMinUniqueChars with a value of: 0
+2015-06-03 11:35:35.171 SLBEAMR1Mob[37583:378511] Found an element named: d:PasswordPolicyLockTimeout with a value of: 0
+2015-06-03 11:35:35.171 SLBEAMR1Mob[37583:378511] Found an element named: d:PasswordPolicyRetryLimit with a value of: 20
+2015-06-03 11:35:35.171 SLBEAMR1Mob[37583:378511] Found an element named: d:ProxyApplicationEndpoint with a value of: http://sapf1sdi10.dir.slb.com:8010/sap/opu/odata/sap/Z_THIN_SLB_MOB_SRV/
+2015-06-03 11:35:35.171 SLBEAMR1Mob[37583:378511] Found an element named: d:ProxyPushEndpoint with a value of: http://us1455saps033.DIR.slb.com:8080/Notification
+2015-06-03 11:35:35.171 SLBEAMR1Mob[37583:378511] Found an element named: d:PublishedToMobilePlace with a value of: false
+2015-06-03 11:35:35.171 SLBEAMR1Mob[37583:378511] Found an element named: d:UploadLogs with a value of: false
+2015-06-03 11:35:35.171 SLBEAMR1Mob[37583:378511] Found an element named: d:WnsChannelURI with a value of: 
+2015-06-03 11:35:35.172 SLBEAMR1Mob[37583:378511] Found an element named: d:WnsPushEnable with a value of: false
+2015-06-03 11:35:35.172 SLBEAMR1Mob[37583:378511] Found an element named: d:FeatureVectorPolicy with a value of: 
+2015-06-03 11:35:35.172 SLBEAMR1Mob[37583:378511] Found an element named: m:properties with a value of: 
+2015-06-03 11:35:35.172 SLBEAMR1Mob[37583:378511] Found an element named: content with a value of: 
+2015-06-03 11:35:35.172 SLBEAMR1Mob[37583:378511] Found an element named: entry with a value of: 
+2015-06-03 11:35:35.172 SLBEAMR1Mob[37583:378511] Parsing ended --> {
+    "d:AndroidGcmPushEnabled" = false;
+    "d:AndroidGcmRegistrationId" = "";
+    "d:AndroidGcmSenderId" = "";
+    "d:ApnsDeviceToken" = "";
+    "d:ApnsPushEnable" = false;
+    "d:ApplicationConnectionId" = "3598a45a-3d73-4bdd-a6a0-f7015cd1f9d7";
+    "d:ApplicationVersion" = "1.0";
+    "d:BlackberryBESListenerPort" = 0;
+    "d:BlackberryDevicePin" = "";
+    "d:BlackberryListenerType" = 0;
+    "d:BlackberryPushAppID" = "";
+    "d:BlackberryPushBaseURL" = "";
+    "d:BlackberryPushEnabled" = false;
+    "d:BlackberryPushListenerPort" = 0;
+    "d:CollectClientUsageReports" = false;
+    "d:ConnectionLogLevel" = NONE;
+    "d:CustomCustom1" = "";
+    "d:CustomCustom2" = "";
+    "d:CustomCustom3" = "";
+    "d:CustomCustom4" = "";
+    "d:CustomizationBundleId" = "";
+    "d:DeviceIMSI" = "";
+    "d:DeviceModel" = "";
+    "d:DevicePhoneNumber" = "";
+    "d:DeviceSubType" = "";
+    "d:DeviceType" = iPhone;
+    "d:E2ETraceLevel" = Low;
+    "d:ETag" = "2015-06-03 16:35:35.0";
+    "d:EnableAppSpecificClientUsageKeys" = false;
+    "d:FeatureVectorPolicy" = "";
+    "d:FeatureVectorPolicyAllEnabled" = false;
+    "d:LogEntryExpiry" = 7;
+    "d:MaxConnectionWaitTimeForClientUsage" = false;
+    "d:MpnsChannelURI" = "";
+    "d:MpnsPushEnable" = false;
+    "d:PasswordPolicyDefaultPasswordAllowed" = false;
+    "d:PasswordPolicyDigitRequired" = false;
+    "d:PasswordPolicyEnabled" = false;
+    "d:PasswordPolicyExpiresInNDays" = 0;
+    "d:PasswordPolicyLockTimeout" = 0;
+    "d:PasswordPolicyLowerRequired" = false;
+    "d:PasswordPolicyMinLength" = 8;
+    "d:PasswordPolicyMinUniqueChars" = 0;
+    "d:PasswordPolicyRetryLimit" = 20;
+    "d:PasswordPolicySpecialRequired" = false;
+    "d:PasswordPolicyUpperRequired" = false;
+    "d:ProxyApplicationEndpoint" = "http://sapf1sdi10.dir.slb.com:8010/sap/opu/odata/sap/Z_THIN_SLB_MOB_SRV/";
+    "d:ProxyPushEndpoint" = "http://us1455saps033.DIR.slb.com:8080/Notification";
+    "d:PublishedToMobilePlace" = false;
+    "d:UploadLogs" = false;
+    "d:WnsChannelURI" = "";
+    "d:WnsPushEnable" = false;
+}
+2015-06-03 11:35:35.173 SLBEAMR1Mob[37583:378511] urlString:   http://us1455saps033.dir.slb.com:8080
+2015-06-03 11:35:35.173 SLBEAMR1Mob[37583:378511] Request String:  http://us1455saps033.dir.slb.com:8080/odata/applications/v1/com.slb.eam.mob/Connections('3598a45a-3d73-4bdd-a6a0-f7015cd1f9d7')
+2015-06-03 11:35:35.174 SLBEAMR1Mob[37583:378511] Starting synchronous request <Request: 0x7d87c800>{name = '(null)'}
+2015-06-03 11:35:35.174 SLBEAMR1Mob[37583:378511] UrlString:   http://us1455saps033.dir.slb.com:8080
+2015-06-03 11:35:35.174 SLBEAMR1Mob[37583:378511] Unable to instantiate Cache... Delta Link and CSRF (Offline) handling not possible
+2015-06-03 11:35:35.175 SLBEAMR1Mob[37583:378511] UrlString:   http://us1455saps033.dir.slb.com:8080
+2015-06-03 11:35:35.176 SLBEAMR1Mob[37583:378511] Request handleNetworkEvent -> Unexpected stream event type received
+2015-06-03 11:35:35.477 SLBEAMR1Mob[37583:378511] Got no keep-alive header, will keep this connection open for 60.000000 seconds
+2015-06-03 11:35:35.477 SLBEAMR1Mob[37583:378511] ===Used: 2212 bytes of bandwidth in last measurement period===
+2015-06-03 11:35:35.478 SLBEAMR1Mob[37583:378511] Request <Request: 0x7d87c800>{name = '(null)'} finished downloading data (1220 bytes)
+2015-06-03 11:35:35.479 SLBEAMR1Mob[37583:378511] Request #2 finished using connection #1
+2015-06-03 11:35:35.479 SLBEAMR1Mob[37583:378511] Request finished: <Request: 0x7d87c800>{name = '(null)'}
+2015-06-03 11:35:35.479 SLBEAMR1Mob[37583:378511] Response Code: 200
+2015-06-03 11:35:35.479 SLBEAMR1Mob[37583:378511] Parsing started
+2015-06-03 11:35:35.479 SLBEAMR1Mob[37583:378511] Found an element named: id with a value of: (null)
+2015-06-03 11:35:35.479 SLBEAMR1Mob[37583:378511] Found an element named: title with a value of: (null)
+2015-06-03 11:35:35.479 SLBEAMR1Mob[37583:378511] Found an element named: updated with a value of: (null)
+2015-06-03 11:35:35.479 SLBEAMR1Mob[37583:378511] Found an element named: name with a value of: (null)
+2015-06-03 11:35:35.479 SLBEAMR1Mob[37583:378511] Found an element named: author with a value of: (null)
+2015-06-03 11:35:35.479 SLBEAMR1Mob[37583:378511] Found an element named: link with a value of: (null)
+2015-06-03 11:35:35.480 SLBEAMR1Mob[37583:378511] Found an element named: category with a value of: (null)
+2015-06-03 11:35:35.480 SLBEAMR1Mob[37583:378511] Found an element named: d:ETag with a value of: 2015-06-03 16:35:35.0
+2015-06-03 11:35:35.480 SLBEAMR1Mob[37583:378511] Found an element named: d:ApplicationConnectionId with a value of: 3598a45a-3d73-4bdd-a6a0-f7015cd1f9d7
+2015-06-03 11:35:35.480 SLBEAMR1Mob[37583:378511] Found an element named: d:AndroidGcmPushEnabled with a value of: false
+2015-06-03 11:35:35.480 SLBEAMR1Mob[37583:378511] Found an element named: d:AndroidGcmRegistrationId with a value of: 
+2015-06-03 11:35:35.480 SLBEAMR1Mob[37583:378511] Found an element named: d:AndroidGcmSenderId with a value of: 
+2015-06-03 11:35:35.480 SLBEAMR1Mob[37583:378511] Found an element named: d:ApnsPushEnable with a value of: false
+2015-06-03 11:35:35.480 SLBEAMR1Mob[37583:378511] Found an element named: d:ApnsDeviceToken with a value of: 
+2015-06-03 11:35:35.480 SLBEAMR1Mob[37583:378511] Found an element named: d:ApplicationVersion with a value of: 1.0
+2015-06-03 11:35:35.480 SLBEAMR1Mob[37583:378511] Found an element named: d:BlackberryPushEnabled with a value of: false
+2015-06-03 11:35:35.480 SLBEAMR1Mob[37583:378511] Found an element named: d:BlackberryDevicePin with a value of: 
+2015-06-03 11:35:35.480 SLBEAMR1Mob[37583:378511] Found an element named: d:BlackberryBESListenerPort with a value of: 0
+2015-06-03 11:35:35.480 SLBEAMR1Mob[37583:378511] Found an element named: d:BlackberryPushAppID with a value of: 
+2015-06-03 11:35:35.481 SLBEAMR1Mob[37583:378511] Found an element named: d:BlackberryPushBaseURL with a value of: 
+2015-06-03 11:35:35.481 SLBEAMR1Mob[37583:378511] Found an element named: d:BlackberryPushListenerPort with a value of: 0
+2015-06-03 11:35:35.481 SLBEAMR1Mob[37583:378511] Found an element named: d:BlackberryListenerType with a value of: 0
+2015-06-03 11:35:35.481 SLBEAMR1Mob[37583:378511] Found an element named: d:CollectClientUsageReports with a value of: false
+2015-06-03 11:35:35.481 SLBEAMR1Mob[37583:378511] Found an element named: d:ConnectionLogLevel with a value of: NONE
+2015-06-03 11:35:35.481 SLBEAMR1Mob[37583:378511] Found an element named: d:CustomizationBundleId with a value of: 
+2015-06-03 11:35:35.481 SLBEAMR1Mob[37583:378511] Found an element named: d:CustomCustom1 with a value of: 
+2015-06-03 11:35:35.481 SLBEAMR1Mob[37583:378511] Found an element named: d:CustomCustom2 with a value of: 
+2015-06-03 11:35:35.481 SLBEAMR1Mob[37583:378511] Found an element named: d:CustomCustom3 with a value of: 
+2015-06-03 11:35:35.481 SLBEAMR1Mob[37583:378511] Found an element named: d:CustomCustom4 with a value of: 
+2015-06-03 11:35:35.481 SLBEAMR1Mob[37583:378511] Found an element named: d:DeviceModel with a value of: 
+2015-06-03 11:35:35.481 SLBEAMR1Mob[37583:378511] Found an element named: d:DeviceType with a value of: iPhone
+2015-06-03 11:35:35.481 SLBEAMR1Mob[37583:378511] Found an element named: d:DeviceSubType with a value of: 
+2015-06-03 11:35:35.481 SLBEAMR1Mob[37583:378511] Found an element named: d:DevicePhoneNumber with a value of: 
+2015-06-03 11:35:35.482 SLBEAMR1Mob[37583:378511] Found an element named: d:DeviceIMSI with a value of: 
+2015-06-03 11:35:35.482 SLBEAMR1Mob[37583:378511] Found an element named: d:E2ETraceLevel with a value of: Low
+2015-06-03 11:35:35.482 SLBEAMR1Mob[37583:378511] Found an element named: d:EnableAppSpecificClientUsageKeys with a value of: false
+2015-06-03 11:35:35.482 SLBEAMR1Mob[37583:378511] Found an element named: d:FeatureVectorPolicyAllEnabled with a value of: false
+2015-06-03 11:35:35.482 SLBEAMR1Mob[37583:378511] Found an element named: d:LogEntryExpiry with a value of: 7
+2015-06-03 11:35:35.482 SLBEAMR1Mob[37583:378511] Found an element named: d:MaxConnectionWaitTimeForClientUsage with a value of: false
+2015-06-03 11:35:35.482 SLBEAMR1Mob[37583:378511] Found an element named: d:MpnsChannelURI with a value of: 
+2015-06-03 11:35:35.482 SLBEAMR1Mob[37583:378511] Found an element named: d:MpnsPushEnable with a value of: false
+2015-06-03 11:35:35.482 SLBEAMR1Mob[37583:378511] Found an element named: d:PasswordPolicyEnabled with a value of: false
+2015-06-03 11:35:35.482 SLBEAMR1Mob[37583:378511] Found an element named: d:PasswordPolicyDefaultPasswordAllowed with a value of: false
+2015-06-03 11:35:35.482 SLBEAMR1Mob[37583:378511] Found an element named: d:PasswordPolicyMinLength with a value of: 8
+2015-06-03 11:35:35.482 SLBEAMR1Mob[37583:378511] Found an element named: d:PasswordPolicyDigitRequired with a value of: false
+2015-06-03 11:35:35.482 SLBEAMR1Mob[37583:378511] Found an element named: d:PasswordPolicyUpperRequired with a value of: false
+2015-06-03 11:35:35.482 SLBEAMR1Mob[37583:378511] Found an element named: d:PasswordPolicyLowerRequired with a value of: false
+2015-06-03 11:35:35.483 SLBEAMR1Mob[37583:378511] Found an element named: d:PasswordPolicySpecialRequired with a value of: false
+2015-06-03 11:35:35.483 SLBEAMR1Mob[37583:378511] Found an element named: d:PasswordPolicyExpiresInNDays with a value of: 0
+2015-06-03 11:35:35.483 SLBEAMR1Mob[37583:378511] Found an element named: d:PasswordPolicyMinUniqueChars with a value of: 0
+2015-06-03 11:35:35.483 SLBEAMR1Mob[37583:378511] Found an element named: d:PasswordPolicyLockTimeout with a value of: 0
+2015-06-03 11:35:35.483 SLBEAMR1Mob[37583:378511] Found an element named: d:PasswordPolicyRetryLimit with a value of: 20
+2015-06-03 11:35:35.483 SLBEAMR1Mob[37583:378511] Found an element named: d:ProxyApplicationEndpoint with a value of: http://sapf1sdi10.dir.slb.com:8010/sap/opu/odata/sap/Z_THIN_SLB_MOB_SRV/
+2015-06-03 11:35:35.483 SLBEAMR1Mob[37583:378511] Found an element named: d:ProxyPushEndpoint with a value of: http://us1455saps033.DIR.slb.com:8080/Notification
+2015-06-03 11:35:35.483 SLBEAMR1Mob[37583:378511] Found an element named: d:PublishedToMobilePlace with a value of: false
+2015-06-03 11:35:35.483 SLBEAMR1Mob[37583:378511] Found an element named: d:UploadLogs with a value of: false
+2015-06-03 11:35:35.483 SLBEAMR1Mob[37583:378511] Found an element named: d:WnsChannelURI with a value of: 
+2015-06-03 11:35:35.483 SLBEAMR1Mob[37583:378511] Found an element named: d:WnsPushEnable with a value of: false
+2015-06-03 11:35:35.483 SLBEAMR1Mob[37583:378511] Found an element named: d:FeatureVectorPolicy with a value of: 
+2015-06-03 11:35:35.483 SLBEAMR1Mob[37583:378511] Found an element named: m:properties with a value of: 
+2015-06-03 11:35:35.484 SLBEAMR1Mob[37583:378511] Found an element named: content with a value of: 
+2015-06-03 11:35:35.484 SLBEAMR1Mob[37583:378511] Found an element named: entry with a value of: 
+2015-06-03 11:35:35.484 SLBEAMR1Mob[37583:378511] Parsing ended --> {
+    "d:AndroidGcmPushEnabled" = false;
+    "d:AndroidGcmRegistrationId" = "";
+    "d:AndroidGcmSenderId" = "";
+    "d:ApnsDeviceToken" = "";
+    "d:ApnsPushEnable" = false;
+    "d:ApplicationConnectionId" = "3598a45a-3d73-4bdd-a6a0-f7015cd1f9d7";
+    "d:ApplicationVersion" = "1.0";
+    "d:BlackberryBESListenerPort" = 0;
+    "d:BlackberryDevicePin" = "";
+    "d:BlackberryListenerType" = 0;
+    "d:BlackberryPushAppID" = "";
+    "d:BlackberryPushBaseURL" = "";
+    "d:BlackberryPushEnabled" = false;
+    "d:BlackberryPushListenerPort" = 0;
+    "d:CollectClientUsageReports" = false;
+    "d:ConnectionLogLevel" = NONE;
+    "d:CustomCustom1" = "";
+    "d:CustomCustom2" = "";
+    "d:CustomCustom3" = "";
+    "d:CustomCustom4" = "";
+    "d:CustomizationBundleId" = "";
+    "d:DeviceIMSI" = "";
+    "d:DeviceModel" = "";
+    "d:DevicePhoneNumber" = "";
+    "d:DeviceSubType" = "";
+    "d:DeviceType" = iPhone;
+    "d:E2ETraceLevel" = Low;
+    "d:ETag" = "2015-06-03 16:35:35.0";
+    "d:EnableAppSpecificClientUsageKeys" = false;
+    "d:FeatureVectorPolicy" = "";
+    "d:FeatureVectorPolicyAllEnabled" = false;
+    "d:LogEntryExpiry" = 7;
+    "d:MaxConnectionWaitTimeForClientUsage" = false;
+    "d:MpnsChannelURI" = "";
+    "d:MpnsPushEnable" = false;
+    "d:PasswordPolicyDefaultPasswordAllowed" = false;
+    "d:PasswordPolicyDigitRequired" = false;
+    "d:PasswordPolicyEnabled" = false;
+    "d:PasswordPolicyExpiresInNDays" = 0;
+    "d:PasswordPolicyLockTimeout" = 0;
+    "d:PasswordPolicyLowerRequired" = false;
+    "d:PasswordPolicyMinLength" = 8;
+    "d:PasswordPolicyMinUniqueChars" = 0;
+    "d:PasswordPolicyRetryLimit" = 20;
+    "d:PasswordPolicySpecialRequired" = false;
+    "d:PasswordPolicyUpperRequired" = false;
+    "d:ProxyApplicationEndpoint" = "http://sapf1sdi10.dir.slb.com:8010/sap/opu/odata/sap/Z_THIN_SLB_MOB_SRV/";
+    "d:ProxyPushEndpoint" = "http://us1455saps033.DIR.slb.com:8080/Notification";
+    "d:PublishedToMobilePlace" = false;
+    "d:UploadLogs" = false;
+    "d:WnsChannelURI" = "";
+    "d:WnsPushEnable" = false;
+}
+2015-06-03 11:35:35.514 SLBEAMR1Mob[37583:378511] THREAD WARNING: ['InAppBrowser'] took '12.092041' ms. Plugin should use a background thread.
+2015-06-03 11:35:36.677 SLBEAMR1Mob[37583:378511] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '14.564941' ms. Plugin should use a background thread.
+2015-06-03 11:35:36.728 SLBEAMR1Mob[37583:378511] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '51.245361' ms. Plugin should use a background thread.
+2015-06-03 11:35:38.386 SLBEAMR1Mob[37583:378511] THREAD WARNING: ['OData'] took '11.722900' ms. Plugin should use a background thread.
+2015-06-03 11:38:26.571 SLBEAMR1Mob[46303:403928] Apache Cordova native platform version 3.6.3 is starting.
+2015-06-03 11:38:26.571 SLBEAMR1Mob[46303:403928] Multi-tasking -> Device: YES, App: YES
+2015-06-03 11:38:26.576 SLBEAMR1Mob[46303:403928] Unlimited access to network resources
+2015-06-03 11:38:26.578 SLBEAMR1Mob[46303:403928] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2015-06-03 11:38:26.640 SLBEAMR1Mob[46303:403928] [CDVTimer][appconnectcordovaplugin] 0.059009ms
+2015-06-03 11:38:26.640 SLBEAMR1Mob[46303:403928] [group: com.sap.smp.client.ios] [artifact: Supportability] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 11:38:26.640 SLBEAMR1Mob[46303:403928] [group: com.sap.smp.client.ios] [artifact: ClientLog] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 11:38:26.648 SLBEAMR1Mob[46303:403928] [group: com.sap.smp.client.ios] [artifact: E2ETrace2] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 11:38:26.649 SLBEAMR1Mob[46303:403928] CommonAuthenticationConfigurator isNSHTTPURLProtocolReplacementEnabled: 0
+2015-06-03 11:38:26.649 SLBEAMR1Mob[46303:403928] [CDVTimer][authproxy] 8.873999ms
+2015-06-03 11:38:26.649 SLBEAMR1Mob[46303:403928] [CDVTimer][TotalPluginStartup] 9.199977ms
+2015-06-03 11:38:26.748 SLBEAMR1Mob[46303:403928] Resetting plugins due to page load.
+2015-06-03 11:38:26.902 SLBEAMR1Mob[46303:403928] Finished load of: file:///Users/imrankhan/Library/Developer/CoreSimulator/Devices/F55457C8-F251-4939-A14F-8870156D4198/data/Containers/Bundle/Application/F9F4210C-B564-4472-A2E4-B9E00C1B639D/SLBEAMR1Mob.app/www/index.html
+2015-06-03 11:38:40.166 SLBEAMR1Mob[46303:403928] THREAD WARNING: ['NetworkStatus'] took '13235.859863' ms. Plugin should use a background thread.
+2015-06-03 11:38:40.168 SLBEAMR1Mob[46303:404357] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-06-03 11:38:40.182 SLBEAMR1Mob[46303:404610] [Status] Initializing AppConnect plugin
+2015-06-03 11:38:40.183 SLBEAMR1Mob[46303:404610] [Status] Hooking methods to enable AppConnect Tunneling
+2015-06-03 11:38:40.184 SLBEAMR1Mob[46303:403928] [group: com.sap.mobile.maf.tools.ios] [artifact: MAFLogger] [version: 1.207.0] [buildTime: 2015-02-24 23:55] [gitCommit: 0648677345ea49cb2688ed34b110338d0a15cf6b] [gitBranch: origin/fa/rel-1.207]
+2015-06-03 11:38:40.185 SLBEAMR1Mob[46303:403928] [group: com.sap.smp.client.ios] [artifact: Logger] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 11:38:40.189 SLBEAMR1Mob[46303:403928] [group: com.sap.smp.client.ios] [artifact: ClientHubSLL] [version: 3.7.0] [buildTime: 2015-02-23 22:49] [gitCommit: e7aa7076609783021fdedc87f29f65522d139dd1] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 11:38:40.190 SLBEAMR1Mob[46303:403928] [group: com.sap.smp.client.ios] [artifact: Datavault] [version: 3.7.0] [buildTime: 2015-02-23 22:49] [gitCommit: e7aa7076609783021fdedc87f29f65522d139dd1] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 11:38:40.215 SLBEAMR1Mob[46303:403928] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '30.605957' ms. Plugin should use a background thread.
+2015-06-03 11:38:40.270 SLBEAMR1Mob[46303:403928] Setting the WebView's frame to {{0, 0}, {768, 980}}
+2015-06-03 11:38:40.270 SLBEAMR1Mob[46303:403928] Setting the WebView's frame to {{0, 0}, {768, 1024}}
+2015-06-03 11:38:40.277 SLBEAMR1Mob[46303:403928] THREAD WARNING: ['InAppBrowser'] took '53.228027' ms. Plugin should use a background thread.
+2015-06-03 11:38:40.487 SLBEAMR1Mob[46303:403928] THREAD WARNING: ['InAppBrowser'] took '100.890869' ms. Plugin should use a background thread.
+2015-06-03 11:38:41.598 SLBEAMR1Mob[46303:403928] [group: com.sap.smp.client.ios] [artifact: CoreServices] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 11:38:41.598 SLBEAMR1Mob[46303:403928] Initializing Client connection with ApplicationID : com.slb.eam.mob  Domain :  default  SecurityConfiguration:  (null)
+2015-06-03 11:38:41.598 SLBEAMR1Mob[46303:403928] [group: com.sap.smp.client.ios] [artifact: Request] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 11:38:41.600 SLBEAMR1Mob[46303:403928] [Status] miaccp_URLIsAllowed:logFailure
+2015-06-03 11:38:41.600 SLBEAMR1Mob[46303:403928] Setting Client connection with Url:  http://us1455saps033.dir.slb.com:8080
+2015-06-03 11:38:41.660 SLBEAMR1Mob[46303:403928] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '117.969238' ms. Plugin should use a background thread.
+2015-06-03 11:38:41.673 SLBEAMR1Mob[46303:403928] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '11.433838' ms. Plugin should use a background thread.
+2015-06-03 11:38:41.717 SLBEAMR1Mob[46303:403928] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '44.311035' ms. Plugin should use a background thread.
+2015-06-03 11:38:42.781 SLBEAMR1Mob[46303:404403] [Status] miaccp_URLIsAllowed
+2015-06-03 11:38:42.782 SLBEAMR1Mob[46303:404403] [Status] miaccp_URLIsAllowed:logFailure
+2015-06-03 11:38:42.887 SLBEAMR1Mob[46303:403928] [Status] miaccp_URLIsAllowed
+2015-06-03 11:38:42.888 SLBEAMR1Mob[46303:403928] [Status] miaccp_URLIsAllowed:logFailure
+2015-06-03 11:38:42.899 SLBEAMR1Mob[46303:403928] THREAD WARNING: ['OData'] took '11.502197' ms. Plugin should use a background thread.
+2015-06-03 11:49:37.805 SLBEAMR1Mob[55279:444554] Apache Cordova native platform version 3.6.3 is starting.
+2015-06-03 11:49:37.806 SLBEAMR1Mob[55279:444554] Multi-tasking -> Device: YES, App: YES
+2015-06-03 11:49:37.810 SLBEAMR1Mob[55279:444554] Unlimited access to network resources
+2015-06-03 11:49:37.812 SLBEAMR1Mob[55279:444554] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2015-06-03 11:49:37.870 SLBEAMR1Mob[55279:444554] [CDVTimer][appconnectcordovaplugin] 0.072002ms
+2015-06-03 11:49:37.870 SLBEAMR1Mob[55279:444554] [group: com.sap.smp.client.ios] [artifact: Supportability] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 11:49:37.870 SLBEAMR1Mob[55279:444554] [group: com.sap.smp.client.ios] [artifact: ClientLog] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 11:49:37.874 SLBEAMR1Mob[55279:444554] [group: com.sap.smp.client.ios] [artifact: E2ETrace2] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 11:49:37.875 SLBEAMR1Mob[55279:444554] CommonAuthenticationConfigurator isNSHTTPURLProtocolReplacementEnabled: 0
+2015-06-03 11:49:37.875 SLBEAMR1Mob[55279:444554] [CDVTimer][authproxy] 4.770994ms
+2015-06-03 11:49:37.875 SLBEAMR1Mob[55279:444554] [CDVTimer][TotalPluginStartup] 5.160987ms
+2015-06-03 11:49:37.905 SLBEAMR1Mob[55279:444554] Resetting plugins due to page load.
+2015-06-03 11:49:38.057 SLBEAMR1Mob[55279:444554] Finished load of: file:///Users/imrankhan/Library/Developer/CoreSimulator/Devices/F55457C8-F251-4939-A14F-8870156D4198/data/Containers/Bundle/Application/D76AB73B-988C-4D79-89C7-1D36AE66F2C0/SLBEAMR1Mob.app/www/index.html
+2015-06-03 11:50:07.254 SLBEAMR1Mob[55279:444554] THREAD WARNING: ['NetworkStatus'] took '29169.484863' ms. Plugin should use a background thread.
+2015-06-03 11:50:07.256 SLBEAMR1Mob[55279:444582] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-06-03 11:50:07.275 SLBEAMR1Mob[55279:445082] [Status] Initializing AppConnect plugin
+2015-06-03 11:50:07.275 SLBEAMR1Mob[55279:445082] [Status] Hooking methods to enable AppConnect Tunneling
+2015-06-03 11:50:07.277 SLBEAMR1Mob[55279:444554] [group: com.sap.mobile.maf.tools.ios] [artifact: MAFLogger] [version: 1.207.0] [buildTime: 2015-02-24 23:55] [gitCommit: 0648677345ea49cb2688ed34b110338d0a15cf6b] [gitBranch: origin/fa/rel-1.207]
+2015-06-03 11:50:07.277 SLBEAMR1Mob[55279:444554] [group: com.sap.smp.client.ios] [artifact: Logger] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 11:50:07.280 SLBEAMR1Mob[55279:444554] [group: com.sap.smp.client.ios] [artifact: ClientHubSLL] [version: 3.7.0] [buildTime: 2015-02-23 22:49] [gitCommit: e7aa7076609783021fdedc87f29f65522d139dd1] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 11:50:07.281 SLBEAMR1Mob[55279:444554] [group: com.sap.smp.client.ios] [artifact: Datavault] [version: 3.7.0] [buildTime: 2015-02-23 22:49] [gitCommit: e7aa7076609783021fdedc87f29f65522d139dd1] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 11:50:07.303 SLBEAMR1Mob[55279:444554] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '26.240723' ms. Plugin should use a background thread.
+2015-06-03 11:50:07.359 SLBEAMR1Mob[55279:444554] Setting the WebView's frame to {{0, 0}, {768, 980}}
+2015-06-03 11:50:07.359 SLBEAMR1Mob[55279:444554] Setting the WebView's frame to {{0, 0}, {768, 1024}}
+2015-06-03 11:50:07.366 SLBEAMR1Mob[55279:444554] THREAD WARNING: ['InAppBrowser'] took '54.704102' ms. Plugin should use a background thread.
+2015-06-03 11:50:07.565 SLBEAMR1Mob[55279:444554] THREAD WARNING: ['InAppBrowser'] took '95.405273' ms. Plugin should use a background thread.
+2015-06-03 11:50:09.117 SLBEAMR1Mob[55279:444554] [group: com.sap.smp.client.ios] [artifact: CoreServices] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 11:50:09.117 SLBEAMR1Mob[55279:444554] Initializing Client connection with ApplicationID : com.slb.eam.mob  Domain :  default  SecurityConfiguration:  (null)
+2015-06-03 11:50:09.117 SLBEAMR1Mob[55279:444554] [group: com.sap.smp.client.ios] [artifact: Request] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 11:50:09.119 SLBEAMR1Mob[55279:444554] [Status] miaccp_URLIsAllowed:logFailure
+2015-06-03 11:50:09.119 SLBEAMR1Mob[55279:444554] Setting Client connection with Url:  http://us1455saps033.dir.slb.com:8080
+2015-06-03 11:50:09.189 SLBEAMR1Mob[55279:444554] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '134.000000' ms. Plugin should use a background thread.
+2015-06-03 11:50:09.201 SLBEAMR1Mob[55279:444554] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '10.610840' ms. Plugin should use a background thread.
+2015-06-03 11:50:09.279 SLBEAMR1Mob[55279:444554] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '48.128174' ms. Plugin should use a background thread.
+2015-06-03 11:50:10.567 SLBEAMR1Mob[55279:444596] [Status] miaccp_URLIsAllowed
+2015-06-03 11:50:10.567 SLBEAMR1Mob[55279:444596] [Status] miaccp_URLIsAllowed:logFailure
+2015-06-03 11:50:10.675 SLBEAMR1Mob[55279:444554] [Status] miaccp_URLIsAllowed
+2015-06-03 11:50:10.675 SLBEAMR1Mob[55279:444554] [Status] miaccp_URLIsAllowed:logFailure
+2015-06-03 11:50:10.686 SLBEAMR1Mob[55279:444554] THREAD WARNING: ['OData'] took '11.544922' ms. Plugin should use a background thread.
+2015-06-03 11:54:30.837 SLBEAMR1Mob[64028:479361] Apache Cordova native platform version 3.6.3 is starting.
+2015-06-03 11:54:30.838 SLBEAMR1Mob[64028:479361] Multi-tasking -> Device: YES, App: YES
+2015-06-03 11:54:30.843 SLBEAMR1Mob[64028:479361] Unlimited access to network resources
+2015-06-03 11:54:30.845 SLBEAMR1Mob[64028:479361] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2015-06-03 11:54:30.910 SLBEAMR1Mob[64028:479361] [CDVTimer][appconnectcordovaplugin] 0.046968ms
+2015-06-03 11:54:30.910 SLBEAMR1Mob[64028:479361] [group: com.sap.smp.client.ios] [artifact: Supportability] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 11:54:30.910 SLBEAMR1Mob[64028:479361] [group: com.sap.smp.client.ios] [artifact: ClientLog] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 11:54:30.913 SLBEAMR1Mob[64028:479361] [group: com.sap.smp.client.ios] [artifact: E2ETrace2] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 11:54:30.914 SLBEAMR1Mob[64028:479361] CommonAuthenticationConfigurator isNSHTTPURLProtocolReplacementEnabled: 0
+2015-06-03 11:54:30.914 SLBEAMR1Mob[64028:479361] [CDVTimer][authproxy] 4.096985ms
+2015-06-03 11:54:30.914 SLBEAMR1Mob[64028:479361] [CDVTimer][TotalPluginStartup] 4.348993ms
+2015-06-03 11:54:30.943 SLBEAMR1Mob[64028:479361] Resetting plugins due to page load.
+2015-06-03 11:54:31.098 SLBEAMR1Mob[64028:479361] Finished load of: file:///Users/imrankhan/Library/Developer/CoreSimulator/Devices/F55457C8-F251-4939-A14F-8870156D4198/data/Containers/Bundle/Application/B2AA543C-356F-492B-93BF-33520D7CDA7A/SLBEAMR1Mob.app/www/index.html
+2015-06-03 11:55:46.814 SLBEAMR1Mob[64028:479361] THREAD WARNING: ['NetworkStatus'] took '75686.182861' ms. Plugin should use a background thread.
+2015-06-03 11:55:46.816 SLBEAMR1Mob[64028:479546] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-06-03 11:55:46.834 SLBEAMR1Mob[64028:487443] [Status] Initializing AppConnect plugin
+2015-06-03 11:55:46.834 SLBEAMR1Mob[64028:487443] [Status] Hooking methods to enable AppConnect Tunneling
+2015-06-03 11:55:46.835 SLBEAMR1Mob[64028:479361] [group: com.sap.mobile.maf.tools.ios] [artifact: MAFLogger] [version: 1.207.0] [buildTime: 2015-02-24 23:55] [gitCommit: 0648677345ea49cb2688ed34b110338d0a15cf6b] [gitBranch: origin/fa/rel-1.207]
+2015-06-03 11:55:46.836 SLBEAMR1Mob[64028:479361] [group: com.sap.smp.client.ios] [artifact: Logger] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 11:55:46.838 SLBEAMR1Mob[64028:479361] [group: com.sap.smp.client.ios] [artifact: ClientHubSLL] [version: 3.7.0] [buildTime: 2015-02-23 22:49] [gitCommit: e7aa7076609783021fdedc87f29f65522d139dd1] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 11:55:46.840 SLBEAMR1Mob[64028:479361] [group: com.sap.smp.client.ios] [artifact: Datavault] [version: 3.7.0] [buildTime: 2015-02-23 22:49] [gitCommit: e7aa7076609783021fdedc87f29f65522d139dd1] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 11:55:46.861 SLBEAMR1Mob[64028:479361] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '25.622070' ms. Plugin should use a background thread.
+2015-06-03 11:55:46.913 SLBEAMR1Mob[64028:479361] Setting the WebView's frame to {{0, 0}, {768, 980}}
+2015-06-03 11:55:46.913 SLBEAMR1Mob[64028:479361] Setting the WebView's frame to {{0, 0}, {768, 1024}}
+2015-06-03 11:55:46.920 SLBEAMR1Mob[64028:479361] THREAD WARNING: ['InAppBrowser'] took '49.295166' ms. Plugin should use a background thread.
+2015-06-03 11:55:47.125 SLBEAMR1Mob[64028:479361] THREAD WARNING: ['InAppBrowser'] took '95.765137' ms. Plugin should use a background thread.
+2015-06-03 11:55:48.437 SLBEAMR1Mob[64028:479361] [group: com.sap.smp.client.ios] [artifact: CoreServices] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 11:55:48.437 SLBEAMR1Mob[64028:479361] Initializing Client connection with ApplicationID : com.slb.eam.mob  Domain :  default  SecurityConfiguration:  (null)
+2015-06-03 11:55:48.437 SLBEAMR1Mob[64028:479361] [group: com.sap.smp.client.ios] [artifact: Request] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 11:55:48.439 SLBEAMR1Mob[64028:479361] [Status] miaccp_URLIsAllowed:logFailure
+2015-06-03 11:55:48.439 SLBEAMR1Mob[64028:479361] Setting Client connection with Url:  http://us1455saps033.dir.slb.com:8080
+2015-06-03 11:55:48.508 SLBEAMR1Mob[64028:479361] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '134.417236' ms. Plugin should use a background thread.
+2015-06-03 11:55:48.522 SLBEAMR1Mob[64028:479361] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '11.756836' ms. Plugin should use a background thread.
+2015-06-03 11:55:48.567 SLBEAMR1Mob[64028:479361] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '44.681885' ms. Plugin should use a background thread.
+2015-06-03 11:55:49.562 SLBEAMR1Mob[64028:479574] [Status] miaccp_URLIsAllowed
+2015-06-03 11:55:49.562 SLBEAMR1Mob[64028:479574] [Status] miaccp_URLIsAllowed:logFailure
+2015-06-03 11:55:49.668 SLBEAMR1Mob[64028:479361] [Status] miaccp_URLIsAllowed
+2015-06-03 11:55:49.668 SLBEAMR1Mob[64028:479361] [Status] miaccp_URLIsAllowed:logFailure
+2015-06-03 11:55:49.685 SLBEAMR1Mob[64028:479361] THREAD WARNING: ['OData'] took '16.628906' ms. Plugin should use a background thread.
+2015-06-03 11:59:56.849 SLBEAMR1Mob[72809:519128] Apache Cordova native platform version 3.6.3 is starting.
+2015-06-03 11:59:56.849 SLBEAMR1Mob[72809:519128] Multi-tasking -> Device: YES, App: YES
+2015-06-03 11:59:56.853 SLBEAMR1Mob[72809:519128] Unlimited access to network resources
+2015-06-03 11:59:56.855 SLBEAMR1Mob[72809:519128] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2015-06-03 11:59:56.914 SLBEAMR1Mob[72809:519128] [CDVTimer][appconnectcordovaplugin] 0.041008ms
+2015-06-03 11:59:56.928 SLBEAMR1Mob[72809:519128] [CDVTimer][statusbar] 13.799012ms
+2015-06-03 11:59:56.928 SLBEAMR1Mob[72809:519128] [group: com.sap.smp.client.ios] [artifact: Supportability] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 11:59:56.928 SLBEAMR1Mob[72809:519128] [group: com.sap.smp.client.ios] [artifact: ClientLog] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 11:59:56.933 SLBEAMR1Mob[72809:519128] [group: com.sap.smp.client.ios] [artifact: E2ETrace2] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 11:59:56.933 SLBEAMR1Mob[72809:519128] CommonAuthenticationConfigurator isNSHTTPURLProtocolReplacementEnabled: 0
+2015-06-03 11:59:56.933 SLBEAMR1Mob[72809:519128] [CDVTimer][authproxy] 5.432963ms
+2015-06-03 11:59:56.933 SLBEAMR1Mob[72809:519128] [CDVTimer][TotalPluginStartup] 19.638002ms
+2015-06-03 11:59:56.970 SLBEAMR1Mob[72809:519128] Resetting plugins due to page load.
+2015-06-03 11:59:57.114 SLBEAMR1Mob[72809:519128] Finished load of: file:///Users/imrankhan/Library/Developer/CoreSimulator/Devices/F55457C8-F251-4939-A14F-8870156D4198/data/Containers/Bundle/Application/06E95E23-3669-4AD7-B90E-0E6DA78DA683/SLBEAMR1Mob.app/www/index.html
+2015-06-03 11:59:58.665 SLBEAMR1Mob[72809:519128] THREAD WARNING: ['NetworkStatus'] took '1522.898193' ms. Plugin should use a background thread.
+2015-06-03 11:59:58.681 SLBEAMR1Mob[72809:519201] [Status] Initializing AppConnect plugin
+2015-06-03 11:59:58.681 SLBEAMR1Mob[72809:519201] [Status] Hooking methods to enable AppConnect Tunneling
+2015-06-03 11:59:58.683 SLBEAMR1Mob[72809:519128] [group: com.sap.mobile.maf.tools.ios] [artifact: MAFLogger] [version: 1.207.0] [buildTime: 2015-02-24 23:55] [gitCommit: 0648677345ea49cb2688ed34b110338d0a15cf6b] [gitBranch: origin/fa/rel-1.207]
+2015-06-03 11:59:58.683 SLBEAMR1Mob[72809:519128] [group: com.sap.smp.client.ios] [artifact: Logger] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 11:59:58.685 SLBEAMR1Mob[72809:519128] [group: com.sap.smp.client.ios] [artifact: ClientHubSLL] [version: 3.7.0] [buildTime: 2015-02-23 22:49] [gitCommit: e7aa7076609783021fdedc87f29f65522d139dd1] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 11:59:58.687 SLBEAMR1Mob[72809:519128] [group: com.sap.smp.client.ios] [artifact: Datavault] [version: 3.7.0] [buildTime: 2015-02-23 22:49] [gitCommit: e7aa7076609783021fdedc87f29f65522d139dd1] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 11:59:58.709 SLBEAMR1Mob[72809:519128] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '26.271973' ms. Plugin should use a background thread.
+2015-06-03 11:59:58.763 SLBEAMR1Mob[72809:519128] Setting the WebView's frame to {{0, 0}, {768, 980}}
+2015-06-03 11:59:58.763 SLBEAMR1Mob[72809:519128] Setting the WebView's frame to {{0, 0}, {768, 1024}}
+2015-06-03 11:59:58.770 SLBEAMR1Mob[72809:519128] THREAD WARNING: ['InAppBrowser'] took '52.133057' ms. Plugin should use a background thread.
+2015-06-03 11:59:58.971 SLBEAMR1Mob[72809:519128] THREAD WARNING: ['InAppBrowser'] took '94.099121' ms. Plugin should use a background thread.
+2015-06-03 12:00:01.823 SLBEAMR1Mob[72809:519128] [group: com.sap.smp.client.ios] [artifact: CoreServices] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 12:00:01.823 SLBEAMR1Mob[72809:519128] Initializing Client connection with ApplicationID : com.slb.eam.mob  Domain :  default  SecurityConfiguration:  (null)
+2015-06-03 12:00:01.823 SLBEAMR1Mob[72809:519128] [group: com.sap.smp.client.ios] [artifact: Request] [version: 3.7.0] [buildTime: 2015-02-23 23:18] [gitCommit: 755588bcde4c75c0b35f7d584bb4c16d2d00d8cf] [gitBranch: origin/fa/rel-3.7]
+2015-06-03 12:00:01.825 SLBEAMR1Mob[72809:519128] [Status] miaccp_URLIsAllowed:logFailure
+2015-06-03 12:00:01.825 SLBEAMR1Mob[72809:519128] Setting Client connection with Url:  http://us1455saps033.dir.slb.com:8080
+2015-06-03 12:00:01.899 SLBEAMR1Mob[72809:519128] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '138.521240' ms. Plugin should use a background thread.
+2015-06-03 12:00:01.913 SLBEAMR1Mob[72809:519128] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '12.551270' ms. Plugin should use a background thread.
+2015-06-03 12:00:01.992 SLBEAMR1Mob[72809:519128] THREAD WARNING: ['MAFLogonCoreCDVPluginJS'] took '48.982178' ms. Plugin should use a background thread.
+2015-06-03 12:00:08.931 SLBEAMR1Mob[72809:519223] [Status] miaccp_URLIsAllowed
+2015-06-03 12:00:08.931 SLBEAMR1Mob[72809:519223] [Status] miaccp_URLIsAllowed:logFailure
+2015-06-03 12:00:09.026 SLBEAMR1Mob[72809:519128] [Status] miaccp_URLIsAllowed
+2015-06-03 12:00:09.027 SLBEAMR1Mob[72809:519128] [Status] miaccp_URLIsAllowed:logFailure
+2015-06-03 12:00:09.043 SLBEAMR1Mob[72809:519128] THREAD WARNING: ['OData'] took '16.187012' ms. Plugin should use a background thread.

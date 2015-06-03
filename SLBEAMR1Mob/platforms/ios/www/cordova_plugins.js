@@ -100,6 +100,13 @@ module.exports = [
         ]
     },
     {
+        "file": "plugins/com.phonegap.plugin.statusbar/www/statusbar.js",
+        "id": "com.phonegap.plugin.statusbar.statusbar",
+        "clobbers": [
+            "window.StatusBar"
+        ]
+    },
+    {
         "file": "plugins/org.apache.cordova.device/www/device.js",
         "id": "org.apache.cordova.device.device",
         "clobbers": [
@@ -123,6 +130,7 @@ module.exports.metadata =
     "com.sap.mp.cordova.plugins.odata": "3.7.0",
     "cordova-plugin-network-information": "1.0.1-dev",
     "com.mobileiron.cordova.appconnect": "2.1.0.56",
+    "com.phonegap.plugin.statusbar": "1.1.0",
     "org.apache.cordova.device": "0.3.0",
     "org.apache.cordova.inappbrowser": "0.6.0"
 }

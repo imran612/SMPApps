@@ -1,7 +1,4 @@
 var devapp = {
-	smpInfo : {},
-	externalURL : null,
-	
     //Application Constructor
     initialize : function() {
         this.bindEvents();
@@ -10,10 +7,9 @@ var devapp = {
 	//========================================================================
 	// Bind Event Listeners
 	//========================================================================
-     bindEvents : function() {
+bindEvents : function() {
         //add an event listener for the Cordova deviceReady event.
         document.addEventListener("deviceready", this.onDeviceReady, false);
-         
          // App must check AppConnect policy state when the app comes to foreground
          document.addEventListener('resume', function() {
                                    devapp.applyAppConnectPolicies();
@@ -47,45 +43,15 @@ var devapp = {
     //========================================================================
     //Cordova Device Ready
     //========================================================================
-    onDeviceReady : function() {
+onDeviceReady : function() {
         // Must initialize AppConnect on 'deviceready' event
         AppConnectCordova.initialize();
         // Apply appconnect policies
         devapp.applyAppConnectPolicies();
-        // Here goes rest of the app logic
-        
-     	$.getJSON( "project.json", function( data ) {
-			if(data && data.hybrid) {
-				devapp.smpInfo.server = data.hybrid.server;
-				devapp.smpInfo.port = data.hybrid.port;
-				devapp.smpInfo.appID = data.hybrid.appid;
-				
-				//external Odata service url
-				if(data.hybrid.externalURL && data.hybrid.externalURL.length > 0) {
-					devapp.externalURL = data.hybrid.externalURL;
-				}
-			}
-    		
-			if (devapp.smpInfo.server && devapp.smpInfo.server.length > 0) {
-				var context = {
-				  "serverHost" : devapp.smpInfo.server,
-				  "https" : "false",
-				  "serverPort" : devapp.smpInfo.port,
-                  "user": "IMohammed6",// ihms612@gmail.com HCPms admin user/ SCN User
-                  "password": "itt123", // Hisham@2014 HCPms admin password / SCN Password
-                  "serverPort" : devapp.smpInfo.port,
-                  //"communicatorId": "REST",
-                  "passcode": "password",
-                  "unlockPasscode": "password",
-                  "passcode_CONFIRM":"password"
-				};
-				doLogonInit(context, devapp.smpInfo.appID);
-			} else {
-				startApp();
-			}
-    	});
+        // get user register with SMP
+        doLogonInit();
+
   },
-    
     /* Mobile iron hook methods */
     // Change app state based on AppConnect auth policy
 applyAppConnectPolicies: function() {

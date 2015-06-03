@@ -28,8 +28,10 @@ sap.ui.controller("com.slb.eam.mob.view.Launchpad", {
         evt.getSource().removeTile(tile);
         },
     handleTilePress: function (evt) {
+        jQuery.sap.require("com.slb.eam.mob.util.Helper");
+        var helper = com.slb.eam.mob.util.Helper;
         var nav = oCore.byId('Launchpad').getController().nav;
-        readGWONOFF();
+        helper.readGWONOFF();
         busyDialog.close();
         nav.to("WOMaster");
         },

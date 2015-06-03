@@ -33,6 +33,9 @@
         <param name="onload" value="true" />
     </feature>
     <plugin name="AppConnectCordovaPlugin" value="AppConnectCordovaPlugin" />
+    <feature name="StatusBar">
+        <param name="ios-package" onload="true" value="CDVStatusBar" />
+    </feature>
     <feature name="AuthProxy">
         <param name="ios-package" value="SMPAuthProxyPlugin" />
         <param name="onload" value="true" />
@@ -51,6 +54,9 @@
     <author email="dev@cordova.apache.org" href="http://cordova.io">
         Apache Cordova Team
     </author>
+    <preference name="StatusBarOverlaysWebView" value="false" />
+    <preference name="StatusBarBackgroundColor" value="#000000" />
+    <preference name="StatusBarStyle" value="lightcontent" />
     <content src="index.html" />
     <access origin="*" />
 </widget>

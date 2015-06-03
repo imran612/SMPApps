@@ -82,6 +82,7 @@
 		80DB18EB623A4B119FB0E4D2 /* AppConnectResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0DEDE503289547188051F81D /* AppConnectResources.bundle */; };
 		89ECD49DE7BB43519B2F43E6 /* AppConnect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4F0F5B30BAC48738D5A14C6 /* AppConnect.framework */; };
 		8DE7D37D7B9E48059D06AD84 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 207660B9E28A4D0A9A40CF14 /* LocalAuthentication.framework */; };
+		B72001B68B2241E2B233D179 /* CDVStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7BE342703C421DBE1D0687 /* CDVStatusBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -195,6 +196,8 @@
 		0DEDE503289547188051F81D /* AppConnectResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = "AppConnectResources.bundle"; path = "AppConnectResources.bundle"; sourceTree = "<group>"; };
 		B4F0F5B30BAC48738D5A14C6 /* AppConnect.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "AppConnect.framework"; path = "SLBEAMR1Mob/Plugins/com.mobileiron.cordova.appconnect/AppConnect.framework"; sourceTree = "<group>"; };
 		207660B9E28A4D0A9A40CF14 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "LocalAuthentication.framework"; path = "System/Library/Frameworks/LocalAuthentication.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		5A7BE342703C421DBE1D0687 /* CDVStatusBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVStatusBar.m"; path = "com.phonegap.plugin.statusbar/CDVStatusBar.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		84CFFF9AD63840BF9F11B9FE /* CDVStatusBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVStatusBar.h"; path = "com.phonegap.plugin.statusbar/CDVStatusBar.h"; sourceTree = "<group>"; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -400,6 +403,8 @@
 				0FD2071CA16D4A85B8E7ACC1 /* CDVReachability.m */,
 				0D1979D7B55647B087168A16 /* CDVConnection.h */,
 				9589A7CDCEF441A5B1CE9DA7 /* CDVReachability.h */,
+				5A7BE342703C421DBE1D0687 /* CDVStatusBar.m */,
+				84CFFF9AD63840BF9F11B9FE /* CDVStatusBar.h */,
 			);
 			name = Plugins;
 			path = "SLBEAMR1Mob/Plugins";
@@ -602,6 +607,7 @@
 				7E14A457066E4B7793894A2C /* CDVInAppBrowser.m in Sources */,
 				FAB49C44EF06437198013035 /* CDVConnection.m in Sources */,
 				0FF3BA303E6E4654AED050B4 /* CDVReachability.m in Sources */,
+				B72001B68B2241E2B233D179 /* CDVStatusBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

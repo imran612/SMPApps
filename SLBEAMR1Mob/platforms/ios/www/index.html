@@ -15,30 +15,13 @@
             "com.slb.eam.mob": "./"}'>
             </script>
 		<script type="text/javascript" src="cordova.js"></script>
-		<script type="text/javascript" src="dev/logon.js"></script>
-		<script type="text/javascript" src="dev/index.js"></script>
+		<script type="text/javascript" src="dev/SMPLogon.js"></script>
+		<script type="text/javascript" src="dev/MICordovaSdk.js"></script>
         <script type="text/javascript" src="util/Global.js"></script>
-		<script type="text/javascript" src="util/Helper.js"></script>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 
 		<script>
-			function getUrlParameterName(sParam)
-			{
-				var sPageURL = window.location.search.substring(1);
-				var sURLVariables = sPageURL.split('&');
-				for (var i = 0; i < sURLVariables.length; i++) 
-				{
-					var sParameterName = sURLVariables[i].split('=');
-					if (sParameterName[0] == sParam) 
-					{
-						return true;
-					}
-				}
-				return false;
-			} 
-			
 			function startApp() {
-                
 				sap.ui.getCore().attachInit(function() {
 					new sap.m.Shell({
 						app: new sap.ui.core.ComponentContainer({
@@ -48,11 +31,11 @@
 					}).placeAt("content");
 				});
 			}
-			
-			if (window.cordova || getUrlParameterName("companionbuster")) {
+            if (window.cordova) {
 				devapp.initialize();
 			}
 			else {
+                /* this block get executed if launch outside of mobile world */
 				startApp();
 			}
 		

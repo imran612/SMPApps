@@ -101,6 +101,18 @@
                         {
                             "xml": "<plugin name=\"AppConnectCordovaPlugin\" value=\"AppConnectCordovaPlugin\" />",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"StatusBar\"><param name=\"ios-package\" onload=\"true\" value=\"CDVStatusBar\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<preference name=\"StatusBarOverlaysWebView\" value=\"false\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<preference name=\"StatusBarBackgroundColor\" value=\"#000000\" />",
+                            "count": 1
                         }
                     ],
                     "/widget": [
@@ -152,6 +164,9 @@
             "PACKAGE_NAME": "com.slb.eam.mob"
         },
         "com.mobileiron.cordova.appconnect": {
+            "PACKAGE_NAME": "com.slb.eam.mob"
+        },
+        "com.phonegap.plugin.statusbar": {
             "PACKAGE_NAME": "com.slb.eam.mob"
         }
     },
