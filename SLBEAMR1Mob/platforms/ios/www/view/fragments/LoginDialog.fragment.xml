@@ -1,0 +1,27 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns:f="sap.ui.layout.form"
+	xmlns:core="sap.ui.core"
+    xmlns:app="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1">
+	<Dialog
+		class="eSignDialog sapUiPopupWithPadding" >
+		<content>
+        <f:SimpleForm editable="true"
+              >
+                <f:content>
+                    <Label text="User ID:" />
+                    <Input placeholder="Enter Password ..." />
+                    <Label text="Password" />
+                    <Input type="Password"  placeholder="Enter Password ..."  />
+                </f:content>
+            </f:SimpleForm>
+            
+        <beginButton>
+			<Button text="Cancel" class="dialogBtn" app:dialogType="Std"  />
+		</beginButton>
+		<endButton>
+			<Button text="Confirm"  class="dialogBtn" app:dialogType="Std"  />
+		</endButton>
+	</Dialog>
+</core:FragmentDefinition>

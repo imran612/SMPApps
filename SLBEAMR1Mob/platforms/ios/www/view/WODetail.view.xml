@@ -1,0 +1,120 @@
+<mvc:View
+    controllerName="com.slb.eam.mob.view.WODetail"
+    xmlns="sap.m"
+    xmlns:form="sap.ui.layout.form"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns:core="sap.ui.core" >
+    <Page
+        id="woDetailPage"
+        class="sapUiFioriObjectPage"
+        title="Work Orders"
+        navButtonPress="handleNavBack" >
+        <customHeader>
+            <Bar>
+            <contentLeft>
+            <Button visible="false" id="showMasterIcon" icon="sap-icon://list" press="showMaster" />
+            </contentLeft>
+            </Bar>
+        </customHeader>
+        <footer>
+            <Toolbar>
+                <ToolbarSpacer/>
+               
+            </Toolbar>
+        </footer>
+        <content>
+            <ObjectHeader
+                class="woDetailHdr"
+                binding="{/}"
+                title="{WOId}"
+                number="{Amount}"
+                numberUnit="{CurrencyCode}" >
+                <attributes>
+                    <ObjectAttribute
+                    title="Equipment"
+                    text="{Equipment}"
+                    active="true"
+                     />
+                    <ObjectAttribute
+                    title="Start"
+                    text="{SDate}" />
+                    <ObjectAttribute
+                    title="End"
+                    text="{EDate}" />
+                </attributes>
+                <statuses>
+                    <ObjectStatus
+                    text="{NotNumber}"
+                     />
+                     <ObjectStatus
+                     text="Items" />
+                     
+               </statuses>
+            </ObjectHeader>
+            <Button text="Notification" icon="sap-icon://notification-2" class="bNotification" />
+
+            <Table
+                id="lineItemList"
+
+                items="{
+                path: '/WODetailColection'
+                }"
+                
+                >
+                
+                <columns>
+                    <Column  minScreenWidth="Phone"
+                        demandPopin="true"
+                        hAlign="Center">
+                        <header><Label text="Operation" /></header>
+                    </Column>
+                    <Column
+                      width="10rem"
+                        minScreenWidth="Phone"
+                        demandPopin="true"
+                        hAlign="Center">
+                        <header><Label text="Description" /></header>
+                    </Column>
+                    <Column
+                        
+                        minScreenWidth="Tablet"
+                        demandPopin="true"
+                        PopinDisplay="Inline"
+                        hAlign="Center" >
+                        <header><Label text="Status" /></header>
+                    </Column>
+                    <Column  minScreenWidth="Tablet"
+                        demandPopin="true"
+                         PopinDisplay="Inline"
+                        hAlign="Center">
+                        <header><Label text="Assigned To" /></header>
+                    </Column>
+                    <Column  minScreenWidth="Phone"
+                        demandPopin="true"
+                        
+                        hAlign="Right" >
+                        <header><Label text="" /></header>
+                    </Column>
+
+                </columns>
+                <ColumnListItem
+                    type="Navigation"
+                    press="handleLineItemPress" >
+                    <cells>
+                        <Text
+                        text="{position}" />
+                        <ObjectIdentifier class="descClass"
+                        title="{desc1}"
+                        text="{desc2}" />
+                        <Text
+                        text="{status}" />
+                        <Text
+                        text="{assignedUser}" />
+                        <Button text="Start" press="handleLineItemPress"
+                            />
+                    </cells>
+                </ColumnListItem>
+            </Table>
+        </content>
+    </Page>
+</mvc:View>
