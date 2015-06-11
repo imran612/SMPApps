@@ -14,15 +14,15 @@ sap.ui.controller("com.slb.eam.mob.view.App", {
                         app.toDetail(app.getDetailPage("Launchpad"));
                         app.setMode(sap.m.SplitAppMode.HideMode);
                   }
-                  else if(pageId=="WODetail") {
+                  else if(pageId=="WOItems") {
                         var WODModel = sap.ui.getCore().byId(pageId).getModel();
                         var aData=  WODModel.getData();
                         WODModel.setData("{}");
                         sap.ui.getCore().byId(pageId).setModel(WODModel);
                         WODModel.setData(aData);
                         sap.ui.getCore().byId(pageId).setModel(WODModel);
-                  if(app.getPage("WODetail",false)!=null) {
-                        app.toDetail("WODetail");
+                  if(app.getPage("WOItems",false)!=null) {
+                        app.toDetail("WOItems");
                   }
                   else {
                   var detailpage = sap.ui.view({
@@ -35,9 +35,9 @@ sap.ui.controller("com.slb.eam.mob.view.App", {
                         app.toDetail(pageId);
                     }
                   }
-                  else if(pageId=="WODetailUpdates") {
-                  if(app.getPage("WODetailUpdates",false)!=null) {
-                        app.toDetail("WODetailUpdates");
+                  else if(pageId=="WOItemDetails") {
+                  if(app.getPage("WOItemDetails",false)!=null) {
+                        app.toDetail("WOItemDetails");
                   }
                   else {
                   var detailpage = sap.ui.view({
@@ -73,7 +73,7 @@ sap.ui.controller("com.slb.eam.mob.view.App", {
                   else {
                   if(app.getPage("WOMaster",true)!=null) {
                       app.toMaster("WOMaster");
-                      app.toDetail("WODetail");
+                      app.toDetail("WOItems");
                   }
                   else {
                     var home = ("Launchpad" === pageId);
@@ -86,20 +86,20 @@ sap.ui.controller("com.slb.eam.mob.view.App", {
                         page.getController().nav = this;
                         app.addMasterPage(page, home);
                         var emptyPage = sap.ui.view({
-                                    id : "WODetail",
-                                    viewName : "com.slb.eam.mob.view.WODetail",
+                                    id : "WOItems",
+                                    viewName : "com.slb.eam.mob.view.WOItems",
                                     type : "XML"
                             });
                         emptyPage.getController().nav = this;
                         app.insertDetailPage(emptyPage,0);
                   if (sap.ui.Device.orientation.portrait) {
-                        oCore.byId("WODetail--showMasterIcon").setVisible(true);
+                        oCore.byId("WOItems--showMasterIcon").setVisible(true);
                   }
                   else {
-                        oCore.byId("WODetail--showMasterIcon").setVisible(false);
+                        oCore.byId("WOItems--showMasterIcon").setVisible(false);
                   }
                         app.toMaster(pageId);
-                        app.toDetail("WODetail");
+                        app.toDetail("WOItems");
                   
 		}
     }

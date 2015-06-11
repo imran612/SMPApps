@@ -1,5 +1,5 @@
 <mvc:View
-    controllerName="com.slb.eam.mob.view.WODetail"
+    controllerName="com.slb.eam.mob.view.WOItems"
     xmlns="sap.m"
     xmlns:form="sap.ui.layout.form"
     xmlns:mvc="sap.ui.core.mvc"

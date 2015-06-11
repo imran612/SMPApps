@@ -19,11 +19,11 @@ sap.ui.controller("com.slb.eam.mob.view.UserSettings", {
         },
     onListItemPress : function (evt) {
         var context = evt.getSource().getBindingContext();
-        this.nav.to("WODetail", context);
+        this.nav.to("WOItems", context);
         },
     handleListSelect : function (evt) {
         var context = evt.getParameter("listItem").getBindingContext();
-        this.nav.to("WODetail", context);
+        this.nav.to("WOItems", context);
         },
 
 /**

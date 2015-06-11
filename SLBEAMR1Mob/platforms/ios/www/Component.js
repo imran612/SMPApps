@@ -29,13 +29,13 @@ sap.ui.core.UIComponent.extend("com.slb.eam.mob.Component", {
                                this.setModel(oDeviceModel, "device");
                                sap.ui.Device.orientation.attachHandler(function(oEvt){
                                                                        if(oEvt.landscape) {
-                                                                       if(oCore.byId("WODetail--showMasterIcon") != undefined) {
+                                                                       if(oCore.byId("WOItems--showMasterIcon") != undefined) {
                                                                        
-                                                                       oCore.byId("WODetail--showMasterIcon").setVisible(false);
+                                                                       oCore.byId("WOItems--showMasterIcon").setVisible(false);
                                                                        }
                                                                        }
                                                                        else {
-                                                                       oCore.byId("WODetail--showMasterIcon").setVisible(true);
+                                                                       oCore.byId("WOItems--showMasterIcon").setVisible(true);
                                                                        }
                                                                        });
                                

@@ -6,7 +6,7 @@ sap.ui.controller("com.slb.eam.mob.view.Launchpad", {
 * @memberOf view.mainview
 */
 	onInit: function() {
-        var oModel = new sap.ui.model.json.JSONModel("model/homeTile.json");
+        var oModel = new sap.ui.model.json.JSONModel("model/Launchpad.json");
         this.getView().setModel(oModel);
 	},
     handleEditPress : function (evt) {

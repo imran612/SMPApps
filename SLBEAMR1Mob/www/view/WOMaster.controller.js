@@ -11,12 +11,12 @@ sap.ui.controller("com.slb.eam.mob.view.WOMaster", {
         busyDialog.open();
         var context = evt.getSource().getBindingContext();
         var nav = oCore.byId('Launchpad').getController().nav;
-        nav.to("WODetail",context);
+        nav.to("WOItems",context);
         },
                   
     handleListSelect : function (evt) {
         var context = evt.getParameter("listItem").getBindingContext();
-        this.nav.to("WODetail", context);
+        this.nav.to("WOItems", context);
         },
     getGroupHeader: function (oGroup){
         return new sap.m.GroupHeaderListItem( {

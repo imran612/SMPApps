@@ -1,11 +1,11 @@
-sap.ui.controller("com.slb.eam.mob.view.WODetailUpdates", {
+sap.ui.controller("com.slb.eam.mob.view.WOItemDetails", {
 /**
 * Called when a controller is instantiated and its View controls (if available) are already created.
 * Can be used to modify the View before it is displayed, to bind event handlers and do other one-time initialization.
 * @memberOf view.WODetail
 */
 	onInit: function() {
-        var oModel = new sap.ui.model.json.JSONModel("model/WODetailsL2.json");
+        var oModel = new sap.ui.model.json.JSONModel("model/WOItemDetails.json");
         this.getView().setModel(oModel);
 	},
     handleCreateNotification : function(sType) {
@@ -27,8 +27,8 @@ sap.ui.controller("com.slb.eam.mob.view.WODetailUpdates", {
                       oModel.crNotification.close();
                   },
     handleNavButtonPress : function (evt) {
-                  var nav = oCore.byId("WODetail").getController().nav;
-                  this.nav.back("WODetail",null);
+                  var nav = oCore.byId("WOItems").getController().nav;
+                  this.nav.back("WOItems",null);
                   }
 
 /**

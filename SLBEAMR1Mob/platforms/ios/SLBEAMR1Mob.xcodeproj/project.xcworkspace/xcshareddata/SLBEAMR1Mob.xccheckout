@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>EC2F1B57-123D-457A-B061-9E3A23735AB1</string>
 	<key>IDESourceControlProjectName</key>
-	<string>SLBEAMR1Mob</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>0679024FA38D31F78C9D60AFD0787C41BB5E6052</key>
 		<string>https://github.com/imran612/SMPApps.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>SLBEAMR1Mob/platforms/ios/SLBEAMR1Mob.xcodeproj</string>
+	<string>SLBEAMR1Mob/platforms/ios/SLBEAMR1Mob.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>0679024FA38D31F78C9D60AFD0787C41BB5E6052</key>
